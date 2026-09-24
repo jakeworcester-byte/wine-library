@@ -176,10 +176,12 @@
     var facts = [
       ["Bottles", w.onHand],
       ["Occasion", w.category ? (OCCASION_LABELS[w.category] || w.category) : null],
-      ["Blend", w.blend],
-      ["Window", w.window ? w.window.replace(/^now/i, "Now") : null]
+      ["Blend", w.blend]
     ].filter(function (f) { return f[1] != null && f[1] !== ""; })
-     .map(function (f) { return '<div class="fact"><dt>' + esc(f[0]) + "</dt><dd>" + esc(f[1]) + "</dd></div>"; }).join("");
+     .map(function (f) {
+       var wide = String(f[1]).length > 36 ? " wide" : "";
+       return '<div class="fact' + wide + '"><dt>' + esc(f[0]) + "</dt><dd>" + esc(f[1]) + "</dd></div>";
+     }).join("");
 
     var notes = "";
     if (w.jakeNote) {

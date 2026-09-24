@@ -157,7 +157,7 @@
     "taplin-sauvignon-blanc": {
       "producer": "Taplin Cellars",
       "name": "Sauvignon Blanc",
-      "region": "St. Helena, Napa Valley",
+      "region": "Napa Valley",
       "color": "white",
       "vintages": {
         "2025": {"onHand": 4, "category": null, "window": "Now-2027", "peak": null}

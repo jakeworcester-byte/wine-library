@@ -46,8 +46,19 @@ def web_image(src):
     out_rel = "images/web/" + os.path.splitext(os.path.basename(src))[0] + ".webp"
     out = os.path.join(ROOT, out_rel)
     os.makedirs(os.path.dirname(out), exist_ok=True)
+    from PIL import ImageChops
     im = Image.open(full)
     im = im.convert("RGBA") if im.mode in ("P", "LA", "RGBA") else im.convert("RGB")
+    # Trim empty margins (transparent or near-white) so the bottle fills the frame.
+    if im.mode == "RGBA":
+        box = im.getchannel("A").point(lambda a: 255 if a > 8 else 0).getbbox()
+    else:
+        diff = ImageChops.difference(im, Image.new("RGB", im.size, (255, 255, 255))).convert("L")
+        box = diff.point(lambda p: 255 if p > 18 else 0).getbbox()
+    if box:
+        pad = round(0.03 * (box[3] - box[1]))
+        im = im.crop((max(0, box[0] - pad), max(0, box[1] - pad),
+                      min(im.width, box[2] + pad), min(im.height, box[3] + pad)))
     if im.height > 720:
         im = im.resize((round(im.width * 720 / im.height), 720), Image.LANCZOS)
     im.save(out, "WEBP", quality=84)
@@ -92,7 +103,7 @@ def main():
                 "otherScores": [] if v.get("jakeScore") else others,
                 "image": image,
                 "imageSource": r.get("imageSource"),
-                "blend": clean(r.get("blend")),
+                "blend": clean((web or {}).get("blend") or r.get("blend")),
                 "about": clean(r.get("about")),
                 "web": web,
             })

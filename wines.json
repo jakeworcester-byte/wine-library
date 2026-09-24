@@ -18,11 +18,17 @@
    "jakeNote": null,
    "flag": null,
    "otherScores": [],
-   "image": null,
-   "imageSource": null,
-   "blend": null,
-   "about": null,
-   "web": null
+   "image": "images/web/aonair-mountain-reserve.webp",
+   "imageSource": "https://www.vivino.com/US/en/aonair-reserve-series-15-barrel-production-napa-valley-cabernet-sauvignon/w/1840820",
+   "blend": "Cabernet Sauvignon from Napa hillside vineyards (Spring, Howell and Diamond Mountain in past releases)",
+   "about": "Aonair is a small family winery tucked into the hills at the base of Howell Mountain, founded in 2008 by longtime Napa winemaker Grant Long Jr. to make small-lot reds from rocky mountain vineyards.",
+   "web": {
+    "note": "Deep, inky violet in the glass, this mountain Cabernet opens with blackberry, vanilla and toasty oak, picking up a hint of cola as it breathes. The palate is smooth and plush with dark plum fruit, framed by firm but polished tannins that carry into a long, lingering finish.",
+    "noteVintage": "2020",
+    "critic": null,
+    "sourceName": "CellarTracker and Delectable community tasting notes (2020 Reserve Series Cabernet Sauvignon)",
+    "sourceUrl": "https://www.cellartracker.com/wine.asp?iWine=4339993"
+   }
   },
   {
    "id": "bonanza-vinekeeper-nv-lot-1",
@@ -41,11 +47,20 @@
    "jakeNote": null,
    "flag": null,
    "otherScores": [],
-   "image": null,
-   "imageSource": null,
-   "blend": null,
-   "about": null,
-   "web": null
+   "image": "images/web/bonanza-vinekeeper.webp",
+   "imageSource": "https://theliquorbarn.com/products/bonanza-the-vinekeeper-cabernet-sauvignon-napa",
+   "blend": "Cabernet Sauvignon, Napa Valley (non-vintage)",
+   "about": "Bonanza is the non-vintage label from Chuck Wagner of Caymus, and The Vinekeeper is its Napa Valley bottling, built to deliver the family's rich, ripe house style at an everyday price.",
+   "web": {
+    "note": "Full-bodied and generous, this Cabernet leads with ripe blackberry, juicy plum and black cherry dusted with cocoa. A touch of toasty oak, vanilla and warm spice rounds it out, and soft, supple tannins make it plush and easy to enjoy now, ending on a smooth, velvety finish.",
+    "noteVintage": "NV (Lot 1)",
+    "critic": {
+     "critic": "Ken's Wine Guide",
+     "score": "91.5"
+    },
+    "sourceName": "Wine Scout (producer notes) and Ken's Wine Guide",
+    "sourceUrl": "https://winescout.com/bonanza-lot-1-the-vinekeeper-cabernet-sauvignon-napa-valley"
+   }
   },
   {
    "id": "chappellet-napa-cabernet-2022",
@@ -64,11 +79,20 @@
    "jakeNote": null,
    "flag": null,
    "otherScores": [],
-   "image": null,
-   "imageSource": null,
-   "blend": null,
-   "about": null,
-   "web": null
+   "image": "images/web/chappellet-napa-cabernet.webp",
+   "imageSource": "https://nyc.flatiron-wines.com/products/chappellet-cabernet-sauvignon-signature-2022-750ml",
+   "blend": "82% Cabernet Sauvignon, 9% Petit Verdot, 7% Malbec, 2% Merlot",
+   "about": "Chappellet has farmed the steep, rocky slopes of Pritchard Hill since 1967, and its Signature Napa Valley Cabernet has been the family's flagship wine for more than three decades.",
+   "web": {
+    "note": "Dark and concentrated, with aromas of blackcurrant, dark cherry and plum layered with cedar, mountain sage, tobacco and toasted oak. The palate feels silky and seamless, with black cherry, chocolate and espresso flavors, while fresh herbs and baking spice keep it lively through a long, resonant finish.",
+    "noteVintage": "2022",
+    "critic": {
+     "critic": "Jeb Dunnuck",
+     "score": "93"
+    },
+    "sourceName": "Chappellet 2022 Signature Cabernet Sauvignon winemaker notes",
+    "sourceUrl": "https://chappellet.com/wp-content/uploads/2024/10/2022-Signature-Cabernet-Sauvignon-Wine-Notes.pdf"
+   }
   },
   {
    "id": "gruaud-larose-2019",
@@ -89,11 +113,20 @@
    "jakeNote": null,
    "flag": null,
    "otherScores": [],
-   "image": null,
-   "imageSource": null,
-   "blend": null,
-   "about": null,
-   "web": null
+   "image": "images/web/gruaud-larose.webp",
+   "imageSource": "https://perrineswine.com/products/2019-chateau-gruaud-larose-saint-julien-bordeaux-france",
+   "blend": "72% Cabernet Sauvignon, 25% Merlot, 3% Cabernet Franc",
+   "about": "A Second Growth in the 1855 classification and one of the largest estates in St-Julien, Gruaud Larose still carries its old motto on the label: the wine of kings, the king of wines.",
+   "web": {
+    "note": "A polished, deep St-Julien that opens with wild berries, plum and cassis alongside licorice, dried flowers, cedar and a pencil-shaving edge. Medium to full-bodied and remarkably refined, it pairs real concentration with fine, powdery tannins and bright acidity, finishing long and savory. It will reward a few more years in the cellar.",
+    "noteVintage": "2019",
+    "critic": {
+     "critic": "Wine Advocate (William Kelley)",
+     "score": "95+"
+    },
+    "sourceName": "Farr Vintners (compiled critic reviews)",
+    "sourceUrl": "https://www.farrvintners.com/wine.php?wine=60627"
+   }
   },
   {
    "id": "pedesclaux-2019",
@@ -114,11 +147,20 @@
    "jakeNote": null,
    "flag": null,
    "otherScores": [],
-   "image": null,
-   "imageSource": null,
-   "blend": null,
-   "about": null,
-   "web": null
+   "image": "images/web/pedesclaux.webp",
+   "imageSource": "https://www.saratogawine.com/product/chateau-pedesclaux-pauillac-2019-750ml/",
+   "blend": "72% Cabernet Sauvignon, 20% Merlot, 6% Cabernet Franc, 2% Petit Verdot",
+   "about": "A Fifth Growth Pauillac next door to Mouton Rothschild and Pontet-Canet, Pedesclaux has been transformed since the Lorenzetti family bought it in 2009, with a striking glass-walled gravity-flow cellar and steadily rising quality.",
+   "web": {
+    "note": "Fragrant and inviting, with violets, warm cassis, ripe plum and licorice joined by hints of dark chocolate, cherry and cinnamon spice. Medium to full-bodied, it offers juicy black and red fruit supported by ripe, finely grained tannins and lively freshness, closing on a long, perfumed finish.",
+    "noteVintage": "2019",
+    "critic": {
+     "critic": "James Suckling",
+     "score": "94"
+    },
+    "sourceName": "Millesima (blend, critic scores and tasting notes)",
+    "sourceUrl": "https://www.millesima.fr/chateau-pedesclaux-2019.html"
+   }
   },
   {
    "id": "decoy-cabernet-2022",
@@ -137,11 +179,17 @@
    "jakeNote": "Reliable, if not thrilling. A dependable weeknight bottle.",
    "flag": null,
    "otherScores": [],
-   "image": null,
-   "imageSource": null,
-   "blend": null,
-   "about": null,
-   "web": null
+   "image": "images/web/decoy-cabernet.webp",
+   "imageSource": "https://www.saratogawine.com/product/decoy-cabernet-sauvignon-california-2022-750ml/",
+   "blend": "94% Cabernet Sauvignon, 6% Merlot",
+   "about": "Decoy is the approachable everyday label from the Duckhorn family of wines, first made by Dan and Margaret Duckhorn more than 30 years ago and now drawing on vineyards up and down the California coast.",
+   "web": {
+    "note": "Rich blackberry and blueberry aromas with a dash of baking spice and black pepper lead into a full-bodied, juicy palate. Firm tannins give it shape without getting in the way, and the smooth finish carries a gentle spicy lift. A crowd-pleasing partner for steak or a hearty braise.",
+    "noteVintage": "2022",
+    "critic": null,
+    "sourceName": "Duckhorn Portfolio 2022 Decoy California Cabernet Sauvignon trade sheet",
+    "sourceUrl": "https://www.duckhornportfolio.com/assets/images/contentblock/files/2022DecoyCaliforniaCabernetSauvignonTradeSlide.pdf"
+   }
   },
   {
    "id": "oshaughnessy-howell-mountain-2017",
@@ -160,11 +208,21 @@
    "jakeNote": "The gold standard. Depth and authority, and the reference point for my entire scoring scale. Kept building in the glass.",
    "flag": null,
    "otherScores": [],
-   "image": null,
-   "imageSource": null,
-   "blend": null,
-   "about": null,
-   "web": null
+   "image": "images/web/oshaughnessy-howell-mountain.webp",
+   "imageSource": "https://www.skurnik.com/sku/cabernet-sauvignon-howell-mountain-oshaughnessy-3-2-3-2-2-3-2-2-2-2/",
+   "blend": "83% Cabernet Sauvignon, 5% Merlot, 4% Malbec, plus Petit Verdot, St. Macaire, Carmenere and Cabernet Franc",
+   "about": "From the Howell Mountain estate Betty O'Shaughnessy began planting in 1997, this Cabernet is unusual for weaving in small amounts of all seven Bordeaux red grapes, including the rare St. Macaire.",
+   "web": {
+    "note": "Dark and earthy, with black and blue fruits, a touch of charcoal, garden herbs and a wisp of espresso over a mineral backbone. Rich, full-bodied and concentrated, yet the usually firm Howell Mountain tannins have been tamed into something plush enough to enjoy now and over the next two decades.",
+    "noteVintage": "2017",
+    "blend": "83% Cabernet Sauvignon, 5% Merlot, 4% Malbec, plus Petit Verdot, St. Macaire, Carmenere and Cabernet Franc",
+    "critic": {
+     "critic": "Jeb Dunnuck",
+     "score": "96"
+    },
+    "sourceName": "O'Shaughnessy Estate Winery tech sheet",
+    "sourceUrl": "https://oshaughnessywinery.com/wp-content/uploads/2026/06/2017-oshaughnessy-howell-mountain-cabernet-sauvignon.pdf"
+   }
   },
   {
    "id": "oshaughnessy-howell-mountain-2022",
@@ -192,11 +250,21 @@
      "score": "96-98"
     }
    ],
-   "image": null,
-   "imageSource": null,
-   "blend": null,
-   "about": null,
-   "web": null
+   "image": "images/web/oshaughnessy-howell-mountain.webp",
+   "imageSource": "https://www.skurnik.com/sku/cabernet-sauvignon-howell-mountain-oshaughnessy-3-2-3-2-2-3-2-2-2-2/",
+   "blend": "89% Cabernet Sauvignon, 3% Malbec, 3% Petit Verdot, 3% St. Macaire, 1% Cabernet Franc, 1% Carmenere",
+   "about": "From the Howell Mountain estate Betty O'Shaughnessy began planting in 1997, this Cabernet is unusual for weaving in small amounts of all seven Bordeaux red grapes, including the rare St. Macaire.",
+   "web": {
+    "note": "A riper, more flamboyant O'Shaughnessy, bursting with inky dark fruit, chocolate, licorice and a floral hint of lavender. The warm 2022 season shows in its generous, up-front richness, while the tannins sit on the softer side, making this an unusually approachable Howell Mountain Cabernet in its youth.",
+    "noteVintage": "2022",
+    "blend": "89% Cabernet Sauvignon, 3% Malbec, 3% Petit Verdot, 3% St. Macaire, 1% Cabernet Franc, 1% Carmenere",
+    "critic": {
+     "critic": "Vinous (Antonio Galloni)",
+     "score": "93"
+    },
+    "sourceName": "O'Shaughnessy Estate Winery tech sheet",
+    "sourceUrl": "https://oshaughnessywinery.com/wp-content/uploads/2026/06/2022-oshaughnessy-howell-mountain-cabernet-sauvignon.pdf"
+   }
   },
   {
    "id": "oshaughnessy-mount-veeder-2017",
@@ -220,11 +288,21 @@
      "score": "93-95"
     }
    ],
-   "image": null,
-   "imageSource": null,
-   "blend": null,
-   "about": null,
-   "web": null
+   "image": "images/web/oshaughnessy-mount-veeder.webp",
+   "imageSource": "https://www.skurnik.com/sku/cabernet-sauvignon-mt-veeder-oshaughnessy-3/",
+   "blend": "100% Cabernet Sauvignon",
+   "about": "Pure Cabernet from O'Shaughnessy's steep, terraced Betty's Vineyard and Woolls Ranch on Mount Veeder, a cool, rugged mountain site known for savory, mineral, red-fruited wines.",
+   "web": {
+    "note": "Opaque purple and deeply perfumed, opening with blackberry, boysenberry and espresso. The palate layers dense berry preserves with an exotic cola note, a hint of tar and rich toasty oak, all carried by powerful mountain structure. The finish is remarkably long, lingering for minutes after each sip.",
+    "noteVintage": "2017",
+    "blend": "100% Cabernet Sauvignon",
+    "critic": {
+     "critic": "James Suckling",
+     "score": "93"
+    },
+    "sourceName": "O'Shaughnessy Estate Winery tech sheet (score via Mission Wines)",
+    "sourceUrl": "https://oshaughnessywinery.com/wp-content/uploads/2026/06/2017-oshaughnessy-mount-veeder-cabernet-sauvignon-cab.pdf"
+   }
   },
   {
    "id": "oshaughnessy-mount-veeder-2018",
@@ -248,11 +326,21 @@
      "score": "93-95"
     }
    ],
-   "image": null,
-   "imageSource": null,
-   "blend": null,
-   "about": null,
-   "web": null
+   "image": "images/web/oshaughnessy-mount-veeder.webp",
+   "imageSource": "https://www.skurnik.com/sku/cabernet-sauvignon-mt-veeder-oshaughnessy-3/",
+   "blend": "100% Cabernet Sauvignon",
+   "about": "Pure Cabernet from O'Shaughnessy's steep, terraced Betty's Vineyard and Woolls Ranch on Mount Veeder, a cool, rugged mountain site known for savory, mineral, red-fruited wines.",
+   "web": {
+    "note": "Bright, silky and beautifully balanced, with red berries, blood orange, sweet spice, tobacco and rose petal, plus hints of mint, violets and crushed stone. Medium to full-bodied with building tannins and classic Mount Veeder structure, it rewards a few years of patience and should keep evolving for decades.",
+    "noteVintage": "2018",
+    "blend": "100% Cabernet Sauvignon",
+    "critic": {
+     "critic": "Vinous (Antonio Galloni)",
+     "score": "96"
+    },
+    "sourceName": "O'Shaughnessy Estate Winery tech sheet",
+    "sourceUrl": "https://oshaughnessywinery.com/wp-content/uploads/2026/08/2018-Mount-Veeder-Cabernet-Sauvingnon.pdf"
+   }
   },
   {
    "id": "oshaughnessy-mount-veeder-2019",
@@ -276,11 +364,21 @@
      "score": "93-95"
     }
    ],
-   "image": null,
-   "imageSource": null,
-   "blend": null,
-   "about": null,
-   "web": null
+   "image": "images/web/oshaughnessy-mount-veeder.webp",
+   "imageSource": "https://www.skurnik.com/sku/cabernet-sauvignon-mt-veeder-oshaughnessy-3/",
+   "blend": "100% Cabernet Sauvignon",
+   "about": "Pure Cabernet from O'Shaughnessy's steep, terraced Betty's Vineyard and Woolls Ranch on Mount Veeder, a cool, rugged mountain site known for savory, mineral, red-fruited wines.",
+   "web": {
+    "note": "A classic mountain Cabernet brimming with brambly mulberry, blueberry and sweet red cherry, woven with dried herbs, blood orange, menthol and a touch of mocha. Full-bodied and dense, the opulence of the vintage is balanced by firm mountain tannins, and it keeps building in the glass toward a long, head-turning finish.",
+    "noteVintage": "2019",
+    "blend": "100% Cabernet Sauvignon",
+    "critic": {
+     "critic": "Vinous (Antonio Galloni)",
+     "score": "97+"
+    },
+    "sourceName": "O'Shaughnessy Estate Winery tech sheet",
+    "sourceUrl": "https://oshaughnessywinery.com/wp-content/uploads/2026/06/2019-oshaughnessy-mount-veeder-cabernet-sauvignon.pdf"
+   }
   },
   {
    "id": "oshaughnessy-mount-veeder-2021",
@@ -304,11 +402,21 @@
      "score": "93-95"
     }
    ],
-   "image": null,
-   "imageSource": null,
-   "blend": null,
-   "about": null,
-   "web": null
+   "image": "images/web/oshaughnessy-mount-veeder.webp",
+   "imageSource": "https://www.skurnik.com/sku/cabernet-sauvignon-mt-veeder-oshaughnessy-3/",
+   "blend": "100% Cabernet Sauvignon",
+   "about": "Pure Cabernet from O'Shaughnessy's steep, terraced Betty's Vineyard and Woolls Ranch on Mount Veeder, a cool, rugged mountain site known for savory, mineral, red-fruited wines.",
+   "web": {
+    "note": "Savory and brooding, with bay leaf, sage and cedar framing black cherry, blackcurrant and blueberry fruit, plus a whiff of clove and cigar box. Medium to full-bodied and firmly built, its fine, dusty tannins stretch into a mouthwatering finish. Delicious now, but it has plenty in reserve for the cellar.",
+    "noteVintage": "2021",
+    "blend": "100% Cabernet Sauvignon",
+    "critic": {
+     "critic": "Wine Advocate",
+     "score": "95"
+    },
+    "sourceName": "Skurnik Wines (quoting Wine Advocate and James Suckling)",
+    "sourceUrl": "https://www.skurnik.com/sku/cabernet-sauvignon-mt-veeder-oshaughnessy-3/"
+   }
   },
   {
    "id": "oshaughnessy-mount-veeder-2022",
@@ -332,11 +440,21 @@
      "score": "93-95"
     }
    ],
-   "image": null,
-   "imageSource": null,
-   "blend": null,
-   "about": null,
-   "web": null
+   "image": "images/web/oshaughnessy-mount-veeder.webp",
+   "imageSource": "https://www.skurnik.com/sku/cabernet-sauvignon-mt-veeder-oshaughnessy-3/",
+   "blend": "100% Cabernet Sauvignon",
+   "about": "Pure Cabernet from O'Shaughnessy's steep, terraced Betty's Vineyard and Woolls Ranch on Mount Veeder, a cool, rugged mountain site known for savory, mineral, red-fruited wines.",
+   "web": {
+    "note": "Red-fruited and savory, showing classic Mount Veeder character through blood orange, dried flowers, mint, iron and chalky minerality. It handled the hot 2022 vintage gracefully, staying fresh and composed, though it is still a bit tight today. Give it a few years in the cellar to open up fully.",
+    "noteVintage": "2022",
+    "blend": "100% Cabernet Sauvignon",
+    "critic": {
+     "critic": "Vinous (Antonio Galloni)",
+     "score": "93"
+    },
+    "sourceName": "O'Shaughnessy Estate Winery tech sheet",
+    "sourceUrl": "https://oshaughnessywinery.com/wp-content/uploads/2026/06/2022-oshaughnessy-mount-veeder-cabernet-sauvignon.pdf"
+   }
   },
   {
    "id": "pride-merlot-2020",
@@ -355,11 +473,20 @@
    "jakeNote": "Mountain fruit that reaches about as high as Merlot goes for me. Soft and polished, and a great pour before dinner.",
    "flag": null,
    "otherScores": [],
-   "image": null,
-   "imageSource": null,
-   "blend": null,
-   "about": null,
-   "web": null
+   "image": "images/web/pride-merlot.webp",
+   "imageSource": "https://www.pridewines.com/wine/our-wines/pride-merlot/2020-merlot/",
+   "blend": "90% Merlot, 5% Cabernet Sauvignon, 5% Petit Verdot",
+   "about": "Pride Mountain Vineyards sits atop Spring Mountain right on the Napa and Sonoma county line, which is why its labels name both counties.",
+   "web": {
+    "note": "Ripe mulberry and kirsch take the lead, lifted by elderberry, a hint of lemongrass and savory black pepper. It is plush and generous in texture, with polished mountain tannins and bright freshness keeping it lively, and the finish rises with spice and floral notes. A beautifully balanced Merlot.",
+    "noteVintage": "2020",
+    "critic": {
+     "critic": "Wine Enthusiast",
+     "score": "93"
+    },
+    "sourceName": "Pride Mountain Vineyards 2020 Merlot tech sheet",
+    "sourceUrl": "https://www.pridewines.com/assets/images/PDF/PMV_MR_20.pdf"
+   }
   },
   {
    "id": "sherwin-cellar-scraps-nv-lot-19",
@@ -378,11 +505,17 @@
    "jakeNote": "A repeat favorite. Revisited at the winery on our August 2026 Napa trip, and it held up beautifully.",
    "flag": null,
    "otherScores": [],
-   "image": null,
-   "imageSource": null,
-   "blend": null,
-   "about": null,
-   "web": null
+   "image": "images/web/sherwin-cellar-scraps.webp",
+   "imageSource": "https://www.vivino.com/en/sherwin-family-vineyards-cellar-scraps-platinum-reserve/w/5937987",
+   "blend": "Cabernet Sauvignon, Petite Sirah, Cabernet Franc and Merlot from Spring Mountain and Calistoga; mostly 2023 with some 2022",
+   "about": "Cellar Scraps began as a home for small lots left over from Sherwin's estate wines and has grown into their most popular bottling, a numbered multi-vintage blend with a loyal following of self-described Cellar Scrappers.",
+   "web": {
+    "note": "A dark, supple blend led by Cabernet Sauvignon, mostly from 2023 with a splash of 2022 for depth. Ripe dark fruit meets gentle spice and well-woven oak on the nose, and the palate is balanced and smooth, with soft tannins and a lingering finish that keeps revealing layers of dark fruit.",
+    "noteVintage": "Lot 19",
+    "critic": null,
+    "sourceName": "Sherwin Family Vineyards, Cellar Scraps #19 product page",
+    "sourceUrl": "https://www.sherwinfamilyvineyards.com/product/detail/cellar-scraps--19/"
+   }
   },
   {
    "id": "sherwin-estate-cabernet-2021",
@@ -406,11 +539,18 @@
      "score": "95-97"
     }
    ],
-   "image": null,
-   "imageSource": null,
-   "blend": null,
-   "about": null,
-   "web": null
+   "image": "images/web/sherwin-estate-cabernet.webp",
+   "imageSource": "https://www.vivino.com/US/en/sherwin-family-vineyards-estate-cabernet-sauvignon/w/2073887",
+   "blend": "82% Cabernet Sauvignon, 9% Merlot, 9% Cabernet Franc",
+   "about": "The Sherwin family farms about 16 acres of vines on volcanic soils near the top of Spring Mountain above St. Helena, and the 2021 marked their return after the 2020 Glass Fire cost them two vintages.",
+   "web": {
+    "note": "Violets, mint, plum, blackberry and red cherry lead the aromas, with only a light touch of vanilla, so the mountain fruit takes center stage. The palate is layered and bright with plum and blackberry, and firm, slightly grippy tannins lead into a savory, peppery finish that suggests it will reward time in the cellar.",
+    "noteVintage": "2021",
+    "critic": null,
+    "sourceName": "The Napa Wine Project; blend and oak from Sherwin Family Vineyards",
+    "sourceUrl": "https://www.napawineproject.com/sherwin-family-vineyards/",
+    "blend": "82% Cabernet Sauvignon, 9% Merlot, 9% Cabernet Franc"
+   }
   },
   {
    "id": "sherwin-estate-cabernet-2023",
@@ -429,11 +569,21 @@
    "jakeNote": "Tasted at the winery on Spring Mountain in August 2026. All estate fruit, and the bottle that put Spring Mountain on my short list alongside Howell Mountain and Mount Veeder.",
    "flag": null,
    "otherScores": [],
-   "image": null,
-   "imageSource": null,
-   "blend": null,
-   "about": null,
-   "web": null
+   "image": "images/web/sherwin-estate-cabernet.webp",
+   "imageSource": "https://www.vivino.com/US/en/sherwin-family-vineyards-estate-cabernet-sauvignon/w/2073887",
+   "blend": "Estate Cabernet Sauvignon (the 2022 was 100% Cabernet Sauvignon)",
+   "about": "The Sherwin family farms about 16 acres of vines on volcanic soils near the top of Spring Mountain above St. Helena, and the 2021 marked their return after the 2020 Glass Fire cost them two vintages.",
+   "web": {
+    "note": "Deep in color and generous, with black currant, dark berries, bitter chocolate, mocha, crushed stone and spice that show a clear mountain character. It is full-bodied and plush yet firmly built, with oak and tannins already well knit and a bright line of acidity keeping the long, dark-fruited finish fresh.",
+    "noteVintage": "2022",
+    "critic": {
+     "critic": "James Suckling",
+     "score": "94"
+    },
+    "sourceName": "Sherwin Family Vineyards 2022 release notes and James Suckling review of the 2022 (via CellarTracker)",
+    "sourceUrl": "https://www.sherwinfamilyvineyards.com/product/detail/2021-estate-cabernet-sauvignon/",
+    "blend": "Estate Cabernet Sauvignon (the 2022 was 100% Cabernet Sauvignon)"
+   }
   },
   {
    "id": "taplin-cabernet-2016",
@@ -452,11 +602,17 @@
    "jakeNote": "One of the stars of our August 2026 Napa trip, confirmed over a full Taplin wine dinner. Kept building in the glass.",
    "flag": null,
    "otherScores": [],
-   "image": null,
-   "imageSource": null,
-   "blend": null,
-   "about": null,
-   "web": null
+   "image": "images/web/taplin-cabernet.webp",
+   "imageSource": "https://taplincellars.com/product/2022-taplin-cabernet-sauvignon/",
+   "blend": "100% Cabernet Sauvignon, estate grown (now bottled as the Ghost Creek Vineyard), aged 22 to 24 months in new French oak",
+   "about": "The Taplin family has farmed this land on St. Helena's west bench, at the foot of the Mayacamas Mountains, since 1871, and their flagship Cabernet comes from the estate's rockiest, gravel-rich vineyard block.",
+   "web": {
+    "note": "Dark, juicy and opulent, opening with blackberry jam, violets and a hint of slate. Plush black fruit fills the palate with clove, allspice and soft vanilla, yet the wine stays lively and fresh, finishing on boysenberry and a cool note of mint tea.",
+    "noteVintage": "2016",
+    "critic": null,
+    "sourceName": "Taplin Cellars 2016 Estate Cabernet Sauvignon fact sheet",
+    "sourceUrl": "https://taplincellars.com/wp-content/uploads/2022/05/2016-Taplin.pdf"
+   }
   },
   {
    "id": "taplin-cabernet-2018",
@@ -480,11 +636,17 @@
      "score": "96-98"
     }
    ],
-   "image": null,
-   "imageSource": null,
-   "blend": null,
-   "about": null,
-   "web": null
+   "image": "images/web/taplin-cabernet.webp",
+   "imageSource": "https://taplincellars.com/product/2022-taplin-cabernet-sauvignon/",
+   "blend": "100% Cabernet Sauvignon, estate grown (now bottled as the Ghost Creek Vineyard), aged 22 to 24 months in new French oak",
+   "about": "The Taplin family has farmed this land on St. Helena's west bench, at the foot of the Mayacamas Mountains, since 1871, and their flagship Cabernet comes from the estate's rockiest, gravel-rich vineyard block.",
+   "web": {
+    "note": "Ripe and generous, with dark berries and red fruit layered over earth, wet stones and a touch of cedar. The palate brings black plum, blueberry and pomegranate with savory herbs, baking spice and graphite, and polished tannins with bright acidity carry a long finish of milk chocolate and rosemary.",
+    "noteVintage": "2018",
+    "critic": null,
+    "sourceName": "Taplin Cellars 2018 Cabernet Sauvignon fact sheet",
+    "sourceUrl": "https://taplincellars.com/wp-content/uploads/2023/03/2018-Taplin-Fact-Sheet.pdf"
+   }
   },
   {
    "id": "taplin-cabernet-2021",
@@ -508,11 +670,17 @@
      "score": "96-98"
     }
    ],
-   "image": null,
-   "imageSource": null,
-   "blend": null,
-   "about": null,
-   "web": null
+   "image": "images/web/taplin-cabernet.webp",
+   "imageSource": "https://taplincellars.com/product/2022-taplin-cabernet-sauvignon/",
+   "blend": "100% Cabernet Sauvignon, estate grown (now bottled as the Ghost Creek Vineyard), aged 22 to 24 months in new French oak",
+   "about": "The Taplin family has farmed this land on St. Helena's west bench, at the foot of the Mayacamas Mountains, since 1871, and their flagship Cabernet comes from the estate's rockiest, gravel-rich vineyard block.",
+   "web": {
+    "note": "Sun-warmed berries lead the nose, with an undertone of earth and stone. Blueberry and boysenberry give way to a bright, silky core of Bing cherry that deepens into dark amarena cherry and cinnamon. Tannins are smooth and seamless, and the long finish lingers on mocha, red fruit and dried mint.",
+    "noteVintage": "2021",
+    "critic": null,
+    "sourceName": "Taplin Cellars 2021 Cabernet Sauvignon fact sheet",
+    "sourceUrl": "https://taplincellars.com/wp-content/uploads/2026/08/2021-Taplin-Fact-Sheet.pdf"
+   }
   },
   {
    "id": "taplin-cabernet-2022",
@@ -536,11 +704,17 @@
      "score": "96-98"
     }
    ],
-   "image": null,
-   "imageSource": null,
-   "blend": null,
-   "about": null,
-   "web": null
+   "image": "images/web/taplin-cabernet.webp",
+   "imageSource": "https://taplincellars.com/product/2022-taplin-cabernet-sauvignon/",
+   "blend": "100% Cabernet Sauvignon, estate grown (now bottled as the Ghost Creek Vineyard), aged 22 to 24 months in new French oak",
+   "about": "The Taplin family has farmed this land on St. Helena's west bench, at the foot of the Mayacamas Mountains, since 1871, and their flagship Cabernet comes from the estate's rockiest, gravel-rich vineyard block.",
+   "web": {
+    "note": "A rich, powerful vintage, with a nose of ripe blackberries, cedar, butterscotch and cool gravel. The palate is full and plush, layered with black plum, blackberry and cassis over seamless tannins, then dark chocolate, espresso and vanilla carry into a long finish that recalls Black Forest cake.",
+    "noteVintage": "2022",
+    "critic": null,
+    "sourceName": "Taplin Cellars winemaker's notes (online shop)",
+    "sourceUrl": "https://taplincellars.com/product/2022-taplin-cabernet-sauvignon/"
+   }
   },
   {
    "id": "taplin-terra-9-2019",
@@ -559,11 +733,17 @@
    "jakeNote": "A clear step up from the 2021 (92-94), with a noticeably different profile.",
    "flag": null,
    "otherScores": [],
-   "image": null,
-   "imageSource": null,
-   "blend": null,
-   "about": null,
-   "web": null
+   "image": "images/web/taplin-terra-9.webp",
+   "imageSource": "https://taplincellars.com/product/2023-terra-9-cabernet-sauvignon/",
+   "blend": "100% Cabernet Sauvignon from hand-selected estate blocks, aged 16 to 22 months in about 60% new French oak",
+   "about": "Named for an ancestor's remark that the estate's soil was nine parts rock and one part dirt, Terra 9 is Taplin's most popular wine, drawn from hand-picked rows of the family vineyard in St. Helena.",
+   "web": {
+    "note": "Wild thyme, blackberry and mulberry rise over crushed rock, with hints of sweet oak, graphite and mint tea. Juicy Bing cherry and boysenberry fill the palate, lifted by a touch of fennel and a lively mineral streak, and silky tannins glide into a long finish of berry cobbler, dried mint and mocha.",
+    "noteVintage": "2019",
+    "critic": null,
+    "sourceName": "Taplin Cellars 2019 Terra 9 fact sheet",
+    "sourceUrl": "https://taplincellars.com/wp-content/uploads/2024/03/2019-Terra-9-Fact-Sheet.pdf"
+   }
   },
   {
    "id": "taplin-terra-9-2022",
@@ -591,11 +771,17 @@
      "score": "92-94"
     }
    ],
-   "image": null,
-   "imageSource": null,
-   "blend": null,
-   "about": null,
-   "web": null
+   "image": "images/web/taplin-terra-9.webp",
+   "imageSource": "https://taplincellars.com/product/2023-terra-9-cabernet-sauvignon/",
+   "blend": "100% Cabernet Sauvignon from hand-selected estate blocks, aged 16 to 22 months in about 60% new French oak",
+   "about": "Named for an ancestor's remark that the estate's soil was nine parts rock and one part dirt, Terra 9 is Taplin's most popular wine, drawn from hand-picked rows of the family vineyard in St. Helena.",
+   "web": {
+    "note": "Sun-warmed berries, earth, cedar and red cherry open the nose with a stony edge. The palate bursts with Bing cherry and ripe red fruit, plus amarena cherry, mocha, graphite and flashes of blueberry. Soft, velvety tannins give it a broad, supple feel, ending gracefully on dried mint and espresso.",
+    "noteVintage": "2022",
+    "critic": null,
+    "sourceName": "Taplin Cellars 2022 Terra 9 release page",
+    "sourceUrl": "https://taplincellars.com/2022-terra-9-cabernet-sauvignon/"
+   }
   },
   {
    "id": "taplin-terra-9-2023",
@@ -623,11 +809,20 @@
      "score": "92-94"
     }
    ],
-   "image": null,
-   "imageSource": null,
-   "blend": null,
-   "about": null,
-   "web": null
+   "image": "images/web/taplin-terra-9.webp",
+   "imageSource": "https://taplincellars.com/product/2023-terra-9-cabernet-sauvignon/",
+   "blend": "100% Cabernet Sauvignon from hand-selected estate blocks, aged 16 to 22 months in about 60% new French oak",
+   "about": "Named for an ancestor's remark that the estate's soil was nine parts rock and one part dirt, Terra 9 is Taplin's most popular wine, drawn from hand-picked rows of the family vineyard in St. Helena.",
+   "web": {
+    "note": "Crushed blackberry and boysenberry lead, with gravel, wild thyme and cedar unfolding behind. The texture is sleek and glossy, built around Bing cherry and cassis with hints of mocha, bay leaf and rain on warm stone. Fine tannins and a mineral thread carry a long finish of mint tea, baking spice and dried cherry.",
+    "noteVintage": "2023",
+    "critic": {
+     "critic": "Decanter",
+     "score": "95"
+    },
+    "sourceName": "Taplin Cellars winemaker's notes (online shop); also James Suckling 94",
+    "sourceUrl": "https://taplincellars.com/product/2023-terra-9-cabernet-sauvignon/"
+   }
   },
   {
    "id": "taplin-cabernet-franc-2021",
@@ -646,11 +841,17 @@
    "jakeNote": null,
    "flag": null,
    "otherScores": [],
-   "image": null,
-   "imageSource": null,
-   "blend": null,
-   "about": null,
-   "web": null
+   "image": "images/web/taplin-cabernet-franc.webp",
+   "imageSource": "https://taplincellars.com/product/2023-taplin-cabernet-franc/",
+   "blend": "100% estate-grown Cabernet Franc, made in very small lots",
+   "about": "Taplin planted a small block of Cabernet Franc on its St. Helena estate about a decade ago and first bottled it in 2019; the 2021 was a tiny, club-only release from those first vines.",
+   "web": {
+    "note": "A savory, herb-driven Cabernet Franc with aromas of roasted pepper, tobacco, cedar and dried herbs over dark plum and blackberry, touched with mocha. The palate is rounder and fruitier, with blackberry, black cherry and mulberry alongside dark chocolate and coffee, framed by ripe, softened tannins that make it easy to enjoy.",
+    "noteVintage": "2022",
+    "critic": null,
+    "sourceName": "The Napa Wine Project (review of the 2022 Taplin Cabernet Franc)",
+    "sourceUrl": "https://www.napawineproject.com/taplin-cellars/"
+   }
   },
   {
    "id": "taplin-sauvignon-blanc-2025",
@@ -658,7 +859,7 @@
    "producer": "Taplin Cellars",
    "name": "Sauvignon Blanc",
    "vintage": "2025",
-   "region": "St. Helena, Napa Valley",
+   "region": "Napa Valley",
    "color": "white",
    "tags": [],
    "category": null,
@@ -669,11 +870,17 @@
    "jakeNote": null,
    "flag": null,
    "otherScores": [],
-   "image": null,
-   "imageSource": null,
-   "blend": null,
-   "about": null,
-   "web": null
+   "image": "images/web/taplin-sauvignon-blanc.webp",
+   "imageSource": "https://taplincellars.com/product/2025-taplin-savignon-blanc/",
+   "blend": "100% Sauvignon Blanc from Riverbound Vineyard in Yountville, fermented and aged in stainless steel",
+   "about": "Taplin's first-ever white wine, this debut Sauvignon Blanc was crafted for lingering conversation at the end of a meal, and only 120 cases were made.",
+   "web": {
+    "note": "Made in a crisp Loire Valley style, it opens with citrus blossom, preserved lemon and a chalky, mineral edge. Pink grapefruit and Meyer lemon drive a juicy, zippy, slightly salty palate, with white peach and nectarine filling in, before a fragrant finish of orange blossom, citrus zest and a whisper of tarragon.",
+    "noteVintage": "2025",
+    "critic": null,
+    "sourceName": "Taplin Cellars winemaker's notes (online shop)",
+    "sourceUrl": "https://taplincellars.com/product/2025-taplin-savignon-blanc/"
+   }
   },
   {
    "id": "viader-black-label-2021",
@@ -697,11 +904,21 @@
      "score": "93-94"
     }
    ],
-   "image": null,
-   "imageSource": null,
-   "blend": null,
-   "about": null,
-   "web": null
+   "image": "images/web/viader-black-label.webp",
+   "imageSource": "https://www.vivino.com/US/en/viader-vineyards-black-label-limited-edition/w/1535904",
+   "blend": "58% Cabernet Sauvignon, 27% Syrah, 15% Malbec",
+   "about": "Viader's bold 'Estate Limited Edition' blend, pairing hillside estate Cabernet Sauvignon with a hefty dose of Syrah for a richer, spicier counterpoint to the flagship.",
+   "web": {
+    "note": "Big, generous and plush, with juicy plum, black cherry and boysenberry preserves layered over graphite, spice cake, smoked tobacco and shaved dark chocolate. The dense, full-bodied palate is framed by rounded tannins and good freshness, and the Syrah leaves a lingering peppery, earthy finish.",
+    "noteVintage": "2021",
+    "blend": "58% Cabernet Sauvignon, 27% Syrah, 15% Malbec",
+    "critic": {
+     "critic": "Lisa Perrotti-Brown",
+     "score": "96"
+    },
+    "sourceName": "Viader Vineyards & Winery online store",
+    "sourceUrl": "https://wine.viader.com/2021-viader-black-label-750ml-p125.aspx"
+   }
   },
   {
    "id": "viader-black-label-2022",
@@ -725,11 +942,21 @@
      "score": "93-94"
     }
    ],
-   "image": null,
-   "imageSource": null,
-   "blend": null,
-   "about": null,
-   "web": null
+   "image": "images/web/viader-black-label.webp",
+   "imageSource": "https://www.vivino.com/US/en/viader-vineyards-black-label-limited-edition/w/1535904",
+   "blend": "48% Cabernet Sauvignon, 31% Syrah, 11% Malbec, 10% Cabernet Franc",
+   "about": "Viader's bold 'Estate Limited Edition' blend, pairing hillside estate Cabernet Sauvignon with a hefty dose of Syrah for a richer, spicier counterpoint to the flagship.",
+   "web": {
+    "note": "Bold and dark, bursting with blackcurrant, blueberry, plum and licorice alongside graphite, espresso, cedar and dark chocolate. Warm baking spices and a touch of smoke lead into a full, concentrated palate with firm but well-cushioned tannins, finishing long with the peppery, earthy note Syrah brings to this blend.",
+    "noteVintage": "2022",
+    "blend": "48% Cabernet Sauvignon, 31% Syrah, 11% Malbec, 10% Cabernet Franc",
+    "critic": {
+     "critic": "James Suckling",
+     "score": "95"
+    },
+    "sourceName": "Viader Vineyards & Winery online store",
+    "sourceUrl": "https://wine.viader.com/2022-viader-black-label-15l-p150.aspx"
+   }
   },
   {
    "id": "viader-proprietary-red-2017",
@@ -753,11 +980,21 @@
      "score": "94-96"
     }
    ],
-   "image": null,
-   "imageSource": null,
-   "blend": null,
-   "about": null,
-   "web": null
+   "image": "images/web/viader-proprietary-red.webp",
+   "imageSource": "https://www.vivino.com/US/en/viader-vineyards-red-blend/w/6866",
+   "blend": "69% Cabernet Sauvignon, 31% Cabernet Franc",
+   "about": "Delia Viader's signature wine since 1989, a Cabernet Sauvignon and Cabernet Franc blend grown on the steep, rocky slopes of Howell Mountain above St. Helena.",
+   "web": {
+    "note": "An elegant, lifted Viader with juicy raspberry and red cherry preserves, wildflowers, dried lavender and hints of mocha and cinnamon. Silky and focused on the palate, with fine-grained tannins, a floral lift and mouthwatering freshness through the finish. Lovely now and should drink well over the next decade or more.",
+    "noteVintage": "2017",
+    "blend": "69% Cabernet Sauvignon, 31% Cabernet Franc",
+    "critic": {
+     "critic": "Jeb Dunnuck",
+     "score": "91+"
+    },
+    "sourceName": "Viader Vineyards & Winery online store",
+    "sourceUrl": "https://wine.viader.com/2017-viader-750ml-p80.aspx"
+   }
   },
   {
    "id": "viader-proprietary-red-2019",
@@ -781,11 +1018,21 @@
      "score": "94-96"
     }
    ],
-   "image": null,
-   "imageSource": null,
-   "blend": null,
-   "about": null,
-   "web": null
+   "image": "images/web/viader-proprietary-red.webp",
+   "imageSource": "https://www.vivino.com/US/en/viader-vineyards-red-blend/w/6866",
+   "blend": "58% Cabernet Sauvignon, 42% Cabernet Franc",
+   "about": "Delia Viader's signature wine since 1989, a Cabernet Sauvignon and Cabernet Franc blend grown on the steep, rocky slopes of Howell Mountain above St. Helena.",
+   "web": {
+    "note": "Pure and polished, with cassis, red currant and black cherry wrapped in tobacco leaf, violets, lavender, licorice and dark chocolate. Full-bodied yet silky, it pairs rock-solid structure and ripe, fine-grained tannins with a floral, mouthwatering finish. A standout vintage for this wine that will keep improving for two decades.",
+    "noteVintage": "2019",
+    "blend": "58% Cabernet Sauvignon, 42% Cabernet Franc",
+    "critic": {
+     "critic": "Jeb Dunnuck",
+     "score": "97"
+    },
+    "sourceName": "Viader Vineyards & Winery online store",
+    "sourceUrl": "https://wine.viader.com/2019-viader-750ml-p100.aspx"
+   }
   },
   {
    "id": "viader-v-2020",
@@ -804,11 +1051,21 @@
    "jakeNote": null,
    "flag": null,
    "otherScores": [],
-   "image": null,
-   "imageSource": null,
-   "blend": null,
-   "about": null,
-   "web": null
+   "image": "images/web/viader-v.webp",
+   "imageSource": "https://www.vivino.com/en/viader-vineyards-v-napa-valley/w/1792906",
+   "blend": "53% Petit Verdot, 47% Cabernet Sauvignon (2021)",
+   "about": "Built around a tiny, especially rocky 1.2-acre block of Petit Verdot on the Viader estate, blended with the estate's boldest Cabernet Sauvignon for a dark, inky, firmly structured wine.",
+   "web": {
+    "note": "Deep, inky and plum-colored, with spiced black fruits, dried herbs, baking spices and a leathery edge. Full-bodied and broad on the palate, it carries firm hillside tannins and finishes with dried tobacco leaf and shaved chocolate. Built for the long haul, it rewards decanting now or patience in the cellar.",
+    "noteVintage": "2021",
+    "blend": "53% Petit Verdot, 47% Cabernet Sauvignon (2021)",
+    "critic": {
+     "critic": "Jeb Dunnuck",
+     "score": "93"
+    },
+    "sourceName": "Viader Vineyards & Winery online store",
+    "sourceUrl": "https://wine.viader.com/2021-viader-v-750ml-p131.aspx"
+   }
   },
   {
    "id": "vina-robles-cabernet-2022",
@@ -827,11 +1084,20 @@
    "jakeNote": null,
    "flag": null,
    "otherScores": [],
-   "image": null,
-   "imageSource": null,
-   "blend": null,
-   "about": null,
-   "web": null
+   "image": "images/web/vina-robles-cabernet.webp",
+   "imageSource": "https://www.wineaccess.com/catalog/2022-vina-robles-estate-cabernet-sauvignon-paso-robles_a7e9e611-98e2-4b94-9be4-96ec11c6e76d/",
+   "blend": "88% Cabernet Sauvignon, 12% Petit Verdot",
+   "about": "Established in 1998, Vina Robles grows its wines on sustainably farmed estate vineyards spread across several Paso Robles districts.",
+   "web": {
+    "note": "Midnight purple, with aromas of ripe blackcurrant, plum and black cherry touched by mocha, vanilla, cedar and a savory hint of sage and bay leaf. Full-bodied and layered, it balances lush dark fruit with velvety yet firm tannins and lively acidity, finishing long and satisfying.",
+    "noteVintage": "2022",
+    "critic": {
+     "critic": "James Suckling",
+     "score": "93"
+    },
+    "sourceName": "Wine Access (tasting note and James Suckling review)",
+    "sourceUrl": "https://www.wineaccess.com/catalog/2022-vina-robles-estate-cabernet-sauvignon-paso-robles_a7e9e611-98e2-4b94-9be4-96ec11c6e76d/"
+   }
   }
  ]
 }
