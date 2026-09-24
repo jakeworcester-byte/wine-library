@@ -133,7 +133,10 @@ h1 {
 }
 :root[data-theme="dark"] .bottle { background: radial-gradient(120% 80% at 50% 35%, #f4efe9 0%, #d9d0c6 100%); }
 @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .bottle { background: radial-gradient(120% 80% at 50% 35%, #f4efe9 0%, #d9d0c6 100%); } }
-.bottle img { width: 100%; height: 100%; object-fit: contain; padding: 8px 4px; mix-blend-mode: multiply; }
+.bottle img {
+  position: absolute; inset: 0; width: 100%; height: 100%;
+  object-fit: contain; padding: 10px 6px; mix-blend-mode: multiply;
+}
 .bottle .ph { width: 40px; height: 140px; }
 .count {
   position: absolute; top: 6px; right: 6px; background: var(--wine); color: #fff;
