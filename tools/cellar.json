@@ -1,0 +1,207 @@
+{
+  "_about": "Guest-safe snapshot of the Notion Wine Library (On Hand > 0). No prices, sources, or working notes. Refresh by re-querying Notion and editing this file, then run tools/build.py.",
+  "snapshotDate": "2026-09-24",
+  "wines": {
+    "aonair-mountain-reserve": {
+      "producer": "Aonair",
+      "name": "Mountain Reserve Cabernet Sauvignon",
+      "region": "Napa Valley",
+      "color": "red",
+      "vintages": {
+        "2020": {"onHand": 1, "category": "Steak Saturday", "window": "2026-2029", "peak": null}
+      }
+    },
+    "bonanza-vinekeeper": {
+      "producer": "Bonanza",
+      "name": "The Vinekeeper Cabernet Sauvignon",
+      "region": "Napa Valley",
+      "color": "red",
+      "vintages": {
+        "NV (Lot 1)": {"onHand": 1, "category": "Tuesday Night", "window": "Now-2027", "peak": null}
+      },
+      "otherScores": []
+    },
+    "chappellet-napa-cabernet": {
+      "producer": "Chappellet",
+      "name": "Napa Valley Cabernet Sauvignon",
+      "region": "Napa Valley",
+      "color": "red",
+      "vintages": {
+        "2022": {"onHand": 1, "category": null, "window": "2027-2034", "peak": "2029-2032"}
+      }
+    },
+    "gruaud-larose": {
+      "producer": "Château Gruaud Larose",
+      "name": "Saint-Julien Grand Cru Classé",
+      "region": "Saint-Julien, Bordeaux",
+      "color": "red",
+      "tags": ["Second Growth, 1855"],
+      "vintages": {
+        "2019": {"onHand": 1, "category": "Special Occasion", "window": "2030-2050", "peak": "2033-2045"}
+      }
+    },
+    "pedesclaux": {
+      "producer": "Château Pédesclaux",
+      "name": "Pauillac Grand Cru Classé",
+      "region": "Pauillac, Bordeaux",
+      "color": "red",
+      "tags": ["Fifth Growth, 1855"],
+      "vintages": {
+        "2019": {"onHand": 1, "category": "Special Occasion", "window": "2028-2040", "peak": "2031-2037"}
+      }
+    },
+    "decoy-cabernet": {
+      "producer": "Decoy",
+      "name": "Cabernet Sauvignon",
+      "region": "California",
+      "color": "red",
+      "vintages": {
+        "2022": {"onHand": 1, "category": "Tuesday Night", "window": "Now-2027", "peak": null, "jakeScore": "89-91",
+                 "jakeNote": "Reliable, if not thrilling. A dependable weeknight bottle."}
+      }
+    },
+    "oshaughnessy-howell-mountain": {
+      "producer": "O'Shaughnessy",
+      "name": "Howell Mountain Cabernet Sauvignon",
+      "region": "Howell Mountain, Napa Valley",
+      "color": "red",
+      "vintages": {
+        "2017": {"onHand": 1, "category": "Special Occasion", "window": "2026-2035", "peak": "2028-2033", "jakeScore": "98-100",
+                 "jakeNote": "The gold standard. Depth and authority, and the reference point for my entire scoring scale. Kept building in the glass."},
+        "2022": {"onHand": 3, "category": "Special Occasion", "window": "2029-2042", "peak": "2032-2039"}
+      },
+      "otherScores": [{"vintage": "2017", "score": "98-100"}, {"vintage": "2023", "score": "96-98"}]
+    },
+    "oshaughnessy-mount-veeder": {
+      "producer": "O'Shaughnessy",
+      "name": "Mount Veeder Cabernet Sauvignon",
+      "region": "Mount Veeder, Napa Valley",
+      "color": "red",
+      "vintages": {
+        "2017": {"onHand": 1, "category": "Steak Saturday", "window": "2026-2031", "peak": "2027-2030"},
+        "2018": {"onHand": 1, "category": "Steak Saturday", "window": "2029-2040", "peak": "2032-2037"},
+        "2019": {"onHand": 1, "category": "Steak Saturday", "window": "2028-2038", "peak": "2031-2036"},
+        "2021": {"onHand": 1, "category": "Steak Saturday", "window": "2030-2045", "peak": "2034-2041"},
+        "2022": {"onHand": 4, "category": "Steak Saturday", "window": "2028-2036", "peak": "2030-2034"}
+      },
+      "otherScores": [{"vintage": "2023", "score": "93-95"}]
+    },
+    "pride-merlot": {
+      "producer": "Pride Mountain Vineyards",
+      "name": "Merlot",
+      "region": "Spring Mountain, Napa Valley",
+      "color": "red",
+      "vintages": {
+        "2020": {"onHand": 1, "category": "Bridge / Pre-Dinner", "window": "Now-2028", "peak": null, "jakeScore": "88-90",
+                 "jakeNote": "Mountain fruit that reaches about as high as Merlot goes for me. Soft and polished, and a great pour before dinner."}
+      }
+    },
+    "sherwin-cellar-scraps": {
+      "producer": "Sherwin Family Vineyards",
+      "name": "Cellar Scraps",
+      "region": "Spring Mountain District, Napa Valley",
+      "color": "red",
+      "vintages": {
+        "NV (Lot 19)": {"onHand": 1, "category": "Steak Saturday", "window": "Now-2028", "peak": null, "jakeScore": "92-94",
+                        "jakeNote": "A repeat favorite. Revisited at the winery on our August 2026 Napa trip, and it held up beautifully."}
+      }
+    },
+    "sherwin-estate-cabernet": {
+      "producer": "Sherwin Family Vineyards",
+      "name": "Estate Cabernet Sauvignon",
+      "region": "Spring Mountain District, Napa Valley",
+      "color": "red",
+      "vintages": {
+        "2021": {"onHand": 1, "category": "Steak Saturday", "window": "2030-2042", "peak": "2033-2039"},
+        "2023": {"onHand": 3, "category": "Steak Saturday", "window": "2029-2042", "peak": "2032-2038", "jakeScore": "95-97",
+                 "jakeNote": "Tasted at the winery on Spring Mountain in August 2026. All estate fruit, and the bottle that put Spring Mountain on my short list alongside Howell Mountain and Mount Veeder."}
+      },
+      "otherScores": [{"vintage": "2023", "score": "95-97"}]
+    },
+    "taplin-cabernet": {
+      "producer": "Taplin Cellars",
+      "name": "Estate Cabernet Sauvignon",
+      "region": "St. Helena, Napa Valley",
+      "color": "red",
+      "vintages": {
+        "2016": {"onHand": 2, "category": "Special Occasion", "window": "2026-2032", "peak": "Now-2030", "jakeScore": "96-98",
+                 "jakeNote": "One of the stars of our August 2026 Napa trip, confirmed over a full Taplin wine dinner. Kept building in the glass."},
+        "2018": {"onHand": 1, "category": "Special Occasion", "window": "2029-2038", "peak": "2031-2036"},
+        "2021": {"onHand": 1, "category": "Special Occasion", "window": "2028-2038", "peak": "2031-2036"},
+        "2022": {"onHand": 1, "category": "Special Occasion", "window": "2029-2040", "peak": "2032-2037"}
+      },
+      "otherScores": [{"vintage": "2016", "score": "96-98"}]
+    },
+    "taplin-terra-9": {
+      "producer": "Taplin Cellars",
+      "name": "Terra 9",
+      "region": "St. Helena, Napa Valley",
+      "color": "red",
+      "vintages": {
+        "2019": {"onHand": 6, "category": "Steak Saturday", "window": "2026-2031", "peak": "2027-2030", "jakeScore": "94-95",
+                 "jakeNote": "A clear step up from the 2021 (92-94), with a noticeably different profile."},
+        "2022": {"onHand": 1, "category": "Steak Saturday", "window": "2027-2034", "peak": "2029-2032"},
+        "2023": {"onHand": 3, "category": "Steak Saturday", "window": "2028-2036", "peak": "2030-2034"}
+      },
+      "otherScores": [{"vintage": "2019", "score": "94-95"}, {"vintage": "2021", "score": "92-94"}]
+    },
+    "taplin-cabernet-franc": {
+      "producer": "Taplin Cellars",
+      "name": "Estate Cabernet Franc",
+      "region": "St. Helena, Napa Valley",
+      "color": "red",
+      "vintages": {
+        "2021": {"onHand": 1, "category": null, "window": "2027-2034", "peak": "2028-2032"}
+      }
+    },
+    "taplin-sauvignon-blanc": {
+      "producer": "Taplin Cellars",
+      "name": "Sauvignon Blanc",
+      "region": "St. Helena, Napa Valley",
+      "color": "white",
+      "vintages": {
+        "2025": {"onHand": 4, "category": null, "window": "Now-2027", "peak": null}
+      }
+    },
+    "viader-black-label": {
+      "producer": "Viader",
+      "name": "Black Label",
+      "region": "Howell Mountain, Napa Valley",
+      "color": "red",
+      "vintages": {
+        "2021": {"onHand": 1, "category": "Special Occasion", "window": "2029-2042", "peak": "2032-2038", "flag": "Saved for a vertical tasting"},
+        "2022": {"onHand": 1, "category": "Special Occasion", "window": "2029-2040", "peak": "2031-2037", "flag": "Saved for a vertical tasting"}
+      },
+      "otherScores": [{"vintage": "2020", "score": "93-94"}]
+    },
+    "viader-proprietary-red": {
+      "producer": "Viader",
+      "name": "Proprietary Red",
+      "region": "Howell Mountain, Napa Valley",
+      "color": "red",
+      "vintages": {
+        "2017": {"onHand": 1, "category": "Special Occasion", "window": "2026-2032", "peak": "2027-2030"},
+        "2019": {"onHand": 1, "category": "Special Occasion", "window": "2027-2036", "peak": "2029-2034"}
+      },
+      "otherScores": [{"vintage": "2023", "score": "94-96"}]
+    },
+    "viader-v": {
+      "producer": "Viader",
+      "name": "V",
+      "region": "Howell Mountain, Napa Valley",
+      "color": "red",
+      "vintages": {
+        "2020": {"onHand": 1, "category": "Special Occasion", "window": "2027-2033", "peak": "2028-2031"}
+      }
+    },
+    "vina-robles-cabernet": {
+      "producer": "Vina Robles",
+      "name": "Cabernet Sauvignon",
+      "region": "Paso Robles",
+      "color": "red",
+      "vintages": {
+        "2022": {"onHand": 1, "category": null, "window": "Now-2028", "peak": null}
+      }
+    }
+  }
+}

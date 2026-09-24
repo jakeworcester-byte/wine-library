@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Jake's Wine Library</title>
+  <meta name="description" content="What's in the cellar right now, with tasting notes, Jake Scores, and drinking windows.">
+  <meta name="theme-color" content="#f6f1ea" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#16100f" media="(prefers-color-scheme: dark)">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cpath d='M20 6h24c0 14 2 22-12 30C18 28 20 20 20 6z' fill='%236e1f2e'/%3E%3Crect x='30' y='36' width='4' height='16' fill='%236e1f2e'/%3E%3Crect x='22' y='52' width='20' height='4' rx='2' fill='%236e1f2e'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <header class="masthead">
+    <div class="wrap">
+      <p class="eyebrow">In the cellar</p>
+      <h1>Jake's Wine Library</h1>
+      <p class="stats" id="stats" aria-live="polite"></p>
+    </div>
+  </header>
+
+  <div class="controls" id="controls">
+    <div class="wrap controls-inner">
+      <label class="search">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg>
+        <input id="q" type="search" placeholder="Search wine, producer, region" autocomplete="off" aria-label="Search the cellar">
+      </label>
+      <div class="row">
+        <div class="seg" role="group" aria-label="Readiness">
+          <button type="button" data-ready="all" aria-pressed="true">All</button>
+          <button type="button" data-ready="ready" aria-pressed="false">Ready now</button>
+          <button type="button" data-ready="hold" aria-pressed="false">Cellaring</button>
+        </div>
+        <label class="sort">
+          <span>Sort</span>
+          <select id="sort" aria-label="Sort wines">
+            <option value="producer">Producer</option>
+            <option value="score">Jake Score</option>
+            <option value="ready">Ready soonest</option>
+            <option value="vintage">Oldest vintage</option>
+            <option value="bottles">Most bottles</option>
+          </select>
+        </label>
+      </div>
+      <div class="chips" id="chips" role="group" aria-label="Occasion"></div>
+    </div>
+  </div>
+
+  <main class="wrap">
+    <div class="grid" id="grid"></div>
+    <p class="empty" id="empty" hidden>Nothing matches that. Try clearing a filter.</p>
+  </main>
+
+  <footer class="wrap foot">
+    <p><strong>Jake Score</strong> is Jake's own rating, shown as a range. <strong>Jake's Notes</strong> are his tasting notes; other notes are summarized from winery and critic sources, linked on each bottle.</p>
+    <p id="updated"></p>
+  </footer>
+
+  <dialog id="detail" aria-labelledby="d-title">
+    <div class="sheet" id="sheet"></div>
+  </dialog>
+
+  <script src="assets/app.js"></script>
+</body>
+</html>
