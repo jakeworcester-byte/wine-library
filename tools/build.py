@@ -120,6 +120,21 @@ def main():
           f"{sum(1 for e in entries if e['image'])} with photos, "
           f"{sum(1 for e in entries if e['web'])} with web notes")
 
+    # Tasting record for the Ask Jake chat (wines Jake has logged but doesn't
+    # have in the cellar). Hand-curated in tools/palate.json.
+    palate = load(os.path.join(ROOT, "tools", "palate.json"))
+    palate.pop("_about", None)
+    palate["updated"] = cellar["snapshotDate"]
+    palate["profile"] = clean(palate["profile"])
+    palate["wines"] = [{k: clean(v) if isinstance(v, str) else v for k, v in w.items()} for w in palate["wines"]]
+    text = json.dumps(palate, ensure_ascii=False)
+    if EM_DASH in text:
+        sys.exit("em dash found in palate output")
+    with open(os.path.join(ROOT, "palate.json"), "w", encoding="utf-8") as f:
+        json.dump(palate, f, ensure_ascii=False, indent=1)
+    print(f"wrote palate.json: {len(palate['wines'])} logged wines, "
+          f"{sum(1 for w in palate['wines'] if w.get('onList'))} on the buy list")
+
 
 if __name__ == "__main__":
     main()
