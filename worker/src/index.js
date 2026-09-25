@@ -149,6 +149,17 @@ export default {
       // search, same as the page shows) and usage summed across continuations.
       let shown = "";
       const log = { searches: 0, in: 0, out: 0, cacheRead: 0, cacheWrite: 0, stop: null, error: null };
+      // If the guest closes the chat mid-answer, writes start failing. Stop
+      // writing, stop paying for the rest of the answer, and still log it.
+      let guestLeft = false;
+      const send = async (text) => {
+        if (guestLeft) return;
+        try {
+          await writer.write(enc.encode(text));
+        } catch {
+          guestLeft = true;
+        }
+      };
       try {
         for (let turn = 0; turn <= MAX_CONTINUATIONS; turn++) {
           const stream = client.messages.stream({
@@ -163,12 +174,20 @@ export default {
           for await (const event of stream) {
             if (event.type === "content_block_start" && event.content_block.type === "server_tool_use") {
               shown = "";
-              await writer.write(enc.encode(SEARCHING));
+              await send(SEARCHING);
             } else if (event.type === "content_block_delta" && event.delta.type === "text_delta") {
               wrote = true;
               shown += event.delta.text;
-              await writer.write(enc.encode(event.delta.text));
+              await send(event.delta.text);
             }
+            if (guestLeft) {
+              stream.abort();
+              break;
+            }
+          }
+          if (guestLeft) {
+            log.error = "guest closed the chat before the answer finished";
+            break;
           }
           const final = await stream.finalMessage();
           const u = final.usage;
@@ -180,7 +199,7 @@ export default {
           log.stop = final.stop_reason;
           if (final.stop_reason === "refusal" && !wrote) {
             shown = "I'm going to pass on that one. Ask me about wine instead.";
-            await writer.write(enc.encode(shown));
+            await send(shown);
           }
           // A long search can pause server-side; send the partial turn back to resume it.
           if (final.stop_reason !== "pause_turn") break;
@@ -195,13 +214,17 @@ export default {
           console.error("stream failed", err);
         }
         log.error = String((err && err.message) || err).slice(0, 300);
-        await writer.write(enc.encode(wrote
+        await send(wrote
           ? "\n\n(Lost my train of thought there. Ask again?)"
-          : "Something went sideways on my end. Try again in a minute."));
+          : "Something went sideways on my end. Try again in a minute.");
       } finally {
-        await writer.close();
+        try {
+          await writer.close();
+        } catch {
+          // guest already gone
+        }
+        await logQuestion(env, { chatId, messages, shown, log });
       }
-      await logQuestion(env, { chatId, messages, shown, log });
     })());
 
     return new Response(readable, {

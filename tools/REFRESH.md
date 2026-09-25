@@ -156,6 +156,24 @@ Verify the deploy: within about 3 minutes,
 `https://jakeworcester-byte.github.io/wine-library/wines.json` should show the new
 `updated` date and bottle count.
 
+## 5b. Ask Jake question log
+
+Do this even when the cellar had no changes. From `Projects/Wine Library/worker`
+(PowerShell, with `$env:CI = "true"`):
+
+```powershell
+npx.cmd wrangler d1 execute wine-chat-log --remote --json --command "SELECT at, convo, turn, question, answer, searches, in_tokens, cache_read, cache_write, out_tokens, error FROM questions WHERE at >= datetime('now', '-7 days') ORDER BY at"
+npx.cmd wrangler d1 execute wine-chat-log --remote --command "DELETE FROM questions WHERE at < datetime('now', '-180 days')"
+```
+
+The log is anonymous: no names or IPs. Rows sharing a `convo` are one chat. If
+wrangler says it isn't logged in, skip this step and say so in the report (Jake
+re-runs `npx wrangler login` from `worker/`).
+
+Estimated cost per row at Sonnet 5 rates: (in_tokens x $2 + cache_write x $2.50
++ cache_read x $0.20 + out_tokens x $10) per million tokens, plus $0.01 per
+search.
+
 ## 6. Report
 
 End with a short summary for Jake: bottles and wines now in the cellar; what was
@@ -163,3 +181,9 @@ added, removed, and changed; any new Jake's Notes and tasting-record takes (quot
 the guest versions); and
 anything flagged for him to check (uncertain photo, wine identity, note from a
 different vintage).
+
+Then a short "Ask Jake this week" section from step 5b: number of chats and
+questions, the questions themselves (grouped by chat, lightly summarized if
+there are many), any answers that look wrong or off-voice (quote the line),
+errors, and estimated spend for the week. Don't change the chat's prompt based
+on the log; suggest changes and let Jake decide.
