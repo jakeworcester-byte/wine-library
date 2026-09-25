@@ -333,3 +333,8 @@ main.wrap { padding-bottom: 72px; }
 }
 .msg .status { display: flex; align-items: center; gap: 8px; margin-top: 6px; font-size: 13px; color: var(--muted); }
 .msg .status .typing { padding: 0; }
+.ask-note {
+  margin: 0; padding: 8px 16px 0; border-top: 1px solid var(--line);
+  font-size: 11.5px; line-height: 1.4; color: var(--muted); text-align: center; background: var(--card);
+}
+.ask-note + .ask-form { border-top: 0; padding-top: 8px; }

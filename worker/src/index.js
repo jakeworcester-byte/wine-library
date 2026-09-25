@@ -72,6 +72,27 @@ function validMessages(body) {
   return out[out.length - 1].role === "user" ? out : null;
 }
 
+// Writes one anonymous row per question. Never blocks or breaks the chat.
+async function logQuestion(env, { chatId, messages, shown, log }) {
+  if (!env.LOG) return;
+  try {
+    await env.LOG.prepare(
+      `INSERT INTO questions (at, convo, turn, question, answer, searches, model,
+         in_tokens, cache_read, cache_write, out_tokens, stop, error)
+       VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`
+    ).bind(
+      new Date().toISOString(),
+      chatId,
+      Math.ceil(messages.length / 2),
+      messages[messages.length - 1].content,
+      shown.trim().slice(0, 4000) || null,
+      log.searches, env.MODEL, log.in, log.cacheRead, log.cacheWrite, log.out, log.stop, log.error,
+    ).run();
+  } catch (err) {
+    console.error("question log failed", err);
+  }
+}
+
 export default {
   async fetch(request, env, ctx) {
     const allowed = env.ALLOWED_ORIGINS.split(",").map((s) => s.trim());
@@ -92,8 +113,11 @@ export default {
     }
 
     let messages;
+    let chatId = null;
     try {
-      messages = validMessages(await request.json());
+      const body = await request.json();
+      messages = validMessages(body);
+      if (typeof body.convo === "string" && /^[a-z0-9]{8,32}$/.test(body.convo)) chatId = body.convo;
     } catch {
       messages = null;
     }
@@ -121,6 +145,10 @@ export default {
     ctx.waitUntil((async () => {
       let wrote = false;
       let convo = messages;
+      // For the question log: what the guest ends up seeing (text after the last
+      // search, same as the page shows) and usage summed across continuations.
+      let shown = "";
+      const log = { searches: 0, in: 0, out: 0, cacheRead: 0, cacheWrite: 0, stop: null, error: null };
       try {
         for (let turn = 0; turn <= MAX_CONTINUATIONS; turn++) {
           const stream = client.messages.stream({
@@ -134,21 +162,25 @@ export default {
           });
           for await (const event of stream) {
             if (event.type === "content_block_start" && event.content_block.type === "server_tool_use") {
+              shown = "";
               await writer.write(enc.encode(SEARCHING));
             } else if (event.type === "content_block_delta" && event.delta.type === "text_delta") {
               wrote = true;
+              shown += event.delta.text;
               await writer.write(enc.encode(event.delta.text));
             }
           }
           const final = await stream.finalMessage();
           const u = final.usage;
-          console.log(JSON.stringify({
-            model: env.MODEL, turn, stop: final.stop_reason, in: u.input_tokens, out: u.output_tokens,
-            cache_read: u.cache_read_input_tokens, cache_write: u.cache_creation_input_tokens,
-            searches: u.server_tool_use ? u.server_tool_use.web_search_requests : 0,
-          }));
+          log.in += u.input_tokens || 0;
+          log.out += u.output_tokens || 0;
+          log.cacheRead += u.cache_read_input_tokens || 0;
+          log.cacheWrite += u.cache_creation_input_tokens || 0;
+          log.searches += u.server_tool_use ? u.server_tool_use.web_search_requests || 0 : 0;
+          log.stop = final.stop_reason;
           if (final.stop_reason === "refusal" && !wrote) {
-            await writer.write(enc.encode("I'm going to pass on that one. Ask me about wine instead."));
+            shown = "I'm going to pass on that one. Ask me about wine instead.";
+            await writer.write(enc.encode(shown));
           }
           // A long search can pause server-side; send the partial turn back to resume it.
           if (final.stop_reason !== "pause_turn") break;
@@ -162,12 +194,14 @@ export default {
         } else {
           console.error("stream failed", err);
         }
+        log.error = String((err && err.message) || err).slice(0, 300);
         await writer.write(enc.encode(wrote
           ? "\n\n(Lost my train of thought there. Ask again?)"
           : "Something went sideways on my end. Try again in a minute."));
       } finally {
         await writer.close();
       }
+      await logQuestion(env, { chatId, messages, shown, log });
     })());
 
     return new Response(readable, {

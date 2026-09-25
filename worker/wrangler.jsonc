@@ -19,5 +19,11 @@
     // Whole site: 30 questions per minute, a brake on anything automated.
     { "name": "SITE_WIDE", "namespace_id": "7102", "simple": { "limit": 30, "period": 60 } }
   ],
+  // Anonymous question log: question, answer, date, token counts. No IPs or
+  // identities. Schema in schema.sql; rows older than 180 days are pruned by
+  // the weekly sync (tools/REFRESH.md).
+  "d1_databases": [
+    { "binding": "LOG", "database_name": "wine-chat-log", "database_id": "921de635-8434-422d-b56f-d3ab1971b8a9" }
+  ],
   "observability": { "enabled": true }
 }

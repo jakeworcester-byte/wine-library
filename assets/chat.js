@@ -23,14 +23,30 @@
     });
   }
 
+  // Random id for this chat so the anonymous question log can group follow-ups.
+  // Not tied to the person; "New chat" makes a fresh one.
+  var chatId = newChatId();
+
+  function newChatId() {
+    var bytes = new Uint8Array(10);
+    (window.crypto || window.msCrypto).getRandomValues(bytes);
+    return Array.prototype.map.call(bytes, function (b) { return (b % 36).toString(36); }).join("") +
+      Date.now().toString(36).slice(-6);
+  }
+
   function save() {
-    try { sessionStorage.setItem(STORE_KEY, JSON.stringify(history)); } catch (e) { /* private mode */ }
+    try {
+      sessionStorage.setItem(STORE_KEY, JSON.stringify(history));
+      sessionStorage.setItem(STORE_KEY + "-id", chatId);
+    } catch (e) { /* private mode */ }
   }
 
   function load() {
     try {
       var h = JSON.parse(sessionStorage.getItem(STORE_KEY) || "[]");
       if (Array.isArray(h)) history = h;
+      var id = sessionStorage.getItem(STORE_KEY + "-id");
+      if (id && history.length) chatId = id;
     } catch (e) { history = []; }
   }
 
@@ -46,7 +62,7 @@
   function visible(raw) {
     var i = raw.lastIndexOf("\u001e");
     var text = i >= 0 ? raw.slice(i + 1) : raw;
-    return text.replace(SEARCH_MARK, "").replace(/\s[–—]\s/g, ", ").replace(/^\s+/, "");
+    return text.replace(SEARCH_MARK, "").replace(/\s[\u2013\u2014]\s/g, ", ").replace(/^\s+/, "");
   }
 
   // Assistant text -> safe HTML. [[wine-id]] becomes a link to that bottle and
@@ -116,7 +132,7 @@
       var res = await fetch(url, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ messages: history.slice(-12) })
+        body: JSON.stringify({ messages: history.slice(-12), convo: chatId })
       });
       if (!res.ok || !res.body) {
         var msg = res.ok ? "Something went sideways. Try again." : await res.text();
@@ -195,6 +211,7 @@
     $("askReset").addEventListener("click", function () {
       if (busy) return;
       history = [];
+      chatId = newChatId();
       save();
       drawAll();
     });
