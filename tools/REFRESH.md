@@ -110,8 +110,9 @@ git push origin main
 ```
 
 Fix any `! missing` or `! no web note` warnings for wines added this run before
-committing. Only bump the `?v=N` asset query in `index.html` if you changed
-`assets/app.js` or `assets/styles.css` (a normal sync does not).
+committing. Only bump the `?v=N` asset queries in `index.html` if you changed a file in
+`assets/` (a normal sync does not). The "Ask Jake" chat in `worker/` reads the
+live wines.json, so it needs no changes during a sync.
 
 Verify the deploy: within about 3 minutes,
 `https://jakeworcester-byte.github.io/wine-library/wines.json` should show the new
