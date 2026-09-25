@@ -276,6 +276,7 @@
     .then(function (data) {
       wines = data.wines;
       wines.forEach(function (w) { byId[w.id] = w; });
+      window.WineLibrary = { byId: byId, open: function (id) { open(id, true); } };
       var d = new Date(data.updated + "T12:00:00");
       $("updated").textContent = "Cellar last synced " + d.toLocaleDateString("en-US", { month: "long", day: "numeric", year: "numeric" }) + ".";
       renderStats();

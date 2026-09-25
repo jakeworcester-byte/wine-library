@@ -1,0 +1,22 @@
+{
+  // Cloudflare Worker that relays "Ask Jake" chat questions to Claude.
+  // The Anthropic API key is stored as the secret ANTHROPIC_API_KEY in the
+  // Cloudflare dashboard (Settings > Variables and Secrets), never in this repo.
+  "name": "wine-library-chat",
+  "main": "src/index.js",
+  "compatibility_date": "2026-09-01",
+  "compatibility_flags": ["nodejs_compat"],
+  "vars": {
+    // Swap to "claude-opus-5" for sharper pairing judgment (about 2.5x the cost).
+    "MODEL": "claude-sonnet-5",
+    "WINES_URL": "https://jakeworcester-byte.github.io/wine-library/wines.json",
+    "ALLOWED_ORIGINS": "https://jakeworcester-byte.github.io,http://localhost:8763"
+  },
+  "ratelimits": [
+    // Per visitor (by IP): 4 questions per minute.
+    { "name": "PER_VISITOR", "namespace_id": "7101", "simple": { "limit": 4, "period": 60 } },
+    // Whole site: 30 questions per minute, a brake on anything automated.
+    { "name": "SITE_WIDE", "namespace_id": "7102", "simple": { "limit": 30, "period": 60 } }
+  ],
+  "observability": { "enabled": true }
+}

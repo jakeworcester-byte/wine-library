@@ -11,7 +11,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="assets/styles.css?v=3">
+  <link rel="stylesheet" href="assets/styles.css?v=4">
 </head>
 <body>
   <header class="masthead">
@@ -63,6 +63,33 @@
     <div class="sheet" id="sheet"></div>
   </dialog>
 
-  <script src="assets/app.js?v=3"></script>
+  <button type="button" class="ask-fab" id="askOpen" hidden>
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5h16v10H9l-5 4z"/></svg>
+    Ask Jake <span class="ai-tag">AI</span>
+  </button>
+
+  <dialog id="ask" aria-labelledby="ask-title">
+    <div class="ask-sheet">
+      <div class="ask-head">
+        <div>
+          <h2 id="ask-title">Ask Jake</h2>
+          <p>An AI that answers the way Jake would, using his notes and this cellar.</p>
+        </div>
+        <button type="button" class="ask-reset" id="askReset">New chat</button>
+        <button type="button" class="close" id="askClose" aria-label="Close">&times;</button>
+      </div>
+      <div class="ask-log" id="askLog" aria-live="polite"></div>
+      <form class="ask-form" id="askForm">
+        <textarea id="askInput" rows="1" maxlength="600" placeholder="What are you eating tonight?" aria-label="Ask a question"></textarea>
+        <button type="submit" id="askSend" aria-label="Send">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h14M13 6l6 6-6 6"/></svg>
+        </button>
+      </form>
+    </div>
+  </dialog>
+
+  <script src="assets/config.js?v=4"></script>
+  <script src="assets/app.js?v=4"></script>
+  <script src="assets/chat.js?v=4"></script>
 </body>
 </html>
