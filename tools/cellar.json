@@ -1,6 +1,6 @@
 {
   "_about": "Guest-safe snapshot of the Notion Wine Library (On Hand > 0). No prices, sources, or working notes. Refresh by re-querying Notion and editing this file, then run tools/build.py.",
-  "snapshotDate": "2026-09-24",
+  "snapshotDate": "2026-09-25",
   "wines": {
     "aonair-mountain-reserve": {
       "producer": "Aonair",
@@ -10,16 +10,6 @@
       "vintages": {
         "2020": {"onHand": 1, "category": "Steak Saturday", "window": "2026-2029", "peak": null}
       }
-    },
-    "bonanza-vinekeeper": {
-      "producer": "Bonanza",
-      "name": "The Vinekeeper Cabernet Sauvignon",
-      "region": "Napa Valley",
-      "color": "red",
-      "vintages": {
-        "NV (Lot 1)": {"onHand": 1, "category": "Tuesday Night", "window": "Now-2027", "peak": null}
-      },
-      "otherScores": []
     },
     "chappellet-napa-cabernet": {
       "producer": "Chappellet",

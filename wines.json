@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-24",
+ "updated": "2026-09-25",
  "wines": [
   {
    "id": "aonair-mountain-reserve-2020",
@@ -28,38 +28,6 @@
     "critic": null,
     "sourceName": "CellarTracker and Delectable community tasting notes (2020 Reserve Series Cabernet Sauvignon)",
     "sourceUrl": "https://www.cellartracker.com/wine.asp?iWine=4339993"
-   }
-  },
-  {
-   "id": "bonanza-vinekeeper-nv-lot-1",
-   "slug": "bonanza-vinekeeper",
-   "producer": "Bonanza",
-   "name": "The Vinekeeper Cabernet Sauvignon",
-   "vintage": "NV (Lot 1)",
-   "region": "Napa Valley",
-   "color": "red",
-   "tags": [],
-   "category": "Tuesday Night",
-   "onHand": 1,
-   "window": "Now-2027",
-   "peak": null,
-   "jakeScore": null,
-   "jakeNote": null,
-   "flag": null,
-   "otherScores": [],
-   "image": "images/web/bonanza-vinekeeper.webp",
-   "imageSource": "https://theliquorbarn.com/products/bonanza-the-vinekeeper-cabernet-sauvignon-napa",
-   "blend": "Cabernet Sauvignon, Napa Valley (non-vintage)",
-   "about": "Bonanza is the non-vintage label from Chuck Wagner of Caymus, and The Vinekeeper is its Napa Valley bottling, built to deliver the family's rich, ripe house style at an everyday price.",
-   "web": {
-    "note": "Full-bodied and generous, this Cabernet leads with ripe blackberry, juicy plum and black cherry dusted with cocoa. A touch of toasty oak, vanilla and warm spice rounds it out, and soft, supple tannins make it plush and easy to enjoy now, ending on a smooth, velvety finish.",
-    "noteVintage": "NV (Lot 1)",
-    "critic": {
-     "critic": "Ken's Wine Guide",
-     "score": "91.5"
-    },
-    "sourceName": "Wine Scout (producer notes) and Ken's Wine Guide",
-    "sourceUrl": "https://winescout.com/bonanza-lot-1-the-vinekeeper-cabernet-sauvignon-napa-valley"
    }
   },
   {
