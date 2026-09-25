@@ -39,6 +39,15 @@ WHERE "Jake Score" IS NOT NULL AND "Jake Score" <> ''
 `On Hand` is the source of truth for whether a bottle is in the cellar. Ignore the
 Status field. Two rows for the same wine and vintage are merged: add their On Hand.
 
+And every row that is NOT on hand, for the chat's tasting record (step 4b):
+
+```sql
+SELECT "Wine", "Producer", "Vintage", "AVA / Region", "Status", "Category",
+       "Jake Score", "Repeat Buy", "Glass Evolution", "Pairing Context", "Notes"
+FROM "collection://c43965be-a956-4750-be6d-5f1e25fee445"
+WHERE ("On Hand" IS NULL OR "On Hand" = 0)
+```
+
 ## 2. Diff against `tools/cellar.json`
 
 Match Notion rows to existing entries by wine identity and vintage (producer names
@@ -53,7 +62,8 @@ existing slugs first). Classify every change:
   step 3.
 - **New or changed Jake Score, notes, category, or drink window:** update.
 
-If nothing changed, stop here: no commit, and report "no changes."
+If nothing changed here AND nothing changed for the tasting record (step 4b),
+stop: no commit, and report "no changes."
 
 ## 3. Research any new wine
 
@@ -98,6 +108,34 @@ second query, as `{"vintage": "2019", "score": "94-95"}`.
 
 Set `snapshotDate` to today (YYYY-MM-DD).
 
+## 4b. Update `tools/palate.json` (the Ask Jake chat's tasting record)
+
+`palate.json` lists every wine Jake has logged that is NOT in the cellar, so the
+chat can recommend wines to buy or try. Diff the not-on-hand query against
+`tools/palate.json` `wines`:
+
+- **New tasting or new buy-list row:** add an entry. Fields: `producer`, `name`
+  (no producer repeated), `vintage` or null, `region`, `role` (Notion Category,
+  with "Bridge / Pre-Dinner" written as "Pre-Dinner"), `score` (Jake Score or
+  null; drop words like "projected" and never use a projected score), `tried`
+  (false only when the notes say it was never tasted or assessed on paper),
+  `onList` (true when Status is Acquisition Candidate), `verdict` from Repeat Buy
+  (Yes or Likely: "buy again"; Conditional, Situational or TBD: "depends"; No or
+  Status Eliminated: "not for me"; blank: null), `take`, and optional `pairing`.
+- **`take`:** one or two short sentences in Jake's first-person voice, guest-safe
+  (same rules as Jake's Notes). Keep what describes the wine and how it drank;
+  drop prices, buy ceilings, stores, "market price," scoring-system talk and
+  logistics. Existing entries are the style reference. Jake's framing: a Tuesday
+  Night score in the high 80s is a good bottle doing its job, not a knock.
+- **A wine that moved into the cellar:** remove it here (it lives in cellar.json).
+  A cellar wine that was used up but has a score moves here as `tried: true`.
+- **Changed score, verdict or notes:** update the entry.
+- Skip rows with no score and no usable tasting note (e.g. "BACKLOG" rows).
+- Never edit `profile` or `scaleNote` without Jake's approval; flag it in the
+  report if new tastings seem to contradict the profile.
+
+`build.py` publishes it as `palate.json`; the chat reads it live.
+
 ## 5. Build, check, publish
 
 ```bash
@@ -112,7 +150,7 @@ git push origin main
 Fix any `! missing` or `! no web note` warnings for wines added this run before
 committing. Only bump the `?v=N` asset queries in `index.html` if you changed a file in
 `assets/` (a normal sync does not). The "Ask Jake" chat in `worker/` reads the
-live wines.json, so it needs no changes during a sync.
+live wines.json and palate.json, so it needs no redeploy during a sync.
 
 Verify the deploy: within about 3 minutes,
 `https://jakeworcester-byte.github.io/wine-library/wines.json` should show the new
@@ -121,6 +159,7 @@ Verify the deploy: within about 3 minutes,
 ## 6. Report
 
 End with a short summary for Jake: bottles and wines now in the cellar; what was
-added, removed, and changed; any new Jake's Notes (quote the guest version); and
+added, removed, and changed; any new Jake's Notes and tasting-record takes (quote
+the guest versions); and
 anything flagged for him to check (uncertain photo, wine identity, note from a
 different vintage).

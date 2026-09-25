@@ -10,6 +10,7 @@
     // Swap to "claude-opus-5" for sharper pairing judgment (about 2.5x the cost).
     "MODEL": "claude-sonnet-5",
     "WINES_URL": "https://jakeworcester-byte.github.io/wine-library/wines.json",
+    "PALATE_URL": "https://jakeworcester-byte.github.io/wine-library/palate.json",
     "ALLOWED_ORIGINS": "https://jakeworcester-byte.github.io,http://localhost:8763"
   },
   "ratelimits": [

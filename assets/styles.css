@@ -326,3 +326,10 @@ dialog::backdrop { background: rgba(20, 12, 10, .55); backdrop-filter: blur(3px)
 @media (prefers-reduced-motion: reduce) { .typing span { animation: none; opacity: .6; } }
 /* Keep the last card clear of the floating button. */
 main.wrap { padding-bottom: 72px; }
+/* Wines outside the cellar: named, not linked. */
+.ext-wine {
+  font-weight: 600; color: var(--ink);
+  border-bottom: 1px dashed color-mix(in srgb, var(--wine) 55%, transparent);
+}
+.msg .status { display: flex; align-items: center; gap: 8px; margin-top: 6px; font-size: 13px; color: var(--muted); }
+.msg .status .typing { padding: 0; }

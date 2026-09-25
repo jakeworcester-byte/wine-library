@@ -4,10 +4,12 @@
   var STORE_KEY = "wine-chat-v1";
   var STARTERS = [
     "We're grilling ribeyes for six. What should I open?",
-    "What's drinking best right now?",
     "Something to pour before dinner?",
-    "What goes with salmon?"
+    "I like Jake's taste. What should I buy?",
+    "I'm at the store with $30. What should I grab?",
+    "I love Caymus. What else would I like?"
   ];
+  var SEARCH_MARK = /\u001e/g;   // sent by the relay when Claude starts a web search
 
   var history = [];      // [{role, content}] sent to the relay
   var busy = false;
@@ -38,15 +40,26 @@
     return w ? w.producer + " " + w.name + " " + w.vintage : null;
   }
 
-  // Assistant text -> safe HTML. [[wine-id]] becomes a link to that bottle;
-  // a half-streamed "[[..." at the end is hidden until it completes.
+  // Raw relay text -> what the guest reads. Anything written before the last
+  // web search is working chatter ("let me check"), so only the text after the
+  // last search marker is shown. Spaced em/en dashes become commas as a backstop.
+  function visible(raw) {
+    var i = raw.lastIndexOf("\u001e");
+    var text = i >= 0 ? raw.slice(i + 1) : raw;
+    return text.replace(SEARCH_MARK, "").replace(/\s[–—]\s/g, ", ").replace(/^\s+/, "");
+  }
+
+  // Assistant text -> safe HTML. [[wine-id]] becomes a link to that bottle and
+  // {{Wine name}} marks a wine outside the cellar; half-streamed markers at
+  // the end are hidden until they complete.
   function render(text, streaming) {
-    if (streaming) text = text.replace(/\[\[[^\]]*\]?$/, "");
+    if (streaming) text = text.replace(/\[\[[^\]]*\]?$/, "").replace(/\{\{[^}]*\}?$/, "");
     var html = esc(text)
       .replace(/\[\[([a-z0-9-]+)\]\]/g, function (m, id) {
         var name = wineName(id);
         return name ? '<a href="#' + id + '" class="wine-link" data-id="' + id + '">' + esc(name) + "</a>" : "";
       })
+      .replace(/\{\{([^{}]+)\}\}/g, '<span class="ext-wine">$1</span>')
       .replace(/\*\*([^*]+)\*\*/g, "<strong>$1</strong>");
     return html.split(/\n{2,}/).map(function (p) {
       return "<p>" + p.replace(/\n/g, "<br>") + "</p>";
@@ -70,7 +83,7 @@
   function drawAll() {
     $("askLog").innerHTML = "";
     if (!history.length) {
-      var intro = bubble("assistant", render("Hey! Tell me what you're eating or what kind of night it is, and I'll point you to a bottle."));
+      var intro = bubble("assistant", render("Hey! Tell me what you're eating and I'll point you to a bottle from the cellar. Shopping instead? Tell me what you like and I'll find you something to try."));
       intro.classList.add("intro");
       var chips = document.createElement("div");
       chips.className = "starters";
@@ -116,10 +129,13 @@
         var chunk = await reader.read();
         if (chunk.done) break;
         answer += dec.decode(chunk.value, { stream: true });
-        out.innerHTML = render(answer, true);
+        var lastMark = answer.lastIndexOf("\u001e");
+        var searching = lastMark >= 0 && !answer.slice(lastMark + 1).trim();
+        out.innerHTML = render(visible(answer), true) +
+          (searching ? '<p class="status"><span class="typing"><span></span><span></span><span></span></span> Checking the shelves</p>' : "");
         scroll();
       }
-      answer = answer.trim();
+      answer = visible(answer).trim();
       if (!answer) throw new Error("Something went sideways. Try again.");
       out.innerHTML = render(answer, false);
       history.push({ role: "assistant", content: answer });
