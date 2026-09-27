@@ -296,6 +296,19 @@
    "take": "Solid Napa structure. A good everyday Cab, not a big-night wine."
   },
   {
+   "producer": "Bonanza",
+   "name": "The Vinekeeper Cabernet Sauvignon",
+   "vintage": null,
+   "region": "Napa Valley",
+   "role": "Tuesday Night",
+   "score": "90-92",
+   "tried": true,
+   "onList": true,
+   "verdict": "buy again",
+   "take": "Held steady over a couple of hours and had enough structure that it could have stood up to beef. A weeknight bottle I'll keep restocking.",
+   "pairing": "Pork chops"
+  },
+  {
    "producer": "Olarra",
    "name": "Rioja Reserva",
    "vintage": null,
@@ -628,5 +641,5 @@
    "take": "Still haven't tasted it. On my list."
   }
  ],
- "updated": "2026-09-25"
+ "updated": "2026-09-27"
 }

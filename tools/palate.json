@@ -51,6 +51,8 @@
      "take": "Great with red-sauce pizza. The cooler-climate acidity meets the tomato where a big mountain Cab would fight it.", "pairing": "Tomato-sauce pizza"},
     {"producer": "Sequoia Grove", "name": "Napa Valley Cabernet", "vintage": "2019", "region": "Napa Valley", "role": "Tuesday Night", "score": "90-92", "tried": true, "onList": false, "verdict": "buy again",
      "take": "Solid Napa structure. A good everyday Cab, not a big-night wine."},
+    {"producer": "Bonanza", "name": "The Vinekeeper Cabernet Sauvignon", "vintage": null, "region": "Napa Valley", "role": "Tuesday Night", "score": "90-92", "tried": true, "onList": true, "verdict": "buy again",
+     "take": "Held steady over a couple of hours and had enough structure that it could have stood up to beef. A weeknight bottle I'll keep restocking.", "pairing": "Pork chops"},
     {"producer": "Olarra", "name": "Rioja Reserva", "vintage": null, "region": "Rioja, Spain", "role": "Tuesday Night", "score": "90-92", "tried": true, "onList": false, "verdict": "buy again",
      "take": "Great value and very comfortable with red sauce.", "pairing": "Tomato-based dishes"},
     {"producer": "Jordan", "name": "Cabernet Sauvignon", "vintage": "2020", "region": "Alexander Valley, Sonoma", "role": "Steak Saturday", "score": "90-92", "tried": true, "onList": false, "verdict": "depends",
