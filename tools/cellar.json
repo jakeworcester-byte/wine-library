@@ -27,7 +27,7 @@
       "color": "red",
       "tags": ["Second Growth, 1855"],
       "vintages": {
-        "2019": {"onHand": 1, "category": "Special Occasion", "window": "2030-2050", "peak": "2033-2045"}
+        "2019": {"onHand": 1, "category": "Steak Saturday", "window": "2030-2050", "peak": "2033-2045"}
       }
     },
     "pedesclaux": {
@@ -37,7 +37,7 @@
       "color": "red",
       "tags": ["Fifth Growth, 1855"],
       "vintages": {
-        "2019": {"onHand": 1, "category": "Special Occasion", "window": "2028-2040", "peak": "2031-2037"}
+        "2019": {"onHand": 1, "category": "Steak Saturday", "window": "2028-2040", "peak": "2031-2037"}
       }
     },
     "decoy-cabernet": {
@@ -159,8 +159,8 @@
       "region": "Howell Mountain, Napa Valley",
       "color": "red",
       "vintages": {
-        "2021": {"onHand": 1, "category": "Special Occasion", "window": "2029-2042", "peak": "2032-2038", "flag": "Saved for a vertical tasting"},
-        "2022": {"onHand": 1, "category": "Special Occasion", "window": "2029-2040", "peak": "2031-2037", "flag": "Saved for a vertical tasting"}
+        "2021": {"onHand": 1, "category": "Steak Saturday", "window": "2029-2042", "peak": "2032-2038", "flag": "Saved for a vertical tasting"},
+        "2022": {"onHand": 1, "category": "Steak Saturday", "window": "2029-2040", "peak": "2031-2037", "flag": "Saved for a vertical tasting"}
       },
       "otherScores": [{"vintage": "2020", "score": "93-94"}]
     },
@@ -170,8 +170,8 @@
       "region": "Howell Mountain, Napa Valley",
       "color": "red",
       "vintages": {
-        "2017": {"onHand": 1, "category": "Special Occasion", "window": "2026-2032", "peak": "2027-2030"},
-        "2019": {"onHand": 1, "category": "Special Occasion", "window": "2027-2036", "peak": "2029-2034"}
+        "2017": {"onHand": 1, "category": "Steak Saturday", "window": "2026-2032", "peak": "2027-2030"},
+        "2019": {"onHand": 1, "category": "Steak Saturday", "window": "2027-2036", "peak": "2029-2034"}
       },
       "otherScores": [{"vintage": "2023", "score": "94-96"}]
     },
@@ -181,7 +181,7 @@
       "region": "Howell Mountain, Napa Valley",
       "color": "red",
       "vintages": {
-        "2020": {"onHand": 1, "category": "Special Occasion", "window": "2027-2033", "peak": "2028-2031"}
+        "2020": {"onHand": 1, "category": "Steak Saturday", "window": "2027-2033", "peak": "2028-2031"}
       }
     },
     "vina-robles-cabernet": {

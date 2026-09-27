@@ -7,7 +7,7 @@
    "name": "One & Only Cabernet Sauvignon",
    "vintage": "2013",
    "region": "Howell Mountain, Napa",
-   "role": "Steak Saturday",
+   "role": "Special Occasion",
    "score": "97-98",
    "tried": true,
    "onList": false,
@@ -130,7 +130,7 @@
    "name": "Cabernet Sauvignon",
    "vintage": null,
    "region": "Napa Valley",
-   "role": "Special Occasion",
+   "role": "Steak Saturday",
    "score": "93-95",
    "tried": true,
    "onList": false,
@@ -379,7 +379,7 @@
    "score": "88-89",
    "tried": true,
    "onList": false,
-   "verdict": "depends",
+   "verdict": null,
    "take": "A good-value pour before dinner. Front-loaded with a lighter finish, but it did its job."
   },
   {
@@ -538,7 +538,7 @@
    "score": null,
    "tried": true,
    "onList": false,
-   "verdict": null,
+   "verdict": "depends",
    "take": "Firm mountain Cab that needed a two-to-three-hour decant. Haven't scored it yet."
   },
   {
@@ -575,7 +575,7 @@
    "score": null,
    "tried": true,
    "onList": false,
-   "verdict": null,
+   "verdict": "depends",
    "take": "An excellent pairing with spring pea soup at a tasting dinner.",
    "pairing": "Spring pea soup"
   },
@@ -588,7 +588,7 @@
    "score": null,
    "tried": true,
    "onList": false,
-   "verdict": null,
+   "verdict": "depends",
    "take": "Fantastic sparkling to start a dinner.",
    "pairing": "Appetizers"
   },
@@ -613,7 +613,7 @@
    "score": null,
    "tried": false,
    "onList": true,
-   "verdict": null,
+   "verdict": "depends",
    "take": "Haven't tasted it. On my list as an opener."
   },
   {
@@ -625,7 +625,7 @@
    "score": null,
    "tried": false,
    "onList": true,
-   "verdict": null,
+   "verdict": "depends",
    "take": "Haven't had it yet. It's the Burgundy I most want to try."
   },
   {
@@ -637,7 +637,7 @@
    "score": null,
    "tried": false,
    "onList": true,
-   "verdict": null,
+   "verdict": "depends",
    "take": "Still haven't tasted it. On my list."
   }
  ],

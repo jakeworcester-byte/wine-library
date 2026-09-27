@@ -11,6 +11,11 @@ report instead of guessing.
   `jakeworcester-byte/wine-library`.
 - **Never use em dashes** (the long dash) anywhere on the site. `build.py` refuses
   to write output containing one.
+- **Notion is the source of truth.** Whenever the site's data (`cellar.json` or
+  `palate.json`) disagrees with Notion on a fact (category/role, score, verdict,
+  bottle count, drink window, buy-list status), change the site to match Notion,
+  even if the site's value looks like an earlier deliberate choice. Note each
+  correction in the report. Display cleanup of names and regions is not a conflict.
 - **Guest-safe only.** Prices, Buy Ceiling, Source, where or how a bottle was bought,
   "under market," scoring-system talk (V5, lanes, calibration, "data point,"
   "evidence for"), and cellar logistics ("do not open," "window corrected from")
