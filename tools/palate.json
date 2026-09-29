@@ -61,6 +61,8 @@
      "take": "Merlot-led, steady all night, just doesn't build. Good with pork chops.", "pairing": "Pork chops"},
     {"producer": "Bonanza", "name": "Cabernet Sauvignon", "vintage": null, "region": "California", "role": "Tuesday Night", "score": "88-90", "tried": true, "onList": false, "verdict": "depends",
      "take": "A dependable Tuesday night Cab from the Caymus family. Won't blow anyone away, but it does its job."},
+    {"producer": "Vina Robles", "name": "Cabernet Sauvignon", "vintage": "2022", "region": "Paso Robles, California", "role": "Tuesday Night", "score": "88-90", "tried": true, "onList": false, "verdict": "buy again",
+     "take": "A little sharp with a metallic edge right after opening, then it mellowed and kept getting better as the night went on. Next time I'll give it an hour in a decanter."},
     {"producer": "Kirkland Signature", "name": "Pauillac", "vintage": "2023", "region": "Pauillac, Bordeaux", "role": "Tuesday Night", "score": "88", "tried": true, "onList": true, "verdict": "buy again",
      "take": "Grippy, real Bordeaux from Costco. A stock-up weeknight bottle."},
     {"producer": "Hess Collection", "name": "Allomi Cabernet Sauvignon", "vintage": "2022", "region": "Napa Valley", "role": "Pre-Dinner", "score": "88-89", "tried": true, "onList": false, "verdict": null,

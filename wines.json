@@ -1036,38 +1036,6 @@
    }
   },
   {
-   "id": "vina-robles-cabernet-2022",
-   "slug": "vina-robles-cabernet",
-   "producer": "Vina Robles",
-   "name": "Cabernet Sauvignon",
-   "vintage": "2022",
-   "region": "Paso Robles",
-   "color": "red",
-   "tags": [],
-   "category": null,
-   "onHand": 1,
-   "window": "Now-2028",
-   "peak": null,
-   "jakeScore": null,
-   "jakeNote": null,
-   "flag": null,
-   "otherScores": [],
-   "image": "images/web/vina-robles-cabernet.webp",
-   "imageSource": "https://www.wineaccess.com/catalog/2022-vina-robles-estate-cabernet-sauvignon-paso-robles_a7e9e611-98e2-4b94-9be4-96ec11c6e76d/",
-   "blend": "88% Cabernet Sauvignon, 12% Petit Verdot",
-   "about": "Established in 1998, Vina Robles grows its wines on sustainably farmed estate vineyards spread across several Paso Robles districts.",
-   "web": {
-    "note": "Midnight purple, with aromas of ripe blackcurrant, plum and black cherry touched by mocha, vanilla, cedar and a savory hint of sage and bay leaf. Full-bodied and layered, it balances lush dark fruit with velvety yet firm tannins and lively acidity, finishing long and satisfying.",
-    "noteVintage": "2022",
-    "critic": {
-     "critic": "James Suckling",
-     "score": "93"
-    },
-    "sourceName": "Wine Access (tasting note and James Suckling review)",
-    "sourceUrl": "https://www.wineaccess.com/catalog/2022-vina-robles-estate-cabernet-sauvignon-paso-robles_a7e9e611-98e2-4b94-9be4-96ec11c6e76d/"
-   }
-  },
-  {
    "id": "marias-legacy-cabernet-2022",
    "slug": "marias-legacy-cabernet",
    "producer": "Maria's Legacy",

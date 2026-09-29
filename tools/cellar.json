@@ -184,15 +184,6 @@
         "2020": {"onHand": 1, "category": "Steak Saturday", "window": "2027-2033", "peak": "2028-2031"}
       }
     },
-    "vina-robles-cabernet": {
-      "producer": "Vina Robles",
-      "name": "Cabernet Sauvignon",
-      "region": "Paso Robles",
-      "color": "red",
-      "vintages": {
-        "2022": {"onHand": 1, "category": null, "window": "Now-2028", "peak": null}
-      }
-    },
     "marias-legacy-cabernet": {
       "producer": "Maria's Legacy",
       "name": "Cabernet Sauvignon",
