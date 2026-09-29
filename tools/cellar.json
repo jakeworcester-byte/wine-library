@@ -1,6 +1,6 @@
 {
   "_about": "Guest-safe snapshot of the Notion Wine Library (On Hand > 0). No prices, sources, or working notes. Refresh by re-querying Notion and editing this file, then run tools/build.py.",
-  "snapshotDate": "2026-09-27",
+  "snapshotDate": "2026-09-29",
   "wines": {
     "aonair-mountain-reserve": {
       "producer": "Aonair",
@@ -191,6 +191,114 @@
       "color": "red",
       "vintages": {
         "2022": {"onHand": 1, "category": null, "window": "Now-2028", "peak": null}
+      }
+    },
+    "marias-legacy-cabernet": {
+      "producer": "Maria's Legacy",
+      "name": "Cabernet Sauvignon",
+      "region": "Chile",
+      "color": "red",
+      "vintages": {
+        "2022": {"onHand": 1, "category": "Tuesday Night", "window": "2026-2030", "peak": "2027-2029"}
+      }
+    },
+    "renieri-chianti-classico": {
+      "producer": "Tenuta di Renieri",
+      "name": "Chianti Classico",
+      "region": "Chianti Classico, Tuscany",
+      "color": "red",
+      "vintages": {
+        "2022": {"onHand": 1, "category": "Tuesday Night", "window": "2026-2029", "peak": "2026-2028"}
+      }
+    },
+    "chapelle-blaye": {
+      "producer": "Château de la Chapelle",
+      "name": "Blaye Côtes de Bordeaux",
+      "region": "Blaye Côtes de Bordeaux",
+      "color": "red",
+      "vintages": {
+        "2022": {"onHand": 1, "category": "Tuesday Night", "window": "2027-2031", "peak": "2028-2030"}
+      }
+    },
+    "hall-ranch-reserve-cabernet": {
+      "producer": "Hall Ranch",
+      "name": "Reserve Cabernet Sauvignon",
+      "region": "Paso Robles",
+      "color": "red",
+      "vintages": {
+        "2021": {"onHand": 1, "category": "Tuesday Night", "window": "2026-2030", "peak": "2026-2028"}
+      }
+    },
+    "olema-cabernet": {
+      "producer": "Olema",
+      "name": "Cabernet Sauvignon",
+      "region": "Sonoma County",
+      "color": "red",
+      "vintages": {
+        "2024": {"onHand": 1, "category": "Tuesday Night", "window": "2026-2029", "peak": "2026-2028"}
+      }
+    },
+    "les-clottiers": {
+      "producer": "Château Les Clottiers",
+      "name": "Blaye Côtes de Bordeaux",
+      "region": "Blaye Côtes de Bordeaux",
+      "color": "red",
+      "vintages": {
+        "2021": {"onHand": 1, "category": "Tuesday Night", "window": "2026-2031", "peak": "2027-2030"}
+      }
+    },
+    "unanime-mascota-cabernet": {
+      "producer": "Unanime by Mascota Vineyards",
+      "name": "Cabernet Sauvignon",
+      "region": "Mendoza, Argentina",
+      "color": "red",
+      "vintages": {
+        "2022": {"onHand": 1, "category": "Tuesday Night", "window": "2026-2030", "peak": "2027-2029"}
+      }
+    },
+    "halos-de-jupiter-cotes-du-rhone": {
+      "producer": "Halos de Jupiter",
+      "name": "Côtes du Rhône",
+      "region": "Côtes du Rhône",
+      "color": "red",
+      "vintages": {
+        "2024": {"onHand": 1, "category": "Tuesday Night", "window": "2026-2029", "peak": "2026-2028"}
+      }
+    },
+    "rose-de-vitrac": {
+      "producer": "Château La Rose de Vitrac",
+      "name": "Bordeaux Rouge",
+      "region": "Bordeaux",
+      "color": "red",
+      "vintages": {
+        "2022": {"onHand": 1, "category": "Tuesday Night", "window": "2026-2031", "peak": "2027-2029"}
+      }
+    },
+    "rauzan-despagne-bordeaux": {
+      "producer": "Château Rauzan Despagne",
+      "name": "Bordeaux Rouge",
+      "region": "Bordeaux",
+      "color": "red",
+      "vintages": {
+        "2022": {"onHand": 1, "category": "Tuesday Night", "window": "2026-2030", "peak": "2027-2029"}
+      }
+    },
+    "adegamae-touriga-franca": {
+      "producer": "Adegamãe",
+      "name": "Touriga Franca",
+      "region": "Lisboa, Portugal",
+      "color": "red",
+      "vintages": {
+        "2020": {"onHand": 1, "category": "Tuesday Night", "window": "2026-2030", "peak": "2026-2028"}
+      }
+    },
+    "carmen-gran-reserva-cabernet": {
+      "producer": "Carmen",
+      "name": "Gran Reserva Cabernet Sauvignon",
+      "region": "Maipo Valley, Chile",
+      "color": "red",
+      "vintages": {
+        "2023": {"onHand": 1, "category": "Tuesday Night", "window": "2026-2031", "peak": "2027-2030"}
       }
     }
   }
