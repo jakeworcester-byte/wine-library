@@ -1,6 +1,6 @@
 {
   "_about": "Guest-safe snapshot of the Notion Wine Library (On Hand > 0). No prices, sources, or working notes. Refresh by re-querying Notion and editing this file, then run tools/build.py.",
-  "snapshotDate": "2026-09-29",
+  "snapshotDate": "2026-09-30",
   "wines": {
     "aonair-mountain-reserve": {
       "producer": "Aonair",
@@ -190,7 +190,7 @@
       "region": "Chile",
       "color": "red",
       "vintages": {
-        "2022": {"onHand": 1, "category": "Tuesday Night", "window": "2026-2030", "peak": "2027-2029"}
+        "2023": {"onHand": 1, "category": "Tuesday Night", "window": "2026-2030", "peak": "2027-2029"}
       }
     },
     "renieri-chianti-classico": {
@@ -199,7 +199,7 @@
       "region": "Chianti Classico, Tuscany",
       "color": "red",
       "vintages": {
-        "2022": {"onHand": 1, "category": "Tuesday Night", "window": "2026-2029", "peak": "2026-2028"}
+        "2023": {"onHand": 1, "category": "Tuesday Night", "window": "2026-2029", "peak": "2026-2028"}
       }
     },
     "chapelle-blaye": {
@@ -208,7 +208,7 @@
       "region": "Blaye Côtes de Bordeaux",
       "color": "red",
       "vintages": {
-        "2022": {"onHand": 1, "category": "Tuesday Night", "window": "2027-2031", "peak": "2028-2030"}
+        "2020": {"onHand": 1, "category": "Tuesday Night", "window": "Now-2028", "peak": "2026-2027"}
       }
     },
     "hall-ranch-reserve-cabernet": {
@@ -226,7 +226,7 @@
       "region": "Sonoma County",
       "color": "red",
       "vintages": {
-        "2024": {"onHand": 1, "category": "Tuesday Night", "window": "2026-2029", "peak": "2026-2028"}
+        "2022": {"onHand": 1, "category": "Tuesday Night", "window": "Now-2028", "peak": "2026-2027"}
       }
     },
     "les-clottiers": {
@@ -289,7 +289,7 @@
       "region": "Maipo Valley, Chile",
       "color": "red",
       "vintages": {
-        "2023": {"onHand": 1, "category": "Tuesday Night", "window": "2026-2031", "peak": "2027-2030"}
+        "2022": {"onHand": 1, "category": "Tuesday Night", "window": "2026-2031", "peak": "2027-2030"}
       }
     }
   }

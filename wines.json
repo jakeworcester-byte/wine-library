@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-29",
+ "updated": "2026-09-30",
  "wines": [
   {
    "id": "aonair-mountain-reserve-2020",
@@ -1036,11 +1036,11 @@
    }
   },
   {
-   "id": "marias-legacy-cabernet-2022",
+   "id": "marias-legacy-cabernet-2023",
    "slug": "marias-legacy-cabernet",
    "producer": "Maria's Legacy",
    "name": "Cabernet Sauvignon",
-   "vintage": "2022",
+   "vintage": "2023",
    "region": "Chile",
    "color": "red",
    "tags": [],
@@ -1054,22 +1054,22 @@
    "otherScores": [],
    "image": "images/web/marias-legacy-cabernet.webp",
    "imageSource": "https://lifford.com/products/marias-legacy-cabernet-sauvignon",
-   "blend": "Cabernet Sauvignon, single vineyard, estate grown in Alto Jahuel, Maipo Valley (Maipo Andes), Chile",
+   "blend": "100% Cabernet Sauvignon, single vineyard, Alto Jahuel, Maipo Alto, Chile",
    "about": "Maria's Legacy is a single vineyard Cabernet from Viña Carmen, one of Chile's oldest wineries (founded 1850), grown in the Andes foothills of Alto Jahuel on the south bank of the Maipo River.",
    "web": {
-    "note": "Dark and brooding on the nose, with roasted coffee, cassis and a pencil lead edge, lifted by floral hints of violet and lavender. The palate is silky and medium to full in body, showing black cherry and cocoa over fine, velvety tannins, with cedar and pepper spice carrying a long, dark fruited finish.",
-    "noteVintage": "2022",
+    "note": "Riper and plusher than the Gran Reserva, this single vineyard Cabernet opens with roasted coffee, black currant and graphite, lifted by jasmine and lavender. The silky, medium bodied palate brings Luxardo cherry, dark chocolate and sweet cedar, framed by dry, chalky tannins and bright, balanced acidity.",
+    "noteVintage": "2023",
     "critic": null,
-    "sourceName": "The Tasting Panel (2022 review) and Wine Enthusiast buying guide",
-    "sourceUrl": "https://www.tastingpanelmag.com/review/carmen-2022-marias-legacy-cabernet-sauvignon-maipo-andes-maipo-valley-chile-30/"
+    "sourceName": "The Tasting Panel (2023 review), with winery notes via ZYN The Wine Market",
+    "sourceUrl": "https://www.tastingpanelmag.com/review/vina-carmen-2023-marias-legacy-single-vineyard-cabernet-sauvignon-d-o-maipo-chile-25/"
    }
   },
   {
-   "id": "renieri-chianti-classico-2022",
+   "id": "renieri-chianti-classico-2023",
    "slug": "renieri-chianti-classico",
    "producer": "Tenuta di Renieri",
    "name": "Chianti Classico",
-   "vintage": "2022",
+   "vintage": "2023",
    "region": "Chianti Classico, Tuscany",
    "color": "red",
    "tags": [],
@@ -1097,35 +1097,35 @@
    }
   },
   {
-   "id": "chapelle-blaye-2022",
+   "id": "chapelle-blaye-2020",
    "slug": "chapelle-blaye",
    "producer": "Château de la Chapelle",
    "name": "Blaye Côtes de Bordeaux",
-   "vintage": "2022",
+   "vintage": "2020",
    "region": "Blaye Côtes de Bordeaux",
    "color": "red",
    "tags": [],
    "category": "Tuesday Night",
    "onHand": 1,
-   "window": "2027-2031",
-   "peak": "2028-2030",
+   "window": "Now-2028",
+   "peak": "2026-2027",
    "jakeScore": null,
    "jakeNote": null,
    "flag": null,
    "otherScores": [],
    "image": "images/web/chapelle-blaye.webp",
    "imageSource": "https://a-little-birdie-told-me.ca/2022/10/12/rks-wine-chateau-de-la-chapelle-blaye-cotes-de-bordeaux-2018/",
-   "blend": "Merlot led Bordeaux blend, listed by retailers as about 85% Merlot and 15% Cabernet Sauvignon",
+   "blend": "85% Merlot, 15% Cabernet Sauvignon",
    "about": "Château de la Chapelle is a Right Bank property in the Blaye Côtes de Bordeaux appellation, bottled at the château and known for generous, Merlot driven reds that punch above their price.",
    "web": {
-    "note": "A warm, full bodied Blaye with juicy black plum fruit, dark coffee and a hint of chocolate and spice. The tannins are ripe and well woven into the fruit, and the concentration of this sunny vintage suggests it will reward a few years in the cellar, with prime drinking from about 2027.",
-    "noteVintage": "2022",
+    "note": "A spicy, Merlot led Blaye with ripe dark plum, chocolate and a lift of floral notes on the nose. The palate is warm and deep, carrying juicy plum and blackcurrant over a firm tannic frame, with savory hints of earth and herbs on the finish.",
+    "noteVintage": "2020",
     "critic": {
-     "critic": "Wine Enthusiast (Roger Voss)",
-     "score": "91"
+     "critic": "Decanter World Wine Awards 2022",
+     "score": "95"
     },
-    "sourceName": "Wine Enthusiast buying guide (2022 review)",
-    "sourceUrl": "https://www.wineenthusiast.com/buying-guide/chateau-de-la-chapelle-2022-blaye-cotes-de-bordeaux/"
+    "sourceName": "Decanter World Wine Awards judges' note (via Total Wine), with Wine Enthusiast 2020 review",
+    "sourceUrl": "https://www.totalwine.com/wine/red-wine/bordeaux-blend/chateau-de-la-chapelle-blaye-cotes-de-bordeaux/p/242303750"
    }
   },
   {
@@ -1158,35 +1158,32 @@
    }
   },
   {
-   "id": "olema-cabernet-2024",
+   "id": "olema-cabernet-2022",
    "slug": "olema-cabernet",
    "producer": "Olema",
    "name": "Cabernet Sauvignon",
-   "vintage": "2024",
+   "vintage": "2022",
    "region": "Sonoma County",
    "color": "red",
    "tags": [],
    "category": "Tuesday Night",
    "onHand": 1,
-   "window": "2026-2029",
-   "peak": "2026-2028",
+   "window": "Now-2028",
+   "peak": "2026-2027",
    "jakeScore": null,
    "jakeNote": null,
    "flag": null,
    "otherScores": [],
    "image": "images/web/olema-cabernet.webp",
    "imageSource": "https://olemawines.com/wine/cabernet-sauvignon",
-   "blend": "Cabernet Sauvignon from Alexander Valley and Dry Creek Valley vineyards, Sonoma County",
+   "blend": "85% Cabernet Sauvignon, 6% Malbec, 5% Petite Sirah, 4% Merlot from Alexander Valley and Dry Creek Valley; 12 to 14 months in 50% new French oak",
    "about": "Olema is the value-focused label from Amici Cellars, built around fruit from top Sonoma County vineyards.",
    "web": {
-    "note": "Blackberry, cassis and dark berry compote lead the nose, with touches of licorice, vanilla and cedar. The palate is lush yet lifted by bright acidity, adding a savory herbal edge and a hint of dark chocolate, while smooth, velvety tannins carry a long, spice-tinged finish.",
-    "noteVintage": "2024",
-    "critic": {
-     "critic": "James Suckling",
-     "score": "94"
-    },
-    "sourceName": "Olema winery tech notes and James Suckling",
-    "sourceUrl": "https://olemawines.com/wine/cabernet-sauvignon"
+    "note": "Ripe blackberry, cherry cordial and a streak of strawberry lead the nose, with dark chocolate in the background. The palate adds roasted almond, tart lingonberry and cedar, while small portions of Malbec, Petite Sirah and Merlot add spice and depth before a velvety, silky finish.",
+    "noteVintage": "2022",
+    "critic": null,
+    "sourceName": "Olema 2022 Cabernet Sauvignon tech sheet",
+    "sourceUrl": "https://olemawines.com/wp-content/uploads/2024/02/2022-Olema-Cab-Tech-Sheet.pdf"
    }
   },
   {
@@ -1376,11 +1373,11 @@
    }
   },
   {
-   "id": "carmen-gran-reserva-cabernet-2023",
+   "id": "carmen-gran-reserva-cabernet-2022",
    "slug": "carmen-gran-reserva-cabernet",
    "producer": "Carmen",
    "name": "Gran Reserva Cabernet Sauvignon",
-   "vintage": "2023",
+   "vintage": "2022",
    "region": "Maipo Valley, Chile",
    "color": "red",
    "tags": [],
@@ -1394,17 +1391,17 @@
    "otherScores": [],
    "image": "images/web/carmen-gran-reserva-cabernet.webp",
    "imageSource": "https://www.carmen.com/wp-content/uploads/2020/08/gr-cs.png",
-   "blend": "100% Cabernet Sauvignon from estate vineyards at Alto Jahuel, Alto Maipo, aged 14 months in French oak",
+   "blend": "100% Cabernet Sauvignon from estate vineyards at Alto Jahuel, Alto Maipo; 14 months in French oak",
    "about": "Viña Carmen, founded in 1850 and often called Chile's oldest wine brand, grows its Gran Reserva Cabernet on the Andean foothill slopes of Alto Jahuel in the Alto Maipo.",
    "web": {
-    "note": "A taut, fresh Cabernet with bright plum, dark berries and dried violets over sweet spice and a dash of white pepper. Medium bodied and chewy, its fine, firm tannins and graphite streak reflect a cooler site, finishing tight and focused.",
-    "noteVintage": "2023",
+    "note": "A full bodied, classic Maipo Cabernet with dark plum, cassis and licorice, plus a savory streak of boldo and cracked pepper. Bitter chocolate and a touch of tar build through the middle, and firm, dusty tannins give it real grip, so a short decant helps.",
+    "noteVintage": "2022",
     "critic": {
-     "critic": "Descorchados 2025 (Patricio Tapia), named Revelation Wine",
-     "score": "93"
+     "critic": "Gismondi on Wine",
+     "score": "87"
     },
-    "sourceName": "The Tasting Panel review (Aug 2025) and James Suckling; Descorchados score via Viña Carmen",
-    "sourceUrl": "https://www.tastingpanelmag.com/review/carmen-2023-gran-reserva-cabernet-sauvignon-d-o-maipo-valley-chile-18/"
+    "sourceName": "Gismondi on Wine",
+    "sourceUrl": "https://gismondionwine.com/tasting-notes/202504/carmen-gran-reserva-cabernet-sauvignon-2022/?note=42846"
    }
   }
  ]
