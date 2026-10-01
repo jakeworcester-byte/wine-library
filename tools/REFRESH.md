@@ -171,6 +171,12 @@ npx.cmd wrangler d1 execute wine-chat-log --remote --json --command "SELECT at, 
 npx.cmd wrangler d1 execute wine-chat-log --remote --command "DELETE FROM questions WHERE at < datetime('now', '-180 days')"
 ```
 
+The first query often fails with Cloudflare error 7403 ("account is not valid or
+is not authorized"). It is transient: retry the same command once, and it goes
+through. Only treat 7403 as a real auth problem if the retry fails too. Run
+`Set-Location` to `worker/` as its own step first, so the wrangler command starts
+with `npx.cmd wrangler d1 execute wine-chat-log` and matches Jake's allow rule.
+
 The log is anonymous: no names or IPs. Rows sharing a `convo` are one chat. If
 wrangler says it isn't logged in, skip this step and say so in the report (Jake
 re-runs `npx wrangler login` from `worker/`).
