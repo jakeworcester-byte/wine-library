@@ -6,7 +6,19 @@ report instead of guessing.
 
 ## Ground rules
 
-- **Never edit Notion.** Read only.
+- **Notion is the source of truth, so fix mistakes there first.** When a fact
+  turns out to be wrong (the wrong wine identity, producer, vintage or bottling),
+  correct the Notion row, then sync the site from Notion. Never patch only the
+  site and leave Notion wrong. Limits:
+  - Only on confirmed facts: Jake says so, or he reads it off the bottle in hand.
+    Web research alone is never enough; flag it in the report instead. An
+    unattended run has no one to confirm, so it flags and does not edit.
+  - Change the identity fields (Wine, Producer, Vintage, AVA / Region). Add a
+    dated line at the top of Notes saying what changed and why, in Jake's existing
+    style ("LABEL CONFIRMED 2026-10-01: ..."). Keep the rest of Notes as it is.
+  - Never touch Jake Score, Repeat Buy, Status, On Hand, prices, or his own
+    tasting impressions. Never delete or archive a row.
+  - List every Notion edit in the report.
 - **Never send email or messages.** The only outward action is `git push` to
   `jakeworcester-byte/wine-library`.
 - **Never use em dashes** (the long dash) anywhere on the site. `build.py` refuses
