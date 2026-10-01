@@ -291,6 +291,33 @@
       "vintages": {
         "2022": {"onHand": 1, "category": "Tuesday Night", "window": "2026-2031", "peak": "2027-2030"}
       }
+    },
+    "phifer-pavitt-xroads": {
+      "producer": "Phifer Pavitt",
+      "name": "XROADS Cabernet Sauvignon",
+      "region": "Napa Valley",
+      "color": "red",
+      "vintages": {
+        "2022": {"onHand": 2, "category": "Exploratory", "window": "2026-2036", "peak": "2028-2032"}
+      }
+    },
+    "phifer-pavitt-reserve-cabernet": {
+      "producer": "Phifer Pavitt",
+      "name": "Reserve Cabernet Sauvignon",
+      "region": "Napa Valley",
+      "color": "red",
+      "vintages": {
+        "2022": {"onHand": 2, "category": "Exploratory", "window": "2027-2038", "peak": "2029-2034"}
+      }
+    },
+    "phifer-pavitt-date-night-sparkling": {
+      "producer": "Phifer Pavitt",
+      "name": "Date Night Blanc de Noirs Sparkling",
+      "region": "Napa Valley",
+      "color": "white",
+      "vintages": {
+        "2021": {"onHand": 2, "category": "Bridge / Pre-Dinner", "window": "2026-2027", "peak": null}
+      }
     }
   }
 }
