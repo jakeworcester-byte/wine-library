@@ -1,6 +1,6 @@
 {
   "_about": "Guest-safe snapshot of the Notion Wine Library (On Hand > 0). No prices, sources, or working notes. Refresh by re-querying Notion and editing this file, then run tools/build.py.",
-  "snapshotDate": "2026-09-30",
+  "snapshotDate": "2026-10-01",
   "wines": {
     "aonair-mountain-reserve": {
       "producer": "Aonair",

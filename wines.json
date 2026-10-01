@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-30",
+ "updated": "2026-10-01",
  "wines": [
   {
    "id": "aonair-mountain-reserve-2020",
@@ -1421,9 +1421,9 @@
    "jakeNote": null,
    "flag": null,
    "otherScores": [],
-   "image": null,
-   "imageSource": null,
-   "blend": "Cabernet Sauvignon; exact blend not published",
+   "image": "images/web/phifer-pavitt-xroads.webp",
+   "imageSource": "https://www.phiferpavittwine.com/wines/xroads-cabernet-sauvignon/",
+   "blend": "100% Cabernet Sauvignon from Grigsby Vineyard, Yountville",
    "about": "Phifer Pavitt is a small family winery in Calistoga, and XROADS is its middle Napa Valley Cabernet, sitting between Date Night and the Reserve.",
    "web": {
     "note": "A plush, perfumed Cabernet built on blackberry compote and cherry liqueur, lifted by dried rose and sandalwood. The palate runs to ripe fig and cocoa with a suede-soft texture, then anise, violet and spiced tobacco, with a bright flick of orange peel on the finish.",
@@ -1452,7 +1452,7 @@
    "otherScores": [],
    "image": null,
    "imageSource": null,
-   "blend": "Cabernet Sauvignon; exact blend not published",
+   "blend": "98% Cabernet Sauvignon, 2% Petit Verdot, from organically farmed Temple Family Vineyards in Pope Valley",
    "about": "The Reserve is Phifer Pavitt's top Napa Valley Cabernet, a step above XROADS and Date Night.",
    "web": {
     "note": "Dense and rich, with black plum and cocoa layered over leather, roasted hazelnut and tobacco leaf. Fine-grained tannins frame a polished, generous palate, and the long finish turns to dark chocolate, molasses and vanilla from the oak.",
@@ -1479,9 +1479,9 @@
    "jakeNote": null,
    "flag": null,
    "otherScores": [],
-   "image": null,
-   "imageSource": null,
-   "blend": "Pinot Noir (Blanc de Noirs), traditional method",
+   "image": "images/web/phifer-pavitt-date-night-sparkling.webp",
+   "imageSource": "https://www.phiferpavittwine.com/wines/date-night-sparkling-wine/",
+   "blend": "100% Pinot Noir, traditional method",
    "about": "Date Night is Phifer Pavitt's signature label, and this is its pale pink Blanc de Noirs sparkling wine.",
    "web": {
     "note": "Pale pink with a creamy mousse. Wild strawberry, raspberry and white flowers lead, with a touch of biscuit, then apricot, blood orange, green apple and ripe peach on a lively, fine-bubbled palate. Built for drinking young.",
