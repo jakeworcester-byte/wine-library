@@ -1221,8 +1221,8 @@
   {
    "id": "unanime-mascota-cabernet-2022",
    "slug": "unanime-mascota-cabernet",
-   "producer": "Unanime by Mascota Vineyards",
-   "name": "Cabernet Sauvignon",
+   "producer": "Mascota Vineyards",
+   "name": "Unánime Gran Vino Tinto",
    "vintage": "2022",
    "region": "Mendoza, Argentina",
    "color": "red",
@@ -1235,16 +1235,19 @@
    "jakeNote": null,
    "flag": null,
    "otherScores": [],
-   "image": null,
-   "imageSource": null,
-   "blend": "Cabernet Sauvignon, Mendoza",
-   "about": "Unánime is the top range from Mascota Vineyards, a Mendoza winery in the Grupo Peñaflor family led by veteran winemaker Rodolfo \"Opi\" Sadler.",
+   "image": "images/web/unanime-mascota-cabernet.webp",
+   "imageSource": "https://www.mascotavineyards.com/wines/unanime/gran_vino_tinto",
+   "blend": "50% Cabernet Sauvignon, 30% Malbec, 15% Cabernet Franc, 5% Petit Verdot (2022), from the Uco Valley",
+   "about": "Unánime Gran Vino Tinto is the flagship red blend of Mascota Vineyards, a Mendoza winery in the Grupo Peñaflor family led by veteran winemaker Rodolfo \"Opi\" Sadler.",
    "web": {
-    "note": "A savory, structure-first Cabernet with dried herbs, anise, cracked peppercorn and cedar leading the way rather than sweet fruit. The tannins have real grip and a medium-plus weight, and a hint of mocha and toasted hazelnut shows up on the finish.",
+    "note": "Gentle wood spice opens the nose, and the palate unfolds generously with strawberry and red berry fruit, a savory bell pepper and herbal streak, and warm spice. Rounded tannins and moderate acidity keep it balanced and approachable through a medium-long finish.",
     "noteVintage": "2022",
-    "critic": null,
-    "sourceName": "Total Wine & More product listing",
-    "sourceUrl": "https://www.totalwine.com/wine/red-wine/cabernet-sauvignon/unanime-by-mascota-vineyards-cabernet-sauvignon/p/130007750"
+    "critic": {
+     "critic": "Wine Enthusiast (Jesica Vargas)",
+     "score": "91"
+    },
+    "sourceName": "Wine Enthusiast",
+    "sourceUrl": "https://www.wineenthusiast.com/buying-guide/mascota-vineyards-2022-unanime-gran-vino-bordeaux-style-red-blend-mendoza/"
    }
   },
   {
