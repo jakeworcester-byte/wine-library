@@ -5,6 +5,7 @@
     "aonair-mountain-reserve": {
       "producer": "Aonair",
       "name": "Mountain Reserve Cabernet Sauvignon",
+      "short": "Aonair",
       "region": "Napa Valley",
       "color": "red",
       "vintages": {
@@ -14,6 +15,7 @@
     "chappellet-napa-cabernet": {
       "producer": "Chappellet",
       "name": "Napa Valley Cabernet Sauvignon",
+      "short": "Chappellet",
       "region": "Napa Valley",
       "color": "red",
       "vintages": {
@@ -23,6 +25,7 @@
     "gruaud-larose": {
       "producer": "Château Gruaud Larose",
       "name": "Saint-Julien Grand Cru Classé",
+      "short": "Gruaud",
       "region": "Saint-Julien, Bordeaux",
       "color": "red",
       "tags": ["Second Growth, 1855"],
@@ -33,6 +36,7 @@
     "pedesclaux": {
       "producer": "Château Pédesclaux",
       "name": "Pauillac Grand Cru Classé",
+      "short": "Pédesclaux",
       "region": "Pauillac, Bordeaux",
       "color": "red",
       "tags": ["Fifth Growth, 1855"],
@@ -43,6 +47,7 @@
     "decoy-cabernet": {
       "producer": "Decoy",
       "name": "Cabernet Sauvignon",
+      "short": "Decoy",
       "region": "California",
       "color": "red",
       "vintages": {
@@ -53,6 +58,7 @@
     "oshaughnessy-howell-mountain": {
       "producer": "O'Shaughnessy",
       "name": "Howell Mountain Cabernet Sauvignon",
+      "short": "OS Howell",
       "region": "Howell Mountain, Napa Valley",
       "color": "red",
       "vintages": {
@@ -65,6 +71,7 @@
     "oshaughnessy-mount-veeder": {
       "producer": "O'Shaughnessy",
       "name": "Mount Veeder Cabernet Sauvignon",
+      "short": "OS Veeder",
       "region": "Mount Veeder, Napa Valley",
       "color": "red",
       "vintages": {
@@ -79,6 +86,7 @@
     "pride-merlot": {
       "producer": "Pride Mountain Vineyards",
       "name": "Merlot",
+      "short": "Pride",
       "region": "Spring Mountain, Napa Valley",
       "color": "red",
       "vintages": {
@@ -89,6 +97,7 @@
     "sherwin-cellar-scraps": {
       "producer": "Sherwin Family Vineyards",
       "name": "Cellar Scraps",
+      "short": "Scraps",
       "region": "Spring Mountain District, Napa Valley",
       "color": "red",
       "vintages": {
@@ -99,6 +108,7 @@
     "sherwin-estate-cabernet": {
       "producer": "Sherwin Family Vineyards",
       "name": "Estate Cabernet Sauvignon",
+      "short": "Sherwin",
       "region": "Spring Mountain District, Napa Valley",
       "color": "red",
       "vintages": {
@@ -111,6 +121,7 @@
     "taplin-cabernet": {
       "producer": "Taplin Cellars",
       "name": "Estate Cabernet Sauvignon",
+      "short": "Taplin Cab",
       "region": "St. Helena, Napa Valley",
       "color": "red",
       "vintages": {
@@ -125,6 +136,7 @@
     "taplin-terra-9": {
       "producer": "Taplin Cellars",
       "name": "Terra 9",
+      "short": "Terra 9",
       "region": "St. Helena, Napa Valley",
       "color": "red",
       "vintages": {
@@ -138,6 +150,7 @@
     "taplin-cabernet-franc": {
       "producer": "Taplin Cellars",
       "name": "Estate Cabernet Franc",
+      "short": "Taplin CF",
       "region": "St. Helena, Napa Valley",
       "color": "red",
       "vintages": {
@@ -147,6 +160,7 @@
     "taplin-sauvignon-blanc": {
       "producer": "Taplin Cellars",
       "name": "Sauvignon Blanc",
+      "short": "Taplin SB",
       "region": "Napa Valley",
       "color": "white",
       "vintages": {
@@ -156,6 +170,7 @@
     "viader-black-label": {
       "producer": "Viader",
       "name": "Black Label",
+      "short": "Viader BL",
       "region": "Howell Mountain, Napa Valley",
       "color": "red",
       "vintages": {
@@ -167,6 +182,7 @@
     "viader-proprietary-red": {
       "producer": "Viader",
       "name": "Proprietary Red",
+      "short": "Viader",
       "region": "Howell Mountain, Napa Valley",
       "color": "red",
       "vintages": {
@@ -178,6 +194,7 @@
     "viader-v": {
       "producer": "Viader",
       "name": "V",
+      "short": "Viader V",
       "region": "Howell Mountain, Napa Valley",
       "color": "red",
       "vintages": {
@@ -187,6 +204,7 @@
     "marias-legacy-cabernet": {
       "producer": "Maria's Legacy",
       "name": "Cabernet Sauvignon",
+      "short": "Maria's",
       "region": "Chile",
       "color": "red",
       "vintages": {
@@ -196,6 +214,7 @@
     "renieri-chianti-classico": {
       "producer": "Tenuta di Renieri",
       "name": "Chianti Classico",
+      "short": "Renieri",
       "region": "Chianti Classico, Tuscany",
       "color": "red",
       "vintages": {
@@ -205,6 +224,7 @@
     "chapelle-blaye": {
       "producer": "Château de la Chapelle",
       "name": "Blaye Côtes de Bordeaux",
+      "short": "Chapelle",
       "region": "Blaye Côtes de Bordeaux",
       "color": "red",
       "vintages": {
@@ -214,6 +234,7 @@
     "hall-ranch-reserve-cabernet": {
       "producer": "Hall Ranch",
       "name": "Reserve Cabernet Sauvignon",
+      "short": "Hall Ranch",
       "region": "Paso Robles",
       "color": "red",
       "vintages": {
@@ -223,6 +244,7 @@
     "olema-cabernet": {
       "producer": "Olema",
       "name": "Cabernet Sauvignon",
+      "short": "Olema",
       "region": "Sonoma County",
       "color": "red",
       "vintages": {
@@ -232,6 +254,7 @@
     "les-clottiers": {
       "producer": "Château Les Clottiers",
       "name": "Blaye Côtes de Bordeaux",
+      "short": "Clottiers",
       "region": "Blaye Côtes de Bordeaux",
       "color": "red",
       "vintages": {
@@ -241,6 +264,7 @@
     "unanime-mascota-cabernet": {
       "producer": "Mascota Vineyards",
       "name": "Unánime Gran Vino Tinto",
+      "short": "Unánime",
       "region": "Mendoza, Argentina",
       "color": "red",
       "vintages": {
@@ -250,6 +274,7 @@
     "halos-de-jupiter-cotes-du-rhone": {
       "producer": "Halos de Jupiter",
       "name": "Côtes du Rhône",
+      "short": "Halos",
       "region": "Côtes du Rhône",
       "color": "red",
       "vintages": {
@@ -259,6 +284,7 @@
     "rose-de-vitrac": {
       "producer": "Château La Rose de Vitrac",
       "name": "Bordeaux Rouge",
+      "short": "Vitrac",
       "region": "Bordeaux",
       "color": "red",
       "vintages": {
@@ -268,6 +294,7 @@
     "rauzan-despagne-bordeaux": {
       "producer": "Château Rauzan Despagne",
       "name": "Bordeaux Rouge",
+      "short": "Rauzan",
       "region": "Bordeaux",
       "color": "red",
       "vintages": {
@@ -277,6 +304,7 @@
     "adegamae-touriga-franca": {
       "producer": "Adegamãe",
       "name": "Touriga Franca",
+      "short": "Adegamãe",
       "region": "Lisboa, Portugal",
       "color": "red",
       "vintages": {
@@ -286,6 +314,7 @@
     "carmen-gran-reserva-cabernet": {
       "producer": "Carmen",
       "name": "Gran Reserva Cabernet Sauvignon",
+      "short": "Carmen",
       "region": "Maipo Valley, Chile",
       "color": "red",
       "vintages": {
@@ -295,6 +324,7 @@
     "phifer-pavitt-xroads": {
       "producer": "Phifer Pavitt",
       "name": "XROADS Cabernet Sauvignon",
+      "short": "XROADS",
       "region": "Napa Valley",
       "color": "red",
       "vintages": {
@@ -304,6 +334,7 @@
     "phifer-pavitt-reserve-cabernet": {
       "producer": "Phifer Pavitt",
       "name": "Reserve Cabernet Sauvignon",
+      "short": "PP Reserve",
       "region": "Napa Valley",
       "color": "red",
       "vintages": {
@@ -313,6 +344,7 @@
     "phifer-pavitt-date-night-sparkling": {
       "producer": "Phifer Pavitt",
       "name": "Date Night Blanc de Noirs Sparkling",
+      "short": "Date Night",
       "region": "Napa Valley",
       "color": "white",
       "vintages": {

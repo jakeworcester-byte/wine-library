@@ -12,9 +12,14 @@
     "Exploratory": "Exploratory"
   };
 
-  var state = { q: "", ready: "all", occasion: null, sort: "producer" };
+  var state = { q: "", ready: "all", occasion: null, sort: "producer", view: "list", slot: null, pick: null };
   var wines = [];
   var byId = {};
+  var rack = null;
+  var SLOT = /^[A-Z][1-9]$/;
+  var SPOT_NAMES = { UP: "Upstairs rack", FR: "Wine fridge" };
+  // What each basement row is for, bottom up. Rows added later have no tier.
+  var ROW_TIERS = { A: "hold", B: "hold", C: "early", D: "early", E: "now", F: "now" };
 
   var $ = function (id) { return document.getElementById(id); };
 
@@ -56,6 +61,38 @@
     return m ? +m[0] : 9999;
   }
 
+  // Where a wine sits, in reading order: [{name: "Basement rack", slots: [...]}, {name: "Wine fridge"}].
+  function where(w) {
+    var parts = [], basement = null;
+    (w.locations || []).forEach(function (t) {
+      if (SLOT.test(t)) {
+        if (!basement) { basement = { name: "Basement rack", slots: [] }; parts.push(basement); }
+        basement.slots.push(t);
+      } else if (SPOT_NAMES[t] && !parts.some(function (p) { return p.name === SPOT_NAMES[t]; })) {
+        parts.push({ name: SPOT_NAMES[t] });
+      }
+    });
+    return parts;
+  }
+
+  function whereText(w) {
+    return where(w).map(function (p) { return p.slots ? p.name + ": " + p.slots.join(", ") : p.name; }).join(" · ");
+  }
+
+  // Readiness as a rack tier, from the drink window rather than the shelf it sits on.
+  function tone(w) {
+    var win = range(w.window), pk = range(w.peak);
+    if (win && win[0] > YEAR) return "hold";
+    if (win && YEAR > win[1]) return "late";
+    if (pk && YEAR < pk[0]) return "early";
+    return "now";
+  }
+
+  function shortVintage(v) {
+    var m = String(v).match(/^\d{2}(\d{2})$/);
+    return m ? "’" + m[1] : (/^NV/i.test(v) ? "NV" : String(v));
+  }
+
   function placeholder(color) {
     var fill = color === "white" ? "#d8c98f" : "#5a1a26";
     return '<svg class="ph" viewBox="0 0 40 140" aria-hidden="true">' +
@@ -78,6 +115,8 @@
     return "Not yet scored. Jake rated " + list + ".";
   }
 
+  var PIN = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-6-5.6-6-11a6 6 0 0 1 12 0c0 5.4-6 11-6 11z"/><circle cx="12" cy="10" r="2.2"/></svg>';
+
   function card(w) {
     var r = readiness(w);
     var score = w.jakeScore
@@ -93,6 +132,7 @@
         '<h2 class="title">' + esc(w.name) + "</h2>" +
         '<span class="vintage">' + esc(w.vintage) + "</span>" +
         '<span class="region">' + esc(w.region) + "</span>" +
+        (whereText(w) ? '<span class="loc">' + PIN + esc(whereText(w)) + "</span>" : "") +
         '<div class="meta"><span class="pill ' + r.cls + '">' + esc(r.label) + "</span>" + occ + "</div>" +
         ((score || ref || notesHint) ? '<div class="score-row">' + score + ref + (score ? notesHint : "") + "</div>" : "") +
       "</div></button>";
@@ -106,9 +146,13 @@
       if (state.ready === "hold" && open) return false;
     }
     if (state.q) {
-      var hay = [w.producer, w.name, w.vintage, w.region, w.category, w.blend].join(" ").toLowerCase();
+      var hay = [w.producer, w.name, w.vintage, w.region, w.category, w.blend, whereText(w)].join(" ").toLowerCase();
       var terms = state.q.toLowerCase().split(/\s+/).filter(Boolean);
-      for (var i = 0; i < terms.length; i++) if (hay.indexOf(terms[i]) === -1) return false;
+      for (var i = 0; i < terms.length; i++) {
+        var t = terms[i].toUpperCase();
+        // A slot code like "C4" matches only the wine in that slot.
+        if (SLOT.test(t) ? (w.locations || []).indexOf(t) === -1 : hay.indexOf(terms[i]) === -1) return false;
+      }
     }
     return true;
   }
@@ -127,6 +171,7 @@
   }
 
   function render() {
+    if (state.view === "rack") return renderRack();
     var list = wines.filter(matches).sort(sorter);
     $("grid").innerHTML = list.map(card).join("");
     $("empty").hidden = list.length > 0;
@@ -206,6 +251,14 @@
       scoreBlock = '<span class="ref">' + refLine(w) + "</span>";
     }
 
+    var loc = where(w).map(function (p) {
+      if (!p.slots) return '<span class="loc-part">' + esc(p.name) + "</span>";
+      return '<span class="loc-part">' + esc(p.name) + ": " + p.slots.map(function (s) {
+        return '<button type="button" class="slot-link" data-slot="' + s + '" aria-label="Show ' + s + ' on the rack map">' + s + "</button>";
+      }).join(" ") + "</span>";
+    }).join("");
+    if (loc) facts = '<div class="fact wide loc-fact"><dt>Location</dt><dd>' + loc + "</dd></div>" + facts;
+
     var tags = (w.tags || []).map(function (t) { return '<span class="tag">' + esc(t) + "</span>"; }).join("");
     return '<button class="close" type="button" aria-label="Close">&times;</button>' +
       '<div class="d-head">' + bottle(w, false) +
@@ -224,6 +277,153 @@
         timeline(w) +
         (notes ? '<section class="notes">' + notes + "</section>" : "") +
       "</div>";
+  }
+
+  /* Rack map: the basement grid as it looks standing in front of it (row A at
+     the bottom, column 1 on the left), plus the upstairs rack and fridge as lists. */
+
+  var TONES = [
+    ["hold", "Cellaring"],
+    ["early", "Ready, still climbing"],
+    ["now", "Ready now"],
+    ["late", "Drink soon"]
+  ];
+  var TIER_NAMES = { hold: "Long holds", early: "Open early, keep backups", now: "Ready now" };
+
+  function slotCell(code, w, span) {
+    if (!w) return '<span class="slot empty" data-slot="' + code + '" aria-label="' + code + ', empty"></span>';
+    var cls = "slot tone-" + tone(w) + (span > 1 ? " group" : "") +
+      (w.id === state.pick ? " sel" : "") + (covers(code, span, state.slot) ? " hit" : "") +
+      (matches(w) ? "" : " dim");
+    var label = "<b>" + esc(shortVintage(w.vintage)) + (span > 1 ? "<i>&times;" + span + "</i>" : "") + "</b>" +
+      "<span>" + esc(w.short) + "</span>";
+    var aria = code + (span > 1 ? " to " + code[0] + (+code[1] + span - 1) : "") + ": " + w.producer + " " + w.name + " " + w.vintage;
+    return '<button type="button" class="' + cls + '" data-slot="' + code + '" data-id="' + esc(w.id) + '"' +
+      (span > 1 ? ' style="grid-column: span ' + span + '"' : "") + ' aria-label="' + esc(aria) + '">' + label + "</button>";
+  }
+
+  function covers(start, span, code) {
+    return code && code[0] === start[0] && +code[1] >= +start[1] && +code[1] < +start[1] + span;
+  }
+
+  function rackGrid() {
+    if (!rack.rows) return "";
+    var rows = "";
+    for (var r = rack.rows - 1; r >= 0; r--) {
+      var letter = String.fromCharCode(65 + r);
+      var tier = ROW_TIERS[letter];
+      var cells = "";
+      for (var c = 1; c <= rack.cols; c++) {
+        var id = rack.slots[letter + c];
+        var span = 1;
+        // Neighbors holding the same wine read as one group.
+        while (id && c + span <= rack.cols && rack.slots[letter + (c + span)] === id) span++;
+        cells += slotCell(letter + c, byId[id], span);
+        c += span - 1;
+      }
+      rows += '<div class="rack-row"><span class="rl' + (tier ? " tier-" + tier : "") + '"' +
+        (tier ? ' title="' + TIER_NAMES[tier] + '"' : "") + ">" + letter + "</span>" +
+        '<div class="cells">' + cells + "</div></div>";
+    }
+    var cols = "";
+    for (var n = 1; n <= rack.cols; n++) cols += "<span>" + n + "</span>";
+    var filled = Object.keys(rack.slots).length, total = rack.rows * rack.cols;
+    return '<div class="rack-scroll"><div class="rack" style="--cols:' + rack.cols + '">' + rows +
+      '<div class="rack-row rack-cols"><span class="rl"></span><div class="cells">' + cols + "</div></div></div></div>" +
+      '<p class="rack-count">' + filled + " of " + total + " slots filled" + (total - filled ? ", " + (total - filled) + " open" : "") + ".</p>";
+  }
+
+  function rackLegend() {
+    var used = {};
+    Object.keys(rack.slots).forEach(function (s) { var w = byId[rack.slots[s]]; if (w) used[tone(w)] = true; });
+    var tones = TONES.filter(function (t) { return used[t[0]]; }).map(function (t) {
+      return '<span><i class="sw tone-' + t[0] + '"></i>' + t[1] + "</span>";
+    }).join("");
+    return '<div class="rack-legend">' + tones + "</div>" +
+      '<p class="rack-key">Colors show each bottle\'s readiness. The stripe by each row letter shows what that shelf holds: ' +
+      '<span class="key-tier tier-hold"></span>long holds, <span class="key-tier tier-early"></span>open early, keep backups, ' +
+      '<span class="key-tier tier-now"></span>ready now.</p>';
+  }
+
+  function spotList(title, list) {
+    if (!list || !list.length) return "";
+    var items = list.map(function (x) { return byId[x.id] ? x : null; }).filter(Boolean)
+      .sort(function (a, b) { return sorter(byId[a.id], byId[b.id]); })
+      .map(function (x) {
+        var w = byId[x.id];
+        return '<li><button type="button" class="spot-wine' + (matches(w) ? "" : " dim") + '" data-id="' + esc(w.id) + '">' +
+          '<span class="sw tone-' + tone(w) + '"></span>' +
+          '<span class="sw-name">' + esc(w.producer) + " " + esc(w.name) + "</span>" +
+          '<span class="sw-vin">' + esc(w.vintage) + (x.n > 1 ? " &times;" + x.n : "") + "</span></button></li>";
+      }).join("");
+    return '<section class="spot"><h3>' + title + "</h3><ul>" + items + "</ul></section>";
+  }
+
+  function rackInfo() {
+    var w = state.pick && byId[state.pick];
+    if (!w) return '<p class="rack-hint">' + (rack.rows ? "Tap a bottle to see what it is." : "") + "</p>";
+    var r = readiness(w);
+    var win = w.window ? w.window.replace(/^now/i, "Now") + (w.peak ? ", peak " + w.peak.replace(/^now/i, "Now") : "") : null;
+    return '<div class="ri-head"><div><span class="producer">' + esc(w.producer) + "</span>" +
+      '<h3 class="title">' + esc(w.name) + ' <span class="vintage">' + esc(w.vintage) + "</span></h3></div>" +
+      '<button type="button" class="ri-open" data-id="' + esc(w.id) + '">Full entry</button></div>' +
+      '<div class="meta"><span class="pill ' + r.cls + '">' + esc(r.label) + "</span>" +
+      (w.category ? '<span class="tag">' + esc(OCCASION_LABELS[w.category] || w.category) + "</span>" : "") + "</div>" +
+      '<dl class="ri-facts">' +
+      (win ? "<div><dt>Drink window</dt><dd>" + esc(win) + "</dd></div>" : "") +
+      "<div><dt>Location</dt><dd>" + esc(whereText(w)) + "</dd></div></dl>";
+  }
+
+  function renderRack() {
+    if (!rack) return;
+    $("rackView").innerHTML = '<div class="rack-layout"><div class="rack-main">' +
+      (rack.rows ? '<div class="rack-head"><h2>Basement rack</h2><p>Row A is the bottom shelf; column 1 is on the left.</p></div>' +
+        rackGrid() + rackLegend() : "") +
+      '<div class="rack-info" id="rackInfo" aria-live="polite">' + rackInfo() + "</div></div>" +
+      '<div class="rack-side">' + spotList("Upstairs rack", rack.upstairs) + spotList("Wine fridge", rack.fridge) + "</div></div>";
+    fitLabels();
+  }
+
+  // Narrow cells: shrink a name until its longest word fits, and only break words as a last resort.
+  function fitLabels() {
+    $("rackView").querySelectorAll(".slot span").forEach(function (s) {
+      s.style.fontSize = "";
+      s.classList.remove("squeeze");
+      for (var px = 9; s.scrollWidth > s.clientWidth + 0.5 && px >= 7.5; px -= 0.5) s.style.fontSize = px + "px";
+      if (s.scrollWidth > s.clientWidth + 0.5) s.classList.add("squeeze");
+    });
+  }
+
+  function setView(view, slot) {
+    if (!rack) view = "list";
+    state.view = view;
+    if (slot !== undefined) {
+      state.slot = slot;
+      state.pick = slot ? rack.slots[slot] || null : null;
+    }
+    document.body.classList.toggle("rack-mode", view === "rack");
+    $("views").querySelectorAll("button").forEach(function (b) {
+      b.setAttribute("aria-pressed", String(b.getAttribute("data-view") === view));
+    });
+    $("grid").hidden = view === "rack";
+    $("rackView").hidden = view !== "rack";
+    $("sortWrap").hidden = view === "rack";
+    if (view === "rack") { $("empty").hidden = true; renderRack(); } else render();
+  }
+
+  function showSlot(code) {
+    close();
+    setView("rack", code);
+    history.replaceState(null, "", "#rack-" + code);
+    var cell = $("rackView").querySelector(".slot.hit");
+    if (cell) cell.scrollIntoView({ block: "center", inline: "center", behavior: "smooth" });
+  }
+
+  function pickInRack(id, slot) {
+    state.pick = id;
+    state.slot = slot;
+    renderRack();
+    history.replaceState(null, "", "#rack-" + slot);
   }
 
   function open(id, push) {
@@ -264,10 +464,32 @@
     });
     var dlg = $("detail");
     dlg.addEventListener("click", function (e) {
+      var s = e.target.closest(".slot-link");
+      if (s) return showSlot(s.getAttribute("data-slot"));
       if (e.target === dlg || e.target.closest(".close")) close();
     });
     dlg.addEventListener("close", function () {
-      if (location.hash) history.replaceState(null, "", location.pathname + location.search);
+      var back = state.view === "rack" ? "#rack" + (state.slot ? "-" + state.slot : "") : "";
+      if (location.hash !== back) history.replaceState(null, "", back || location.pathname + location.search);
+    });
+    $("views").addEventListener("click", function (e) {
+      var b = e.target.closest("button[data-view]");
+      if (!b) return;
+      setView(b.getAttribute("data-view"), null);
+      history.replaceState(null, "", state.view === "rack" ? "#rack" : location.pathname + location.search);
+    });
+    var refit;
+    window.addEventListener("resize", function () {
+      clearTimeout(refit);
+      refit = setTimeout(function () { if (state.view === "rack") fitLabels(); }, 150);
+    });
+    // Label widths change once the web font arrives.
+    if (document.fonts && document.fonts.ready) document.fonts.ready.then(function () { if (state.view === "rack") fitLabels(); });
+    $("rackView").addEventListener("click", function (e) {
+      var s = e.target.closest(".slot[data-id]");
+      if (s) return pickInRack(s.getAttribute("data-id"), s.getAttribute("data-slot"));
+      var o = e.target.closest(".ri-open, .spot-wine");
+      if (o) open(o.getAttribute("data-id"), true);
     });
   }
 
@@ -276,6 +498,11 @@
     .then(function (data) {
       wines = data.wines;
       wines.forEach(function (w) { byId[w.id] = w; });
+      rack = data.rack || null;
+      if (rack) {
+        $("views").hidden = false;
+        $("q").placeholder = "Search wine, producer, region, slot";
+      }
       window.WineLibrary = { byId: byId, open: function (id) { open(id, true); } };
       var d = new Date(data.updated + "T12:00:00");
       $("updated").textContent = "Cellar last synced " + d.toLocaleDateString("en-US", { month: "long", day: "numeric", year: "numeric" }) + ".";
@@ -284,7 +511,11 @@
       bind();
       render();
       var hash = location.hash.slice(1);
-      if (hash && byId[hash]) open(hash, false);
+      var toRack = hash.match(/^rack(?:-([A-Z][1-9]))?$/);
+      if (toRack && rack) {
+        setView("rack", toRack[1] || null);
+        if (toRack[1]) showSlot(toRack[1]);
+      } else if (hash && byId[hash]) open(hash, false);
     })
     .catch(function () {
       $("grid").innerHTML = '<p class="empty">Could not load the cellar list. Try refreshing.</p>';

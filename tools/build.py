@@ -8,15 +8,23 @@ Output:
 
 Images in images/ are normalized to web-friendly WebP (max 720px tall) in
 images/web/ so the page stays light on a phone.
+
+Each vintage's `location` (Notion's Location field, e.g. "B4, B5" or "UP, C4")
+becomes a `locations` list, and wines.json gets a `rack` index of slot to wine
+for the rack map. Rack problems print as warnings; they never stop the build.
 """
 import glob
 import json
 import os
+import re
 import sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 EM_DASH = "—"
 EN_DASH = "–"
+RACK_COLS = 9
+SLOT = re.compile(r"^[A-Z][1-9]$")
+SPOTS = {"UP": "upstairs", "FR": "fridge"}
 
 
 def load(path):
@@ -65,6 +73,48 @@ def web_image(src):
     return out_rel
 
 
+def parse_location(raw, label, warnings):
+    """'b4, B5 ,up' -> ['B4', 'B5', 'UP']. Unreadable tokens are dropped with a warning."""
+    tokens = []
+    for tok in re.split(r"[,;]", raw or ""):
+        tok = re.sub(r"\s+", "", tok).upper()
+        if not tok:
+            continue
+        if SLOT.match(tok) or tok in SPOTS:
+            tokens.append(tok)
+        else:
+            warnings.append(f"{label}: can't read location '{tok}'")
+    return tokens
+
+
+def build_rack(entries, warnings):
+    """Reverse index for the rack map, or None when no wine has a location yet."""
+    slots, lists, labels = {}, {"upstairs": [], "fridge": []}, {}
+    for e in entries:
+        locs = e["locations"]
+        label = labels[e["id"]] = f"{e['producer']} {e['name']} {e['vintage']}"
+        for tok in locs:
+            if SLOT.match(tok):
+                if tok in slots:
+                    other = slots[tok]
+                    who = "listed twice" if other == e["id"] else f"also claimed by {labels[other]}"
+                    warnings.append(f"slot {tok}: {label} {who}")
+                    continue
+                slots[tok] = e["id"]
+        for code, spot in SPOTS.items():
+            n = locs.count(code)
+            if n:
+                # A wine stored only in one spot has all its bottles there.
+                lists[spot].append({"id": e["id"], "n": e["onHand"] if set(locs) == {code} else n})
+        basement = [t for t in locs if SLOT.match(t)]
+        if locs and len(basement) == len(locs) and len(basement) != e["onHand"]:
+            warnings.append(f"{label}: {e['onHand']} on hand but {len(basement)} rack slots listed")
+    if not slots and not lists["upstairs"] and not lists["fridge"]:
+        return None
+    top = max((s[0] for s in slots), default=None)
+    return {"rows": ord(top) - ord("A") + 1 if top else 0, "cols": RACK_COLS, "slots": dict(sorted(slots.items())), **lists}
+
+
 def main():
     cellar = load(os.path.join(ROOT, "tools", "cellar.json"))
     research = {}
@@ -72,6 +122,7 @@ def main():
         research.update(load(path))
 
     entries = []
+    rack_warnings = []
     for slug, wine in cellar["wines"].items():
         r = research.get(slug, {})
         if not r:
@@ -84,17 +135,22 @@ def main():
             else:
                 print(f"  ! no web note for {slug} {vintage}")
             others = [o for o in wine.get("otherScores", []) if o["vintage"] != vintage]
+            label = f"{wine['producer']} {wine['name']} {vintage}"
+            # A stale Location on an empty row never reaches the map.
+            locations = parse_location(v.get("location"), label, rack_warnings) if v["onHand"] > 0 else []
             entries.append({
                 "id": f"{slug}-{vintage}".lower().replace(" ", "-").replace("(", "").replace(")", ""),
                 "slug": slug,
                 "producer": wine["producer"],
                 "name": wine["name"],
+                "short": wine.get("short") or wine["producer"].replace("Château ", "").split()[0],
                 "vintage": vintage,
                 "region": wine["region"],
                 "color": wine.get("color", "red"),
                 "tags": wine.get("tags", []),
                 "category": v.get("category"),
                 "onHand": v["onHand"],
+                "locations": locations,
                 "window": v.get("window"),
                 "peak": v.get("peak"),
                 "jakeScore": v.get("jakeScore"),
@@ -108,17 +164,27 @@ def main():
                 "web": web,
             })
 
-    out = {"updated": cellar["snapshotDate"], "wines": entries}
-    with open(os.path.join(ROOT, "wines.json"), "w", encoding="utf-8") as f:
-        json.dump(out, f, ensure_ascii=False, indent=1)
-
+    rack = build_rack(entries, rack_warnings)
+    out = {"updated": cellar["snapshotDate"], "rack": rack, "wines": entries}
     text = json.dumps(out, ensure_ascii=False)
     if EM_DASH in text:
         sys.exit("em dash found in output")
+    with open(os.path.join(ROOT, "wines.json"), "w", encoding="utf-8") as f:
+        json.dump(out, f, ensure_ascii=False, indent=1)
+
     bottles = sum(e["onHand"] for e in entries)
     print(f"wrote wines.json: {len(entries)} wines, {bottles} bottles, "
           f"{sum(1 for e in entries if e['image'])} with photos, "
           f"{sum(1 for e in entries if e['web'])} with web notes")
+    if rack:
+        placed = sum(1 for e in entries if e["locations"])
+        print(f"rack: {len(rack['slots'])} basement slots filled in {rack['rows']} rows, "
+              f"{sum(w['n'] for w in rack['upstairs'])} upstairs, {sum(w['n'] for w in rack['fridge'])} in the fridge; "
+              f"{len(entries) - placed} wines with no location")
+    else:
+        print("rack: no locations yet, map hidden")
+    for w in rack_warnings:
+        print(f"  ! rack: {w}")
 
     # Tasting record for the Ask Jake chat (wines Jake has logged but doesn't
     # have in the cellar). Hand-curated in tools/palate.json.

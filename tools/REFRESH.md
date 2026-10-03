@@ -32,6 +32,9 @@ report instead of guessing.
   "under market," scoring-system talk (V5, lanes, calibration, "data point,"
   "evidence for"), and cellar logistics ("do not open," "window corrected from")
   never reach the site.
+- **Exception: bottle location is public.** Jake decided (Oct 3, 2026) that the
+  Notion `Location` field and the rack map belong on the site. Carry it every run;
+  never strip or flag it as logistics. It is the only logistics that may appear.
 
 ## 1. Pull stocked wines from Notion
 
@@ -40,7 +43,7 @@ Data source: `collection://c43965be-a956-4750-be6d-5f1e25fee445` (database
 
 ```sql
 SELECT url, "Wine", "Producer", "Vintage", "AVA / Region", "On Hand", "Status",
-       "Category", "Jake Score", "Drink Window", "Glass Evolution", "Notes"
+       "Category", "Jake Score", "Drink Window", "Glass Evolution", "Notes", "Location"
 FROM "collection://c43965be-a956-4750-be6d-5f1e25fee445"
 WHERE "On Hand" > 0
 ```
@@ -54,7 +57,9 @@ WHERE "Jake Score" IS NOT NULL AND "Jake Score" <> ''
 ```
 
 `On Hand` is the source of truth for whether a bottle is in the cellar. Ignore the
-Status field. Two rows for the same wine and vintage are merged: add their On Hand.
+Status field. Two rows for the same wine and vintage are merged: add their On Hand
+and join their Locations with ", " (each row keeps its own slots in Notion, often
+one bottle held for a vertical and the rest drinkable).
 
 And every row that is NOT on hand, for the chat's tasting record (step 4b):
 
@@ -78,6 +83,8 @@ existing slugs first). Classify every change:
 - **New wine:** add a new slug (kebab-case, producer + wine, no vintage), then do
   step 3.
 - **New or changed Jake Score, notes, category, or drink window:** update.
+- **New or changed Location:** update. A rack rearrangement alone is a real
+  change worth a commit.
 
 If nothing changed here AND nothing changed for the tasting record (step 4b),
 stop: no commit, and report "no changes."
@@ -117,9 +124,16 @@ Per vintage:
   in the glass." If the notes are only logistics or system talk, leave `jakeNote`
   out entirely. Existing examples in cellar.json are the style reference.
 - `flag`: short guest-useful caution only, e.g. "Saved for a vertical tasting."
+- `location`: Notion Location exactly as written (e.g. `"B4, B5, B6"`, `"UP, C4"`,
+  `"FR"`); `build.py` normalizes case and spacing. Leave it out when blank. Codes:
+  a basement rack slot is row letter + column 1 to 9 (row A is the bottom); `UP`
+  is the upstairs rack; `FR` is the wine fridge. Never invent or fix a location;
+  if it looks wrong, copy it and let the build warning flag it.
 
 Per wine: `producer` and `name` cleaned up for display (e.g. "Taplin Cellars" /
-"Terra 9"), `region`, `color` (red or white), optional `tags` (e.g. Bordeaux
+"Terra 9"), `short` (the rack map label, about 10 characters, enough to tell it
+apart from the same producer's other wines: "Terra 9," "Taplin Cab," "OS Veeder";
+existing entries are the style reference), `region`, `color` (red or white), optional `tags` (e.g. Bordeaux
 classification), and `otherScores`: every scored vintage of the same wine from the
 second query, as `{"vintage": "2019", "score": "94-95"}`.
 
@@ -165,7 +179,10 @@ git push origin main
 ```
 
 Fix any `! missing` or `! no web note` warnings for wines added this run before
-committing. Only bump the `?v=N` asset queries in `index.html` if you changed a file in
+committing. Do not fix `! rack:` warnings: they mean the rack and the library have
+drifted apart (an unreadable code, two wines in one slot, or a slot count that
+doesn't match On Hand). Notion is the source, so commit as is and list each one in
+the report for Jake to correct in Notion. Only bump the `?v=N` asset queries in `index.html` if you changed a file in
 `assets/` (a normal sync does not). The "Ask Jake" chat in `worker/` reads the
 live wines.json and palate.json, so it needs no redeploy during a sync.
 
@@ -203,7 +220,10 @@ End with a short summary for Jake: bottles and wines now in the cellar; what was
 added, removed, and changed; any new Jake's Notes and tasting-record takes (quote
 the guest versions); and
 anything flagged for him to check (uncertain photo, wine identity, note from a
-different vintage).
+different vintage). Then a "Rack check" line: the `rack:` summary from the build
+(slots filled, upstairs, fridge, wines with no location) and every `! rack:`
+warning, each with the fix Jake would make in Notion. If there are none, say the
+rack and library agree.
 
 Then a short "Ask Jake this week" section from step 5b: number of chats and
 questions, the questions themselves (grouped by chat, lightly summarized if
