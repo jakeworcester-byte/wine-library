@@ -9,7 +9,7 @@
       "region": "Napa Valley",
       "color": "red",
       "vintages": {
-        "2020": {"onHand": 1, "category": "Steak Saturday", "window": "2026-2029", "peak": null}
+        "2020": {"location": "F6", "onHand": 1, "category": "Steak Saturday", "window": "2026-2029", "peak": null}
       }
     },
     "chappellet-napa-cabernet": {
@@ -19,7 +19,7 @@
       "region": "Napa Valley",
       "color": "red",
       "vintages": {
-        "2022": {"onHand": 1, "category": null, "window": "2027-2034", "peak": "2029-2032"}
+        "2022": {"location": "B7", "onHand": 1, "category": null, "window": "2027-2034", "peak": "2029-2032"}
       }
     },
     "gruaud-larose": {
@@ -30,7 +30,7 @@
       "color": "red",
       "tags": ["Second Growth, 1855"],
       "vintages": {
-        "2019": {"onHand": 1, "category": "Steak Saturday", "window": "2030-2050", "peak": "2033-2045"}
+        "2019": {"location": "A6", "onHand": 1, "category": "Steak Saturday", "window": "2030-2050", "peak": "2033-2045"}
       }
     },
     "pedesclaux": {
@@ -41,7 +41,7 @@
       "color": "red",
       "tags": ["Fifth Growth, 1855"],
       "vintages": {
-        "2019": {"onHand": 1, "category": "Steak Saturday", "window": "2028-2040", "peak": "2031-2037"}
+        "2019": {"location": "A7", "onHand": 1, "category": "Steak Saturday", "window": "2028-2040", "peak": "2031-2037"}
       }
     },
     "decoy-cabernet": {
@@ -51,7 +51,7 @@
       "region": "California",
       "color": "red",
       "vintages": {
-        "2022": {"onHand": 1, "category": "Tuesday Night", "window": "Now-2027", "peak": null, "jakeScore": "89-91",
+        "2022": {"location": "UP", "onHand": 1, "category": "Tuesday Night", "window": "Now-2027", "peak": null, "jakeScore": "89-91",
                  "jakeNote": "Reliable, if not thrilling. A dependable weeknight bottle."}
       }
     },
@@ -62,9 +62,9 @@
       "region": "Howell Mountain, Napa Valley",
       "color": "red",
       "vintages": {
-        "2017": {"onHand": 1, "category": "Special Occasion", "window": "2026-2035", "peak": "2028-2033", "jakeScore": "98-100",
+        "2017": {"location": "G3", "onHand": 1, "category": "Special Occasion", "window": "2026-2035", "peak": "2028-2033", "jakeScore": "98-100",
                  "jakeNote": "The gold standard. Depth and authority, and the reference point for my entire scoring scale. Kept building in the glass."},
-        "2022": {"onHand": 3, "category": "Special Occasion", "window": "2029-2042", "peak": "2032-2039"}
+        "2022": {"location": "C1, C2, C3", "onHand": 3, "category": "Special Occasion", "window": "2029-2042", "peak": "2032-2039"}
       },
       "otherScores": [{"vintage": "2017", "score": "98-100"}, {"vintage": "2023", "score": "96-98"}]
     },
@@ -75,11 +75,11 @@
       "region": "Mount Veeder, Napa Valley",
       "color": "red",
       "vintages": {
-        "2017": {"onHand": 1, "category": "Steak Saturday", "window": "2026-2031", "peak": "2027-2030"},
-        "2018": {"onHand": 1, "category": "Steak Saturday", "window": "2029-2040", "peak": "2032-2037"},
-        "2019": {"onHand": 1, "category": "Steak Saturday", "window": "2028-2038", "peak": "2031-2036"},
-        "2021": {"onHand": 1, "category": "Steak Saturday", "window": "2030-2045", "peak": "2034-2041"},
-        "2022": {"onHand": 4, "category": "Steak Saturday", "window": "2028-2036", "peak": "2030-2034"}
+        "2017": {"location": "A1", "onHand": 1, "category": "Steak Saturday", "window": "2026-2031", "peak": "2027-2030"},
+        "2018": {"location": "A2", "onHand": 1, "category": "Steak Saturday", "window": "2029-2040", "peak": "2032-2037"},
+        "2019": {"location": "A3", "onHand": 1, "category": "Steak Saturday", "window": "2028-2038", "peak": "2031-2036"},
+        "2021": {"location": "A4", "onHand": 1, "category": "Steak Saturday", "window": "2030-2045", "peak": "2034-2041"},
+        "2022": {"location": "A5, C4, C5, C6", "onHand": 4, "category": "Steak Saturday", "window": "2028-2036", "peak": "2030-2034"}
       },
       "otherScores": [{"vintage": "2023", "score": "93-95"}]
     },
@@ -90,7 +90,7 @@
       "region": "Spring Mountain, Napa Valley",
       "color": "red",
       "vintages": {
-        "2020": {"onHand": 1, "category": "Bridge / Pre-Dinner", "window": "Now-2028", "peak": null, "jakeScore": "88-90",
+        "2020": {"location": "F7", "onHand": 1, "category": "Bridge / Pre-Dinner", "window": "Now-2028", "peak": null, "jakeScore": "88-90",
                  "jakeNote": "Mountain fruit that reaches about as high as Merlot goes for me. Soft and polished, and a great pour before dinner."}
       }
     },
@@ -101,7 +101,7 @@
       "region": "Spring Mountain District, Napa Valley",
       "color": "red",
       "vintages": {
-        "NV (Lot 19)": {"onHand": 1, "category": "Steak Saturday", "window": "Now-2028", "peak": null, "jakeScore": "92-94",
+        "NV (Lot 19)": {"location": "UP", "onHand": 1, "category": "Steak Saturday", "window": "Now-2028", "peak": null, "jakeScore": "92-94",
                         "jakeNote": "A repeat favorite. Revisited at the winery on our August 2026 Napa trip, and it held up beautifully."}
       }
     },
@@ -112,8 +112,8 @@
       "region": "Spring Mountain District, Napa Valley",
       "color": "red",
       "vintages": {
-        "2021": {"onHand": 1, "category": "Steak Saturday", "window": "2030-2042", "peak": "2033-2039"},
-        "2023": {"onHand": 3, "category": "Steak Saturday", "window": "2029-2042", "peak": "2032-2038", "jakeScore": "95-97",
+        "2021": {"location": "A9", "onHand": 1, "category": "Steak Saturday", "window": "2030-2042", "peak": "2033-2039"},
+        "2023": {"location": "D1, D2, D3", "onHand": 3, "category": "Steak Saturday", "window": "2029-2042", "peak": "2032-2038", "jakeScore": "95-97",
                  "jakeNote": "Tasted at the winery on Spring Mountain in August 2026. All estate fruit, and the bottle that put Spring Mountain on my short list alongside Howell Mountain and Mount Veeder."}
       },
       "otherScores": [{"vintage": "2023", "score": "95-97"}]
@@ -125,11 +125,11 @@
       "region": "St. Helena, Napa Valley",
       "color": "red",
       "vintages": {
-        "2016": {"onHand": 2, "category": "Special Occasion", "window": "2026-2032", "peak": "Now-2030", "jakeScore": "96-98",
+        "2016": {"location": "G1, G2", "onHand": 2, "category": "Special Occasion", "window": "2026-2032", "peak": "Now-2030", "jakeScore": "96-98",
                  "jakeNote": "One of the stars of our August 2026 Napa trip, confirmed over a full Taplin wine dinner. Kept building in the glass."},
-        "2018": {"onHand": 1, "category": "Special Occasion", "window": "2029-2038", "peak": "2031-2036"},
-        "2021": {"onHand": 1, "category": "Special Occasion", "window": "2028-2038", "peak": "2031-2036"},
-        "2022": {"onHand": 1, "category": "Special Occasion", "window": "2029-2040", "peak": "2032-2037"}
+        "2018": {"location": "A8", "onHand": 1, "category": "Special Occasion", "window": "2029-2038", "peak": "2031-2036"},
+        "2021": {"location": "B1", "onHand": 1, "category": "Special Occasion", "window": "2028-2038", "peak": "2031-2036"},
+        "2022": {"location": "B2", "onHand": 1, "category": "Special Occasion", "window": "2029-2040", "peak": "2032-2037"}
       },
       "otherScores": [{"vintage": "2016", "score": "96-98"}]
     },
@@ -140,10 +140,10 @@
       "region": "St. Helena, Napa Valley",
       "color": "red",
       "vintages": {
-        "2019": {"onHand": 6, "category": "Steak Saturday", "window": "2026-2031", "peak": "2027-2030", "jakeScore": "94-95",
+        "2019": {"location": "E1, E2, E3, E4, E5, E6", "onHand": 6, "category": "Steak Saturday", "window": "2026-2031", "peak": "2027-2030", "jakeScore": "94-95",
                  "jakeNote": "A clear step up from the 2021 (92-94), with a noticeably different profile."},
-        "2022": {"onHand": 1, "category": "Steak Saturday", "window": "2027-2034", "peak": "2029-2032"},
-        "2023": {"onHand": 3, "category": "Steak Saturday", "window": "2028-2036", "peak": "2030-2034"}
+        "2022": {"location": "B3", "onHand": 1, "category": "Steak Saturday", "window": "2027-2034", "peak": "2029-2032"},
+        "2023": {"location": "C7, C8, C9", "onHand": 3, "category": "Steak Saturday", "window": "2028-2036", "peak": "2030-2034"}
       },
       "otherScores": [{"vintage": "2019", "score": "94-95"}, {"vintage": "2021", "score": "92-94"}]
     },
@@ -154,7 +154,7 @@
       "region": "St. Helena, Napa Valley",
       "color": "red",
       "vintages": {
-        "2021": {"onHand": 1, "category": null, "window": "2027-2034", "peak": "2028-2032"}
+        "2021": {"location": "B4", "onHand": 1, "category": null, "window": "2027-2034", "peak": "2028-2032"}
       }
     },
     "taplin-sauvignon-blanc": {
@@ -164,7 +164,7 @@
       "region": "Napa Valley",
       "color": "white",
       "vintages": {
-        "2025": {"onHand": 4, "category": null, "window": "Now-2027", "peak": null}
+        "2025": {"location": "FR", "onHand": 4, "category": null, "window": "Now-2027", "peak": null}
       }
     },
     "viader-black-label": {
@@ -174,8 +174,8 @@
       "region": "Howell Mountain, Napa Valley",
       "color": "red",
       "vintages": {
-        "2021": {"onHand": 1, "category": "Steak Saturday", "window": "2029-2042", "peak": "2032-2038", "flag": "Saved for a vertical tasting"},
-        "2022": {"onHand": 1, "category": "Steak Saturday", "window": "2029-2040", "peak": "2031-2037", "flag": "Saved for a vertical tasting"}
+        "2021": {"location": "B5", "onHand": 1, "category": "Steak Saturday", "window": "2029-2042", "peak": "2032-2038", "flag": "Saved for a vertical tasting"},
+        "2022": {"location": "B6", "onHand": 1, "category": "Steak Saturday", "window": "2029-2040", "peak": "2031-2037", "flag": "Saved for a vertical tasting"}
       },
       "otherScores": [{"vintage": "2020", "score": "93-94"}]
     },
@@ -186,8 +186,8 @@
       "region": "Howell Mountain, Napa Valley",
       "color": "red",
       "vintages": {
-        "2017": {"onHand": 1, "category": "Steak Saturday", "window": "2026-2032", "peak": "2027-2030"},
-        "2019": {"onHand": 1, "category": "Steak Saturday", "window": "2027-2036", "peak": "2029-2034"}
+        "2017": {"location": "E9", "onHand": 1, "category": "Steak Saturday", "window": "2026-2032", "peak": "2027-2030"},
+        "2019": {"location": "D9", "onHand": 1, "category": "Steak Saturday", "window": "2027-2036", "peak": "2029-2034"}
       },
       "otherScores": [{"vintage": "2023", "score": "94-96"}]
     },
@@ -198,7 +198,7 @@
       "region": "Howell Mountain, Napa Valley",
       "color": "red",
       "vintages": {
-        "2020": {"onHand": 1, "category": "Steak Saturday", "window": "2027-2033", "peak": "2028-2031"}
+        "2020": {"location": "F5", "onHand": 1, "category": "Steak Saturday", "window": "2027-2033", "peak": "2028-2031"}
       }
     },
     "marias-legacy-cabernet": {
@@ -208,7 +208,7 @@
       "region": "Chile",
       "color": "red",
       "vintages": {
-        "2023": {"onHand": 1, "category": "Tuesday Night", "window": "2026-2030", "peak": "2027-2029"}
+        "2023": {"location": "UP", "onHand": 1, "category": "Tuesday Night", "window": "2026-2030", "peak": "2027-2029"}
       }
     },
     "renieri-chianti-classico": {
@@ -218,7 +218,7 @@
       "region": "Chianti Classico, Tuscany",
       "color": "red",
       "vintages": {
-        "2023": {"onHand": 1, "category": "Tuesday Night", "window": "2026-2029", "peak": "2026-2028"}
+        "2023": {"location": "UP", "onHand": 1, "category": "Tuesday Night", "window": "2026-2029", "peak": "2026-2028"}
       }
     },
     "hall-ranch-reserve-cabernet": {
@@ -228,7 +228,7 @@
       "region": "Paso Robles",
       "color": "red",
       "vintages": {
-        "2021": {"onHand": 1, "category": "Tuesday Night", "window": "2026-2030", "peak": "2026-2028"}
+        "2021": {"location": "UP", "onHand": 1, "category": "Tuesday Night", "window": "2026-2030", "peak": "2026-2028"}
       }
     },
     "olema-cabernet": {
@@ -238,7 +238,7 @@
       "region": "Sonoma County",
       "color": "red",
       "vintages": {
-        "2022": {"onHand": 1, "category": "Tuesday Night", "window": "Now-2028", "peak": "2026-2027"}
+        "2022": {"location": "UP", "onHand": 1, "category": "Tuesday Night", "window": "Now-2028", "peak": "2026-2027"}
       }
     },
     "les-clottiers": {
@@ -248,7 +248,7 @@
       "region": "Blaye Côtes de Bordeaux",
       "color": "red",
       "vintages": {
-        "2021": {"onHand": 1, "category": "Tuesday Night", "window": "2026-2031", "peak": "2027-2030"}
+        "2021": {"location": "UP", "onHand": 1, "category": "Tuesday Night", "window": "2026-2031", "peak": "2027-2030"}
       }
     },
     "unanime-mascota-cabernet": {
@@ -258,7 +258,7 @@
       "region": "Mendoza, Argentina",
       "color": "red",
       "vintages": {
-        "2022": {"onHand": 1, "category": "Tuesday Night", "window": "2026-2030", "peak": "2027-2029"}
+        "2022": {"location": "UP", "onHand": 1, "category": "Tuesday Night", "window": "2026-2030", "peak": "2027-2029"}
       }
     },
     "halos-de-jupiter-cotes-du-rhone": {
@@ -268,7 +268,7 @@
       "region": "Côtes du Rhône",
       "color": "red",
       "vintages": {
-        "2024": {"onHand": 1, "category": "Tuesday Night", "window": "2026-2029", "peak": "2026-2028"}
+        "2024": {"location": "UP", "onHand": 1, "category": "Tuesday Night", "window": "2026-2029", "peak": "2026-2028"}
       }
     },
     "rose-de-vitrac": {
@@ -278,7 +278,7 @@
       "region": "Bordeaux",
       "color": "red",
       "vintages": {
-        "2022": {"onHand": 1, "category": "Tuesday Night", "window": "2026-2031", "peak": "2027-2029"}
+        "2022": {"location": "UP", "onHand": 1, "category": "Tuesday Night", "window": "2026-2031", "peak": "2027-2029"}
       }
     },
     "rauzan-despagne-bordeaux": {
@@ -288,7 +288,7 @@
       "region": "Bordeaux",
       "color": "red",
       "vintages": {
-        "2022": {"onHand": 1, "category": "Tuesday Night", "window": "2026-2030", "peak": "2027-2029"}
+        "2022": {"location": "UP", "onHand": 1, "category": "Tuesday Night", "window": "2026-2030", "peak": "2027-2029"}
       }
     },
     "adegamae-touriga-franca": {
@@ -298,7 +298,7 @@
       "region": "Lisboa, Portugal",
       "color": "red",
       "vintages": {
-        "2020": {"onHand": 1, "category": "Tuesday Night", "window": "2026-2030", "peak": "2026-2028"}
+        "2020": {"location": "UP", "onHand": 1, "category": "Tuesday Night", "window": "2026-2030", "peak": "2026-2028"}
       }
     },
     "carmen-gran-reserva-cabernet": {
@@ -308,7 +308,7 @@
       "region": "Maipo Valley, Chile",
       "color": "red",
       "vintages": {
-        "2022": {"onHand": 1, "category": "Tuesday Night", "window": "2026-2031", "peak": "2027-2030"}
+        "2022": {"location": "UP", "onHand": 1, "category": "Tuesday Night", "window": "2026-2031", "peak": "2027-2030"}
       }
     },
     "phifer-pavitt-xroads": {
@@ -318,7 +318,7 @@
       "region": "Napa Valley",
       "color": "red",
       "vintages": {
-        "2022": {"onHand": 2, "category": "Exploratory", "window": "2026-2036", "peak": "2028-2032"}
+        "2022": {"location": "F1, F2", "onHand": 2, "category": "Exploratory", "window": "2026-2036", "peak": "2028-2032"}
       }
     },
     "phifer-pavitt-reserve-cabernet": {
@@ -328,7 +328,7 @@
       "region": "Napa Valley",
       "color": "red",
       "vintages": {
-        "2022": {"onHand": 2, "category": "Exploratory", "window": "2027-2038", "peak": "2029-2034"}
+        "2022": {"location": "B8, B9", "onHand": 2, "category": "Exploratory", "window": "2027-2038", "peak": "2029-2034"}
       }
     },
     "phifer-pavitt-date-night-sparkling": {
@@ -338,7 +338,7 @@
       "region": "Napa Valley",
       "color": "white",
       "vintages": {
-        "2021": {"onHand": 2, "category": "Bridge / Pre-Dinner", "window": "2026-2027", "peak": null}
+        "2021": {"location": "FR", "onHand": 2, "category": "Bridge / Pre-Dinner", "window": "2026-2027", "peak": null}
       }
     },
     "spence-howell-mountain-cabernet": {
@@ -348,7 +348,7 @@
       "region": "Howell Mountain, Napa",
       "color": "red",
       "vintages": {
-        "2016": {"onHand": 2, "category": "Steak Saturday", "window": "2026-2034", "peak": "2026-2031"}
+        "2016": {"location": "E7, E8", "onHand": 2, "category": "Steak Saturday", "window": "2026-2034", "peak": "2026-2031"}
       }
     },
     "spence-studio-cabernet-franc": {
@@ -358,7 +358,7 @@
       "region": "Napa Valley",
       "color": "red",
       "vintages": {
-        "2023": {"onHand": 2, "category": null, "window": "2026-2032", "peak": "2027-2030"}
+        "2023": {"location": "F3, F4", "onHand": 2, "category": null, "window": "2026-2032", "peak": "2027-2030"}
       }
     },
     "spence-studio-rose-cabernet": {
@@ -368,7 +368,7 @@
       "region": "Howell Mountain, Napa",
       "color": "white",
       "vintages": {
-        "2025": {"onHand": 1, "category": null, "window": "Now-2027", "peak": null}
+        "2025": {"location": "FR", "onHand": 1, "category": null, "window": "Now-2027", "peak": null}
       }
     },
     "spence-studio-sauvignon-blanc": {
@@ -378,7 +378,7 @@
       "region": "Napa Valley",
       "color": "white",
       "vintages": {
-        "2025": {"onHand": 1, "category": null, "window": "Now-2027", "peak": null}
+        "2025": {"location": "FR", "onHand": 1, "category": null, "window": "Now-2027", "peak": null}
       }
     }
   }

@@ -1,6 +1,133 @@
 {
  "updated": "2026-10-03",
- "rack": null,
+ "rack": {
+  "rows": 7,
+  "cols": 9,
+  "slots": {
+   "A1": "oshaughnessy-mount-veeder-2017",
+   "A2": "oshaughnessy-mount-veeder-2018",
+   "A3": "oshaughnessy-mount-veeder-2019",
+   "A4": "oshaughnessy-mount-veeder-2021",
+   "A5": "oshaughnessy-mount-veeder-2022",
+   "A6": "gruaud-larose-2019",
+   "A7": "pedesclaux-2019",
+   "A8": "taplin-cabernet-2018",
+   "A9": "sherwin-estate-cabernet-2021",
+   "B1": "taplin-cabernet-2021",
+   "B2": "taplin-cabernet-2022",
+   "B3": "taplin-terra-9-2022",
+   "B4": "taplin-cabernet-franc-2021",
+   "B5": "viader-black-label-2021",
+   "B6": "viader-black-label-2022",
+   "B7": "chappellet-napa-cabernet-2022",
+   "B8": "phifer-pavitt-reserve-cabernet-2022",
+   "B9": "phifer-pavitt-reserve-cabernet-2022",
+   "C1": "oshaughnessy-howell-mountain-2022",
+   "C2": "oshaughnessy-howell-mountain-2022",
+   "C3": "oshaughnessy-howell-mountain-2022",
+   "C4": "oshaughnessy-mount-veeder-2022",
+   "C5": "oshaughnessy-mount-veeder-2022",
+   "C6": "oshaughnessy-mount-veeder-2022",
+   "C7": "taplin-terra-9-2023",
+   "C8": "taplin-terra-9-2023",
+   "C9": "taplin-terra-9-2023",
+   "D1": "sherwin-estate-cabernet-2023",
+   "D2": "sherwin-estate-cabernet-2023",
+   "D3": "sherwin-estate-cabernet-2023",
+   "D9": "viader-proprietary-red-2019",
+   "E1": "taplin-terra-9-2019",
+   "E2": "taplin-terra-9-2019",
+   "E3": "taplin-terra-9-2019",
+   "E4": "taplin-terra-9-2019",
+   "E5": "taplin-terra-9-2019",
+   "E6": "taplin-terra-9-2019",
+   "E7": "spence-howell-mountain-cabernet-2016",
+   "E8": "spence-howell-mountain-cabernet-2016",
+   "E9": "viader-proprietary-red-2017",
+   "F1": "phifer-pavitt-xroads-2022",
+   "F2": "phifer-pavitt-xroads-2022",
+   "F3": "spence-studio-cabernet-franc-2023",
+   "F4": "spence-studio-cabernet-franc-2023",
+   "F5": "viader-v-2020",
+   "F6": "aonair-mountain-reserve-2020",
+   "F7": "pride-merlot-2020",
+   "G1": "taplin-cabernet-2016",
+   "G2": "taplin-cabernet-2016",
+   "G3": "oshaughnessy-howell-mountain-2017"
+  },
+  "upstairs": [
+   {
+    "id": "decoy-cabernet-2022",
+    "n": 1
+   },
+   {
+    "id": "sherwin-cellar-scraps-nv-lot-19",
+    "n": 1
+   },
+   {
+    "id": "marias-legacy-cabernet-2023",
+    "n": 1
+   },
+   {
+    "id": "renieri-chianti-classico-2023",
+    "n": 1
+   },
+   {
+    "id": "hall-ranch-reserve-cabernet-2021",
+    "n": 1
+   },
+   {
+    "id": "olema-cabernet-2022",
+    "n": 1
+   },
+   {
+    "id": "les-clottiers-2021",
+    "n": 1
+   },
+   {
+    "id": "unanime-mascota-cabernet-2022",
+    "n": 1
+   },
+   {
+    "id": "halos-de-jupiter-cotes-du-rhone-2024",
+    "n": 1
+   },
+   {
+    "id": "rose-de-vitrac-2022",
+    "n": 1
+   },
+   {
+    "id": "rauzan-despagne-bordeaux-2022",
+    "n": 1
+   },
+   {
+    "id": "adegamae-touriga-franca-2020",
+    "n": 1
+   },
+   {
+    "id": "carmen-gran-reserva-cabernet-2022",
+    "n": 1
+   }
+  ],
+  "fridge": [
+   {
+    "id": "taplin-sauvignon-blanc-2025",
+    "n": 4
+   },
+   {
+    "id": "phifer-pavitt-date-night-sparkling-2021",
+    "n": 2
+   },
+   {
+    "id": "spence-studio-rose-cabernet-2025",
+    "n": 1
+   },
+   {
+    "id": "spence-studio-sauvignon-blanc-2025",
+    "n": 1
+   }
+  ]
+ },
  "wines": [
   {
    "id": "aonair-mountain-reserve-2020",
@@ -14,7 +141,9 @@
    "tags": [],
    "category": "Steak Saturday",
    "onHand": 1,
-   "locations": [],
+   "locations": [
+    "F6"
+   ],
    "window": "2026-2029",
    "peak": null,
    "jakeScore": null,
@@ -45,7 +174,9 @@
    "tags": [],
    "category": null,
    "onHand": 1,
-   "locations": [],
+   "locations": [
+    "B7"
+   ],
    "window": "2027-2034",
    "peak": "2029-2032",
    "jakeScore": null,
@@ -81,7 +212,9 @@
    ],
    "category": "Steak Saturday",
    "onHand": 1,
-   "locations": [],
+   "locations": [
+    "A6"
+   ],
    "window": "2030-2050",
    "peak": "2033-2045",
    "jakeScore": null,
@@ -117,7 +250,9 @@
    ],
    "category": "Steak Saturday",
    "onHand": 1,
-   "locations": [],
+   "locations": [
+    "A7"
+   ],
    "window": "2028-2040",
    "peak": "2031-2037",
    "jakeScore": null,
@@ -151,7 +286,9 @@
    "tags": [],
    "category": "Tuesday Night",
    "onHand": 1,
-   "locations": [],
+   "locations": [
+    "UP"
+   ],
    "window": "Now-2027",
    "peak": null,
    "jakeScore": "89-91",
@@ -182,7 +319,9 @@
    "tags": [],
    "category": "Special Occasion",
    "onHand": 1,
-   "locations": [],
+   "locations": [
+    "G3"
+   ],
    "window": "2026-2035",
    "peak": "2028-2033",
    "jakeScore": "98-100",
@@ -217,7 +356,11 @@
    "tags": [],
    "category": "Special Occasion",
    "onHand": 3,
-   "locations": [],
+   "locations": [
+    "C1",
+    "C2",
+    "C3"
+   ],
    "window": "2029-2042",
    "peak": "2032-2039",
    "jakeScore": null,
@@ -261,7 +404,9 @@
    "tags": [],
    "category": "Steak Saturday",
    "onHand": 1,
-   "locations": [],
+   "locations": [
+    "A1"
+   ],
    "window": "2026-2031",
    "peak": "2027-2030",
    "jakeScore": null,
@@ -301,7 +446,9 @@
    "tags": [],
    "category": "Steak Saturday",
    "onHand": 1,
-   "locations": [],
+   "locations": [
+    "A2"
+   ],
    "window": "2029-2040",
    "peak": "2032-2037",
    "jakeScore": null,
@@ -341,7 +488,9 @@
    "tags": [],
    "category": "Steak Saturday",
    "onHand": 1,
-   "locations": [],
+   "locations": [
+    "A3"
+   ],
    "window": "2028-2038",
    "peak": "2031-2036",
    "jakeScore": null,
@@ -381,7 +530,9 @@
    "tags": [],
    "category": "Steak Saturday",
    "onHand": 1,
-   "locations": [],
+   "locations": [
+    "A4"
+   ],
    "window": "2030-2045",
    "peak": "2034-2041",
    "jakeScore": null,
@@ -421,7 +572,12 @@
    "tags": [],
    "category": "Steak Saturday",
    "onHand": 4,
-   "locations": [],
+   "locations": [
+    "A5",
+    "C4",
+    "C5",
+    "C6"
+   ],
    "window": "2028-2036",
    "peak": "2030-2034",
    "jakeScore": null,
@@ -461,7 +617,9 @@
    "tags": [],
    "category": "Bridge / Pre-Dinner",
    "onHand": 1,
-   "locations": [],
+   "locations": [
+    "F7"
+   ],
    "window": "Now-2028",
    "peak": null,
    "jakeScore": "88-90",
@@ -495,7 +653,9 @@
    "tags": [],
    "category": "Steak Saturday",
    "onHand": 1,
-   "locations": [],
+   "locations": [
+    "UP"
+   ],
    "window": "Now-2028",
    "peak": null,
    "jakeScore": "92-94",
@@ -526,7 +686,9 @@
    "tags": [],
    "category": "Steak Saturday",
    "onHand": 1,
-   "locations": [],
+   "locations": [
+    "A9"
+   ],
    "window": "2030-2042",
    "peak": "2033-2039",
    "jakeScore": null,
@@ -563,7 +725,11 @@
    "tags": [],
    "category": "Steak Saturday",
    "onHand": 3,
-   "locations": [],
+   "locations": [
+    "D1",
+    "D2",
+    "D3"
+   ],
    "window": "2029-2042",
    "peak": "2032-2038",
    "jakeScore": "95-97",
@@ -598,7 +764,10 @@
    "tags": [],
    "category": "Special Occasion",
    "onHand": 2,
-   "locations": [],
+   "locations": [
+    "G1",
+    "G2"
+   ],
    "window": "2026-2032",
    "peak": "Now-2030",
    "jakeScore": "96-98",
@@ -629,7 +798,9 @@
    "tags": [],
    "category": "Special Occasion",
    "onHand": 1,
-   "locations": [],
+   "locations": [
+    "A8"
+   ],
    "window": "2029-2038",
    "peak": "2031-2036",
    "jakeScore": null,
@@ -665,7 +836,9 @@
    "tags": [],
    "category": "Special Occasion",
    "onHand": 1,
-   "locations": [],
+   "locations": [
+    "B1"
+   ],
    "window": "2028-2038",
    "peak": "2031-2036",
    "jakeScore": null,
@@ -701,7 +874,9 @@
    "tags": [],
    "category": "Special Occasion",
    "onHand": 1,
-   "locations": [],
+   "locations": [
+    "B2"
+   ],
    "window": "2029-2040",
    "peak": "2032-2037",
    "jakeScore": null,
@@ -737,7 +912,14 @@
    "tags": [],
    "category": "Steak Saturday",
    "onHand": 6,
-   "locations": [],
+   "locations": [
+    "E1",
+    "E2",
+    "E3",
+    "E4",
+    "E5",
+    "E6"
+   ],
    "window": "2026-2031",
    "peak": "2027-2030",
    "jakeScore": "94-95",
@@ -768,7 +950,9 @@
    "tags": [],
    "category": "Steak Saturday",
    "onHand": 1,
-   "locations": [],
+   "locations": [
+    "B3"
+   ],
    "window": "2027-2034",
    "peak": "2029-2032",
    "jakeScore": null,
@@ -808,7 +992,11 @@
    "tags": [],
    "category": "Steak Saturday",
    "onHand": 3,
-   "locations": [],
+   "locations": [
+    "C7",
+    "C8",
+    "C9"
+   ],
    "window": "2028-2036",
    "peak": "2030-2034",
    "jakeScore": null,
@@ -851,7 +1039,9 @@
    "tags": [],
    "category": null,
    "onHand": 1,
-   "locations": [],
+   "locations": [
+    "B4"
+   ],
    "window": "2027-2034",
    "peak": "2028-2032",
    "jakeScore": null,
@@ -882,7 +1072,9 @@
    "tags": [],
    "category": null,
    "onHand": 4,
-   "locations": [],
+   "locations": [
+    "FR"
+   ],
    "window": "Now-2027",
    "peak": null,
    "jakeScore": null,
@@ -913,7 +1105,9 @@
    "tags": [],
    "category": "Steak Saturday",
    "onHand": 1,
-   "locations": [],
+   "locations": [
+    "B5"
+   ],
    "window": "2029-2042",
    "peak": "2032-2038",
    "jakeScore": null,
@@ -953,7 +1147,9 @@
    "tags": [],
    "category": "Steak Saturday",
    "onHand": 1,
-   "locations": [],
+   "locations": [
+    "B6"
+   ],
    "window": "2029-2040",
    "peak": "2031-2037",
    "jakeScore": null,
@@ -993,7 +1189,9 @@
    "tags": [],
    "category": "Steak Saturday",
    "onHand": 1,
-   "locations": [],
+   "locations": [
+    "E9"
+   ],
    "window": "2026-2032",
    "peak": "2027-2030",
    "jakeScore": null,
@@ -1033,7 +1231,9 @@
    "tags": [],
    "category": "Steak Saturday",
    "onHand": 1,
-   "locations": [],
+   "locations": [
+    "D9"
+   ],
    "window": "2027-2036",
    "peak": "2029-2034",
    "jakeScore": null,
@@ -1073,7 +1273,9 @@
    "tags": [],
    "category": "Steak Saturday",
    "onHand": 1,
-   "locations": [],
+   "locations": [
+    "F5"
+   ],
    "window": "2027-2033",
    "peak": "2028-2031",
    "jakeScore": null,
@@ -1108,7 +1310,9 @@
    "tags": [],
    "category": "Tuesday Night",
    "onHand": 1,
-   "locations": [],
+   "locations": [
+    "UP"
+   ],
    "window": "2026-2030",
    "peak": "2027-2029",
    "jakeScore": null,
@@ -1139,7 +1343,9 @@
    "tags": [],
    "category": "Tuesday Night",
    "onHand": 1,
-   "locations": [],
+   "locations": [
+    "UP"
+   ],
    "window": "2026-2029",
    "peak": "2026-2028",
    "jakeScore": null,
@@ -1173,7 +1379,9 @@
    "tags": [],
    "category": "Tuesday Night",
    "onHand": 1,
-   "locations": [],
+   "locations": [
+    "UP"
+   ],
    "window": "2026-2030",
    "peak": "2026-2028",
    "jakeScore": null,
@@ -1204,7 +1412,9 @@
    "tags": [],
    "category": "Tuesday Night",
    "onHand": 1,
-   "locations": [],
+   "locations": [
+    "UP"
+   ],
    "window": "Now-2028",
    "peak": "2026-2027",
    "jakeScore": null,
@@ -1235,7 +1445,9 @@
    "tags": [],
    "category": "Tuesday Night",
    "onHand": 1,
-   "locations": [],
+   "locations": [
+    "UP"
+   ],
    "window": "2026-2031",
    "peak": "2027-2030",
    "jakeScore": null,
@@ -1269,7 +1481,9 @@
    "tags": [],
    "category": "Tuesday Night",
    "onHand": 1,
-   "locations": [],
+   "locations": [
+    "UP"
+   ],
    "window": "2026-2030",
    "peak": "2027-2029",
    "jakeScore": null,
@@ -1303,7 +1517,9 @@
    "tags": [],
    "category": "Tuesday Night",
    "onHand": 1,
-   "locations": [],
+   "locations": [
+    "UP"
+   ],
    "window": "2026-2029",
    "peak": "2026-2028",
    "jakeScore": null,
@@ -1337,7 +1553,9 @@
    "tags": [],
    "category": "Tuesday Night",
    "onHand": 1,
-   "locations": [],
+   "locations": [
+    "UP"
+   ],
    "window": "2026-2031",
    "peak": "2027-2029",
    "jakeScore": null,
@@ -1371,7 +1589,9 @@
    "tags": [],
    "category": "Tuesday Night",
    "onHand": 1,
-   "locations": [],
+   "locations": [
+    "UP"
+   ],
    "window": "2026-2030",
    "peak": "2027-2029",
    "jakeScore": null,
@@ -1405,7 +1625,9 @@
    "tags": [],
    "category": "Tuesday Night",
    "onHand": 1,
-   "locations": [],
+   "locations": [
+    "UP"
+   ],
    "window": "2026-2030",
    "peak": "2026-2028",
    "jakeScore": null,
@@ -1436,7 +1658,9 @@
    "tags": [],
    "category": "Tuesday Night",
    "onHand": 1,
-   "locations": [],
+   "locations": [
+    "UP"
+   ],
    "window": "2026-2031",
    "peak": "2027-2030",
    "jakeScore": null,
@@ -1470,7 +1694,10 @@
    "tags": [],
    "category": "Exploratory",
    "onHand": 2,
-   "locations": [],
+   "locations": [
+    "F1",
+    "F2"
+   ],
    "window": "2026-2036",
    "peak": "2028-2032",
    "jakeScore": null,
@@ -1501,15 +1728,18 @@
    "tags": [],
    "category": "Exploratory",
    "onHand": 2,
-   "locations": [],
+   "locations": [
+    "B8",
+    "B9"
+   ],
    "window": "2027-2038",
    "peak": "2029-2034",
    "jakeScore": null,
    "jakeNote": null,
    "flag": null,
    "otherScores": [],
-   "image": null,
-   "imageSource": null,
+   "image": "images/web/phifer-pavitt-reserve-cabernet.webp",
+   "imageSource": "Jake's photo of the bottle in hand, Oct 2026",
    "blend": "98% Cabernet Sauvignon, 2% Petit Verdot, from organically farmed Temple Family Vineyards in Pope Valley",
    "about": "The Reserve is Phifer Pavitt's top Napa Valley Cabernet, a step above XROADS and Date Night.",
    "web": {
@@ -1532,7 +1762,9 @@
    "tags": [],
    "category": "Bridge / Pre-Dinner",
    "onHand": 2,
-   "locations": [],
+   "locations": [
+    "FR"
+   ],
    "window": "2026-2027",
    "peak": null,
    "jakeScore": null,
@@ -1563,7 +1795,10 @@
    "tags": [],
    "category": "Steak Saturday",
    "onHand": 2,
-   "locations": [],
+   "locations": [
+    "E7",
+    "E8"
+   ],
    "window": "2026-2034",
    "peak": "2026-2031",
    "jakeScore": null,
@@ -1594,15 +1829,18 @@
    "tags": [],
    "category": null,
    "onHand": 2,
-   "locations": [],
+   "locations": [
+    "F3",
+    "F4"
+   ],
    "window": "2026-2032",
    "peak": "2027-2030",
    "jakeScore": null,
    "jakeNote": null,
    "flag": null,
    "otherScores": [],
-   "image": null,
-   "imageSource": null,
+   "image": "images/web/spence-studio-cabernet-franc.webp",
+   "imageSource": "Jake's photo of the bottle in hand, Oct 2026",
    "blend": "Cabernet Franc",
    "about": "Studio is Spence's smaller-lot label, mostly for club members, alongside the Howell Mountain estate Cabernet and the top Atelier bottling.",
    "web": null
@@ -1619,7 +1857,9 @@
    "tags": [],
    "category": null,
    "onHand": 1,
-   "locations": [],
+   "locations": [
+    "FR"
+   ],
    "window": "Now-2027",
    "peak": null,
    "jakeScore": null,
@@ -1650,15 +1890,17 @@
    "tags": [],
    "category": null,
    "onHand": 1,
-   "locations": [],
+   "locations": [
+    "FR"
+   ],
    "window": "Now-2027",
    "peak": null,
    "jakeScore": null,
    "jakeNote": null,
    "flag": null,
    "otherScores": [],
-   "image": null,
-   "imageSource": null,
+   "image": "images/web/spence-studio-sauvignon-blanc.webp",
+   "imageSource": "Jake's photo of the bottle in hand, Oct 2026",
    "blend": "Sauvignon Blanc",
    "about": "Studio is Spence's smaller-lot label, mostly for club members, alongside the Howell Mountain estate Cabernet and the top Atelier bottling.",
    "web": null
