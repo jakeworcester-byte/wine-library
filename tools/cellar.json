@@ -1,6 +1,6 @@
 {
   "_about": "Guest-safe snapshot of the Notion Wine Library (On Hand > 0). No prices, sources, or working notes. Refresh by re-querying Notion and editing this file, then run tools/build.py.",
-  "snapshotDate": "2026-10-01",
+  "snapshotDate": "2026-10-03",
   "wines": {
     "aonair-mountain-reserve": {
       "producer": "Aonair",
@@ -221,16 +221,6 @@
         "2023": {"onHand": 1, "category": "Tuesday Night", "window": "2026-2029", "peak": "2026-2028"}
       }
     },
-    "chapelle-blaye": {
-      "producer": "Château de la Chapelle",
-      "name": "Blaye Côtes de Bordeaux",
-      "short": "Chapelle",
-      "region": "Blaye Côtes de Bordeaux",
-      "color": "red",
-      "vintages": {
-        "2020": {"onHand": 1, "category": "Tuesday Night", "window": "Now-2028", "peak": "2026-2027"}
-      }
-    },
     "hall-ranch-reserve-cabernet": {
       "producer": "Hall Ranch",
       "name": "Reserve Cabernet Sauvignon",
@@ -349,6 +339,46 @@
       "color": "white",
       "vintages": {
         "2021": {"onHand": 2, "category": "Bridge / Pre-Dinner", "window": "2026-2027", "peak": null}
+      }
+    },
+    "spence-howell-mountain-cabernet": {
+      "producer": "Spence Vineyards",
+      "name": "Howell Mountain Cabernet Sauvignon",
+      "short": "Spence Cab",
+      "region": "Howell Mountain, Napa",
+      "color": "red",
+      "vintages": {
+        "2016": {"onHand": 2, "category": "Steak Saturday", "window": "2026-2034", "peak": "2026-2031"}
+      }
+    },
+    "spence-studio-cabernet-franc": {
+      "producer": "Spence Vineyards",
+      "name": "Studio Cabernet Franc",
+      "short": "Spence CF",
+      "region": "Napa Valley",
+      "color": "red",
+      "vintages": {
+        "2023": {"onHand": 2, "category": null, "window": "2026-2032", "peak": "2027-2030"}
+      }
+    },
+    "spence-studio-rose-cabernet": {
+      "producer": "Spence Vineyards",
+      "name": "Studio Rosé of Cabernet Sauvignon",
+      "short": "Spence Rosé",
+      "region": "Howell Mountain, Napa",
+      "color": "white",
+      "vintages": {
+        "2025": {"onHand": 1, "category": null, "window": "Now-2027", "peak": null}
+      }
+    },
+    "spence-studio-sauvignon-blanc": {
+      "producer": "Spence Vineyards",
+      "name": "Studio Sauvignon Blanc",
+      "short": "Spence SB",
+      "region": "Napa Valley",
+      "color": "white",
+      "vintages": {
+        "2025": {"onHand": 1, "category": null, "window": "Now-2027", "peak": null}
       }
     }
   }

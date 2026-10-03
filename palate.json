@@ -247,6 +247,18 @@
    "take": "Safe and structured."
   },
   {
+   "producer": "Knights Bridge",
+   "name": "Cabernet Sauvignon",
+   "vintage": null,
+   "region": "Knights Valley, Sonoma",
+   "role": "Steak Saturday",
+   "score": "91-93",
+   "tried": true,
+   "onList": false,
+   "verdict": "buy again",
+   "take": "Had a glass one afternoon and it surprised me. I'd definitely pick up a bottle if I see one, and I want to try it with a steak."
+  },
+  {
    "producer": "Corison",
    "name": "St. Helena Cabernet",
    "vintage": "2019",
@@ -371,6 +383,19 @@
    "take": "A little sharp with a metallic edge right after opening, then it mellowed and kept getting better as the night went on. Next time I'll give it an hour in a decanter."
   },
   {
+   "producer": "Tenuta Monteti",
+   "name": "Caburnio",
+   "vintage": "2019",
+   "region": "Maremma, Tuscany",
+   "role": "Tuesday Night",
+   "score": "88-90",
+   "tried": true,
+   "onList": false,
+   "verdict": "depends",
+   "take": "A Cab-led Tuscan blend with good structure, better than I expected from an Old World Cab. A solid pick with pizza.",
+   "pairing": "Sausage and onion pizza"
+  },
+  {
    "producer": "Kirkland Signature",
    "name": "Pauillac",
    "vintage": "2023",
@@ -468,6 +493,19 @@
    "verdict": "depends",
    "take": "Good with an oil-based sausage pasta, light and not much fun on its own.",
    "pairing": "Oil-based sausage pasta"
+  },
+  {
+   "producer": "Château de la Chapelle",
+   "name": "Blaye Côtes de Bordeaux",
+   "vintage": "2020",
+   "region": "Blaye Côtes de Bordeaux",
+   "role": "Tuesday Night",
+   "score": "87-88",
+   "tried": true,
+   "onList": false,
+   "verdict": "not for me",
+   "take": "Sound backbone, and it opened up and got more enjoyable as the night went. Plenty of strength for pork, but a little flat: fine flavor, nothing amazing.",
+   "pairing": "Pork tenderloin"
   },
   {
    "producer": "Trefethen",
@@ -653,5 +691,5 @@
    "take": "Still haven't tasted it. On my list."
   }
  ],
- "updated": "2026-10-01"
+ "updated": "2026-10-03"
 }
