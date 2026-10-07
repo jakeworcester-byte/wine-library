@@ -1,7 +1,7 @@
 {
- "updated": "2026-10-03",
+ "updated": "2026-10-07",
  "rack": {
-  "rows": 7,
+  "rows": 8,
   "cols": 9,
   "slots": {
    "A1": "oshaughnessy-mount-veeder-2017",
@@ -42,7 +42,6 @@
    "E5": "taplin-terra-9-2019",
    "E6": "taplin-terra-9-2019",
    "E7": "spence-howell-mountain-cabernet-2016",
-   "E8": "spence-howell-mountain-cabernet-2016",
    "E9": "viader-proprietary-red-2017",
    "F1": "phifer-pavitt-xroads-2022",
    "F2": "phifer-pavitt-xroads-2022",
@@ -53,7 +52,12 @@
    "F7": "pride-merlot-2020",
    "G1": "taplin-cabernet-2016",
    "G2": "taplin-cabernet-2016",
-   "G3": "oshaughnessy-howell-mountain-2017"
+   "G3": "oshaughnessy-howell-mountain-2017",
+   "G4": "joseph-cellars-247-cabernet-2019",
+   "G5": "joseph-cellars-247-cabernet-2019",
+   "G6": "joseph-cellars-247-cabernet-2019",
+   "H7": "joseph-cellars-voyage-2021",
+   "H9": "joseph-cellars-voyage-2021"
   },
   "upstairs": [
    {
@@ -81,10 +85,6 @@
     "n": 1
    },
    {
-    "id": "les-clottiers-2021",
-    "n": 1
-   },
-   {
     "id": "unanime-mascota-cabernet-2022",
     "n": 1
    },
@@ -106,6 +106,10 @@
    },
    {
     "id": "carmen-gran-reserva-cabernet-2022",
+    "n": 1
+   },
+   {
+    "id": "joseph-cellars-voyage-2021",
     "n": 1
    }
   ],
@@ -1434,42 +1438,6 @@
    }
   },
   {
-   "id": "les-clottiers-2021",
-   "slug": "les-clottiers",
-   "producer": "Château Les Clottiers",
-   "name": "Blaye Côtes de Bordeaux",
-   "short": "Clottiers",
-   "vintage": "2021",
-   "region": "Blaye Côtes de Bordeaux",
-   "color": "red",
-   "tags": [],
-   "category": "Tuesday Night",
-   "onHand": 1,
-   "locations": [
-    "UP"
-   ],
-   "window": "2026-2031",
-   "peak": "2027-2030",
-   "jakeScore": null,
-   "jakeNote": null,
-   "flag": null,
-   "otherScores": [],
-   "image": "images/web/les-clottiers.webp",
-   "imageSource": "https://www.totalwine.com/wine/red-wine/bordeaux-blend/chateau-les-clottiers/p/2126230438",
-   "blend": "Merlot-led Bordeaux blend, about 85% Merlot and 15% Cabernet Sauvignon (per the 2021 competition entry)",
-   "about": "Chateau Les Clottiers is a Blaye Cotes de Bordeaux estate from the Luc Schweitzer family, whose vineyards sit on the right bank of the Gironde near Berson.",
-   "web": {
-    "note": "Fresh and inviting, with floral lift over dark red and black fruit. The palate is generous and inky, with savory leafy and bell pepper notes typical of Merlot-driven Bordeaux, fine youthful tannins, and a long finish touched by violet, black olive and bramble.",
-    "noteVintage": "2021",
-    "critic": {
-     "critic": "Decanter World Wine Awards",
-     "score": "95"
-    },
-    "sourceName": "Decanter World Wine Awards (via Total Wine)",
-    "sourceUrl": "https://concierge.totalwine.com/product/2021-chateau-les-clottiers-12-pack"
-   }
-  },
-  {
    "id": "unanime-mascota-cabernet-2022",
    "slug": "unanime-mascota-cabernet",
    "producer": "Mascota Vineyards",
@@ -1794,15 +1762,14 @@
    "color": "red",
    "tags": [],
    "category": "Steak Saturday",
-   "onHand": 2,
+   "onHand": 1,
    "locations": [
-    "E7",
-    "E8"
+    "E7"
    ],
    "window": "2026-2034",
    "peak": "2026-2031",
-   "jakeScore": null,
-   "jakeNote": null,
+   "jakeScore": "94-96",
+   "jakeNote": "Our featured Steak Saturday bottle in October 2026. Smooth and delicious, more mellow than typical Howell Mountain, with softer tannins. Ten years in bottle gave it real polish. Good enough that I have my eye on the 2018.",
    "flag": null,
    "otherScores": [],
    "image": "images/web/spence-howell-mountain-cabernet.webp",
@@ -1903,6 +1870,70 @@
    "imageSource": "Jake's photo of the bottle in hand, Oct 2026",
    "blend": "Sauvignon Blanc",
    "about": "Studio is Spence's smaller-lot label, mostly for club members, alongside the Howell Mountain estate Cabernet and the top Atelier bottling.",
+   "web": null
+  },
+  {
+   "id": "joseph-cellars-voyage-2021",
+   "slug": "joseph-cellars-voyage",
+   "producer": "Joseph Cellars",
+   "name": "Voyage",
+   "short": "Voyage",
+   "vintage": "2021",
+   "region": "Dry Creek Valley, Sonoma",
+   "color": "red",
+   "tags": [],
+   "category": "Exploratory",
+   "onHand": 3,
+   "locations": [
+    "H7",
+    "H9",
+    "UP"
+   ],
+   "window": "Now-2029",
+   "peak": null,
+   "jakeScore": null,
+   "jakeNote": null,
+   "flag": null,
+   "otherScores": [],
+   "image": "images/web/joseph-cellars-voyage.webp",
+   "imageSource": "https://www.josephcellars.com/product/2021-voyage",
+   "blend": "70% Zinfandel, 30% Petite Sirah",
+   "about": "Joseph Cellars is a small family winery at the north end of Napa Valley in Calistoga, and Voyage is its Sonoma side project: a Zinfandel and Petite Sirah blend from Dry Creek Valley fruit.",
+   "web": {
+    "note": "The winery describes the 2021 as bright and fruit-forward with good balance, and pairs it with a wet-aged prime New York strip, where it lets the clean beef flavor lead. Expect the ripe berry of Dry Creek Zinfandel, with Petite Sirah adding color, grip and darker fruit.",
+    "noteVintage": "2021",
+    "critic": null,
+    "sourceName": "Joseph Cellars Winery (2021 Voyage product page)",
+    "sourceUrl": "https://www.josephcellars.com/product/2021-voyage"
+   }
+  },
+  {
+   "id": "joseph-cellars-247-cabernet-2019",
+   "slug": "joseph-cellars-247-cabernet",
+   "producer": "Joseph Cellars",
+   "name": "247 Cabernet Sauvignon",
+   "short": "247 Cab",
+   "vintage": "2019",
+   "region": "Calistoga, Napa",
+   "color": "red",
+   "tags": [],
+   "category": "Steak Saturday",
+   "onHand": 3,
+   "locations": [
+    "G4",
+    "G5",
+    "G6"
+   ],
+   "window": "2026-2031",
+   "peak": "2026-2029",
+   "jakeScore": null,
+   "jakeNote": null,
+   "flag": null,
+   "otherScores": [],
+   "image": "images/web/joseph-cellars-247-cabernet.webp",
+   "imageSource": "https://www.josephcellars.com/product/2019-247-cabernet-sauvignon-",
+   "blend": "Cabernet Sauvignon",
+   "about": "Joseph Cellars is a small family winery on Highway 29 at the north end of Calistoga, where its vineyards run up toward Diamond Mountain; 247 is the winery's everyday Calistoga Cabernet.",
    "web": null
   }
  ]

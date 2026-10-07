@@ -508,6 +508,18 @@
    "pairing": "Pork tenderloin"
   },
   {
+   "producer": "Château Les Clottiers",
+   "name": "Blaye Côtes de Bordeaux",
+   "vintage": "2021",
+   "region": "Blaye Côtes de Bordeaux",
+   "role": "Tuesday Night",
+   "score": "86-88",
+   "tried": true,
+   "onList": false,
+   "verdict": "not for me",
+   "take": "Poured as the opener before a Steak Saturday bottle and it didn't do the job: boring and a little harsh, when a starter should be softer and more giving than the main event."
+  },
+  {
    "producer": "Trefethen",
    "name": "Oak Knoll Cabernet",
    "vintage": "2020",
@@ -691,5 +703,5 @@
    "take": "Still haven't tasted it. On my list."
   }
  ],
- "updated": "2026-10-03"
+ "updated": "2026-10-07"
 }

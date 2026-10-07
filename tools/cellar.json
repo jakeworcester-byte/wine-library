@@ -1,6 +1,6 @@
 {
   "_about": "Guest-safe snapshot of the Notion Wine Library (On Hand > 0). No prices, sources, or working notes. Refresh by re-querying Notion and editing this file, then run tools/build.py.",
-  "snapshotDate": "2026-10-03",
+  "snapshotDate": "2026-10-07",
   "wines": {
     "aonair-mountain-reserve": {
       "producer": "Aonair",
@@ -241,16 +241,6 @@
         "2022": {"location": "UP", "onHand": 1, "category": "Tuesday Night", "window": "Now-2028", "peak": "2026-2027"}
       }
     },
-    "les-clottiers": {
-      "producer": "Château Les Clottiers",
-      "name": "Blaye Côtes de Bordeaux",
-      "short": "Clottiers",
-      "region": "Blaye Côtes de Bordeaux",
-      "color": "red",
-      "vintages": {
-        "2021": {"location": "UP", "onHand": 1, "category": "Tuesday Night", "window": "2026-2031", "peak": "2027-2030"}
-      }
-    },
     "unanime-mascota-cabernet": {
       "producer": "Mascota Vineyards",
       "name": "Unánime Gran Vino Tinto",
@@ -348,7 +338,8 @@
       "region": "Howell Mountain, Napa",
       "color": "red",
       "vintages": {
-        "2016": {"location": "E7, E8", "onHand": 2, "category": "Steak Saturday", "window": "2026-2034", "peak": "2026-2031"}
+        "2016": {"location": "E7", "onHand": 1, "category": "Steak Saturday", "window": "2026-2034", "peak": "2026-2031", "jakeScore": "94-96",
+                 "jakeNote": "Our featured Steak Saturday bottle in October 2026. Smooth and delicious, more mellow than typical Howell Mountain, with softer tannins. Ten years in bottle gave it real polish. Good enough that I have my eye on the 2018."}
       }
     },
     "spence-studio-cabernet-franc": {
@@ -379,6 +370,26 @@
       "color": "white",
       "vintages": {
         "2025": {"location": "FR", "onHand": 1, "category": null, "window": "Now-2027", "peak": null}
+      }
+    },
+    "joseph-cellars-voyage": {
+      "producer": "Joseph Cellars",
+      "name": "Voyage",
+      "short": "Voyage",
+      "region": "Dry Creek Valley, Sonoma",
+      "color": "red",
+      "vintages": {
+        "2021": {"location": "H7, H9, UP", "onHand": 3, "category": "Exploratory", "window": "Now-2029", "peak": null}
+      }
+    },
+    "joseph-cellars-247-cabernet": {
+      "producer": "Joseph Cellars",
+      "name": "247 Cabernet Sauvignon",
+      "short": "247 Cab",
+      "region": "Calistoga, Napa",
+      "color": "red",
+      "vintages": {
+        "2019": {"location": "G4, G5, G6", "onHand": 3, "category": "Steak Saturday", "window": "2026-2031", "peak": "2026-2029"}
       }
     }
   }
