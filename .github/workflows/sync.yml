@@ -9,6 +9,11 @@ on:
   push:
     branches: [main]
   workflow_dispatch:
+    inputs:
+      test_routine:
+        description: "Start the research routine even if nothing is pending (tests the API key)"
+        type: boolean
+        default: false
 
 concurrency:
   group: wine-sync
@@ -61,9 +66,9 @@ jobs:
       # New wines need research and tasted wines need a Guest Note. Start the
       # cloud routine for that work when this sync just surfaced some.
       - name: Start the research routine
-        if: steps.commit.outputs.changed == 'true' && steps.commit.outputs.pending != '0' && env.ROUTINE_TOKEN != ''
+        if: env.ROUTINE_TOKEN != '' && ((steps.commit.outputs.changed == 'true' && steps.commit.outputs.pending != '0') || inputs.test_routine)
         run: |
-          curl -sS -X POST "https://api.anthropic.com/v1/claude_code/routines/${ROUTINE_ID}/fire" \
+          curl -sS --fail-with-body -X POST "https://api.anthropic.com/v1/claude_code/routines/${ROUTINE_ID}/fire" \
             -H "Authorization: Bearer ${ROUTINE_TOKEN}" \
             -H "anthropic-beta: experimental-cc-routine-2026-04-01" \
             -H "anthropic-version: 2023-06-01" \
