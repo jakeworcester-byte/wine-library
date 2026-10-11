@@ -40,8 +40,12 @@ Buy Ceiling or Source, so nothing private can reach the site through the sync.
   Notes in Jake's style ("LABEL CONFIRMED 2026-10-01: ...").
 - **Never change** Jake Score, Repeat Buy, Status, On Hand, Location, prices, or his
   own Notes text. Never delete or archive a row. List every Notion edit in the report.
-- **Never send email or messages.** The only outward actions are Notion edits and
-  `git push` to `jakeworcester-byte/wine-library`.
+- **Reading Notion is expected, including Notes.** Notes are Jake's private working
+  record and the main source for Guest columns; read them freely. Only what goes into
+  a Guest column or the repo becomes public.
+- **Never send email, messages or push notifications.** The only outward actions are
+  Notion edits and `git push` to `jakeworcester-byte/wine-library`. Problems go in the
+  report.
 - **Never use em dashes** (the long dash) anywhere on the site or in Guest columns.
   `build.py` refuses to write output containing one.
 - **Guest-safe only.** Prices, Buy Ceiling, Source, where or how a bottle was bought,
