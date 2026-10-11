@@ -1,3 +1,4 @@
 images/*
 !images/web/
 __pycache__/
+tools/wine-strategy-instructions.md
