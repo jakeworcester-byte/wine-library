@@ -83,6 +83,8 @@
      "take": "Excellent with walleye, forgettable on its own.", "pairing": "Walleye"},
     {"producer": "Confidencial", "name": "Reserva", "vintage": "2017", "region": "Portugal", "role": "Exploratory", "score": "87-88", "tried": true, "onList": false, "verdict": "depends",
      "take": "Good with an oil-based sausage pasta, light and not much fun on its own.", "pairing": "Oil-based sausage pasta"},
+    {"producer": "Spence Vineyards", "name": "Studio Sauvignon Blanc", "vintage": "2025", "region": "Napa Valley", "role": "Exploratory", "score": "86-88", "tried": true, "onList": false, "verdict": "depends",
+     "take": "Crisp and mild across the board, with soft citrus and gentle acid. Very easy to drink and a nice cooling counter to spicy Thai food, though it never blew me away.", "pairing": "Spicy Thai food"},
     {"producer": "Château de la Chapelle", "name": "Blaye Côtes de Bordeaux", "vintage": "2020", "region": "Blaye Côtes de Bordeaux", "role": "Tuesday Night", "score": "87-88", "tried": true, "onList": false, "verdict": "not for me",
      "take": "Sound backbone, and it opened up and got more enjoyable as the night went. Plenty of strength for pork, but a little flat: fine flavor, nothing amazing.", "pairing": "Pork tenderloin"},
     {"producer": "Château Les Clottiers", "name": "Blaye Côtes de Bordeaux", "vintage": "2021", "region": "Blaye Côtes de Bordeaux", "role": "Tuesday Night", "score": "86-88", "tried": true, "onList": false, "verdict": "not for me",

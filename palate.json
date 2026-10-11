@@ -495,6 +495,19 @@
    "pairing": "Oil-based sausage pasta"
   },
   {
+   "producer": "Spence Vineyards",
+   "name": "Studio Sauvignon Blanc",
+   "vintage": "2025",
+   "region": "Napa Valley",
+   "role": "Exploratory",
+   "score": "86-88",
+   "tried": true,
+   "onList": false,
+   "verdict": "depends",
+   "take": "Crisp and mild across the board, with soft citrus and gentle acid. Very easy to drink and a nice cooling counter to spicy Thai food, though it never blew me away.",
+   "pairing": "Spicy Thai food"
+  },
+  {
    "producer": "Château de la Chapelle",
    "name": "Blaye Côtes de Bordeaux",
    "vintage": "2020",
@@ -703,5 +716,5 @@
    "take": "Still haven't tasted it. On my list."
   }
  ],
- "updated": "2026-10-07"
+ "updated": "2026-10-11"
 }

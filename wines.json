@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-07",
+ "updated": "2026-10-11",
  "rack": {
   "rows": 8,
   "cols": 9,
@@ -107,10 +107,6 @@
    {
     "id": "carmen-gran-reserva-cabernet-2022",
     "n": 1
-   },
-   {
-    "id": "joseph-cellars-voyage-2021",
-    "n": 1
    }
   ],
   "fridge": [
@@ -124,10 +120,6 @@
    },
    {
     "id": "spence-studio-rose-cabernet-2025",
-    "n": 1
-   },
-   {
-    "id": "spence-studio-sauvignon-blanc-2025",
     "n": 1
    }
   ]
@@ -1846,33 +1838,6 @@
    }
   },
   {
-   "id": "spence-studio-sauvignon-blanc-2025",
-   "slug": "spence-studio-sauvignon-blanc",
-   "producer": "Spence Vineyards",
-   "name": "Studio Sauvignon Blanc",
-   "short": "Spence SB",
-   "vintage": "2025",
-   "region": "Napa Valley",
-   "color": "white",
-   "tags": [],
-   "category": null,
-   "onHand": 1,
-   "locations": [
-    "FR"
-   ],
-   "window": "Now-2027",
-   "peak": null,
-   "jakeScore": null,
-   "jakeNote": null,
-   "flag": null,
-   "otherScores": [],
-   "image": "images/web/spence-studio-sauvignon-blanc.webp",
-   "imageSource": "Jake's photo of the bottle in hand, Oct 2026",
-   "blend": "Sauvignon Blanc",
-   "about": "Studio is Spence's smaller-lot label, mostly for club members, alongside the Howell Mountain estate Cabernet and the top Atelier bottling.",
-   "web": null
-  },
-  {
    "id": "joseph-cellars-voyage-2021",
    "slug": "joseph-cellars-voyage",
    "producer": "Joseph Cellars",
@@ -1883,11 +1848,10 @@
    "color": "red",
    "tags": [],
    "category": "Exploratory",
-   "onHand": 3,
+   "onHand": 2,
    "locations": [
     "H7",
-    "H9",
-    "UP"
+    "H9"
    ],
    "window": "Now-2029",
    "peak": null,

@@ -1,6 +1,6 @@
 {
   "_about": "Guest-safe snapshot of the Notion Wine Library (On Hand > 0). No prices, sources, or working notes. Refresh by re-querying Notion and editing this file, then run tools/build.py.",
-  "snapshotDate": "2026-10-07",
+  "snapshotDate": "2026-10-11",
   "wines": {
     "aonair-mountain-reserve": {
       "producer": "Aonair",
@@ -362,16 +362,6 @@
         "2025": {"location": "FR", "onHand": 1, "category": null, "window": "Now-2027", "peak": null}
       }
     },
-    "spence-studio-sauvignon-blanc": {
-      "producer": "Spence Vineyards",
-      "name": "Studio Sauvignon Blanc",
-      "short": "Spence SB",
-      "region": "Napa Valley",
-      "color": "white",
-      "vintages": {
-        "2025": {"location": "FR", "onHand": 1, "category": null, "window": "Now-2027", "peak": null}
-      }
-    },
     "joseph-cellars-voyage": {
       "producer": "Joseph Cellars",
       "name": "Voyage",
@@ -379,7 +369,7 @@
       "region": "Dry Creek Valley, Sonoma",
       "color": "red",
       "vintages": {
-        "2021": {"location": "H7, H9, UP", "onHand": 3, "category": "Exploratory", "window": "Now-2029", "peak": null}
+        "2021": {"location": "H7, H9", "onHand": 2, "category": "Exploratory", "window": "Now-2029", "peak": null}
       }
     },
     "joseph-cellars-247-cabernet": {
