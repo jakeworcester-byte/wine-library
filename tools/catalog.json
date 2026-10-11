@@ -1,0 +1,714 @@
+{
+ "_about": "Site metadata Notion doesn't hold. wines: display names, color and tags per site wine (slug). rows: which Notion row (page id) belongs to which site wine and vintage, including consumed vintages that feed the 'Jake rated the 2019' lines. palate: curated display for tasting-record rows. sync_notion.py reads this; the weekly routine curates new entries.",
+ "wines": {
+  "aonair-mountain-reserve": {
+   "producer": "Aonair",
+   "name": "Mountain Reserve Cabernet Sauvignon",
+   "short": "Aonair",
+   "region": "Napa Valley",
+   "color": "red"
+  },
+  "chappellet-napa-cabernet": {
+   "producer": "Chappellet",
+   "name": "Napa Valley Cabernet Sauvignon",
+   "short": "Chappellet",
+   "region": "Napa Valley",
+   "color": "red"
+  },
+  "gruaud-larose": {
+   "producer": "Château Gruaud Larose",
+   "name": "Saint-Julien Grand Cru Classé",
+   "short": "Gruaud",
+   "region": "Saint-Julien, Bordeaux",
+   "color": "red",
+   "tags": [
+    "Second Growth, 1855"
+   ]
+  },
+  "pedesclaux": {
+   "producer": "Château Pédesclaux",
+   "name": "Pauillac Grand Cru Classé",
+   "short": "Pédesclaux",
+   "region": "Pauillac, Bordeaux",
+   "color": "red",
+   "tags": [
+    "Fifth Growth, 1855"
+   ]
+  },
+  "decoy-cabernet": {
+   "producer": "Decoy",
+   "name": "Cabernet Sauvignon",
+   "short": "Decoy",
+   "region": "California",
+   "color": "red"
+  },
+  "oshaughnessy-howell-mountain": {
+   "producer": "O'Shaughnessy",
+   "name": "Howell Mountain Cabernet Sauvignon",
+   "short": "OS Howell",
+   "region": "Howell Mountain, Napa Valley",
+   "color": "red"
+  },
+  "oshaughnessy-mount-veeder": {
+   "producer": "O'Shaughnessy",
+   "name": "Mount Veeder Cabernet Sauvignon",
+   "short": "OS Veeder",
+   "region": "Mount Veeder, Napa Valley",
+   "color": "red"
+  },
+  "pride-merlot": {
+   "producer": "Pride Mountain Vineyards",
+   "name": "Merlot",
+   "short": "Pride",
+   "region": "Spring Mountain, Napa Valley",
+   "color": "red"
+  },
+  "sherwin-cellar-scraps": {
+   "producer": "Sherwin Family Vineyards",
+   "name": "Cellar Scraps",
+   "short": "Scraps",
+   "region": "Spring Mountain District, Napa Valley",
+   "color": "red"
+  },
+  "sherwin-estate-cabernet": {
+   "producer": "Sherwin Family Vineyards",
+   "name": "Estate Cabernet Sauvignon",
+   "short": "Sherwin",
+   "region": "Spring Mountain District, Napa Valley",
+   "color": "red"
+  },
+  "taplin-cabernet": {
+   "producer": "Taplin Cellars",
+   "name": "Estate Cabernet Sauvignon",
+   "short": "Taplin Cab",
+   "region": "St. Helena, Napa Valley",
+   "color": "red"
+  },
+  "taplin-terra-9": {
+   "producer": "Taplin Cellars",
+   "name": "Terra 9",
+   "short": "Terra 9",
+   "region": "St. Helena, Napa Valley",
+   "color": "red"
+  },
+  "taplin-cabernet-franc": {
+   "producer": "Taplin Cellars",
+   "name": "Estate Cabernet Franc",
+   "short": "Taplin CF",
+   "region": "St. Helena, Napa Valley",
+   "color": "red"
+  },
+  "taplin-sauvignon-blanc": {
+   "producer": "Taplin Cellars",
+   "name": "Sauvignon Blanc",
+   "short": "Taplin SB",
+   "region": "Napa Valley",
+   "color": "white"
+  },
+  "viader-black-label": {
+   "producer": "Viader",
+   "name": "Black Label",
+   "short": "Viader BL",
+   "region": "Howell Mountain, Napa Valley",
+   "color": "red"
+  },
+  "viader-proprietary-red": {
+   "producer": "Viader",
+   "name": "Proprietary Red",
+   "short": "Viader",
+   "region": "Howell Mountain, Napa Valley",
+   "color": "red"
+  },
+  "viader-v": {
+   "producer": "Viader",
+   "name": "V",
+   "short": "Viader V",
+   "region": "Howell Mountain, Napa Valley",
+   "color": "red"
+  },
+  "marias-legacy-cabernet": {
+   "producer": "Maria's Legacy",
+   "name": "Cabernet Sauvignon",
+   "short": "Maria's",
+   "region": "Chile",
+   "color": "red"
+  },
+  "renieri-chianti-classico": {
+   "producer": "Tenuta di Renieri",
+   "name": "Chianti Classico",
+   "short": "Renieri",
+   "region": "Chianti Classico, Tuscany",
+   "color": "red"
+  },
+  "hall-ranch-reserve-cabernet": {
+   "producer": "Hall Ranch",
+   "name": "Reserve Cabernet Sauvignon",
+   "short": "Hall Ranch",
+   "region": "Paso Robles",
+   "color": "red"
+  },
+  "olema-cabernet": {
+   "producer": "Olema",
+   "name": "Cabernet Sauvignon",
+   "short": "Olema",
+   "region": "Sonoma County",
+   "color": "red"
+  },
+  "unanime-mascota-cabernet": {
+   "producer": "Mascota Vineyards",
+   "name": "Unánime Gran Vino Tinto",
+   "short": "Unánime",
+   "region": "Mendoza, Argentina",
+   "color": "red"
+  },
+  "halos-de-jupiter-cotes-du-rhone": {
+   "producer": "Halos de Jupiter",
+   "name": "Côtes du Rhône",
+   "short": "Halos",
+   "region": "Côtes du Rhône",
+   "color": "red"
+  },
+  "rose-de-vitrac": {
+   "producer": "Château La Rose de Vitrac",
+   "name": "Bordeaux Rouge",
+   "short": "Vitrac",
+   "region": "Bordeaux",
+   "color": "red"
+  },
+  "rauzan-despagne-bordeaux": {
+   "producer": "Château Rauzan Despagne",
+   "name": "Bordeaux Rouge",
+   "short": "Rauzan",
+   "region": "Bordeaux",
+   "color": "red"
+  },
+  "adegamae-touriga-franca": {
+   "producer": "Adegamãe",
+   "name": "Touriga Franca",
+   "short": "Adegamãe",
+   "region": "Lisboa, Portugal",
+   "color": "red"
+  },
+  "carmen-gran-reserva-cabernet": {
+   "producer": "Carmen",
+   "name": "Gran Reserva Cabernet Sauvignon",
+   "short": "Carmen",
+   "region": "Maipo Valley, Chile",
+   "color": "red"
+  },
+  "phifer-pavitt-xroads": {
+   "producer": "Phifer Pavitt",
+   "name": "XROADS Cabernet Sauvignon",
+   "short": "XROADS",
+   "region": "Napa Valley",
+   "color": "red"
+  },
+  "phifer-pavitt-reserve-cabernet": {
+   "producer": "Phifer Pavitt",
+   "name": "Reserve Cabernet Sauvignon",
+   "short": "PP Reserve",
+   "region": "Napa Valley",
+   "color": "red"
+  },
+  "phifer-pavitt-date-night-sparkling": {
+   "producer": "Phifer Pavitt",
+   "name": "Date Night Blanc de Noirs Sparkling",
+   "short": "Date Night",
+   "region": "Napa Valley",
+   "color": "white"
+  },
+  "spence-howell-mountain-cabernet": {
+   "producer": "Spence Vineyards",
+   "name": "Howell Mountain Cabernet Sauvignon",
+   "short": "Spence Cab",
+   "region": "Howell Mountain, Napa",
+   "color": "red"
+  },
+  "spence-studio-cabernet-franc": {
+   "producer": "Spence Vineyards",
+   "name": "Studio Cabernet Franc",
+   "short": "Spence CF",
+   "region": "Napa Valley",
+   "color": "red"
+  },
+  "spence-studio-rose-cabernet": {
+   "producer": "Spence Vineyards",
+   "name": "Studio Rosé of Cabernet Sauvignon",
+   "short": "Spence Rosé",
+   "region": "Howell Mountain, Napa",
+   "color": "white"
+  },
+  "joseph-cellars-voyage": {
+   "producer": "Joseph Cellars",
+   "name": "Voyage",
+   "short": "Voyage",
+   "region": "Dry Creek Valley, Sonoma",
+   "color": "red"
+  },
+  "joseph-cellars-247-cabernet": {
+   "producer": "Joseph Cellars",
+   "name": "247 Cabernet Sauvignon",
+   "short": "247 Cab",
+   "region": "Calistoga, Napa",
+   "color": "red"
+  }
+ },
+ "rows": {
+  "3cc3eda98b278159a0a9eacd1c8d6f36": {
+   "slug": "aonair-mountain-reserve"
+  },
+  "3cc3eda98b2781a998abe81e15067370": {
+   "slug": "chappellet-napa-cabernet"
+  },
+  "3c73eda98b2781799be3c4fac7b563ef": {
+   "slug": "gruaud-larose"
+  },
+  "3c73eda98b27817d874feceeedb2965b": {
+   "slug": "pedesclaux"
+  },
+  "3c73eda98b27818c810ce559cea7da49": {
+   "slug": "decoy-cabernet"
+  },
+  "3c73eda98b27815788c8e98fc26c946d": {
+   "slug": "oshaughnessy-howell-mountain"
+  },
+  "3cc3eda98b2781d28170ef1b1540efd3": {
+   "slug": "oshaughnessy-howell-mountain"
+  },
+  "3cc3eda98b27816b9f00df315c837271": {
+   "slug": "oshaughnessy-mount-veeder"
+  },
+  "3cc3eda98b278104813dd83bf2d9803a": {
+   "slug": "oshaughnessy-mount-veeder"
+  },
+  "3cc3eda98b2781218a04e7f3b047cbb9": {
+   "slug": "oshaughnessy-mount-veeder"
+  },
+  "3cc3eda98b2781e9b930e051787666fe": {
+   "slug": "oshaughnessy-mount-veeder"
+  },
+  "3cc3eda98b2781119e5ae81e689fb285": {
+   "slug": "oshaughnessy-mount-veeder"
+  },
+  "3cc3eda98b27816286a4ebe366872c20": {
+   "slug": "oshaughnessy-mount-veeder"
+  },
+  "3c73eda98b278184a2d7e8656f9b5490": {
+   "slug": "pride-merlot"
+  },
+  "3c73eda98b2781279d56f85879fe1bc3": {
+   "slug": "sherwin-cellar-scraps"
+  },
+  "3cc3eda98b2781f689e0fe3c72c7c3ca": {
+   "slug": "sherwin-estate-cabernet"
+  },
+  "3c83eda98b2781f78405e2922ba73fc9": {
+   "slug": "sherwin-estate-cabernet"
+  },
+  "3c83eda98b2781e0b7caceca16e97ebd": {
+   "slug": "taplin-cabernet"
+  },
+  "3cc3eda98b2781f180b0e2d9b9bbea9e": {
+   "slug": "taplin-cabernet"
+  },
+  "3cc3eda98b2781c48e6af0ba1f8f626a": {
+   "slug": "taplin-cabernet"
+  },
+  "3cc3eda98b2781f581d8dbda2085a7c7": {
+   "slug": "taplin-cabernet"
+  },
+  "3c83eda98b2781eb8acce4043c898a87": {
+   "slug": "taplin-terra-9"
+  },
+  "3cc3eda98b2781829438e715c09b0e58": {
+   "slug": "taplin-terra-9"
+  },
+  "3cc3eda98b2781e08c80e24196a57cda": {
+   "slug": "taplin-terra-9"
+  },
+  "3cc3eda98b27813abf27c66dd184ea04": {
+   "slug": "taplin-cabernet-franc"
+  },
+  "3d13eda98b2781f69ef7df64c4a86df7": {
+   "slug": "taplin-sauvignon-blanc"
+  },
+  "3d13eda98b27819fb84ae96e83c795b4": {
+   "slug": "viader-black-label"
+  },
+  "3d13eda98b2781eeaadce703bc59ef53": {
+   "slug": "viader-black-label"
+  },
+  "3d13eda98b2781bc8f75faa8a7cdc3e3": {
+   "slug": "viader-proprietary-red"
+  },
+  "3d13eda98b2781529c70debccdc24f18": {
+   "slug": "viader-proprietary-red"
+  },
+  "3d13eda98b278111b635d3efd3e46f6d": {
+   "slug": "viader-v"
+  },
+  "3ea3eda98b2781088b82cd3fff7299b8": {
+   "slug": "marias-legacy-cabernet"
+  },
+  "3ea3eda98b27812e8223e633cd156895": {
+   "slug": "renieri-chianti-classico"
+  },
+  "3ea3eda98b27813ab065caa2c74e7793": {
+   "slug": "hall-ranch-reserve-cabernet"
+  },
+  "3ea3eda98b27813d94adddb7bb75a0e3": {
+   "slug": "olema-cabernet"
+  },
+  "3ea3eda98b27816f9c6cd2647567becc": {
+   "slug": "unanime-mascota-cabernet"
+  },
+  "3ea3eda98b2781858664f64bbf1b3e10": {
+   "slug": "halos-de-jupiter-cotes-du-rhone"
+  },
+  "3ea3eda98b27819c9469c2fca5a3ec9e": {
+   "slug": "rose-de-vitrac"
+  },
+  "3ea3eda98b2781a29f9fc028cc8bd159": {
+   "slug": "rauzan-despagne-bordeaux"
+  },
+  "3ea3eda98b2781b98e14e93f33824d68": {
+   "slug": "adegamae-touriga-franca"
+  },
+  "3ea3eda98b2781e7a90bfe044038d32e": {
+   "slug": "carmen-gran-reserva-cabernet"
+  },
+  "3eb3eda98b2781b5a072c2e8acf34d7f": {
+   "slug": "phifer-pavitt-xroads"
+  },
+  "3eb3eda98b278183829cc9e720d945cb": {
+   "slug": "phifer-pavitt-reserve-cabernet"
+  },
+  "3eb3eda98b278192b279e862a7f4404a": {
+   "slug": "phifer-pavitt-date-night-sparkling"
+  },
+  "3ee3eda98b2781f2953efd69b8b294b8": {
+   "slug": "spence-howell-mountain-cabernet"
+  },
+  "3ee3eda98b27812cb86ac436cdc89125": {
+   "slug": "spence-studio-cabernet-franc"
+  },
+  "3ee3eda98b27815f9d4ee6036bac0a30": {
+   "slug": "spence-studio-rose-cabernet"
+  },
+  "3f23eda98b2781299828d680270189fa": {
+   "slug": "joseph-cellars-voyage"
+  },
+  "3f23eda98b2781389409e4f26eef71e0": {
+   "slug": "joseph-cellars-247-cabernet"
+  },
+  "3c83eda98b278114a9e1d7b5f9a5030f": {
+   "slug": "oshaughnessy-howell-mountain"
+  },
+  "3c83eda98b27812f84a5edea8ca6b527": {
+   "slug": "oshaughnessy-mount-veeder"
+  },
+  "3c73eda98b2781c39282e808c3685147": {
+   "slug": "taplin-terra-9"
+  },
+  "3d13eda98b2781e7ab15d96eb84b8a49": {
+   "slug": "viader-black-label"
+  },
+  "3c83eda98b278113afabf722595969b1": {
+   "slug": "viader-proprietary-red"
+  }
+ },
+ "palate": {
+  "3cc3eda98b27810e8edccf43eba70f69": {
+   "producer": "Neal Family Vineyards",
+   "name": "One & Only Cabernet Sauvignon",
+   "region": "Howell Mountain, Napa"
+  },
+  "3c83eda98b278114a9e1d7b5f9a5030f": {
+   "producer": "O'Shaughnessy",
+   "name": "Howell Mountain Cabernet",
+   "region": "Howell Mountain, Napa"
+  },
+  "3c73eda98b278136a266ea1dc146afb7": {
+   "producer": "Jericho Canyon",
+   "name": "East Elevation",
+   "region": "Calistoga hillside, Napa"
+  },
+  "3c83eda98b278113afabf722595969b1": {
+   "producer": "Viader",
+   "name": "Proprietary Red",
+   "region": "Howell Mountain, Napa"
+  },
+  "3c73eda98b27812f90bad41f63c5ef05": {
+   "producer": "Mount Veeder Winery",
+   "name": "Cabernet Sauvignon",
+   "region": "Mount Veeder, Napa"
+  },
+  "3c73eda98b27813894b5eff261307970": {
+   "producer": "Chateau Montelena",
+   "name": "Cabernet Sauvignon",
+   "region": "Calistoga, Napa",
+   "score": "92-94 now, 94-96 with age"
+  },
+  "3c73eda98b278173b5b3df2aca36e670": {
+   "producer": "Justice",
+   "name": "Napa Valley Cabernet",
+   "region": "Napa Valley"
+  },
+  "3d13eda98b2781e7ab15d96eb84b8a49": {
+   "producer": "Viader",
+   "name": "Black Label",
+   "region": "Howell Mountain, Napa"
+  },
+  "3c83eda98b27812f84a5edea8ca6b527": {
+   "producer": "O'Shaughnessy",
+   "name": "Mount Veeder Cabernet",
+   "region": "Mount Veeder, Napa"
+  },
+  "3c83eda98b2781babb4fc5fbe7362711": {
+   "producer": "Dakota Shy",
+   "name": "Oakville Ranch Cabernet Franc",
+   "region": "Oakville, Napa"
+  },
+  "3c73eda98b2781c1a190ff6b069d5cf7": {
+   "producer": "Davies",
+   "name": "Cabernet Sauvignon",
+   "region": "Napa Valley"
+  },
+  "3c73eda98b27816d845ce0469fb2ca99": {
+   "producer": "Antica",
+   "name": "Mountain Select Cabernet",
+   "region": "Atlas Peak, Napa"
+  },
+  "3c73eda98b27811d8b15d674c79f09ee": {
+   "producer": "Mt. Brave",
+   "name": "Mount Veeder Cabernet",
+   "region": "Mount Veeder, Napa"
+  },
+  "3c73eda98b2781ad838ef5d9e19b8bcf": {
+   "producer": "Ramey",
+   "name": "Claret",
+   "region": "Napa Valley"
+  },
+  "3c73eda98b27815faed5cc2659e2da55": {
+   "producer": "Navigator",
+   "name": "Napa Cabernet",
+   "region": "Napa Valley"
+  },
+  "3c73eda98b2781c39282e808c3685147": {
+   "producer": "Taplin",
+   "name": "Terra 9",
+   "region": "St. Helena, Napa"
+  },
+  "3c73eda98b27819ba4dccd96a5f0535b": {
+   "producer": "Château Lassègue",
+   "name": "Les Cadrans de Lassègue",
+   "region": "Saint-Émilion, Bordeaux"
+  },
+  "3c83eda98b278161bfaac442a62b86cf": {
+   "producer": "O'Shaughnessy",
+   "name": "Merlot",
+   "region": "Howell Mountain, Napa"
+  },
+  "3c73eda98b27815b858dd3e795b624d2": {
+   "producer": "Château Carlmagnus",
+   "name": "1er Vin",
+   "region": "Fronsac, Bordeaux"
+  },
+  "3c73eda98b2781159751eddd0a4dcdc4": {
+   "producer": "Clos du Val",
+   "name": "Cabernet Sauvignon",
+   "region": "Napa Valley"
+  },
+  "3ee3eda98b278146833af67c833e8a95": {
+   "producer": "Knights Bridge",
+   "name": "Cabernet Sauvignon",
+   "region": "Knights Valley, Sonoma"
+  },
+  "3c73eda98b27817dafa3e8aa4f460de5": {
+   "producer": "Corison",
+   "name": "St. Helena Cabernet",
+   "region": "St. Helena, Napa"
+  },
+  "3c73eda98b2781e9830bc9371833b1b4": {
+   "producer": "1853",
+   "name": "Malbec",
+   "region": "Argentina"
+  },
+  "3cc3eda98b27817fa945cf6cdb29a177": {
+   "producer": "Domaine Eden",
+   "name": "Cabernet Sauvignon",
+   "region": "Santa Cruz Mountains, California"
+  },
+  "3c73eda98b27811e89c2dbb830d14060": {
+   "producer": "Sequoia Grove",
+   "name": "Napa Valley Cabernet",
+   "region": "Napa Valley"
+  },
+  "3cc3eda98b2781c4aafdeff63bc998d4": {
+   "producer": "Bonanza",
+   "name": "The Vinekeeper Cabernet Sauvignon",
+   "region": "Napa Valley"
+  },
+  "3c73eda98b2781568e6ae82adad35df8": {
+   "producer": "Olarra",
+   "name": "Rioja Reserva",
+   "region": "Rioja, Spain"
+  },
+  "3c73eda98b27815fa34ae99d842e7487": {
+   "producer": "Jordan",
+   "name": "Cabernet Sauvignon",
+   "region": "Alexander Valley, Sonoma"
+  },
+  "3c73eda98b27817f9129d8afe4762f1b": {
+   "producer": "Château de Thau",
+   "name": "Côtes de Bourg",
+   "region": "Côtes de Bourg, Bordeaux"
+  },
+  "3c73eda98b278167b977f4362a6f8d50": {
+   "producer": "Bonanza",
+   "name": "Cabernet Sauvignon",
+   "region": "California"
+  },
+  "3cc3eda98b2781699d24c7218ac5a450": {
+   "producer": "Vina Robles",
+   "name": "Cabernet Sauvignon",
+   "region": "Paso Robles, California"
+  },
+  "3ee3eda98b2781fca242de9e5c777a74": {
+   "producer": "Tenuta Monteti",
+   "name": "Caburnio",
+   "region": "Maremma, Tuscany"
+  },
+  "3c73eda98b27811cb74bc32c8aee2042": {
+   "producer": "Kirkland Signature",
+   "name": "Pauillac",
+   "region": "Pauillac, Bordeaux"
+  },
+  "3cc3eda98b2781b8b700e22cca5b6bf7": {
+   "producer": "Hess Collection",
+   "name": "Allomi Cabernet Sauvignon",
+   "region": "Napa Valley"
+  },
+  "3c73eda98b2781be8306cd56830f78b8": {
+   "producer": "Château Musar",
+   "name": "Red",
+   "region": "Bekaa Valley, Lebanon"
+  },
+  "3c73eda98b2781aaa281fd5c16228670": {
+   "producer": "Erath",
+   "name": "Pinot Noir",
+   "region": "Oregon"
+  },
+  "3c83eda98b2781e29e42de274e87be00": {
+   "producer": "Educated Guess",
+   "name": "Cabernet Sauvignon",
+   "region": "Napa Valley"
+  },
+  "3c73eda98b27813883b0febecd0c102c": {
+   "producer": "Poças",
+   "name": "Reserva Tinto",
+   "region": "Douro, Portugal"
+  },
+  "3c73eda98b27815f80b9f44f8cb018f5": {
+   "producer": "Monte Xanic",
+   "name": "Valle de Guadalupe Red",
+   "region": "Valle de Guadalupe, Mexico"
+  },
+  "3c73eda98b2781c9bcfacb2b9ece4203": {
+   "producer": "Confidencial",
+   "name": "Reserva",
+   "region": "Portugal"
+  },
+  "3ee3eda98b27810a940ce6631f1266ab": {
+   "producer": "Spence Vineyards",
+   "name": "Studio Sauvignon Blanc",
+   "region": "Napa Valley"
+  },
+  "3ea3eda98b27812f962ff7a5b20d779c": {
+   "producer": "Château de la Chapelle",
+   "name": "Blaye Côtes de Bordeaux",
+   "region": "Blaye Côtes de Bordeaux"
+  },
+  "3ea3eda98b2781439772e9b582f1df71": {
+   "producer": "Château Les Clottiers",
+   "name": "Blaye Côtes de Bordeaux",
+   "region": "Blaye Côtes de Bordeaux"
+  },
+  "3c73eda98b2781508208e041de9be9d8": {
+   "producer": "Trefethen",
+   "name": "Oak Knoll Cabernet",
+   "region": "Oak Knoll, Napa"
+  },
+  "3c73eda98b2781ddb099f7507e931658": {
+   "producer": "Donati Family",
+   "name": "Claret",
+   "region": "Paso Robles, California"
+  },
+  "3c73eda98b278130bd30efd5edb77119": {
+   "producer": "Louis Jadot",
+   "name": "Gevrey-Chambertin",
+   "region": "Burgundy, France"
+  },
+  "3c73eda98b27818a8034c81f41f2ee7d": {
+   "producer": "Phifer Pavitt",
+   "name": "Cabernet Sauvignon",
+   "region": "Calistoga, Napa"
+  },
+  "3c73eda98b2781f9a99bf622c9fdd731": {
+   "producer": "Spellbinder",
+   "name": "Red",
+   "region": "Napa Valley"
+  },
+  "3cc3eda98b2781c8a740cee02cd8617e": {
+   "producer": "Château de Lamarque",
+   "name": "Haut-Médoc",
+   "region": "Haut-Médoc, Bordeaux"
+  },
+  "3c73eda98b2781fd8b38fe4277ff1d51": {
+   "producer": "Dunn Vineyards",
+   "name": "Napa Valley Cabernet",
+   "region": "Howell Mountain, Napa"
+  },
+  "3c73eda98b2781daaf0cca5f17423e60": {
+   "producer": "12 Linajes",
+   "name": "Reserva",
+   "region": "Spain"
+  },
+  "3c73eda98b278136afd4e918a93219b4": {
+   "producer": "Sanzurro",
+   "name": "Sangiovese",
+   "region": "Puglia, Italy"
+  },
+  "3c73eda98b2781f3bb93d3fdf931068e": {
+   "producer": "Bruno",
+   "name": "Riesling",
+   "region": "Mosel, Germany"
+  },
+  "3c73eda98b278139a709c889f15b1154": {
+   "producer": "Pierre Sparr",
+   "name": "Crémant d'Alsace",
+   "region": "Alsace, France"
+  },
+  "3c73eda98b278135bc9cff4a239f71e9": {
+   "producer": "Château Lafleur du Roy",
+   "name": "Les Lavandières",
+   "region": "Pomerol, Bordeaux",
+   "tried": true
+  },
+  "3c73eda98b27817987f0e532459bfc26": {
+   "producer": "Château Fourcas Dupré",
+   "name": "Listrac-Médoc",
+   "region": "Listrac-Médoc, Bordeaux"
+  },
+  "3c73eda98b27818f8a90eecc8d2fff7c": {
+   "producer": "Comtes Lafon",
+   "name": "Monthélie Les Duresses 1er Cru",
+   "region": "Burgundy, France"
+  },
+  "3c73eda98b2781d788cae5a718d2adfa": {
+   "producer": "Pahlmeyer",
+   "name": "Jayson \"The Bench\"",
+   "region": "Napa Valley"
+  }
+ }
+}

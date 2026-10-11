@@ -1,0 +1,140 @@
+{
+  "aonair-mountain-reserve": {
+    "image": "images/aonair-mountain-reserve.png",
+    "imageSource": "https://www.vivino.com/US/en/aonair-reserve-series-15-barrel-production-napa-valley-cabernet-sauvignon/w/1840820",
+    "blend": "Cabernet Sauvignon from Napa hillside vineyards (Spring, Howell and Diamond Mountain in past releases)",
+    "about": "Aonair is a small family winery tucked into the hills at the base of Howell Mountain, founded in 2008 by longtime Napa winemaker Grant Long Jr. to make small-lot reds from rocky mountain vineyards.",
+    "vintages": {
+      "2020": {
+        "note": "Deep, inky violet in the glass, this mountain Cabernet opens with blackberry, vanilla and toasty oak, picking up a hint of cola as it breathes. The palate is smooth and plush with dark plum fruit, framed by firm but polished tannins that carry into a long, lingering finish.",
+        "noteVintage": "2020",
+        "critic": null,
+        "sourceName": "CellarTracker and Delectable community tasting notes (2020 Reserve Series Cabernet Sauvignon)",
+        "sourceUrl": "https://www.cellartracker.com/wine.asp?iWine=4339993"
+      }
+    }
+  },
+  "bonanza-vinekeeper": {
+    "image": "images/bonanza-vinekeeper.jpg",
+    "imageSource": "https://theliquorbarn.com/products/bonanza-the-vinekeeper-cabernet-sauvignon-napa",
+    "blend": "Cabernet Sauvignon, Napa Valley (non-vintage)",
+    "about": "Bonanza is the non-vintage label from Chuck Wagner of Caymus, and The Vinekeeper is its Napa Valley bottling, built to deliver the family's rich, ripe house style at an everyday price.",
+    "vintages": {
+      "NV (Lot 1)": {
+        "note": "Full-bodied and generous, this Cabernet leads with ripe blackberry, juicy plum and black cherry dusted with cocoa. A touch of toasty oak, vanilla and warm spice rounds it out, and soft, supple tannins make it plush and easy to enjoy now, ending on a smooth, velvety finish.",
+        "noteVintage": "NV (Lot 1)",
+        "critic": {
+          "critic": "Ken's Wine Guide",
+          "score": "91.5"
+        },
+        "sourceName": "Wine Scout (producer notes) and Ken's Wine Guide",
+        "sourceUrl": "https://winescout.com/bonanza-lot-1-the-vinekeeper-cabernet-sauvignon-napa-valley"
+      }
+    }
+  },
+  "chappellet-napa-cabernet": {
+    "image": "images/chappellet-napa-cabernet.jpg",
+    "imageSource": "https://nyc.flatiron-wines.com/products/chappellet-cabernet-sauvignon-signature-2022-750ml",
+    "blend": "82% Cabernet Sauvignon, 9% Petit Verdot, 7% Malbec, 2% Merlot",
+    "about": "Chappellet has farmed the steep, rocky slopes of Pritchard Hill since 1967, and its Signature Napa Valley Cabernet has been the family's flagship wine for more than three decades.",
+    "vintages": {
+      "2022": {
+        "note": "Dark and concentrated, with aromas of blackcurrant, dark cherry and plum layered with cedar, mountain sage, tobacco and toasted oak. The palate feels silky and seamless, with black cherry, chocolate and espresso flavors, while fresh herbs and baking spice keep it lively through a long, resonant finish.",
+        "noteVintage": "2022",
+        "critic": {
+          "critic": "Jeb Dunnuck",
+          "score": "93"
+        },
+        "sourceName": "Chappellet 2022 Signature Cabernet Sauvignon winemaker notes",
+        "sourceUrl": "https://chappellet.com/wp-content/uploads/2024/10/2022-Signature-Cabernet-Sauvignon-Wine-Notes.pdf"
+      }
+    }
+  },
+  "gruaud-larose": {
+    "image": "images/gruaud-larose.png",
+    "imageSource": "https://perrineswine.com/products/2019-chateau-gruaud-larose-saint-julien-bordeaux-france",
+    "blend": "72% Cabernet Sauvignon, 25% Merlot, 3% Cabernet Franc",
+    "about": "A Second Growth in the 1855 classification and one of the largest estates in St-Julien, Gruaud Larose still carries its old motto on the label: the wine of kings, the king of wines.",
+    "vintages": {
+      "2019": {
+        "note": "A polished, deep St-Julien that opens with wild berries, plum and cassis alongside licorice, dried flowers, cedar and a pencil-shaving edge. Medium to full-bodied and remarkably refined, it pairs real concentration with fine, powdery tannins and bright acidity, finishing long and savory. It will reward a few more years in the cellar.",
+        "noteVintage": "2019",
+        "critic": {
+          "critic": "Wine Advocate (William Kelley)",
+          "score": "95+"
+        },
+        "sourceName": "Farr Vintners (compiled critic reviews)",
+        "sourceUrl": "https://www.farrvintners.com/wine.php?wine=60627"
+      }
+    }
+  },
+  "pedesclaux": {
+    "image": "images/pedesclaux.png",
+    "imageSource": "https://www.saratogawine.com/product/chateau-pedesclaux-pauillac-2019-750ml/",
+    "blend": "72% Cabernet Sauvignon, 20% Merlot, 6% Cabernet Franc, 2% Petit Verdot",
+    "about": "A Fifth Growth Pauillac next door to Mouton Rothschild and Pontet-Canet, Pedesclaux has been transformed since the Lorenzetti family bought it in 2009, with a striking glass-walled gravity-flow cellar and steadily rising quality.",
+    "vintages": {
+      "2019": {
+        "note": "Fragrant and inviting, with violets, warm cassis, ripe plum and licorice joined by hints of dark chocolate, cherry and cinnamon spice. Medium to full-bodied, it offers juicy black and red fruit supported by ripe, finely grained tannins and lively freshness, closing on a long, perfumed finish.",
+        "noteVintage": "2019",
+        "critic": {
+          "critic": "James Suckling",
+          "score": "94"
+        },
+        "sourceName": "Millesima (blend, critic scores and tasting notes)",
+        "sourceUrl": "https://www.millesima.fr/chateau-pedesclaux-2019.html"
+      }
+    }
+  },
+  "decoy-cabernet": {
+    "image": "images/decoy-cabernet.png",
+    "imageSource": "https://www.saratogawine.com/product/decoy-cabernet-sauvignon-california-2022-750ml/",
+    "blend": "94% Cabernet Sauvignon, 6% Merlot",
+    "about": "Decoy is the approachable everyday label from the Duckhorn family of wines, first made by Dan and Margaret Duckhorn more than 30 years ago and now drawing on vineyards up and down the California coast.",
+    "vintages": {
+      "2022": {
+        "note": "Rich blackberry and blueberry aromas with a dash of baking spice and black pepper lead into a full-bodied, juicy palate. Firm tannins give it shape without getting in the way, and the smooth finish carries a gentle spicy lift. A crowd-pleasing partner for steak or a hearty braise.",
+        "noteVintage": "2022",
+        "critic": null,
+        "sourceName": "Duckhorn Portfolio 2022 Decoy California Cabernet Sauvignon trade sheet",
+        "sourceUrl": "https://www.duckhornportfolio.com/assets/images/contentblock/files/2022DecoyCaliforniaCabernetSauvignonTradeSlide.pdf"
+      }
+    }
+  },
+  "pride-merlot": {
+    "image": "images/pride-merlot.png",
+    "imageSource": "https://www.pridewines.com/wine/our-wines/pride-merlot/2020-merlot/",
+    "blend": "90% Merlot, 5% Cabernet Sauvignon, 5% Petit Verdot",
+    "about": "Pride Mountain Vineyards sits atop Spring Mountain right on the Napa and Sonoma county line, which is why its labels name both counties.",
+    "vintages": {
+      "2020": {
+        "note": "Ripe mulberry and kirsch take the lead, lifted by elderberry, a hint of lemongrass and savory black pepper. It is plush and generous in texture, with polished mountain tannins and bright freshness keeping it lively, and the finish rises with spice and floral notes. A beautifully balanced Merlot.",
+        "noteVintage": "2020",
+        "critic": {
+          "critic": "Wine Enthusiast",
+          "score": "93"
+        },
+        "sourceName": "Pride Mountain Vineyards 2020 Merlot tech sheet",
+        "sourceUrl": "https://www.pridewines.com/assets/images/PDF/PMV_MR_20.pdf"
+      }
+    }
+  },
+  "vina-robles-cabernet": {
+    "image": "images/vina-robles-cabernet.webp",
+    "imageSource": "https://www.wineaccess.com/catalog/2022-vina-robles-estate-cabernet-sauvignon-paso-robles_a7e9e611-98e2-4b94-9be4-96ec11c6e76d/",
+    "blend": "88% Cabernet Sauvignon, 12% Petit Verdot",
+    "about": "Established in 1998, Vina Robles grows its wines on sustainably farmed estate vineyards spread across several Paso Robles districts.",
+    "vintages": {
+      "2022": {
+        "note": "Midnight purple, with aromas of ripe blackcurrant, plum and black cherry touched by mocha, vanilla, cedar and a savory hint of sage and bay leaf. Full-bodied and layered, it balances lush dark fruit with velvety yet firm tannins and lively acidity, finishing long and satisfying.",
+        "noteVintage": "2022",
+        "critic": {
+          "critic": "James Suckling",
+          "score": "93"
+        },
+        "sourceName": "Wine Access (tasting note and James Suckling review)",
+        "sourceUrl": "https://www.wineaccess.com/catalog/2022-vina-robles-estate-cabernet-sauvignon-paso-robles_a7e9e611-98e2-4b94-9be4-96ec11c6e76d/"
+      }
+    }
+  }
+}

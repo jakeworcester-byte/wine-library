@@ -1,0 +1,317 @@
+{
+ "marias-legacy-cabernet": {
+  "image": "images/marias-legacy-cabernet.png",
+  "imageSource": "https://lifford.com/products/marias-legacy-cabernet-sauvignon",
+  "blend": "100% Cabernet Sauvignon, single vineyard, Alto Jahuel, Maipo Alto, Chile",
+  "about": "Maria's Legacy is a single vineyard Cabernet from Viña Carmen, one of Chile's oldest wineries (founded 1850), grown in the Andes foothills of Alto Jahuel on the south bank of the Maipo River.",
+  "vintages": {
+   "2023": {
+    "note": "Riper and plusher than the Gran Reserva, this single vineyard Cabernet opens with roasted coffee, black currant and graphite, lifted by jasmine and lavender. The silky, medium bodied palate brings Luxardo cherry, dark chocolate and sweet cedar, framed by dry, chalky tannins and bright, balanced acidity.",
+    "noteVintage": "2023",
+    "critic": null,
+    "sourceName": "The Tasting Panel (2023 review), with winery notes via ZYN The Wine Market",
+    "sourceUrl": "https://www.tastingpanelmag.com/review/vina-carmen-2023-marias-legacy-single-vineyard-cabernet-sauvignon-d-o-maipo-chile-25/"
+   }
+  }
+ },
+ "renieri-chianti-classico": {
+  "image": "images/renieri-chianti-classico.png",
+  "imageSource": "https://www.vivino.com/en/it-renieri-chianti-classico/w/1638100",
+  "blend": "100% Sangiovese, organically farmed in Castelnuovo Berardenga, aged about 12 months in barrique",
+  "about": "Tenuta di Renieri is Marco Bacci's organic Chianti Classico estate in the southern Castelnuovo Berardenga zone, part of the family's Bacci Wines group of Tuscan properties.",
+  "vintages": {
+   "2023": {
+    "note": "Juicy and crunchy, this Chianti Classico shows black and sour cherry layered with dark earth, sweet tobacco and a touch of clove. It is medium to full bodied with lively acidity and chalky, slightly grippy tannins, finishing fresh and savory. A natural match for tomato sauces and grilled meats.",
+    "noteVintage": "2022",
+    "critic": {
+     "critic": "James Suckling",
+     "score": "92"
+    },
+    "sourceName": "LCBO product page citing JamesSuckling.com (July 2024), plus Vintage Wine Picks review",
+    "sourceUrl": "https://www.lcbo.com/en/tenuta-di-renieri-chianti-classico-2013-540849"
+   }
+  }
+ },
+ "chapelle-blaye": {
+  "image": "images/chapelle-blaye.jpg",
+  "imageSource": "https://a-little-birdie-told-me.ca/2022/10/12/rks-wine-chateau-de-la-chapelle-blaye-cotes-de-bordeaux-2018/",
+  "blend": "85% Merlot, 15% Cabernet Sauvignon",
+  "about": "Château de la Chapelle is a Right Bank property in the Blaye Côtes de Bordeaux appellation, bottled at the château and known for generous, Merlot driven reds that punch above their price.",
+  "vintages": {
+   "2020": {
+    "note": "A spicy, Merlot led Blaye with ripe dark plum, chocolate and a lift of floral notes on the nose. The palate is warm and deep, carrying juicy plum and blackcurrant over a firm tannic frame, with savory hints of earth and herbs on the finish.",
+    "noteVintage": "2020",
+    "critic": {
+     "critic": "Decanter World Wine Awards 2022",
+     "score": "95"
+    },
+    "sourceName": "Decanter World Wine Awards judges' note (via Total Wine), with Wine Enthusiast 2020 review",
+    "sourceUrl": "https://www.totalwine.com/wine/red-wine/bordeaux-blend/chateau-de-la-chapelle-blaye-cotes-de-bordeaux/p/242303750"
+   }
+  }
+ },
+ "hall-ranch-reserve-cabernet": {
+  "image": "images/hall-ranch-reserve-cabernet.jpg",
+  "imageSource": "https://www.raederswine.com/wines/Hall-Ranch-Hall-Ranch-Cabernet-Sauvignon-Reserve-Paso-Robles-2021-w09370731l",
+  "blend": "Cabernet Sauvignon, Paso Robles (Cellar Reserve bottling); exact blend not published",
+  "about": "Hall Ranch is a Paso Robles label, and its Cellar Reserve Cabernet is the step up bottling aimed at the region's ripe, sun warmed style.",
+  "vintages": {
+   "2021": {
+    "note": "Ripe and rich, with blackberry and espresso at the core, framed by graphite, earthy tones and a whiff of roasted cherry and pepper. Supple, suede textured tannins lead into bitter cocoa, oak spice and a juicy finish of vanilla and cedar.",
+    "noteVintage": "2021",
+    "critic": null,
+    "sourceName": "Total Wine product description and Wine Enthusiast review (Matt Kettmann, 2021 Cellar Reserve)",
+    "sourceUrl": "https://www.wineenthusiast.com/buying-guide/hall-ranch-2021-cellar-reserve-cabernet-sauvignon-paso-robles/"
+   }
+  }
+ },
+ "olema-cabernet": {
+  "image": "images/olema-cabernet.png",
+  "imageSource": "https://olemawines.com/wine/cabernet-sauvignon",
+  "blend": "85% Cabernet Sauvignon, 6% Malbec, 5% Petite Sirah, 4% Merlot from Alexander Valley and Dry Creek Valley; 12 to 14 months in 50% new French oak",
+  "about": "Olema is the value-focused label from Amici Cellars, built around fruit from top Sonoma County vineyards.",
+  "vintages": {
+   "2022": {
+    "note": "Ripe blackberry, cherry cordial and a streak of strawberry lead the nose, with dark chocolate in the background. The palate adds roasted almond, tart lingonberry and cedar, while small portions of Malbec, Petite Sirah and Merlot add spice and depth before a velvety, silky finish.",
+    "noteVintage": "2022",
+    "critic": null,
+    "sourceName": "Olema 2022 Cabernet Sauvignon tech sheet",
+    "sourceUrl": "https://olemawines.com/wp-content/uploads/2024/02/2022-Olema-Cab-Tech-Sheet.pdf"
+   }
+  }
+ },
+ "les-clottiers": {
+  "image": "images/les-clottiers.png",
+  "imageSource": "https://www.totalwine.com/wine/red-wine/bordeaux-blend/chateau-les-clottiers/p/2126230438",
+  "blend": "Merlot-led Bordeaux blend, about 85% Merlot and 15% Cabernet Sauvignon (per the 2021 competition entry)",
+  "about": "Chateau Les Clottiers is a Blaye Cotes de Bordeaux estate from the Luc Schweitzer family, whose vineyards sit on the right bank of the Gironde near Berson.",
+  "vintages": {
+   "2021": {
+    "note": "Fresh and inviting, with floral lift over dark red and black fruit. The palate is generous and inky, with savory leafy and bell pepper notes typical of Merlot-driven Bordeaux, fine youthful tannins, and a long finish touched by violet, black olive and bramble.",
+    "noteVintage": "2021",
+    "critic": {
+     "critic": "Decanter World Wine Awards",
+     "score": "95"
+    },
+    "sourceName": "Decanter World Wine Awards (via Total Wine)",
+    "sourceUrl": "https://concierge.totalwine.com/product/2021-chateau-les-clottiers-12-pack"
+   }
+  }
+ },
+ "unanime-mascota-cabernet": {
+  "image": "images/unanime-mascota-cabernet.png",
+  "imageSource": "https://www.mascotavineyards.com/wines/unanime/gran_vino_tinto",
+  "blend": "50% Cabernet Sauvignon, 30% Malbec, 15% Cabernet Franc, 5% Petit Verdot (2022), from the Uco Valley",
+  "about": "Unánime Gran Vino Tinto is the flagship red blend of Mascota Vineyards, a Mendoza winery in the Grupo Peñaflor family led by veteran winemaker Rodolfo \"Opi\" Sadler.",
+  "vintages": {
+   "2022": {
+    "note": "Gentle wood spice opens the nose, and the palate unfolds generously with strawberry and red berry fruit, a savory bell pepper and herbal streak, and warm spice. Rounded tannins and moderate acidity keep it balanced and approachable through a medium-long finish.",
+    "noteVintage": "2022",
+    "critic": {
+     "critic": "Wine Enthusiast (Jesica Vargas)",
+     "score": "91"
+    },
+    "sourceName": "Wine Enthusiast",
+    "sourceUrl": "https://www.wineenthusiast.com/buying-guide/mascota-vineyards-2022-unanime-gran-vino-bordeaux-style-red-blend-mendoza/"
+   }
+  }
+ },
+ "halos-de-jupiter-cotes-du-rhone": {
+  "image": "images/halos-de-jupiter-cotes-du-rhone.png",
+  "imageSource": "https://www.halosdejupiter.com/en/wine/cotes-du-rhone/",
+  "blend": "70% Grenache, 20% Mourvedre, 10% Syrah (2024), destemmed and raised in concrete",
+  "about": "Halos de Jupiter was created by the late consulting winemaker Philippe Cambie with the Gassier family, bottling Grenache-driven Southern Rhone wines from sites on both banks of the river.",
+  "vintages": {
+   "2024": {
+    "note": "Red and black fruits mingle with violets, cracked pepper and a stony mineral note. Medium-bodied and well balanced, it has a lively, vibrant feel on the palate and good length, making it an easy Cotes du Rhone to enjoy now or over the next several years.",
+    "noteVintage": "2024",
+    "critic": {
+     "critic": "Jeb Dunnuck",
+     "score": "90-92"
+    },
+    "sourceName": "Jeb Dunnuck (via LCBO)",
+    "sourceUrl": "https://www.lcbo.com/en/halos-de-jupiter-c-tes-du-rh-ne-2019-276956"
+   }
+  }
+ },
+ "rose-de-vitrac": {
+  "image": "images/rose-de-vitrac.jpg",
+  "imageSource": "https://www.banquist.com/products/chateau-la-rose-de-vitrac-bordeaux-rouge-2022",
+  "blend": "80% Merlot, 20% Cabernet Sauvignon (2022, per the Decanter World Wine Awards entry)",
+  "about": "Château La Rose de Vitrac is a small, family-run property in Soussac in the Entre-Deux-Mers that bottles its Bordeaux AOC red at the château, and its 2022 surprised many by earning a Gold medal at the Decanter World Wine Awards.",
+  "vintages": {
+   "2022": {
+    "note": "An energetic, fruit-packed Bordeaux loaded with cassis, black cherry and blueberry. Plush tannins carry a graphite edge and give the wine real muscle, yet it stays fresh and balanced, finishing smooth with a touch of mocha.",
+    "noteVintage": "2022",
+    "critic": {
+     "critic": "Decanter World Wine Awards 2024 (Gold)",
+     "score": "95"
+    },
+    "sourceName": "Decanter World Wine Awards 2024 judges' note (also cited by LCBO Vintages)",
+    "sourceUrl": "https://awards.decanter.com/DWWA/2024/wines/754420"
+   }
+  }
+ },
+ "rauzan-despagne-bordeaux": {
+  "image": "images/rauzan-despagne-bordeaux.png",
+  "imageSource": "https://36thavewine.com/shop/product/chateau-rauzan-despagne-bordeaux/636aa15eb3d0943b7fcf4ddb",
+  "blend": "70% Merlot, 20% Cabernet Franc, 10% Cabernet Sauvignon (2022)",
+  "about": "Château Rauzan Despagne is one of the Entre-Deux-Mers estates of the Despagne family (Vignobles Despagne, also behind Girolate and Mont-Pérat), and this is its standard Bordeaux red, bottled without a Réserve or Grand Vin designation.",
+  "vintages": {
+   "2022": {
+    "note": "An elegant, approachable Bordeaux with blackcurrant and fresh plum on the nose. The palate is ripe and juicy with soft, well-integrated tannins and a rounded texture, closing on a subtly saline note that keeps it lively.",
+    "noteVintage": "2022",
+    "critic": {
+     "critic": "Decanter World Wine Awards 2025 (Silver)",
+     "score": "93"
+    },
+    "sourceName": "Decanter World Wine Awards 2025 judges' note, with Wine Enthusiast review of the 2022",
+    "sourceUrl": "https://www.wineenthusiast.com/buying-guide/chateau-rauzan-despagne-2022-bordeaux-style-red-blend-bordeaux/"
+   }
+  }
+ },
+ "adegamae-touriga-franca": {
+  "image": "images/adegamae-touriga-franca.png",
+  "imageSource": "https://adegamae.pt/vinho/touriga-franca/?lang=en",
+  "blend": "100% Touriga Franca, IG Lisboa, aged about 12 months in French oak",
+  "about": "AdegaMãe is a modern winery near Torres Vedras in Portugal's Lisboa region, founded by the Alves family, that focuses on fresh, Atlantic-influenced wines and first bottled this varietal Touriga Franca after discovering an overlooked plot in 2016.",
+  "vintages": {
+   "2020": {
+    "note": "Deeply colored, with an expressive nose of floral notes, ripe black plum and cassis plus a light balsamic lift. Bright acidity and silky, well-framed tannins support a generous, full palate, and the finish is intense and packed with fruit.",
+    "noteVintage": "2022",
+    "critic": null,
+    "sourceName": "AdegaMãe winery technical sheet (2022 release; no 2020-specific note found)",
+    "sourceUrl": "https://adegamae.pt/wp-content/uploads/2019/12/FT_ADM_TOURIGA-FRANCA_2022_EN.pdf"
+   }
+  }
+ },
+ "carmen-gran-reserva-cabernet": {
+  "image": "images/carmen-gran-reserva-cabernet.png",
+  "imageSource": "https://www.carmen.com/wp-content/uploads/2020/08/gr-cs.png",
+  "blend": "100% Cabernet Sauvignon from estate vineyards at Alto Jahuel, Alto Maipo; 14 months in French oak",
+  "about": "Viña Carmen, founded in 1850 and often called Chile's oldest wine brand, grows its Gran Reserva Cabernet on the Andean foothill slopes of Alto Jahuel in the Alto Maipo.",
+  "vintages": {
+   "2022": {
+    "note": "A full bodied, classic Maipo Cabernet with dark plum, cassis and licorice, plus a savory streak of boldo and cracked pepper. Bitter chocolate and a touch of tar build through the middle, and firm, dusty tannins give it real grip, so a short decant helps.",
+    "noteVintage": "2022",
+    "critic": {
+     "critic": "Gismondi on Wine",
+     "score": "87"
+    },
+    "sourceName": "Gismondi on Wine",
+    "sourceUrl": "https://gismondionwine.com/tasting-notes/202504/carmen-gran-reserva-cabernet-sauvignon-2022/?note=42846"
+   }
+  }
+ },
+ "phifer-pavitt-xroads": {
+  "image": "images/phifer-pavitt-xroads.png",
+  "imageSource": "https://www.phiferpavittwine.com/wines/xroads-cabernet-sauvignon/",
+  "blend": "100% Cabernet Sauvignon from Grigsby Vineyard, Yountville",
+  "about": "Phifer Pavitt is a small family winery in Calistoga, and XROADS is its middle Napa Valley Cabernet, sitting between Date Night and the Reserve.",
+  "vintages": {
+   "2022": {
+    "note": "A plush, perfumed Cabernet built on blackberry compote and cherry liqueur, lifted by dried rose and sandalwood. The palate runs to ripe fig and cocoa with a suede-soft texture, then anise, violet and spiced tobacco, with a bright flick of orange peel on the finish.",
+    "noteVintage": "2022",
+    "critic": null,
+    "sourceName": "Phifer Pavitt winery tasting notes",
+    "sourceUrl": "https://www.phiferpavittwine.com/wines/xroads-cabernet-sauvignon/"
+   }
+  }
+ },
+ "phifer-pavitt-reserve-cabernet": {
+  "image": "images/phifer-pavitt-reserve-cabernet.jpg",
+  "imageSource": "Jake's photo of the bottle in hand, Oct 2026",
+  "blend": "98% Cabernet Sauvignon, 2% Petit Verdot, from organically farmed Temple Family Vineyards in Pope Valley",
+  "about": "The Reserve is Phifer Pavitt's top Napa Valley Cabernet, a step above XROADS and Date Night.",
+  "vintages": {
+   "2022": {
+    "note": "Dense and rich, with black plum and cocoa layered over leather, roasted hazelnut and tobacco leaf. Fine-grained tannins frame a polished, generous palate, and the long finish turns to dark chocolate, molasses and vanilla from the oak.",
+    "noteVintage": "2022",
+    "critic": null,
+    "sourceName": "Phifer Pavitt winery tasting notes",
+    "sourceUrl": "https://www.phiferpavittwine.com/wines/3-bottle-reserve-cabernet-sauvignon/"
+   }
+  }
+ },
+ "phifer-pavitt-date-night-sparkling": {
+  "image": "images/phifer-pavitt-date-night-sparkling.png",
+  "imageSource": "https://www.phiferpavittwine.com/wines/date-night-sparkling-wine/",
+  "blend": "100% Pinot Noir, traditional method",
+  "about": "Date Night is Phifer Pavitt's signature label, and this is its pale pink Blanc de Noirs sparkling wine.",
+  "vintages": {
+   "2021": {
+    "note": "Pale pink with a creamy mousse. Wild strawberry, raspberry and white flowers lead, with a touch of biscuit, then apricot, blood orange, green apple and ripe peach on a lively, fine-bubbled palate. Built for drinking young.",
+    "noteVintage": "2021",
+    "critic": null,
+    "sourceName": "Phifer Pavitt winery tasting notes",
+    "sourceUrl": "https://www.phiferpavittwine.com/wines/date-night-sparkling-wine/"
+   }
+  }
+ },
+ "spence-howell-mountain-cabernet": {
+  "image": "images/spence-howell-mountain-cabernet.png",
+  "imageSource": "https://www.spencevineyards.com/shop-estate-cabernet/",
+  "blend": "100% Cabernet Sauvignon, estate grown on Howell Mountain",
+  "about": "Spence is a small family estate at about 1,900 feet on Howell Mountain, bought at a charity auction in 1998, where red volcanic soil and canyon breezes shape its flagship Cabernet.",
+  "vintages": {
+   "2016": {
+    "note": "Dark and perfumed, with violets, cassis, black cherry, black tea and cedar over a stony, volcanic edge. The palate brings plum, blueberry and cocoa with a pinch of nutmeg, ripe fruit kept fresh by bright acidity, and a long, layered finish.",
+    "noteVintage": "2016",
+    "critic": null,
+    "sourceName": "Cherry Picked Wines (2016 tasting note)",
+    "sourceUrl": "https://cherrypickedwines.com/wp/2016-spence-cabernet-sauvignon-howell-mountain/"
+   }
+  }
+ },
+ "spence-studio-rose-cabernet": {
+  "image": "images/spence-studio-rose-cabernet.png",
+  "imageSource": "https://www.spencevineyards.com/shop-rose-wines/",
+  "blend": "Rosé of Cabernet Sauvignon, Howell Mountain",
+  "about": "Studio is Spence's smaller-lot label, mostly for club members; this dry rosé is made from the estate's Howell Mountain Cabernet.",
+  "vintages": {
+   "2025": {
+    "note": "Bright and summery, with cherry, watermelon rind, cantaloupe and strawberry candy on the nose and a touch of Meyer lemon. Crisp apple leads into red berry, apricot and plum skin, finishing with a light almond and honeysuckle note.",
+    "noteVintage": "2023",
+    "critic": null,
+    "sourceName": "Spence Vineyards winemaker notes (2023 Rosé of Cabernet)",
+    "sourceUrl": "https://www.spencevineyards.com/shop-rose-wines/"
+   }
+  }
+ },
+ "spence-studio-cabernet-franc": {
+  "image": "images/spence-studio-cabernet-franc.jpg",
+  "imageSource": "Jake's photo of the bottle in hand, Oct 2026",
+  "blend": "Cabernet Franc",
+  "about": "Studio is Spence's smaller-lot label, mostly for club members, alongside the Howell Mountain estate Cabernet and the top Atelier bottling.",
+  "vintages": {}
+ },
+ "spence-studio-sauvignon-blanc": {
+  "image": "images/spence-studio-sauvignon-blanc.jpg",
+  "imageSource": "Jake's photo of the bottle in hand, Oct 2026",
+  "blend": "Sauvignon Blanc",
+  "about": "Studio is Spence's smaller-lot label, mostly for club members, alongside the Howell Mountain estate Cabernet and the top Atelier bottling.",
+  "vintages": {}
+ },
+ "joseph-cellars-voyage": {
+  "image": "images/joseph-cellars-voyage.jpg",
+  "imageSource": "https://www.josephcellars.com/product/2021-voyage",
+  "blend": "70% Zinfandel, 30% Petite Sirah",
+  "about": "Joseph Cellars is a small family winery at the north end of Napa Valley in Calistoga, and Voyage is its Sonoma side project: a Zinfandel and Petite Sirah blend from Dry Creek Valley fruit.",
+  "vintages": {
+   "2021": {
+    "note": "The winery describes the 2021 as bright and fruit-forward with good balance, and pairs it with a wet-aged prime New York strip, where it lets the clean beef flavor lead. Expect the ripe berry of Dry Creek Zinfandel, with Petite Sirah adding color, grip and darker fruit.",
+    "noteVintage": "2021",
+    "critic": null,
+    "sourceName": "Joseph Cellars Winery (2021 Voyage product page)",
+    "sourceUrl": "https://www.josephcellars.com/product/2021-voyage"
+   }
+  }
+ },
+ "joseph-cellars-247-cabernet": {
+  "image": "images/joseph-cellars-247-cabernet.png",
+  "imageSource": "https://www.josephcellars.com/product/2019-247-cabernet-sauvignon-",
+  "blend": "Cabernet Sauvignon",
+  "about": "Joseph Cellars is a small family winery on Highway 29 at the north end of Calistoga, where its vineyards run up toward Diamond Mountain; 247 is the winery's everyday Calistoga Cabernet.",
+  "vintages": {}
+ }
+}

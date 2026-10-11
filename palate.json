@@ -1,6 +1,6 @@
 {
- "profile": "I'm a mountain Cabernet guy. My favorite wines come from Howell Mountain, Mount Veeder and Spring Mountain in Napa: firm structure, real tannin, dark fruit with some earth underneath. My biggest test is what happens after you open it. The great ones keep getting better in the glass for hours, and if a wine goes flat, I'm out, no matter what the label says. The other way a wine wins me over is age: fully integrated and silky, but with enough backbone left for a ribeye. Restraint is great when there's real substance behind it and boring when there isn't. I don't go for sweet oak, jammy fruit-forward Cab, or wines built for the label. Lately I'm getting into Cabernet Franc-led wines like Viader and Dakota Shy. I like Right Bank Bordeaux to open a night. On weeknights I want value that overdelivers. Burgundy and Pinot are my blind spot so far.",
  "scaleNote": "Jake Score is a range out of 100, and every wine is judged against the job it's bought for. A Tuesday Night wine in the high 80s is a good bottle doing its job; it just won't blow anyone away. The top of the scale is the 2017 O'Shaughnessy Howell Mountain at 98-100.",
+ "profile": "I'm a mountain Cabernet guy. My favorite wines come from Howell Mountain, Mount Veeder and Spring Mountain in Napa: firm structure, real tannin, dark fruit with some earth underneath. My biggest test is what happens after you open it. The great ones keep getting better in the glass for hours, and if a wine goes flat, I'm out, no matter what the label says. The other way a wine wins me over is age: fully integrated and silky, but with enough backbone left for a ribeye. Restraint is great when there's real substance behind it and boring when there isn't. I don't go for sweet oak, jammy fruit-forward Cab, or wines built for the label. Lately I'm getting into Cabernet Franc-led wines like Viader and Dakota Shy. I like Right Bank Bordeaux to open a night. On weeknights I want value that overdelivers. Burgundy and Pinot are my blind spot so far.",
  "wines": [
   {
    "producer": "Neal Family Vineyards",
@@ -499,7 +499,7 @@
    "name": "Studio Sauvignon Blanc",
    "vintage": "2025",
    "region": "Napa Valley",
-   "role": "Exploratory",
+   "role": "White",
    "score": "86-88",
    "tried": true,
    "onList": false,
@@ -646,7 +646,7 @@
    "name": "Riesling",
    "vintage": "2024",
    "region": "Mosel, Germany",
-   "role": "Exploratory",
+   "role": "White",
    "score": null,
    "tried": true,
    "onList": false,

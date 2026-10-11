@@ -1,0 +1,142 @@
+{
+ "taplin-cabernet": {
+  "image": "images/taplin-cabernet.png",
+  "imageSource": "https://taplincellars.com/product/2022-taplin-cabernet-sauvignon/",
+  "blend": "100% Cabernet Sauvignon, estate grown (now bottled as the Ghost Creek Vineyard), aged 22 to 24 months in new French oak",
+  "about": "The Taplin family has farmed this land on St. Helena's west bench, at the foot of the Mayacamas Mountains, since 1871, and their flagship Cabernet comes from the estate's rockiest, gravel-rich vineyard block.",
+  "vintages": {
+   "2016": {
+    "note": "Dark, juicy and opulent, opening with blackberry jam, violets and a hint of slate. Plush black fruit fills the palate with clove, allspice and soft vanilla, yet the wine stays lively and fresh, finishing on boysenberry and a cool note of mint tea.",
+    "noteVintage": "2016",
+    "critic": null,
+    "sourceName": "Taplin Cellars 2016 Estate Cabernet Sauvignon fact sheet",
+    "sourceUrl": "https://taplincellars.com/wp-content/uploads/2022/05/2016-Taplin.pdf"
+   },
+   "2018": {
+    "note": "Ripe and generous, with dark berries and red fruit layered over earth, wet stones and a touch of cedar. The palate brings black plum, blueberry and pomegranate with savory herbs, baking spice and graphite, and polished tannins with bright acidity carry a long finish of milk chocolate and rosemary.",
+    "noteVintage": "2018",
+    "critic": null,
+    "sourceName": "Taplin Cellars 2018 Cabernet Sauvignon fact sheet",
+    "sourceUrl": "https://taplincellars.com/wp-content/uploads/2023/03/2018-Taplin-Fact-Sheet.pdf"
+   },
+   "2021": {
+    "note": "Sun-warmed berries lead the nose, with an undertone of earth and stone. Blueberry and boysenberry give way to a bright, silky core of Bing cherry that deepens into dark amarena cherry and cinnamon. Tannins are smooth and seamless, and the long finish lingers on mocha, red fruit and dried mint.",
+    "noteVintage": "2021",
+    "critic": null,
+    "sourceName": "Taplin Cellars 2021 Cabernet Sauvignon fact sheet",
+    "sourceUrl": "https://taplincellars.com/wp-content/uploads/2026/08/2021-Taplin-Fact-Sheet.pdf"
+   },
+   "2022": {
+    "note": "A rich, powerful vintage, with a nose of ripe blackberries, cedar, butterscotch and cool gravel. The palate is full and plush, layered with black plum, blackberry and cassis over seamless tannins, then dark chocolate, espresso and vanilla carry into a long finish that recalls Black Forest cake.",
+    "noteVintage": "2022",
+    "critic": null,
+    "sourceName": "Taplin Cellars winemaker's notes (online shop)",
+    "sourceUrl": "https://taplincellars.com/product/2022-taplin-cabernet-sauvignon/"
+   }
+  }
+ },
+ "taplin-terra-9": {
+  "image": "images/taplin-terra-9.png",
+  "imageSource": "https://taplincellars.com/product/2023-terra-9-cabernet-sauvignon/",
+  "blend": "100% Cabernet Sauvignon from hand-selected estate blocks, aged 16 to 22 months in about 60% new French oak",
+  "about": "Named for an ancestor's remark that the estate's soil was nine parts rock and one part dirt, Terra 9 is Taplin's most popular wine, drawn from hand-picked rows of the family vineyard in St. Helena.",
+  "vintages": {
+   "2019": {
+    "note": "Wild thyme, blackberry and mulberry rise over crushed rock, with hints of sweet oak, graphite and mint tea. Juicy Bing cherry and boysenberry fill the palate, lifted by a touch of fennel and a lively mineral streak, and silky tannins glide into a long finish of berry cobbler, dried mint and mocha.",
+    "noteVintage": "2019",
+    "critic": null,
+    "sourceName": "Taplin Cellars 2019 Terra 9 fact sheet",
+    "sourceUrl": "https://taplincellars.com/wp-content/uploads/2024/03/2019-Terra-9-Fact-Sheet.pdf"
+   },
+   "2022": {
+    "note": "Sun-warmed berries, earth, cedar and red cherry open the nose with a stony edge. The palate bursts with Bing cherry and ripe red fruit, plus amarena cherry, mocha, graphite and flashes of blueberry. Soft, velvety tannins give it a broad, supple feel, ending gracefully on dried mint and espresso.",
+    "noteVintage": "2022",
+    "critic": null,
+    "sourceName": "Taplin Cellars 2022 Terra 9 release page",
+    "sourceUrl": "https://taplincellars.com/2022-terra-9-cabernet-sauvignon/"
+   },
+   "2023": {
+    "note": "Crushed blackberry and boysenberry lead, with gravel, wild thyme and cedar unfolding behind. The texture is sleek and glossy, built around Bing cherry and cassis with hints of mocha, bay leaf and rain on warm stone. Fine tannins and a mineral thread carry a long finish of mint tea, baking spice and dried cherry.",
+    "noteVintage": "2023",
+    "critic": {
+     "critic": "Decanter",
+     "score": "95"
+    },
+    "sourceName": "Taplin Cellars winemaker's notes (online shop); also James Suckling 94",
+    "sourceUrl": "https://taplincellars.com/product/2023-terra-9-cabernet-sauvignon/"
+   }
+  }
+ },
+ "taplin-cabernet-franc": {
+  "image": "images/taplin-cabernet-franc.png",
+  "imageSource": "https://taplincellars.com/product/2023-taplin-cabernet-franc/",
+  "blend": "100% estate-grown Cabernet Franc, made in very small lots",
+  "about": "Taplin planted a small block of Cabernet Franc on its St. Helena estate about a decade ago and first bottled it in 2019; the 2021 was a tiny, club-only release from those first vines.",
+  "vintages": {
+   "2021": {
+    "note": "A savory, herb-driven Cabernet Franc with aromas of roasted pepper, tobacco, cedar and dried herbs over dark plum and blackberry, touched with mocha. The palate is rounder and fruitier, with blackberry, black cherry and mulberry alongside dark chocolate and coffee, framed by ripe, softened tannins that make it easy to enjoy.",
+    "noteVintage": "2022",
+    "critic": null,
+    "sourceName": "The Napa Wine Project (review of the 2022 Taplin Cabernet Franc)",
+    "sourceUrl": "https://www.napawineproject.com/taplin-cellars/"
+   }
+  }
+ },
+ "taplin-sauvignon-blanc": {
+  "image": "images/taplin-sauvignon-blanc.png",
+  "imageSource": "https://taplincellars.com/product/2025-taplin-savignon-blanc/",
+  "blend": "100% Sauvignon Blanc from Riverbound Vineyard in Yountville, fermented and aged in stainless steel",
+  "about": "Taplin's first-ever white wine, this debut Sauvignon Blanc was crafted for lingering conversation at the end of a meal, and only 120 cases were made.",
+  "vintages": {
+   "2025": {
+    "note": "Made in a crisp Loire Valley style, it opens with citrus blossom, preserved lemon and a chalky, mineral edge. Pink grapefruit and Meyer lemon drive a juicy, zippy, slightly salty palate, with white peach and nectarine filling in, before a fragrant finish of orange blossom, citrus zest and a whisper of tarragon.",
+    "noteVintage": "2025",
+    "critic": null,
+    "sourceName": "Taplin Cellars winemaker's notes (online shop)",
+    "sourceUrl": "https://taplincellars.com/product/2025-taplin-savignon-blanc/"
+   }
+  }
+ },
+ "sherwin-estate-cabernet": {
+  "image": "images/sherwin-estate-cabernet.png",
+  "imageSource": "https://www.vivino.com/US/en/sherwin-family-vineyards-estate-cabernet-sauvignon/w/2073887",
+  "blend": "Cabernet Sauvignon led (2021: 82% Cabernet Sauvignon, 9% Merlot, 9% Cabernet Franc; 2022: 100% Cabernet Sauvignon), 22 months in new French oak",
+  "about": "The Sherwin family farms about 16 acres of vines on volcanic soils near the top of Spring Mountain above St. Helena, and the 2021 marked their return after the 2020 Glass Fire cost them two vintages.",
+  "vintages": {
+   "2021": {
+    "note": "Violets, mint, plum, blackberry and red cherry lead the aromas, with only a light touch of vanilla, so the mountain fruit takes center stage. The palate is layered and bright with plum and blackberry, and firm, slightly grippy tannins lead into a savory, peppery finish that suggests it will reward time in the cellar.",
+    "noteVintage": "2021",
+    "critic": null,
+    "sourceName": "The Napa Wine Project; blend and oak from Sherwin Family Vineyards",
+    "sourceUrl": "https://www.napawineproject.com/sherwin-family-vineyards/",
+    "blend": "82% Cabernet Sauvignon, 9% Merlot, 9% Cabernet Franc"
+   },
+   "2023": {
+    "note": "Deep in color and generous, with black currant, dark berries, bitter chocolate, mocha, crushed stone and spice that show a clear mountain character. It is full-bodied and plush yet firmly built, with oak and tannins already well knit and a bright line of acidity keeping the long, dark-fruited finish fresh.",
+    "noteVintage": "2022",
+    "critic": {
+     "critic": "James Suckling",
+     "score": "94"
+    },
+    "sourceName": "Sherwin Family Vineyards 2022 release notes and James Suckling review of the 2022 (via CellarTracker)",
+    "sourceUrl": "https://www.sherwinfamilyvineyards.com/product/detail/2021-estate-cabernet-sauvignon/",
+    "blend": "Estate Cabernet Sauvignon (the 2022 was 100% Cabernet Sauvignon)"
+   }
+  }
+ },
+ "sherwin-cellar-scraps": {
+  "image": "images/sherwin-cellar-scraps.png",
+  "imageSource": "https://www.vivino.com/en/sherwin-family-vineyards-cellar-scraps-platinum-reserve/w/5937987",
+  "blend": "Cabernet Sauvignon, Petite Sirah, Cabernet Franc and Merlot from Spring Mountain and Calistoga; mostly 2023 with some 2022",
+  "about": "Cellar Scraps began as a home for small lots left over from Sherwin's estate wines and has grown into their most popular bottling, a numbered multi-vintage blend with a loyal following of self-described Cellar Scrappers.",
+  "vintages": {
+   "NV (Lot 19)": {
+    "note": "A dark, supple blend led by Cabernet Sauvignon, mostly from 2023 with a splash of 2022 for depth. Ripe dark fruit meets gentle spice and well-woven oak on the nose, and the palate is balanced and smooth, with soft tannins and a lingering finish that keeps revealing layers of dark fruit.",
+    "noteVintage": "Lot 19",
+    "critic": null,
+    "sourceName": "Sherwin Family Vineyards, Cellar Scraps #19 product page",
+    "sourceUrl": "https://www.sherwinfamilyvineyards.com/product/detail/cellar-scraps--19/"
+   }
+  }
+ }
+}

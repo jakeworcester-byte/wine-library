@@ -44,14 +44,17 @@ def web_image(src):
     if not src:
         return None
     full = os.path.join(ROOT, src)
+    out_rel = "images/web/" + os.path.splitext(os.path.basename(src))[0] + ".webp"
     if not os.path.exists(full):
+        # Originals stay out of git; a cloud build reuses the committed WebP copy.
+        if os.path.exists(os.path.join(ROOT, out_rel)):
+            return out_rel
         print(f"  ! missing image file {src}")
         return None
     try:
         from PIL import Image
     except ImportError:
         return src
-    out_rel = "images/web/" + os.path.splitext(os.path.basename(src))[0] + ".webp"
     out = os.path.join(ROOT, out_rel)
     os.makedirs(os.path.dirname(out), exist_ok=True)
     from PIL import ImageChops

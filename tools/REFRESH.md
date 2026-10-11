@@ -1,232 +1,170 @@
-# Weekly refresh playbook
+# How the Wine Library stays current
 
-How to sync the site with the Notion Wine Library. Written for an unattended run:
-follow it exactly, and when something is ambiguous, leave it out and flag it in the
-report instead of guessing.
+## The pipeline
+
+1. **Notion is the source of truth.** Jake's Claude chats log bottles, scores and
+   notes in the Notion Wine Library (`collection://c43965be-a956-4750-be6d-5f1e25fee445`,
+   under the "Wine Program" page).
+2. **A GitHub Action syncs every 30 minutes** (`.github/workflows/sync.yml`). It runs
+   `tools/sync_notion.py` (Notion to `tools/cellar.json` and `tools/palate.json`, no
+   AI), then `tools/build.py`, commits only when something changed, and publishes the
+   site. Pull a bottle in Notion and the site follows within about half an hour.
+3. **A cloud routine does the judgment work** (this playbook, below): researching new
+   wines, writing guest notes into Notion, curating display names, and the weekly
+   Ask Jake log review. It runs Sundays, and the Action also starts it whenever a
+   sync surfaces new work in `tools/pending.json`.
+
+Manual refresh: GitHub, repo `jakeworcester-byte/wine-library`, Actions tab, "Sync
+from Notion and publish," Run workflow.
+
+## What lives where
+
+| Data | Home |
+|---|---|
+| Bottles, counts, locations, scores, categories, drink windows, status, verdicts | Notion columns |
+| Guest-facing text: note, pairing, caution | Notion columns **Guest Note**, **Guest Pairing**, **Guest Flag** |
+| Which Notion rows make up which site wine, curated display names, color, tags | `tools/catalog.json` |
+| Bottle photos and published tasting notes | `research/group-*.json`, `images/web/` |
+| Palate profile and score-scale note for the chat | header of `tools/palate.json` |
+
+`sync_notion.py` reads only whitelisted columns. It never reads Notes, Price Paid,
+Buy Ceiling or Source, so nothing private can reach the site through the sync.
 
 ## Ground rules
 
-- **Notion is the source of truth, so fix mistakes there first.** When a fact
-  turns out to be wrong (the wrong wine identity, producer, vintage or bottling),
-  correct the Notion row, then sync the site from Notion. Never patch only the
-  site and leave Notion wrong. Limits:
-  - Only on confirmed facts: Jake says so, or he reads it off the bottle in hand.
-    Web research alone is never enough; flag it in the report instead. An
-    unattended run has no one to confirm, so it flags and does not edit.
-  - Change the identity fields (Wine, Producer, Vintage, AVA / Region). Add a
-    dated line at the top of Notes saying what changed and why, in Jake's existing
-    style ("LABEL CONFIRMED 2026-10-01: ..."). Keep the rest of Notes as it is.
-  - Never touch Jake Score, Repeat Buy, Status, On Hand, prices, or his own
-    tasting impressions. Never delete or archive a row.
-  - List every Notion edit in the report.
-- **Never send email or messages.** The only outward action is `git push` to
-  `jakeworcester-byte/wine-library`.
-- **Never use em dashes** (the long dash) anywhere on the site. `build.py` refuses
-  to write output containing one.
-- **Notion is the source of truth.** Whenever the site's data (`cellar.json` or
-  `palate.json`) disagrees with Notion on a fact (category/role, score, verdict,
-  bottle count, drink window, buy-list status), change the site to match Notion,
-  even if the site's value looks like an earlier deliberate choice. Note each
-  correction in the report. Display cleanup of names and regions is not a conflict.
+- **Notion is the source of truth, and editing it is expected.** Write the Guest
+  columns whenever they are missing or wrong. Fix identity mistakes (Wine, Producer,
+  Vintage, AVA / Region) only on confirmed facts: Jake says so, or he reads it off
+  the bottle. Web research alone is not enough, so an unattended run flags identity
+  questions instead of editing. For an identity fix, add a dated line at the top of
+  Notes in Jake's style ("LABEL CONFIRMED 2026-10-01: ...").
+- **Never change** Jake Score, Repeat Buy, Status, On Hand, Location, prices, or his
+  own Notes text. Never delete or archive a row. List every Notion edit in the report.
+- **Never send email or messages.** The only outward actions are Notion edits and
+  `git push` to `jakeworcester-byte/wine-library`.
+- **Never use em dashes** (the long dash) anywhere on the site or in Guest columns.
+  `build.py` refuses to write output containing one.
 - **Guest-safe only.** Prices, Buy Ceiling, Source, where or how a bottle was bought,
   "under market," scoring-system talk (V5, lanes, calibration, "data point,"
   "evidence for"), and cellar logistics ("do not open," "window corrected from")
-  never reach the site.
-- **Exception: bottle location is public.** Jake decided (Oct 3, 2026) that the
-  Notion `Location` field and the rack map belong on the site. Carry it every run;
-  never strip or flag it as logistics. It is the only logistics that may appear.
+  never reach a Guest column.
+- **Exception: bottle location is public.** The Location column and rack map belong
+  on the site (Jake, Oct 3, 2026).
 
-## 1. Pull stocked wines from Notion
+## Guest column rules (for the routine and for Jake's chats)
 
-Data source: `collection://c43965be-a956-4750-be6d-5f1e25fee445` (database
-"Wine Library" under the "Wine Program" page). Query with SQL:
+- **Guest Note:** one or two short sentences in Jake's first-person voice, warm,
+  about how the wine drank. Keep comparisons to another vintage and trip or dinner
+  context ("tasted at the winery in August 2026"). If Glass Evolution is "Built,"
+  end with "Kept building in the glass." For a buy-list wine never tasted, say why
+  it's on the list. A Tuesday Night score in the high 80s is a good bottle doing its
+  job, not a knock. If the Notes hold no tasting impressions at all, write `-`,
+  which means "nothing to show" and stops the row from being flagged again.
+- **Guest Pairing:** a few words, e.g. "Prime ribeye," only when the Notes or
+  Pairing Context name a real pairing.
+- **Guest Flag:** a short guest-useful caution on a cellar bottle, e.g. "Saved for
+  a vertical tasting." The Ask Jake chat treats it as a hold.
+- Existing values in Notion are the style reference.
 
-```sql
-SELECT url, "Wine", "Producer", "Vintage", "AVA / Region", "On Hand", "Status",
-       "Category", "Jake Score", "Drink Window", "Glass Evolution", "Notes", "Location"
-FROM "collection://c43965be-a956-4750-be6d-5f1e25fee445"
-WHERE "On Hand" > 0
-```
+## Routine playbook
 
-Also pull every scored row (any status) for reference lines:
+Start with `git pull --rebase origin main` and read `tools/pending.json` (the
+Action rewrites it every sync, so it is at most 30 minutes old).
 
-```sql
-SELECT "Wine", "Producer", "Vintage", "Jake Score"
-FROM "collection://c43965be-a956-4750-be6d-5f1e25fee445"
-WHERE "Jake Score" IS NOT NULL AND "Jake Score" <> ''
-```
+### 1. Guest notes (`needsGuestNote`)
 
-`On Hand` is the source of truth for whether a bottle is in the cellar. Ignore the
-Status field. Two rows for the same wine and vintage are merged: add their On Hand
-and join their Locations with ", " (each row keeps its own slots in Notion, often
-one bottle held for a vertical and the rest drinkable).
+Each item is a Notion row that has a Jake Score but an empty Guest Note. Fetch the
+row with the Notion connector, read Notes, Glass Evolution, Pairing Context and
+Jake Score, and write Guest Note (and Guest Pairing or Guest Flag if they apply)
+following the rules above. Quote each new Guest Note in the report.
 
-And every row that is NOT on hand, for the chat's tasting record (step 4b):
+Also scan cellar rows (On Hand > 0) whose Notes say the bottle is held, reserved,
+or saved for a vertical, and that have no Guest Flag: add one.
 
-```sql
-SELECT "Wine", "Producer", "Vintage", "AVA / Region", "Status", "Category",
-       "Jake Score", "Repeat Buy", "Glass Evolution", "Pairing Context", "Notes"
-FROM "collection://c43965be-a956-4750-be6d-5f1e25fee445"
-WHERE ("On Hand" IS NULL OR "On Hand" = 0)
-```
+### 2. New wines (`newWines`)
 
-## 2. Diff against `tools/cellar.json`
+Each item is a wine the sync has never seen. It is already on the site with a
+provisional entry in `tools/catalog.json` (`"provisional": true`) and a placeholder
+bottle.
 
-Match Notion rows to existing entries by wine identity and vintage (producer names
-vary in Notion, e.g. "Taplin" vs "Taplin Cellars"; use judgment, and check the
-existing slugs first). Classify every change:
+- **First check it is really new.** If the Notion rows are a new vintage or a
+  differently titled row of a wine already in `catalog.json`, point those row ids
+  in `catalog.rows` at the existing slug and delete the provisional wine.
+- **Curate the entry** in `catalog.wines[slug]`: `producer` and `name` cleaned up
+  for display (e.g. "Taplin Cellars" / "Terra 9"), `short` (the rack map label,
+  about 10 characters, enough to tell it apart from the producer's other wines:
+  "Terra 9," "Taplin Cab," "OS Veeder"), `region`, `color` (red or white),
+  optional `tags` (e.g. Bordeaux classification). Then remove `provisional`.
+- **Research** into `research/group-weekly.json` (same shape as the other
+  `research/group-*.json` files):
+  - **Photo:** a clean upright bottle shot, label readable, correct producer and
+    bottling (any vintage of the same label is fine). Prefer the winery site, then
+    major retailers or Vivino. Download with curl using a browser User-Agent to
+    `images/<slug>.<ext>`, confirm it is a real image at least 300px tall, and LOOK
+    at it with the Read tool before using it. If unsure it is the right wine, set
+    `image` to null (the site keeps the placeholder) and flag it.
+  - **Tasting note per vintage:** winery tech sheet first, then reputable critics
+    or retailers. Write 2 to 3 sentences (35 to 60 words) in your own words; never
+    copy text verbatim. Record `noteVintage` (the vintage the note describes), a
+    critic score only if confirmed (`{"critic": "...", "score": "..."}`), blend,
+    `sourceName`, `sourceUrl`, plus a one-sentence `about` for the wine.
+- New vintages of known wines also need a tasting note: run `python tools/build.py`
+  and research every `! no web note` it prints for a vintage added since last week.
 
-- **Removed** (in cellar.json, no longer On Hand > 0): delete that vintage. If no
-  vintages remain, delete the wine and its `images/web/<slug>.webp`.
-- **Count change:** update `onHand`.
-- **New vintage of an existing wine:** add it under the existing slug.
-- **New wine:** add a new slug (kebab-case, producer + wine, no vintage), then do
-  step 3.
-- **New or changed Jake Score, notes, category, or drink window:** update.
-- **New or changed Location:** update. A rack rearrangement alone is a real
-  change worth a commit.
+Tasting-record rows (not on hand) get default display names from Notion. If one
+reads badly, add a `catalog.palate[<row id>]` entry with `producer`, `name`,
+`region` (and `vintage`, `score` or `tried` overrides only when the default is
+wrong). Existing entries are the style reference.
 
-If nothing changed here AND nothing changed for the tasting record (step 4b),
-stop: no commit, and report "no changes."
-
-## 3. Research any new wine
-
-For each new slug or new vintage, add an entry to `research/group-weekly.json`
-(same shape as the other `research/group-*.json` files):
-
-- **Photo:** a clean upright bottle shot, label readable, correct producer and
-  bottling (any vintage of the same label is fine). Prefer the winery site, then
-  major retailers or Vivino. Download with curl using a browser User-Agent to
-  `images/<slug>.<ext>`, confirm it is a real image at least 300px tall, and LOOK
-  at it with the Read tool before using it. If unsure it is the right wine, set
-  `image` to null (the site shows a placeholder bottle) and flag it.
-- **Tasting note per vintage:** winery tech sheet first, then reputable critics or
-  retailers. Write 2 to 3 sentences (35 to 60 words) in your own words; never copy
-  text verbatim. Record `noteVintage` (the vintage the note actually describes),
-  a critic score only if confirmed (`{"critic": "...", "score": "..."}`), blend,
-  `sourceName`, `sourceUrl`, plus a one-sentence `about` for the wine.
-
-## 4. Write `tools/cellar.json` entries
-
-Per vintage:
-
-- `onHand`, `category` (Notion Category or null).
-- `window` and `peak`: split Notion's Drink Window, e.g.
-  `"2029-2042 (peak 2032-2038), est."` (Notion puts a long dash before "est.")
-  becomes `window: "2029-2042"`, `peak: "2032-2038"`. Keep "Now" as written
-  (`"Now-2027"`). Drop "est.," the dash, and any commentary after the ranges,
-  including hints like "(drink early)".
-- `jakeScore`: Notion Jake Score, only when present.
-- `jakeNote`: only when the Notion Notes contain real tasting impressions. Rewrite
-  them for guests in Jake's first-person voice, short and warm, keeping any
-  comparison to another vintage and any trip or dinner context ("tasted at the
-  winery in August 2026"). If Glass Evolution is "Built," end with "Kept building
-  in the glass." If the notes are only logistics or system talk, leave `jakeNote`
-  out entirely. Existing examples in cellar.json are the style reference.
-- `flag`: short guest-useful caution only, e.g. "Saved for a vertical tasting."
-- `location`: Notion Location exactly as written (e.g. `"B4, B5, B6"`, `"UP, C4"`,
-  `"FR"`); `build.py` normalizes case and spacing. Leave it out when blank. Codes:
-  a basement rack slot is row letter + column 1 to 9 (row A is the bottom); `UP`
-  is the upstairs rack; `FR` is the wine fridge. Never invent or fix a location;
-  if it looks wrong, copy it and let the build warning flag it.
-
-Per wine: `producer` and `name` cleaned up for display (e.g. "Taplin Cellars" /
-"Terra 9"), `short` (the rack map label, about 10 characters, enough to tell it
-apart from the same producer's other wines: "Terra 9," "Taplin Cab," "OS Veeder";
-existing entries are the style reference), `region`, `color` (red or white), optional `tags` (e.g. Bordeaux
-classification), and `otherScores`: every scored vintage of the same wine from the
-second query, as `{"vintage": "2019", "score": "94-95"}`.
-
-Set `snapshotDate` to today (YYYY-MM-DD).
-
-## 4b. Update `tools/palate.json` (the Ask Jake chat's tasting record)
-
-`palate.json` lists every wine Jake has logged that is NOT in the cellar, so the
-chat can recommend wines to buy or try. Diff the not-on-hand query against
-`tools/palate.json` `wines`:
-
-- **New tasting or new buy-list row:** add an entry. Fields: `producer`, `name`
-  (no producer repeated), `vintage` or null, `region`, `role` (Notion Category,
-  with "Bridge / Pre-Dinner" written as "Pre-Dinner"), `score` (Jake Score or
-  null; drop words like "projected" and never use a projected score), `tried`
-  (false only when the notes say it was never tasted or assessed on paper),
-  `onList` (true when Status is Acquisition Candidate), `verdict` from Repeat Buy
-  (Yes or Likely: "buy again"; Conditional, Situational or TBD: "depends"; No or
-  Status Eliminated: "not for me"; blank: null), `take`, and optional `pairing`.
-- **`take`:** one or two short sentences in Jake's first-person voice, guest-safe
-  (same rules as Jake's Notes). Keep what describes the wine and how it drank;
-  drop prices, buy ceilings, stores, "market price," scoring-system talk and
-  logistics. Existing entries are the style reference. Jake's framing: a Tuesday
-  Night score in the high 80s is a good bottle doing its job, not a knock.
-- **A wine that moved into the cellar:** remove it here (it lives in cellar.json).
-  A cellar wine that was used up but has a score moves here as `tried: true`.
-- **Changed score, verdict or notes:** update the entry.
-- Skip rows with no score and no usable tasting note (e.g. "BACKLOG" rows).
-- Never edit `profile` or `scaleNote` without Jake's approval; flag it in the
-  report if new tastings seem to contradict the profile.
-
-`build.py` publishes it as `palate.json`; the chat reads it live.
-
-## 5. Build, check, publish
+### 3. Build and publish
 
 ```bash
-cd "Projects/Wine Library"
-python tools/build.py        # prints counts and warns on anything missing
-git add -A
-git commit -m "Weekly cellar sync: <short summary>"
+pip install --quiet pillow
+python tools/build.py        # makes images/web/*.webp from new photos; prints warnings
+git add tools/catalog.json research images/web
+git commit -m "Cellar curation: <short summary>"
 git pull --rebase origin main
 git push origin main
 ```
 
-Fix any `! missing` or `! no web note` warnings for wines added this run before
-committing. Do not fix `! rack:` warnings: they mean the rack and the library have
-drifted apart (an unreadable code, two wines in one slot, or a slot count that
-doesn't match On Hand). Notion is the source, so commit as is and list each one in
-the report for Jake to correct in Notion. Only bump the `?v=N` asset queries in `index.html` if you changed a file in
-`assets/` (a normal sync does not). The "Ask Jake" chat in `worker/` reads the
-live wines.json and palate.json, so it needs no redeploy during a sync.
+Commit only those paths: the Action owns `cellar.json`, `palate.json`,
+`pending.json`, `wines.json` and the root `palate.json`, and the push makes it
+re-sync from Notion (picking up the Guest columns written in step 1) and publish.
+Within about five minutes, `https://jakeworcester-byte.github.io/wine-library/wines.json`
+should show the change. Do not fix `! rack:` warnings; report them for Jake to
+correct in Notion. Only bump the `?v=N` asset queries in `index.html` if a file in
+`assets/` changed.
 
-Verify the deploy: within about 3 minutes,
-`https://jakeworcester-byte.github.io/wine-library/wines.json` should show the new
-`updated` date and bottle count.
+### 4. Ask Jake question log (Sunday runs only; skip when started by the sync)
 
-## 5b. Ask Jake question log
+The routine's environment has `CLOUDFLARE_API_TOKEN` (D1 access only). Account
+`b01cc7291822a7c352c71511ed533bee`, database `921de635-8434-422d-b56f-d3ab1971b8a9`
+(`wine-chat-log`):
 
-Do this even when the cellar had no changes. From `Projects/Wine Library/worker`
-(PowerShell, with `$env:CI = "true"`):
-
-```powershell
-npx.cmd wrangler d1 execute wine-chat-log --remote --json --command "SELECT at, convo, turn, question, answer, searches, in_tokens, cache_read, cache_write, out_tokens, error FROM questions WHERE at >= datetime('now', '-7 days') ORDER BY at"
-npx.cmd wrangler d1 execute wine-chat-log --remote --command "DELETE FROM questions WHERE at < datetime('now', '-180 days')"
+```bash
+D1="https://api.cloudflare.com/client/v4/accounts/b01cc7291822a7c352c71511ed533bee/d1/database/921de635-8434-422d-b56f-d3ab1971b8a9/query"
+curl -sS "$D1" -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" -H "Content-Type: application/json" \
+  -d '{"sql": "SELECT at, convo, turn, question, answer, searches, in_tokens, cache_read, cache_write, out_tokens, error FROM questions WHERE at >= datetime('"'"'now'"'"', '"'"'-7 days'"'"') ORDER BY at"}'
+curl -sS "$D1" -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" -H "Content-Type: application/json" \
+  -d '{"sql": "DELETE FROM questions WHERE at < datetime('"'"'now'"'"', '"'"'-180 days'"'"')"}'
 ```
 
-The first query often fails with Cloudflare error 7403 ("account is not valid or
-is not authorized"). It is transient: retry the same command once, and it goes
-through. Only treat 7403 as a real auth problem if the retry fails too. Run
-`Set-Location` to `worker/` as its own step first, so the wrangler command starts
-with `npx.cmd wrangler d1 execute wine-chat-log` and matches Jake's allow rule.
-
-The log is anonymous: no names or IPs. Rows sharing a `convo` are one chat. If
-wrangler says it isn't logged in, skip this step and say so in the report (Jake
-re-runs `npx wrangler login` from `worker/`).
+The log is anonymous: no names or IPs. Rows sharing a `convo` are one chat. If the
+token is missing or rejected, skip this step and say so in the report.
 
 Estimated cost per row at Sonnet 5 rates: (in_tokens x $2 + cache_write x $2.50
-+ cache_read x $0.20 + out_tokens x $10) per million tokens, plus $0.01 per
-search.
++ cache_read x $0.20 + out_tokens x $10) per million tokens, plus $0.01 per search.
 
-## 6. Report
+### 5. Report
 
-End with a short summary for Jake: bottles and wines now in the cellar; what was
-added, removed, and changed; any new Jake's Notes and tasting-record takes (quote
-the guest versions); and
-anything flagged for him to check (uncertain photo, wine identity, note from a
-different vintage). Then a "Rack check" line: the `rack:` summary from the build
-(slots filled, upstairs, fridge, wines with no location) and every `! rack:`
-warning, each with the fix Jake would make in Notion. If there are none, say the
-rack and library agree.
+A short summary for Jake: what the sync shows in the cellar (bottles and wines);
+new wines researched (and any photo or identity flagged for him); every Notion
+edit, quoting new Guest Notes; and every `! rack:` warning from the build with the
+fix Jake would make in Notion (or "the rack and library agree").
 
-Then a short "Ask Jake this week" section from step 5b: number of chats and
-questions, the questions themselves (grouped by chat, lightly summarized if
-there are many), any answers that look wrong or off-voice (quote the line),
-errors, and estimated spend for the week. Don't change the chat's prompt based
-on the log; suggest changes and let Jake decide.
+On Sunday runs, add "Ask Jake this week": number of chats and questions, the
+questions (grouped by chat, lightly summarized if many), any answers that look
+wrong or off-voice (quote the line), errors, and estimated spend. Don't change the
+chat's prompt based on the log; suggest changes and let Jake decide. Never edit the
+palate `profile` or `scaleNote` without Jake's approval; flag it if new tastings
+seem to contradict the profile.

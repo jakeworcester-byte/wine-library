@@ -9,6 +9,7 @@
     "Special Occasion": "Special Occasion",
     "Tuesday Night": "Tuesday Night",
     "Bridge / Pre-Dinner": "Pre-Dinner",
+    "White": "White",
     "Exploratory": "Exploratory"
   };
 
@@ -189,7 +190,7 @@
   function renderChips() {
     var present = {};
     wines.forEach(function (w) { if (w.category) present[w.category] = (present[w.category] || 0) + w.onHand; });
-    var order = ["Steak Saturday", "Special Occasion", "Tuesday Night", "Bridge / Pre-Dinner", "Exploratory"];
+    var order = ["Steak Saturday", "Special Occasion", "Tuesday Night", "Bridge / Pre-Dinner", "White", "Exploratory"];
     var html = '<button type="button" class="chip" data-occ="" aria-pressed="true">All occasions</button>';
     order.forEach(function (c) {
       if (present[c]) html += '<button type="button" class="chip" data-occ="' + esc(c) + '" aria-pressed="false">' + esc(OCCASION_LABELS[c]) + "</button>";

@@ -1,0 +1,95 @@
+name: Sync from Notion and publish
+
+# Every 30 minutes: read the Notion Wine Library, rebuild the site data, and
+# publish only when something changed. Also publishes on any push to main
+# (the weekly routine's research commits) and on a manual run.
+on:
+  schedule:
+    - cron: "7,37 * * * *"
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+concurrency:
+  group: wine-sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    env:
+      ROUTINE_TOKEN: ${{ secrets.ROUTINE_TOKEN }}
+      ROUTINE_ID: ${{ secrets.ROUTINE_ID }}
+    outputs:
+      changed: ${{ steps.commit.outputs.changed }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install Pillow
+        run: pip install --quiet pillow
+
+      - name: Sync from Notion
+        env:
+          NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
+        run: python tools/sync_notion.py
+
+      - name: Build site data
+        run: python tools/build.py
+
+      - name: Commit changes
+        id: commit
+        run: |
+          git config user.name "wine-sync"
+          git config user.email "wine-sync@users.noreply.github.com"
+          git add tools/cellar.json tools/palate.json tools/pending.json tools/catalog.json wines.json palate.json images/web
+          if git diff --cached --quiet; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "No changes from Notion."
+          else
+            git commit -m "Notion sync: $(python -c "import json;d=json.load(open('wines.json'));print(len(d['wines']),'wines,',sum(w['onHand'] for w in d['wines']),'bottles')")"
+            git push origin HEAD:main
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+          echo "pending=$(python -c "import json;p=json.load(open('tools/pending.json'));print(len(p['newWines'])+len(p['needsGuestNote']))")" >> "$GITHUB_OUTPUT"
+
+      # New wines need research and tasted wines need a Guest Note. Start the
+      # cloud routine for that work when this sync just surfaced some.
+      - name: Start the research routine
+        if: steps.commit.outputs.changed == 'true' && steps.commit.outputs.pending != '0' && env.ROUTINE_TOKEN != ''
+        run: |
+          curl -sS -X POST "https://api.anthropic.com/v1/claude_code/routines/${ROUTINE_ID}/fire" \
+            -H "Authorization: Bearer ${ROUTINE_TOKEN}" \
+            -H "anthropic-beta: experimental-cc-routine-2026-04-01" \
+            -H "anthropic-version: 2023-06-01" \
+            -H "Content-Type: application/json" \
+            -d '{"text": "Started by the Notion sync: tools/pending.json has new work."}' \
+            || echo "Could not start the routine; the Sunday run will pick this up."
+
+  publish:
+    needs: sync
+    if: needs.sync.outputs.changed == 'true' || github.event_name != 'schedule'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+
+      - id: deploy
+        uses: actions/deploy-pages@v4

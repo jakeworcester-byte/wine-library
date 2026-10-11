@@ -1,4 +1,3 @@
-research/
 images/*
 !images/web/
 __pycache__/

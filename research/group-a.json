@@ -1,0 +1,174 @@
+{
+  "oshaughnessy-howell-mountain": {
+    "image": "images/oshaughnessy-howell-mountain.jpg",
+    "imageSource": "https://www.skurnik.com/sku/cabernet-sauvignon-howell-mountain-oshaughnessy-3-2-3-2-2-3-2-2-2-2/",
+    "blend": "Mostly Cabernet Sauvignon, with small amounts of Merlot, Malbec, Petit Verdot, St. Macaire, Carmenere and Cabernet Franc",
+    "about": "From the Howell Mountain estate Betty O'Shaughnessy began planting in 1997, this Cabernet is unusual for weaving in small amounts of all seven Bordeaux red grapes, including the rare St. Macaire.",
+    "vintages": {
+      "2017": {
+        "note": "Dark and earthy, with black and blue fruits, a touch of charcoal, garden herbs and a wisp of espresso over a mineral backbone. Rich, full-bodied and concentrated, yet the usually firm Howell Mountain tannins have been tamed into something plush enough to enjoy now and over the next two decades.",
+        "noteVintage": "2017",
+        "blend": "83% Cabernet Sauvignon, 5% Merlot, 4% Malbec, plus Petit Verdot, St. Macaire, Carmenere and Cabernet Franc",
+        "critic": {
+          "critic": "Jeb Dunnuck",
+          "score": "96"
+        },
+        "sourceName": "O'Shaughnessy Estate Winery tech sheet",
+        "sourceUrl": "https://oshaughnessywinery.com/wp-content/uploads/2026/06/2017-oshaughnessy-howell-mountain-cabernet-sauvignon.pdf"
+      },
+      "2022": {
+        "note": "A riper, more flamboyant O'Shaughnessy, bursting with inky dark fruit, chocolate, licorice and a floral hint of lavender. The warm 2022 season shows in its generous, up-front richness, while the tannins sit on the softer side, making this an unusually approachable Howell Mountain Cabernet in its youth.",
+        "noteVintage": "2022",
+        "blend": "89% Cabernet Sauvignon, 3% Malbec, 3% Petit Verdot, 3% St. Macaire, 1% Cabernet Franc, 1% Carmenere",
+        "critic": {
+          "critic": "Vinous (Antonio Galloni)",
+          "score": "93"
+        },
+        "sourceName": "O'Shaughnessy Estate Winery tech sheet",
+        "sourceUrl": "https://oshaughnessywinery.com/wp-content/uploads/2026/06/2022-oshaughnessy-howell-mountain-cabernet-sauvignon.pdf"
+      }
+    }
+  },
+  "oshaughnessy-mount-veeder": {
+    "image": "images/oshaughnessy-mount-veeder.jpg",
+    "imageSource": "https://www.skurnik.com/sku/cabernet-sauvignon-mt-veeder-oshaughnessy-3/",
+    "blend": "100% Cabernet Sauvignon",
+    "about": "Pure Cabernet from O'Shaughnessy's steep, terraced Betty's Vineyard and Woolls Ranch on Mount Veeder, a cool, rugged mountain site known for savory, mineral, red-fruited wines.",
+    "vintages": {
+      "2017": {
+        "note": "Opaque purple and deeply perfumed, opening with blackberry, boysenberry and espresso. The palate layers dense berry preserves with an exotic cola note, a hint of tar and rich toasty oak, all carried by powerful mountain structure. The finish is remarkably long, lingering for minutes after each sip.",
+        "noteVintage": "2017",
+        "blend": "100% Cabernet Sauvignon",
+        "critic": {
+          "critic": "James Suckling",
+          "score": "93"
+        },
+        "sourceName": "O'Shaughnessy Estate Winery tech sheet (score via Mission Wines)",
+        "sourceUrl": "https://oshaughnessywinery.com/wp-content/uploads/2026/06/2017-oshaughnessy-mount-veeder-cabernet-sauvignon-cab.pdf"
+      },
+      "2018": {
+        "note": "Bright, silky and beautifully balanced, with red berries, blood orange, sweet spice, tobacco and rose petal, plus hints of mint, violets and crushed stone. Medium to full-bodied with building tannins and classic Mount Veeder structure, it rewards a few years of patience and should keep evolving for decades.",
+        "noteVintage": "2018",
+        "blend": "100% Cabernet Sauvignon",
+        "critic": {
+          "critic": "Vinous (Antonio Galloni)",
+          "score": "96"
+        },
+        "sourceName": "O'Shaughnessy Estate Winery tech sheet",
+        "sourceUrl": "https://oshaughnessywinery.com/wp-content/uploads/2026/08/2018-Mount-Veeder-Cabernet-Sauvingnon.pdf"
+      },
+      "2019": {
+        "note": "A classic mountain Cabernet brimming with brambly mulberry, blueberry and sweet red cherry, woven with dried herbs, blood orange, menthol and a touch of mocha. Full-bodied and dense, the opulence of the vintage is balanced by firm mountain tannins, and it keeps building in the glass toward a long, head-turning finish.",
+        "noteVintage": "2019",
+        "blend": "100% Cabernet Sauvignon",
+        "critic": {
+          "critic": "Vinous (Antonio Galloni)",
+          "score": "97+"
+        },
+        "sourceName": "O'Shaughnessy Estate Winery tech sheet",
+        "sourceUrl": "https://oshaughnessywinery.com/wp-content/uploads/2026/06/2019-oshaughnessy-mount-veeder-cabernet-sauvignon.pdf"
+      },
+      "2021": {
+        "note": "Savory and brooding, with bay leaf, sage and cedar framing black cherry, blackcurrant and blueberry fruit, plus a whiff of clove and cigar box. Medium to full-bodied and firmly built, its fine, dusty tannins stretch into a mouthwatering finish. Delicious now, but it has plenty in reserve for the cellar.",
+        "noteVintage": "2021",
+        "blend": "100% Cabernet Sauvignon",
+        "critic": {
+          "critic": "Wine Advocate",
+          "score": "95"
+        },
+        "sourceName": "Skurnik Wines (quoting Wine Advocate and James Suckling)",
+        "sourceUrl": "https://www.skurnik.com/sku/cabernet-sauvignon-mt-veeder-oshaughnessy-3/"
+      },
+      "2022": {
+        "note": "Red-fruited and savory, showing classic Mount Veeder character through blood orange, dried flowers, mint, iron and chalky minerality. It handled the hot 2022 vintage gracefully, staying fresh and composed, though it is still a bit tight today. Give it a few years in the cellar to open up fully.",
+        "noteVintage": "2022",
+        "blend": "100% Cabernet Sauvignon",
+        "critic": {
+          "critic": "Vinous (Antonio Galloni)",
+          "score": "93"
+        },
+        "sourceName": "O'Shaughnessy Estate Winery tech sheet",
+        "sourceUrl": "https://oshaughnessywinery.com/wp-content/uploads/2026/06/2022-oshaughnessy-mount-veeder-cabernet-sauvignon.pdf"
+      }
+    }
+  },
+  "viader-black-label": {
+    "image": "images/viader-black-label.png",
+    "imageSource": "https://www.vivino.com/US/en/viader-vineyards-black-label-limited-edition/w/1535904",
+    "blend": "Cabernet Sauvignon and Syrah, rounded out with Malbec and, in some years, Cabernet Franc",
+    "about": "Viader's bold 'Estate Limited Edition' blend, pairing hillside estate Cabernet Sauvignon with a hefty dose of Syrah for a richer, spicier counterpoint to the flagship.",
+    "vintages": {
+      "2021": {
+        "note": "Big, generous and plush, with juicy plum, black cherry and boysenberry preserves layered over graphite, spice cake, smoked tobacco and shaved dark chocolate. The dense, full-bodied palate is framed by rounded tannins and good freshness, and the Syrah leaves a lingering peppery, earthy finish.",
+        "noteVintage": "2021",
+        "blend": "58% Cabernet Sauvignon, 27% Syrah, 15% Malbec",
+        "critic": {
+          "critic": "Lisa Perrotti-Brown",
+          "score": "96"
+        },
+        "sourceName": "Viader Vineyards & Winery online store",
+        "sourceUrl": "https://wine.viader.com/2021-viader-black-label-750ml-p125.aspx"
+      },
+      "2022": {
+        "note": "Bold and dark, bursting with blackcurrant, blueberry, plum and licorice alongside graphite, espresso, cedar and dark chocolate. Warm baking spices and a touch of smoke lead into a full, concentrated palate with firm but well-cushioned tannins, finishing long with the peppery, earthy note Syrah brings to this blend.",
+        "noteVintage": "2022",
+        "blend": "48% Cabernet Sauvignon, 31% Syrah, 11% Malbec, 10% Cabernet Franc",
+        "critic": {
+          "critic": "James Suckling",
+          "score": "95"
+        },
+        "sourceName": "Viader Vineyards & Winery online store",
+        "sourceUrl": "https://wine.viader.com/2022-viader-black-label-15l-p150.aspx"
+      }
+    }
+  },
+  "viader-proprietary-red": {
+    "image": "images/viader-proprietary-red.png",
+    "imageSource": "https://www.vivino.com/US/en/viader-vineyards-red-blend/w/6866",
+    "blend": "Cabernet Sauvignon and Cabernet Franc (roughly 60/40, varying by vintage)",
+    "about": "Delia Viader's signature wine since 1989, a Cabernet Sauvignon and Cabernet Franc blend grown on the steep, rocky slopes of Howell Mountain above St. Helena.",
+    "vintages": {
+      "2017": {
+        "note": "An elegant, lifted Viader with juicy raspberry and red cherry preserves, wildflowers, dried lavender and hints of mocha and cinnamon. Silky and focused on the palate, with fine-grained tannins, a floral lift and mouthwatering freshness through the finish. Lovely now and should drink well over the next decade or more.",
+        "noteVintage": "2017",
+        "blend": "69% Cabernet Sauvignon, 31% Cabernet Franc",
+        "critic": {
+          "critic": "Jeb Dunnuck",
+          "score": "91+"
+        },
+        "sourceName": "Viader Vineyards & Winery online store",
+        "sourceUrl": "https://wine.viader.com/2017-viader-750ml-p80.aspx"
+      },
+      "2019": {
+        "note": "Pure and polished, with cassis, red currant and black cherry wrapped in tobacco leaf, violets, lavender, licorice and dark chocolate. Full-bodied yet silky, it pairs rock-solid structure and ripe, fine-grained tannins with a floral, mouthwatering finish. A standout vintage for this wine that will keep improving for two decades.",
+        "noteVintage": "2019",
+        "blend": "58% Cabernet Sauvignon, 42% Cabernet Franc",
+        "critic": {
+          "critic": "Jeb Dunnuck",
+          "score": "97"
+        },
+        "sourceName": "Viader Vineyards & Winery online store",
+        "sourceUrl": "https://wine.viader.com/2019-viader-750ml-p100.aspx"
+      }
+    }
+  },
+  "viader-v": {
+    "image": "images/viader-v.png",
+    "imageSource": "https://www.vivino.com/en/viader-vineyards-v-napa-valley/w/1792906",
+    "blend": "Petit Verdot and Cabernet Sauvignon, proportions shifting by vintage",
+    "about": "Built around a tiny, especially rocky 1.2-acre block of Petit Verdot on the Viader estate, blended with the estate's boldest Cabernet Sauvignon for a dark, inky, firmly structured wine.",
+    "vintages": {
+      "2020": {
+        "note": "Deep, inky and plum-colored, with spiced black fruits, dried herbs, baking spices and a leathery edge. Full-bodied and broad on the palate, it carries firm hillside tannins and finishes with dried tobacco leaf and shaved chocolate. Built for the long haul, it rewards decanting now or patience in the cellar.",
+        "noteVintage": "2021",
+        "blend": "53% Petit Verdot, 47% Cabernet Sauvignon (2021)",
+        "critic": {
+          "critic": "Jeb Dunnuck",
+          "score": "93"
+        },
+        "sourceName": "Viader Vineyards & Winery online store",
+        "sourceUrl": "https://wine.viader.com/2021-viader-v-750ml-p131.aspx"
+      }
+    }
+  }
+}
