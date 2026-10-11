@@ -137,20 +137,20 @@ correct in Notion. Only bump the `?v=N` asset queries in `index.html` if a file 
 
 ### 4. Ask Jake question log (Sunday runs only; skip when started by the sync)
 
-The routine's environment has `CLOUDFLARE_API_TOKEN` (D1 access only). Account
+The routine runs in the "Wine Library" cloud environment, which holds a Cloudflare
+D1 token as a network secret for `api.cloudflare.com`: the agent proxy adds the
+`Authorization` header itself, so send requests without one. Account
 `b01cc7291822a7c352c71511ed533bee`, database `921de635-8434-422d-b56f-d3ab1971b8a9`
 (`wine-chat-log`):
 
 ```bash
 D1="https://api.cloudflare.com/client/v4/accounts/b01cc7291822a7c352c71511ed533bee/d1/database/921de635-8434-422d-b56f-d3ab1971b8a9/query"
-curl -sS "$D1" -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" -H "Content-Type: application/json" \
-  -d '{"sql": "SELECT at, convo, turn, question, answer, searches, in_tokens, cache_read, cache_write, out_tokens, error FROM questions WHERE at >= datetime('"'"'now'"'"', '"'"'-7 days'"'"') ORDER BY at"}'
-curl -sS "$D1" -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" -H "Content-Type: application/json" \
-  -d '{"sql": "DELETE FROM questions WHERE at < datetime('"'"'now'"'"', '"'"'-180 days'"'"')"}'
+curl -sS "$D1" -H "Content-Type: application/json"   -d '{"sql": "SELECT at, convo, turn, question, answer, searches, in_tokens, cache_read, cache_write, out_tokens, error FROM questions WHERE at >= datetime('"'"'now'"'"', '"'"'-7 days'"'"') ORDER BY at"}'
+curl -sS "$D1" -H "Content-Type: application/json"   -d '{"sql": "DELETE FROM questions WHERE at < datetime('"'"'now'"'"', '"'"'-180 days'"'"')"}'
 ```
 
-The log is anonymous: no names or IPs. Rows sharing a `convo` are one chat. If the
-token is missing or rejected, skip this step and say so in the report.
+The log is anonymous: no names or IPs. Rows sharing a `convo` are one chat. If
+Cloudflare answers with an authentication error, skip this step and say so in the report.
 
 Estimated cost per row at Sonnet 5 rates: (in_tokens x $2 + cache_write x $2.50
 + cache_read x $0.20 + out_tokens x $10) per million tokens, plus $0.01 per search.
