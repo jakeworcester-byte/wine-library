@@ -445,7 +445,7 @@
   function bind() {
     $("q").addEventListener("input", function (e) { state.q = e.target.value.trim(); render(); });
     $("sort").addEventListener("change", function (e) { state.sort = e.target.value; render(); });
-    document.querySelector(".seg").addEventListener("click", function (e) {
+    $("readiness").addEventListener("click", function (e) {
       var b = e.target.closest("button[data-ready]");
       if (!b) return;
       state.ready = b.getAttribute("data-ready");
