@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-11",
+ "updated": "2026-10-15",
  "rack": {
   "rows": 8,
   "cols": 9,
@@ -1855,8 +1855,8 @@
    ],
    "window": "Now-2029",
    "peak": null,
-   "jakeScore": null,
-   "jakeNote": null,
+   "jakeScore": "90-92",
+   "jakeNote": "Zinfandel and Petite Sirah, and it surprised me. More backbone than I expected, and it stood right up to pork tacos.",
    "flag": null,
    "otherScores": [],
    "image": "images/web/joseph-cellars-voyage.webp",

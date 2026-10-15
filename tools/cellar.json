@@ -1,6 +1,6 @@
 {
  "_about": "Guest-safe snapshot of the Notion Wine Library (On Hand > 0). No prices, sources, or working notes. Refresh by re-querying Notion and editing this file, then run tools/build.py.",
- "snapshotDate": "2026-10-11",
+ "snapshotDate": "2026-10-15",
  "wines": {
   "aonair-mountain-reserve": {
    "producer": "Aonair",
@@ -707,7 +707,9 @@
      "onHand": 2,
      "category": "Exploratory",
      "window": "Now-2029",
-     "peak": null
+     "peak": null,
+     "jakeScore": "90-92",
+     "jakeNote": "Zinfandel and Petite Sirah, and it surprised me. More backbone than I expected, and it stood right up to pork tacos."
     }
    }
   },
