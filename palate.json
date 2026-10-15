@@ -714,6 +714,19 @@
    "onList": true,
    "verdict": "depends",
    "take": "Still haven't tasted it. On my list."
+  },
+  {
+   "producer": "Mascota Vineyards",
+   "name": "Unánime Gran Vino Tinto",
+   "vintage": "2022",
+   "region": "Mendoza, Argentina",
+   "role": "Tuesday Night",
+   "score": "87-89",
+   "tried": true,
+   "onList": false,
+   "verdict": "buy again",
+   "take": "Came out of the gate as a fruit bomb, but it settled down and won me over as the evening went on. A great low-cost sipper that held up fine with spaghetti.",
+   "pairing": "Spaghetti"
   }
  ],
  "updated": "2026-10-15"

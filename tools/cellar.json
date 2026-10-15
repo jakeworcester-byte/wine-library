@@ -501,22 +501,6 @@
     }
    }
   },
-  "unanime-mascota-cabernet": {
-   "producer": "Mascota Vineyards",
-   "name": "Unánime Gran Vino Tinto",
-   "short": "Unánime",
-   "region": "Mendoza, Argentina",
-   "color": "red",
-   "vintages": {
-    "2022": {
-     "location": "UP",
-     "onHand": 1,
-     "category": "Tuesday Night",
-     "window": "2026-2030",
-     "peak": "2027-2029"
-    }
-   }
-  },
   "halos-de-jupiter-cotes-du-rhone": {
    "producer": "Halos de Jupiter",
    "name": "Côtes du Rhône",
