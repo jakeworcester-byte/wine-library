@@ -93,10 +93,6 @@
     "n": 1
    },
    {
-    "id": "rauzan-despagne-bordeaux-2022",
-    "n": 1
-   },
-   {
     "id": "adegamae-touriga-franca-2020",
     "n": 1
    },
@@ -1495,42 +1491,6 @@
     },
     "sourceName": "Decanter World Wine Awards 2024 judges' note (also cited by LCBO Vintages)",
     "sourceUrl": "https://awards.decanter.com/DWWA/2024/wines/754420"
-   }
-  },
-  {
-   "id": "rauzan-despagne-bordeaux-2022",
-   "slug": "rauzan-despagne-bordeaux",
-   "producer": "Château Rauzan Despagne",
-   "name": "Bordeaux Rouge",
-   "short": "Rauzan",
-   "vintage": "2022",
-   "region": "Bordeaux",
-   "color": "red",
-   "tags": [],
-   "category": "Tuesday Night",
-   "onHand": 1,
-   "locations": [
-    "UP"
-   ],
-   "window": "2026-2030",
-   "peak": "2027-2029",
-   "jakeScore": null,
-   "jakeNote": null,
-   "flag": null,
-   "otherScores": [],
-   "image": "images/web/rauzan-despagne-bordeaux.webp",
-   "imageSource": "https://36thavewine.com/shop/product/chateau-rauzan-despagne-bordeaux/636aa15eb3d0943b7fcf4ddb",
-   "blend": "70% Merlot, 20% Cabernet Franc, 10% Cabernet Sauvignon (2022)",
-   "about": "Château Rauzan Despagne is one of the Entre-Deux-Mers estates of the Despagne family (Vignobles Despagne, also behind Girolate and Mont-Pérat), and this is its standard Bordeaux red, bottled without a Réserve or Grand Vin designation.",
-   "web": {
-    "note": "An elegant, approachable Bordeaux with blackcurrant and fresh plum on the nose. The palate is ripe and juicy with soft, well-integrated tannins and a rounded texture, closing on a subtly saline note that keeps it lively.",
-    "noteVintage": "2022",
-    "critic": {
-     "critic": "Decanter World Wine Awards 2025 (Silver)",
-     "score": "93"
-    },
-    "sourceName": "Decanter World Wine Awards 2025 judges' note, with Wine Enthusiast review of the 2022",
-    "sourceUrl": "https://www.wineenthusiast.com/buying-guide/chateau-rauzan-despagne-2022-bordeaux-style-red-blend-bordeaux/"
    }
   },
   {

@@ -533,22 +533,6 @@
     }
    }
   },
-  "rauzan-despagne-bordeaux": {
-   "producer": "Château Rauzan Despagne",
-   "name": "Bordeaux Rouge",
-   "short": "Rauzan",
-   "region": "Bordeaux",
-   "color": "red",
-   "vintages": {
-    "2022": {
-     "location": "UP",
-     "onHand": 1,
-     "category": "Tuesday Night",
-     "window": "2026-2030",
-     "peak": "2027-2029"
-    }
-   }
-  },
   "adegamae-touriga-franca": {
    "producer": "Adegamãe",
    "name": "Touriga Franca",

@@ -717,6 +717,19 @@
    "take": "Still haven't tasted it. On my list."
   },
   {
+   "producer": "Château Rauzan Despagne",
+   "name": "Bordeaux Rouge",
+   "vintage": "2022",
+   "region": "Bordeaux",
+   "role": "Tuesday Night",
+   "score": "88-90",
+   "tried": true,
+   "onList": false,
+   "verdict": "buy again",
+   "take": "A strong Right Bank showing for a weeknight bottle. Enjoyable on its own and held up to the pork roast very well.",
+   "pairing": "Pork roast"
+  },
+  {
    "producer": "La Rioja Alta",
    "name": "Viña Alberdi Reserva 2020",
    "vintage": null,
