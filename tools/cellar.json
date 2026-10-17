@@ -1,23 +1,7 @@
 {
  "_about": "Guest-safe snapshot of the Notion Wine Library (On Hand > 0). No prices, sources, or working notes. Refresh by re-querying Notion and editing this file, then run tools/build.py.",
- "snapshotDate": "2026-10-16",
+ "snapshotDate": "2026-10-17",
  "wines": {
-  "aonair-mountain-reserve": {
-   "producer": "Aonair",
-   "name": "Mountain Reserve Cabernet Sauvignon",
-   "short": "Aonair",
-   "region": "Napa Valley",
-   "color": "red",
-   "vintages": {
-    "2020": {
-     "location": "F6",
-     "onHand": 1,
-     "category": "Steak Saturday",
-     "window": "2026-2029",
-     "peak": null
-    }
-   }
-  },
   "chappellet-napa-cabernet": {
    "producer": "Chappellet",
    "name": "Napa Valley Cabernet Sauvignon",
@@ -250,8 +234,8 @@
    "color": "red",
    "vintages": {
     "2016": {
-     "location": "G1, G2",
-     "onHand": 2,
+     "location": "G2",
+     "onHand": 1,
      "category": "Special Occasion",
      "window": "2026-2032",
      "peak": "Now-2030",

@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-16",
+ "updated": "2026-10-17",
  "rack": {
   "rows": 8,
   "cols": 9,
@@ -48,9 +48,7 @@
    "F3": "spence-studio-cabernet-franc-2023",
    "F4": "spence-studio-cabernet-franc-2023",
    "F5": "viader-v-2020",
-   "F6": "aonair-mountain-reserve-2020",
    "F7": "pride-merlot-2020",
-   "G1": "taplin-cabernet-2016",
    "G2": "taplin-cabernet-2016",
    "G3": "oshaughnessy-howell-mountain-2017",
    "G4": "joseph-cellars-247-cabernet-2019",
@@ -117,39 +115,6 @@
   ]
  },
  "wines": [
-  {
-   "id": "aonair-mountain-reserve-2020",
-   "slug": "aonair-mountain-reserve",
-   "producer": "Aonair",
-   "name": "Mountain Reserve Cabernet Sauvignon",
-   "short": "Aonair",
-   "vintage": "2020",
-   "region": "Napa Valley",
-   "color": "red",
-   "tags": [],
-   "category": "Steak Saturday",
-   "onHand": 1,
-   "locations": [
-    "F6"
-   ],
-   "window": "2026-2029",
-   "peak": null,
-   "jakeScore": null,
-   "jakeNote": null,
-   "flag": null,
-   "otherScores": [],
-   "image": "images/web/aonair-mountain-reserve.webp",
-   "imageSource": "https://www.vivino.com/US/en/aonair-reserve-series-15-barrel-production-napa-valley-cabernet-sauvignon/w/1840820",
-   "blend": "Cabernet Sauvignon from Napa hillside vineyards (Spring, Howell and Diamond Mountain in past releases)",
-   "about": "Aonair is a small family winery tucked into the hills at the base of Howell Mountain, founded in 2008 by longtime Napa winemaker Grant Long Jr. to make small-lot reds from rocky mountain vineyards.",
-   "web": {
-    "note": "Deep, inky violet in the glass, this mountain Cabernet opens with blackberry, vanilla and toasty oak, picking up a hint of cola as it breathes. The palate is smooth and plush with dark plum fruit, framed by firm but polished tannins that carry into a long, lingering finish.",
-    "noteVintage": "2020",
-    "critic": null,
-    "sourceName": "CellarTracker and Delectable community tasting notes (2020 Reserve Series Cabernet Sauvignon)",
-    "sourceUrl": "https://www.cellartracker.com/wine.asp?iWine=4339993"
-   }
-  },
   {
    "id": "chappellet-napa-cabernet-2022",
    "slug": "chappellet-napa-cabernet",
@@ -751,9 +716,8 @@
    "color": "red",
    "tags": [],
    "category": "Special Occasion",
-   "onHand": 2,
+   "onHand": 1,
    "locations": [
-    "G1",
     "G2"
    ],
    "window": "2026-2032",
