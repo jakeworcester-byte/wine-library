@@ -1898,9 +1898,9 @@
    "slug": "o-shaughnessy-children-s-garden-sauvignon-blanc",
    "producer": "O'Shaughnessy",
    "name": "Children's Garden Sauvignon Blanc",
-   "short": "O'Shaughnessy",
+   "short": "OS Garden SB",
    "vintage": "2024",
-   "region": "Oakville",
+   "region": "Oakville, Napa Valley",
    "color": "white",
    "tags": [],
    "category": "White",
@@ -1916,9 +1916,15 @@
    "otherScores": [],
    "image": null,
    "imageSource": null,
-   "blend": null,
-   "about": null,
-   "web": null
+   "blend": "100% Sauvignon Blanc, Oakville, Napa Valley, fermented and aged 12 months on the lees in French oak, stainless steel and concrete",
+   "about": "Children's Garden is O'Shaughnessy's Oakville Sauvignon Blanc, made entirely from the estate vineyard of the same name and fermented in a mix of French oak, concrete and stainless steel.",
+   "web": {
+    "note": "Pale straw in the glass, it shows fresh pineapple, candied lemon zest and a touch of mineral on the nose. The palate brings juicy white peach, ripe nectarine and honeysuckle in a creamy, supple texture, with bright acidity and a clean, refreshing finish.",
+    "noteVintage": "2024",
+    "critic": null,
+    "sourceName": "O'Shaughnessy Estate Winery 2024 tech sheet",
+    "sourceUrl": "https://oshaughnessywinery.com/wp-content/uploads/2026/06/2024-oshaughnessy-sauvignon-blanc.pdf"
+   }
   }
  ]
 }

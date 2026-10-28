@@ -1,13 +1,4 @@
 {
- "newWines": [
-  {
-   "slug": "o-shaughnessy-children-s-garden-sauvignon-blanc",
-   "notionIds": [
-    "4073eda98b2781c184f9fdbf12b6ab1c"
-   ],
-   "producer": "O'Shaughnessy",
-   "name": "Children's Garden Sauvignon Blanc"
-  }
- ],
+ "newWines": [],
  "needsGuestNote": []
 }
