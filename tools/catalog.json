@@ -255,10 +255,9 @@
   "o-shaughnessy-children-s-garden-sauvignon-blanc": {
    "producer": "O'Shaughnessy",
    "name": "Children's Garden Sauvignon Blanc",
-   "short": "O'Shaughnessy",
-   "region": "Oakville",
-   "color": "white",
-   "provisional": true
+   "short": "OS Garden SB",
+   "region": "Oakville, Napa Valley",
+   "color": "white"
   }
  },
  "rows": {

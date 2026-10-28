@@ -313,5 +313,20 @@
   "blend": "Cabernet Sauvignon",
   "about": "Joseph Cellars is a small family winery on Highway 29 at the north end of Calistoga, where its vineyards run up toward Diamond Mountain; 247 is the winery's everyday Calistoga Cabernet.",
   "vintages": {}
+ },
+ "o-shaughnessy-children-s-garden-sauvignon-blanc": {
+  "image": null,
+  "imageSource": null,
+  "blend": "100% Sauvignon Blanc, Oakville, Napa Valley, fermented and aged 12 months on the lees in French oak, stainless steel and concrete",
+  "about": "Children's Garden is O'Shaughnessy's Oakville Sauvignon Blanc, made entirely from the estate vineyard of the same name and fermented in a mix of French oak, concrete and stainless steel.",
+  "vintages": {
+   "2024": {
+    "note": "Pale straw in the glass, it shows fresh pineapple, candied lemon zest and a touch of mineral on the nose. The palate brings juicy white peach, ripe nectarine and honeysuckle in a creamy, supple texture, with bright acidity and a clean, refreshing finish.",
+    "noteVintage": "2024",
+    "critic": null,
+    "sourceName": "O'Shaughnessy Estate Winery 2024 tech sheet",
+    "sourceUrl": "https://oshaughnessywinery.com/wp-content/uploads/2026/06/2024-oshaughnessy-sauvignon-blanc.pdf"
+   }
+  }
  }
 }
