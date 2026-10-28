@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-18",
+ "updated": "2026-10-28",
  "rack": {
   "rows": 8,
   "cols": 9,
@@ -39,8 +39,6 @@
    "E2": "taplin-terra-9-2019",
    "E3": "taplin-terra-9-2019",
    "E4": "taplin-terra-9-2019",
-   "E5": "taplin-terra-9-2019",
-   "E6": "taplin-terra-9-2019",
    "E7": "spence-howell-mountain-cabernet-2016",
    "E9": "viader-proprietary-red-2017",
    "F1": "phifer-pavitt-xroads-2022",
@@ -48,12 +46,23 @@
    "F3": "spence-studio-cabernet-franc-2023",
    "F4": "spence-studio-cabernet-franc-2023",
    "F5": "viader-v-2020",
+   "F6": "oshaughnessy-mount-veeder-2023",
    "F7": "pride-merlot-2020",
+   "F8": "oshaughnessy-mount-veeder-2023",
+   "F9": "oshaughnessy-mount-veeder-2023",
    "G2": "taplin-cabernet-2016",
    "G3": "oshaughnessy-howell-mountain-2017",
    "G4": "joseph-cellars-247-cabernet-2019",
    "G5": "joseph-cellars-247-cabernet-2019",
    "G6": "joseph-cellars-247-cabernet-2019",
+   "G7": "oshaughnessy-howell-mountain-2018",
+   "G8": "oshaughnessy-howell-mountain-2018",
+   "H1": "oshaughnessy-howell-mountain-2023",
+   "H2": "oshaughnessy-howell-mountain-2023",
+   "H3": "oshaughnessy-howell-mountain-2023",
+   "H4": "oshaughnessy-howell-mountain-2023",
+   "H5": "oshaughnessy-howell-mountain-2023",
+   "H6": "oshaughnessy-howell-mountain-2023",
    "H7": "joseph-cellars-voyage-2021",
    "H9": "joseph-cellars-voyage-2021"
   },
@@ -106,10 +115,14 @@
    },
    {
     "id": "phifer-pavitt-date-night-sparkling-2021",
-    "n": 2
+    "n": 1
    },
    {
     "id": "spence-studio-rose-cabernet-2025",
+    "n": 1
+   },
+   {
+    "id": "o-shaughnessy-children-s-garden-sauvignon-blanc-2024",
     "n": 1
    }
   ]
@@ -298,6 +311,43 @@
    }
   },
   {
+   "id": "oshaughnessy-howell-mountain-2018",
+   "slug": "oshaughnessy-howell-mountain",
+   "producer": "O'Shaughnessy",
+   "name": "Howell Mountain Cabernet Sauvignon",
+   "short": "OS Howell",
+   "vintage": "2018",
+   "region": "Howell Mountain, Napa Valley",
+   "color": "red",
+   "tags": [],
+   "category": "Special Occasion",
+   "onHand": 2,
+   "locations": [
+    "G7",
+    "G8"
+   ],
+   "window": "2026-2038",
+   "peak": "2028-2035",
+   "jakeScore": null,
+   "jakeNote": null,
+   "flag": null,
+   "otherScores": [
+    {
+     "vintage": "2017",
+     "score": "98-100"
+    },
+    {
+     "vintage": "2023",
+     "score": "96-98"
+    }
+   ],
+   "image": "images/web/oshaughnessy-howell-mountain.webp",
+   "imageSource": "https://www.skurnik.com/sku/cabernet-sauvignon-howell-mountain-oshaughnessy-3-2-3-2-2-3-2-2-2-2/",
+   "blend": "Mostly Cabernet Sauvignon, with small amounts of Merlot, Malbec, Petit Verdot, St. Macaire, Carmenere and Cabernet Franc",
+   "about": "From the Howell Mountain estate Betty O'Shaughnessy began planting in 1997, this Cabernet is unusual for weaving in small amounts of all seven Bordeaux red grapes, including the rare St. Macaire.",
+   "web": null
+  },
+  {
    "id": "oshaughnessy-howell-mountain-2022",
    "slug": "oshaughnessy-howell-mountain",
    "producer": "O'Shaughnessy",
@@ -344,6 +394,38 @@
     "sourceName": "O'Shaughnessy Estate Winery tech sheet",
     "sourceUrl": "https://oshaughnessywinery.com/wp-content/uploads/2026/06/2022-oshaughnessy-howell-mountain-cabernet-sauvignon.pdf"
    }
+  },
+  {
+   "id": "oshaughnessy-howell-mountain-2023",
+   "slug": "oshaughnessy-howell-mountain",
+   "producer": "O'Shaughnessy",
+   "name": "Howell Mountain Cabernet Sauvignon",
+   "short": "OS Howell",
+   "vintage": "2023",
+   "region": "Howell Mountain, Napa Valley",
+   "color": "red",
+   "tags": [],
+   "category": "Special Occasion",
+   "onHand": 6,
+   "locations": [
+    "H1",
+    "H2",
+    "H3",
+    "H4",
+    "H5",
+    "H6"
+   ],
+   "window": "2030-2045",
+   "peak": "2033-2041",
+   "jakeScore": "96-98",
+   "jakeNote": "The top wine of our August 2026 Napa trip, tasted in their cave.",
+   "flag": null,
+   "otherScores": [],
+   "image": "images/web/oshaughnessy-howell-mountain.webp",
+   "imageSource": "https://www.skurnik.com/sku/cabernet-sauvignon-howell-mountain-oshaughnessy-3-2-3-2-2-3-2-2-2-2/",
+   "blend": "Mostly Cabernet Sauvignon, with small amounts of Merlot, Malbec, Petit Verdot, St. Macaire, Carmenere and Cabernet Franc",
+   "about": "From the Howell Mountain estate Betty O'Shaughnessy began planting in 1997, this Cabernet is unusual for weaving in small amounts of all seven Bordeaux red grapes, including the rare St. Macaire.",
+   "web": null
   },
   {
    "id": "oshaughnessy-mount-veeder-2017",
@@ -557,6 +639,35 @@
     "sourceName": "O'Shaughnessy Estate Winery tech sheet",
     "sourceUrl": "https://oshaughnessywinery.com/wp-content/uploads/2026/06/2022-oshaughnessy-mount-veeder-cabernet-sauvignon.pdf"
    }
+  },
+  {
+   "id": "oshaughnessy-mount-veeder-2023",
+   "slug": "oshaughnessy-mount-veeder",
+   "producer": "O'Shaughnessy",
+   "name": "Mount Veeder Cabernet Sauvignon",
+   "short": "OS Veeder",
+   "vintage": "2023",
+   "region": "Mount Veeder, Napa Valley",
+   "color": "red",
+   "tags": [],
+   "category": "Steak Saturday",
+   "onHand": 3,
+   "locations": [
+    "F6",
+    "F8",
+    "F9"
+   ],
+   "window": "2029-2040",
+   "peak": "2032-2038",
+   "jakeScore": "93-95",
+   "jakeNote": "A regular in my rotation.",
+   "flag": null,
+   "otherScores": [],
+   "image": "images/web/oshaughnessy-mount-veeder.webp",
+   "imageSource": "https://www.skurnik.com/sku/cabernet-sauvignon-mt-veeder-oshaughnessy-3/",
+   "blend": "100% Cabernet Sauvignon",
+   "about": "Pure Cabernet from O'Shaughnessy's steep, terraced Betty's Vineyard and Woolls Ranch on Mount Veeder, a cool, rugged mountain site known for savory, mineral, red-fruited wines.",
+   "web": null
   },
   {
    "id": "pride-merlot-2020",
@@ -863,14 +974,12 @@
    "color": "red",
    "tags": [],
    "category": "Steak Saturday",
-   "onHand": 6,
+   "onHand": 4,
    "locations": [
     "E1",
     "E2",
     "E3",
-    "E4",
-    "E5",
-    "E6"
+    "E4"
    ],
    "window": "2026-2031",
    "peak": "2027-2030",
@@ -1605,7 +1714,7 @@
    "color": "white",
    "tags": [],
    "category": "Bridge / Pre-Dinner",
-   "onHand": 2,
+   "onHand": 1,
    "locations": [
     "FR"
    ],
@@ -1782,6 +1891,33 @@
    "imageSource": "https://www.josephcellars.com/product/2019-247-cabernet-sauvignon-",
    "blend": "Cabernet Sauvignon",
    "about": "Joseph Cellars is a small family winery on Highway 29 at the north end of Calistoga, where its vineyards run up toward Diamond Mountain; 247 is the winery's everyday Calistoga Cabernet.",
+   "web": null
+  },
+  {
+   "id": "o-shaughnessy-children-s-garden-sauvignon-blanc-2024",
+   "slug": "o-shaughnessy-children-s-garden-sauvignon-blanc",
+   "producer": "O'Shaughnessy",
+   "name": "Children's Garden Sauvignon Blanc",
+   "short": "O'Shaughnessy",
+   "vintage": "2024",
+   "region": "Oakville",
+   "color": "white",
+   "tags": [],
+   "category": "White",
+   "onHand": 1,
+   "locations": [
+    "FR"
+   ],
+   "window": "Now-2028",
+   "peak": null,
+   "jakeScore": null,
+   "jakeNote": null,
+   "flag": null,
+   "otherScores": [],
+   "image": null,
+   "imageSource": null,
+   "blend": null,
+   "about": null,
    "web": null
   }
  ]

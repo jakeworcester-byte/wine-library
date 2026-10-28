@@ -251,6 +251,14 @@
    "short": "247 Cab",
    "region": "Calistoga, Napa",
    "color": "red"
+  },
+  "o-shaughnessy-children-s-garden-sauvignon-blanc": {
+   "producer": "O'Shaughnessy",
+   "name": "Children's Garden Sauvignon Blanc",
+   "short": "O'Shaughnessy",
+   "region": "Oakville",
+   "color": "white",
+   "provisional": true
   }
  },
  "rows": {
@@ -415,6 +423,12 @@
   },
   "3c83eda98b278113afabf722595969b1": {
    "slug": "viader-proprietary-red"
+  },
+  "4073eda98b2781c184f9fdbf12b6ab1c": {
+   "slug": "o-shaughnessy-children-s-garden-sauvignon-blanc"
+  },
+  "4073eda98b2781d68056cd77e1d6f8f2": {
+   "slug": "oshaughnessy-howell-mountain"
   }
  },
  "palate": {

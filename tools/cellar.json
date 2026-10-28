@@ -1,6 +1,6 @@
 {
  "_about": "Guest-safe snapshot of the Notion Wine Library (On Hand > 0). No prices, sources, or working notes. Refresh by re-querying Notion and editing this file, then run tools/build.py.",
- "snapshotDate": "2026-10-18",
+ "snapshotDate": "2026-10-28",
  "wines": {
   "chappellet-napa-cabernet": {
    "producer": "Chappellet",
@@ -91,12 +91,28 @@
      "jakeScore": "98-100",
      "jakeNote": "The gold standard. Depth and authority, and the reference point for my entire scoring scale. Kept building in the glass."
     },
+    "2018": {
+     "location": "G7, G8",
+     "onHand": 2,
+     "category": "Special Occasion",
+     "window": "2026-2038",
+     "peak": "2028-2035"
+    },
     "2022": {
      "location": "C1, C2, C3",
      "onHand": 3,
      "category": "Special Occasion",
      "window": "2029-2042",
      "peak": "2032-2039"
+    },
+    "2023": {
+     "location": "H1, H2, H3, H4, H5, H6",
+     "onHand": 6,
+     "category": "Special Occasion",
+     "window": "2030-2045",
+     "peak": "2033-2041",
+     "jakeScore": "96-98",
+     "jakeNote": "The top wine of our August 2026 Napa trip, tasted in their cave."
     }
    },
    "otherScores": [
@@ -151,6 +167,15 @@
      "category": "Steak Saturday",
      "window": "2028-2036",
      "peak": "2030-2034"
+    },
+    "2023": {
+     "location": "F6, F8, F9",
+     "onHand": 3,
+     "category": "Steak Saturday",
+     "window": "2029-2040",
+     "peak": "2032-2038",
+     "jakeScore": "93-95",
+     "jakeNote": "A regular in my rotation."
     }
    },
    "otherScores": [
@@ -280,8 +305,8 @@
    "color": "red",
    "vintages": {
     "2019": {
-     "location": "E1, E2, E3, E4, E5, E6",
-     "onHand": 6,
+     "location": "E1, E2, E3, E4",
+     "onHand": 4,
      "category": "Steak Saturday",
      "window": "2026-2031",
      "peak": "2027-2030",
@@ -591,7 +616,7 @@
    "vintages": {
     "2021": {
      "location": "FR",
-     "onHand": 2,
+     "onHand": 1,
      "category": "Bridge / Pre-Dinner",
      "window": "2026-2027",
      "peak": null
@@ -679,6 +704,22 @@
      "category": "Steak Saturday",
      "window": "2026-2031",
      "peak": "2026-2029"
+    }
+   }
+  },
+  "o-shaughnessy-children-s-garden-sauvignon-blanc": {
+   "producer": "O'Shaughnessy",
+   "name": "Children's Garden Sauvignon Blanc",
+   "short": "O'Shaughnessy",
+   "region": "Oakville",
+   "color": "white",
+   "vintages": {
+    "2024": {
+     "location": "FR",
+     "onHand": 1,
+     "category": "White",
+     "window": "Now-2028",
+     "peak": null
     }
    }
   }
