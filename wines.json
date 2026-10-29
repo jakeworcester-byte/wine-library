@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-28",
+ "updated": "2026-10-29",
  "rack": {
   "rows": 8,
   "cols": 9,
@@ -46,8 +46,8 @@
    "F3": "spence-studio-cabernet-franc-2023",
    "F4": "spence-studio-cabernet-franc-2023",
    "F5": "viader-v-2020",
-   "F6": "oshaughnessy-mount-veeder-2023",
-   "F7": "pride-merlot-2020",
+   "F6": "pride-merlot-2020",
+   "F7": "oshaughnessy-mount-veeder-2023",
    "F8": "oshaughnessy-mount-veeder-2023",
    "F9": "oshaughnessy-mount-veeder-2023",
    "G2": "taplin-cabernet-2016",
@@ -653,7 +653,7 @@
    "category": "Steak Saturday",
    "onHand": 3,
    "locations": [
-    "F6",
+    "F7",
     "F8",
     "F9"
    ],
@@ -682,7 +682,7 @@
    "category": "Bridge / Pre-Dinner",
    "onHand": 1,
    "locations": [
-    "F7"
+    "F6"
    ],
    "window": "Now-2028",
    "peak": null,

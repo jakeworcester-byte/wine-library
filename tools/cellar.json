@@ -1,6 +1,6 @@
 {
  "_about": "Guest-safe snapshot of the Notion Wine Library (On Hand > 0). No prices, sources, or working notes. Refresh by re-querying Notion and editing this file, then run tools/build.py.",
- "snapshotDate": "2026-10-28",
+ "snapshotDate": "2026-10-29",
  "wines": {
   "chappellet-napa-cabernet": {
    "producer": "Chappellet",
@@ -169,7 +169,7 @@
      "peak": "2030-2034"
     },
     "2023": {
-     "location": "F6, F8, F9",
+     "location": "F7, F8, F9",
      "onHand": 3,
      "category": "Steak Saturday",
      "window": "2029-2040",
@@ -193,7 +193,7 @@
    "color": "red",
    "vintages": {
     "2020": {
-     "location": "F7",
+     "location": "F6",
      "onHand": 1,
      "category": "Bridge / Pre-Dinner",
      "window": "Now-2028",
