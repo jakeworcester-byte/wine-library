@@ -111,7 +111,7 @@
   "fridge": [
    {
     "id": "taplin-sauvignon-blanc-2025",
-    "n": 4
+    "n": 3
    },
    {
     "id": "phifer-pavitt-date-night-sparkling-2021",
@@ -1132,7 +1132,7 @@
    "color": "white",
    "tags": [],
    "category": "White",
-   "onHand": 4,
+   "onHand": 3,
    "locations": [
     "FR"
    ],
