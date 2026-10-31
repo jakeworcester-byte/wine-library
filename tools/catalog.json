@@ -261,19 +261,20 @@
   },
   "neal-family-vineyards-neal-family-howell-mountain-estate-cab": {
    "producer": "Neal Family Vineyards",
-   "name": "Neal Family Howell Mountain Estate Cabernet Sauvignon",
-   "short": "Neal",
+   "name": "Howell Mountain Estate Cabernet Sauvignon",
+   "short": "Neal HM",
    "region": "Howell Mountain",
    "color": "red",
-   "provisional": true
+   "tags": [
+    "Howell Mountain"
+   ]
   },
   "aia-vecchia-lagone-toscana": {
    "producer": "Aia Vecchia",
    "name": "Lagone Toscana",
-   "short": "Aia",
+   "short": "Lagone",
    "region": "Toscana IGT",
-   "color": "red",
-   "provisional": true
+   "color": "red"
   }
  },
  "rows": {
