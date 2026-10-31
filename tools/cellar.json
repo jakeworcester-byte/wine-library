@@ -680,10 +680,13 @@
   },
   "neal-family-vineyards-neal-family-howell-mountain-estate-cab": {
    "producer": "Neal Family Vineyards",
-   "name": "Neal Family Howell Mountain Estate Cabernet Sauvignon",
-   "short": "Neal",
+   "name": "Howell Mountain Estate Cabernet Sauvignon",
+   "short": "Neal HM",
    "region": "Howell Mountain",
    "color": "red",
+   "tags": [
+    "Howell Mountain"
+   ],
    "vintages": {
     "2021": {
      "location": "B9",
@@ -697,7 +700,7 @@
   "aia-vecchia-lagone-toscana": {
    "producer": "Aia Vecchia",
    "name": "Lagone Toscana",
-   "short": "Aia",
+   "short": "Lagone",
    "region": "Toscana IGT",
    "color": "red",
    "vintages": {

@@ -1,21 +1,4 @@
 {
- "newWines": [
-  {
-   "slug": "neal-family-vineyards-neal-family-howell-mountain-estate-cab",
-   "notionIds": [
-    "40a3eda98b278129a7a0fb09aa76bd27"
-   ],
-   "producer": "Neal Family Vineyards",
-   "name": "Neal Family Howell Mountain Estate Cabernet Sauvignon"
-  },
-  {
-   "slug": "aia-vecchia-lagone-toscana",
-   "notionIds": [
-    "40a3eda98b27817c99fdc75aad932a21"
-   ],
-   "producer": "Aia Vecchia",
-   "name": "Lagone Toscana"
-  }
- ],
+ "newWines": [],
  "needsGuestNote": []
 }

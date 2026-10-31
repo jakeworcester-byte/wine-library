@@ -1835,12 +1835,14 @@
    "id": "neal-family-vineyards-neal-family-howell-mountain-estate-cab-2021",
    "slug": "neal-family-vineyards-neal-family-howell-mountain-estate-cab",
    "producer": "Neal Family Vineyards",
-   "name": "Neal Family Howell Mountain Estate Cabernet Sauvignon",
-   "short": "Neal",
+   "name": "Howell Mountain Estate Cabernet Sauvignon",
+   "short": "Neal HM",
    "vintage": "2021",
    "region": "Howell Mountain",
    "color": "red",
-   "tags": [],
+   "tags": [
+    "Howell Mountain"
+   ],
    "category": "Steak Saturday",
    "onHand": 1,
    "locations": [
@@ -1852,18 +1854,24 @@
    "jakeNote": null,
    "flag": null,
    "otherScores": [],
-   "image": null,
-   "imageSource": null,
-   "blend": null,
-   "about": null,
-   "web": null
+   "image": "images/web/neal-family-vineyards-neal-family-howell-mountain-estate-cab.webp",
+   "imageSource": "https://merchantofwine.com/products/neal-family-vineyards-cabernet-sauvignon-howell-mountain-napa-valley-california-2019",
+   "blend": "100% Cabernet Sauvignon, estate fruit from Howell Mountain, Napa Valley",
+   "about": "Neal Family Vineyards is a family run Napa estate best known for mountain grown Cabernet from its Howell Mountain and Rutherford Dust vineyards.",
+   "web": {
+    "note": "A dark, opaque Cabernet showing deep black and blue fruit, in the structured, mountain grown style Howell Mountain is known for. Built for the cellar, it should reward several years of patience before it opens up.",
+    "noteVintage": "2021",
+    "critic": null,
+    "sourceName": "James Suckling and Delectable listings (partial notes)",
+    "sourceUrl": "https://www.jamessuckling.com/tasting-notes/276668/neal-family-vineyards-cabernet-sauvignon-napa-valley-howell-mountain-estate-2021"
+   }
   },
   {
    "id": "aia-vecchia-lagone-toscana-2023",
    "slug": "aia-vecchia-lagone-toscana",
    "producer": "Aia Vecchia",
    "name": "Lagone Toscana",
-   "short": "Aia",
+   "short": "Lagone",
    "vintage": "2023",
    "region": "Toscana IGT",
    "color": "red",
@@ -1879,11 +1887,17 @@
    "jakeNote": null,
    "flag": null,
    "otherScores": [],
-   "image": null,
-   "imageSource": null,
-   "blend": null,
-   "about": null,
-   "web": null
+   "image": "images/web/aia-vecchia-lagone-toscana.webp",
+   "imageSource": "https://www.winedispensary.com/products/aia-vecchia-lagone-toscana-igt-tuscany-italy",
+   "blend": "Bordeaux style blend (retailers list Merlot, Cabernet Sauvignon and Cabernet Franc)",
+   "about": "Aia Vecchia is a Bolgheri area estate in coastal Tuscany, and Lagone is its approachable Bordeaux inspired red.",
+   "web": {
+    "note": "Ripe black cherry, blackberry and plum come wrapped in warm earth, tobacco and dried herbs. The palate is velvety with a mineral edge and noticeable but friendly tannins, an easy, savory Tuscan red for everyday dinners.",
+    "noteVintage": "2023",
+    "critic": null,
+    "sourceName": "Wine Dispensary and Wine.com winemaker notes",
+    "sourceUrl": "https://www.winedispensary.com/products/aia-vecchia-lagone-toscana-igt-tuscany-italy"
+   }
   }
  ]
 }
