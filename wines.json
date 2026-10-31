@@ -4,66 +4,60 @@
   "rows": 8,
   "cols": 9,
   "slots": {
-   "A1": "oshaughnessy-mount-veeder-2017",
-   "A2": "oshaughnessy-mount-veeder-2018",
-   "A3": "oshaughnessy-mount-veeder-2019",
-   "A4": "oshaughnessy-mount-veeder-2021",
-   "A5": "oshaughnessy-mount-veeder-2022",
-   "A6": "gruaud-larose-2019",
-   "A7": "pedesclaux-2019",
-   "A8": "taplin-cabernet-2018",
-   "A9": "sherwin-estate-cabernet-2021",
-   "B1": "taplin-cabernet-2021",
-   "B2": "taplin-cabernet-2022",
-   "B3": "taplin-terra-9-2022",
-   "B4": "taplin-cabernet-franc-2021",
-   "B5": "viader-black-label-2021",
-   "B6": "viader-black-label-2022",
-   "B7": "chappellet-napa-cabernet-2022",
-   "B8": "phifer-pavitt-reserve-cabernet-2022",
-   "B9": "phifer-pavitt-reserve-cabernet-2022",
-   "C1": "oshaughnessy-howell-mountain-2022",
-   "C2": "oshaughnessy-howell-mountain-2022",
-   "C3": "oshaughnessy-howell-mountain-2022",
-   "C4": "oshaughnessy-mount-veeder-2022",
-   "C5": "oshaughnessy-mount-veeder-2022",
-   "C6": "oshaughnessy-mount-veeder-2022",
-   "C7": "taplin-terra-9-2023",
-   "C8": "taplin-terra-9-2023",
-   "C9": "taplin-terra-9-2023",
-   "D1": "sherwin-estate-cabernet-2023",
-   "D2": "sherwin-estate-cabernet-2023",
-   "D3": "sherwin-estate-cabernet-2023",
-   "D9": "viader-proprietary-red-2019",
-   "E1": "taplin-terra-9-2019",
-   "E2": "taplin-terra-9-2019",
-   "E3": "taplin-terra-9-2019",
-   "E4": "taplin-terra-9-2019",
-   "E7": "spence-howell-mountain-cabernet-2016",
-   "E9": "viader-proprietary-red-2017",
-   "F1": "phifer-pavitt-xroads-2022",
-   "F2": "phifer-pavitt-xroads-2022",
-   "F3": "spence-studio-cabernet-franc-2023",
-   "F4": "spence-studio-cabernet-franc-2023",
-   "F5": "viader-v-2020",
-   "F6": "pride-merlot-2020",
-   "F7": "oshaughnessy-mount-veeder-2023",
-   "F8": "oshaughnessy-mount-veeder-2023",
-   "F9": "oshaughnessy-mount-veeder-2023",
-   "G2": "taplin-cabernet-2016",
-   "G3": "oshaughnessy-howell-mountain-2017",
-   "G4": "joseph-cellars-247-cabernet-2019",
-   "G5": "joseph-cellars-247-cabernet-2019",
-   "G6": "joseph-cellars-247-cabernet-2019",
-   "G7": "oshaughnessy-howell-mountain-2018",
-   "G8": "oshaughnessy-howell-mountain-2018",
-   "H1": "oshaughnessy-howell-mountain-2023",
-   "H2": "oshaughnessy-howell-mountain-2023",
-   "H3": "oshaughnessy-howell-mountain-2023",
-   "H4": "oshaughnessy-howell-mountain-2023",
-   "H5": "oshaughnessy-howell-mountain-2023",
-   "H6": "oshaughnessy-howell-mountain-2023",
-   "H7": "joseph-cellars-voyage-2021",
+   "A1": "oshaughnessy-howell-mountain-2022",
+   "A2": "oshaughnessy-howell-mountain-2022",
+   "A3": "oshaughnessy-howell-mountain-2022",
+   "A4": "oshaughnessy-howell-mountain-2023",
+   "A5": "oshaughnessy-howell-mountain-2023",
+   "A6": "oshaughnessy-howell-mountain-2023",
+   "A7": "oshaughnessy-howell-mountain-2023",
+   "A8": "oshaughnessy-howell-mountain-2023",
+   "A9": "oshaughnessy-howell-mountain-2023",
+   "B1": "oshaughnessy-mount-veeder-2017",
+   "B2": "oshaughnessy-mount-veeder-2018",
+   "B3": "oshaughnessy-mount-veeder-2019",
+   "B4": "oshaughnessy-mount-veeder-2021",
+   "B5": "oshaughnessy-mount-veeder-2022",
+   "B6": "oshaughnessy-mount-veeder-2023",
+   "B7": "oshaughnessy-mount-veeder-2023",
+   "B8": "oshaughnessy-mount-veeder-2023",
+   "B9": "neal-family-vineyards-neal-family-howell-mountain-estate-cab-2021",
+   "C1": "sherwin-estate-cabernet-2021",
+   "C2": "sherwin-estate-cabernet-2023",
+   "C3": "sherwin-estate-cabernet-2023",
+   "C4": "sherwin-estate-cabernet-2023",
+   "D1": "gruaud-larose-2019",
+   "D2": "pedesclaux-2019",
+   "D3": "taplin-cabernet-2018",
+   "D4": "taplin-cabernet-2021",
+   "D5": "taplin-cabernet-2022",
+   "D6": "taplin-cabernet-franc-2021",
+   "D7": "viader-black-label-2021",
+   "D8": "viader-black-label-2022",
+   "D9": "chappellet-napa-cabernet-2022",
+   "E1": "oshaughnessy-howell-mountain-2017",
+   "E2": "oshaughnessy-howell-mountain-2018",
+   "E3": "oshaughnessy-howell-mountain-2018",
+   "F1": "oshaughnessy-mount-veeder-2022",
+   "F2": "oshaughnessy-mount-veeder-2022",
+   "F3": "oshaughnessy-mount-veeder-2022",
+   "F4": "taplin-terra-9-2022",
+   "F5": "taplin-terra-9-2023",
+   "F6": "taplin-terra-9-2023",
+   "F7": "taplin-terra-9-2023",
+   "F8": "viader-proprietary-red-2017",
+   "F9": "viader-proprietary-red-2019",
+   "G1": "viader-v-2020",
+   "G2": "spence-studio-cabernet-franc-2023",
+   "G3": "spence-studio-cabernet-franc-2023",
+   "H1": "taplin-terra-9-2019",
+   "H2": "taplin-terra-9-2019",
+   "H3": "taplin-terra-9-2019",
+   "H4": "taplin-terra-9-2019",
+   "H5": "joseph-cellars-247-cabernet-2019",
+   "H6": "joseph-cellars-247-cabernet-2019",
+   "H7": "joseph-cellars-247-cabernet-2019",
+   "H8": "joseph-cellars-voyage-2021",
    "H9": "joseph-cellars-voyage-2021"
   },
   "upstairs": [
@@ -72,7 +66,7 @@
     "n": 1
    },
    {
-    "id": "sherwin-cellar-scraps-nv-lot-19",
+    "id": "pride-merlot-2020",
     "n": 1
    },
    {
@@ -105,6 +99,18 @@
    },
    {
     "id": "carmen-gran-reserva-cabernet-2022",
+    "n": 1
+   },
+   {
+    "id": "phifer-pavitt-xroads-2022",
+    "n": 2
+   },
+   {
+    "id": "phifer-pavitt-reserve-cabernet-2022",
+    "n": 2
+   },
+   {
+    "id": "aia-vecchia-lagone-toscana-2023",
     "n": 1
    }
   ],
@@ -141,7 +147,7 @@
    "category": null,
    "onHand": 1,
    "locations": [
-    "B7"
+    "D9"
    ],
    "window": "2027-2034",
    "peak": "2029-2032",
@@ -179,7 +185,7 @@
    "category": "Steak Saturday",
    "onHand": 1,
    "locations": [
-    "A6"
+    "D1"
    ],
    "window": "2030-2050",
    "peak": "2033-2045",
@@ -217,7 +223,7 @@
    "category": "Steak Saturday",
    "onHand": 1,
    "locations": [
-    "A7"
+    "D2"
    ],
    "window": "2028-2040",
    "peak": "2031-2037",
@@ -286,7 +292,7 @@
    "category": "Special Occasion",
    "onHand": 1,
    "locations": [
-    "G3"
+    "E1"
    ],
    "window": "2026-2035",
    "peak": "2028-2033",
@@ -323,8 +329,8 @@
    "category": "Special Occasion",
    "onHand": 2,
    "locations": [
-    "G7",
-    "G8"
+    "E2",
+    "E3"
    ],
    "window": "2026-2038",
    "peak": "2028-2035",
@@ -360,9 +366,9 @@
    "category": "Special Occasion",
    "onHand": 3,
    "locations": [
-    "C1",
-    "C2",
-    "C3"
+    "A1",
+    "A2",
+    "A3"
    ],
    "window": "2029-2042",
    "peak": "2032-2039",
@@ -408,12 +414,12 @@
    "category": "Special Occasion",
    "onHand": 6,
    "locations": [
-    "H1",
-    "H2",
-    "H3",
-    "H4",
-    "H5",
-    "H6"
+    "A4",
+    "A5",
+    "A6",
+    "A7",
+    "A8",
+    "A9"
    ],
    "window": "2030-2045",
    "peak": "2033-2041",
@@ -440,7 +446,7 @@
    "category": "Steak Saturday",
    "onHand": 1,
    "locations": [
-    "A1"
+    "B1"
    ],
    "window": "2026-2031",
    "peak": "2027-2030",
@@ -482,7 +488,7 @@
    "category": "Steak Saturday",
    "onHand": 1,
    "locations": [
-    "A2"
+    "B2"
    ],
    "window": "2029-2040",
    "peak": "2032-2037",
@@ -524,7 +530,7 @@
    "category": "Steak Saturday",
    "onHand": 1,
    "locations": [
-    "A3"
+    "B3"
    ],
    "window": "2028-2038",
    "peak": "2031-2036",
@@ -566,7 +572,7 @@
    "category": "Steak Saturday",
    "onHand": 1,
    "locations": [
-    "A4"
+    "B4"
    ],
    "window": "2030-2045",
    "peak": "2034-2041",
@@ -608,10 +614,10 @@
    "category": "Steak Saturday",
    "onHand": 4,
    "locations": [
-    "A5",
-    "C4",
-    "C5",
-    "C6"
+    "B5",
+    "F1",
+    "F2",
+    "F3"
    ],
    "window": "2028-2036",
    "peak": "2030-2034",
@@ -653,9 +659,9 @@
    "category": "Steak Saturday",
    "onHand": 3,
    "locations": [
-    "F7",
-    "F8",
-    "F9"
+    "B6",
+    "B7",
+    "B8"
    ],
    "window": "2029-2040",
    "peak": "2032-2038",
@@ -682,7 +688,7 @@
    "category": "Bridge / Pre-Dinner",
    "onHand": 1,
    "locations": [
-    "F6"
+    "UP"
    ],
    "window": "Now-2028",
    "peak": null,
@@ -706,39 +712,6 @@
    }
   },
   {
-   "id": "sherwin-cellar-scraps-nv-lot-19",
-   "slug": "sherwin-cellar-scraps",
-   "producer": "Sherwin Family Vineyards",
-   "name": "Cellar Scraps",
-   "short": "Scraps",
-   "vintage": "NV (Lot 19)",
-   "region": "Spring Mountain District, Napa Valley",
-   "color": "red",
-   "tags": [],
-   "category": "Steak Saturday",
-   "onHand": 1,
-   "locations": [
-    "UP"
-   ],
-   "window": "Now-2028",
-   "peak": null,
-   "jakeScore": "92-94",
-   "jakeNote": "A repeat favorite. Revisited at the winery on our August 2026 Napa trip, and it held up beautifully.",
-   "flag": null,
-   "otherScores": [],
-   "image": "images/web/sherwin-cellar-scraps.webp",
-   "imageSource": "https://www.vivino.com/en/sherwin-family-vineyards-cellar-scraps-platinum-reserve/w/5937987",
-   "blend": "Cabernet Sauvignon, Petite Sirah, Cabernet Franc and Merlot from Spring Mountain and Calistoga; mostly 2023 with some 2022",
-   "about": "Cellar Scraps began as a home for small lots left over from Sherwin's estate wines and has grown into their most popular bottling, a numbered multi-vintage blend with a loyal following of self-described Cellar Scrappers.",
-   "web": {
-    "note": "A dark, supple blend led by Cabernet Sauvignon, mostly from 2023 with a splash of 2022 for depth. Ripe dark fruit meets gentle spice and well-woven oak on the nose, and the palate is balanced and smooth, with soft tannins and a lingering finish that keeps revealing layers of dark fruit.",
-    "noteVintage": "Lot 19",
-    "critic": null,
-    "sourceName": "Sherwin Family Vineyards, Cellar Scraps #19 product page",
-    "sourceUrl": "https://www.sherwinfamilyvineyards.com/product/detail/cellar-scraps--19/"
-   }
-  },
-  {
    "id": "sherwin-estate-cabernet-2021",
    "slug": "sherwin-estate-cabernet",
    "producer": "Sherwin Family Vineyards",
@@ -751,7 +724,7 @@
    "category": "Steak Saturday",
    "onHand": 1,
    "locations": [
-    "A9"
+    "C1"
    ],
    "window": "2030-2042",
    "peak": "2033-2039",
@@ -790,9 +763,9 @@
    "category": "Steak Saturday",
    "onHand": 3,
    "locations": [
-    "D1",
-    "D2",
-    "D3"
+    "C2",
+    "C3",
+    "C4"
    ],
    "window": "2029-2042",
    "peak": "2032-2038",
@@ -817,39 +790,6 @@
    }
   },
   {
-   "id": "taplin-cabernet-2016",
-   "slug": "taplin-cabernet",
-   "producer": "Taplin Cellars",
-   "name": "Estate Cabernet Sauvignon",
-   "short": "Taplin Cab",
-   "vintage": "2016",
-   "region": "St. Helena, Napa Valley",
-   "color": "red",
-   "tags": [],
-   "category": "Special Occasion",
-   "onHand": 1,
-   "locations": [
-    "G2"
-   ],
-   "window": "2026-2032",
-   "peak": "Now-2030",
-   "jakeScore": "97-98",
-   "jakeNote": "Soft, silky and wonderfully balanced at ten years. One of the few valley floor producers I truly love, and this bottle showed why.",
-   "flag": null,
-   "otherScores": [],
-   "image": "images/web/taplin-cabernet.webp",
-   "imageSource": "https://taplincellars.com/product/2022-taplin-cabernet-sauvignon/",
-   "blend": "100% Cabernet Sauvignon, estate grown (now bottled as the Ghost Creek Vineyard), aged 22 to 24 months in new French oak",
-   "about": "The Taplin family has farmed this land on St. Helena's west bench, at the foot of the Mayacamas Mountains, since 1871, and their flagship Cabernet comes from the estate's rockiest, gravel-rich vineyard block.",
-   "web": {
-    "note": "Dark, juicy and opulent, opening with blackberry jam, violets and a hint of slate. Plush black fruit fills the palate with clove, allspice and soft vanilla, yet the wine stays lively and fresh, finishing on boysenberry and a cool note of mint tea.",
-    "noteVintage": "2016",
-    "critic": null,
-    "sourceName": "Taplin Cellars 2016 Estate Cabernet Sauvignon fact sheet",
-    "sourceUrl": "https://taplincellars.com/wp-content/uploads/2022/05/2016-Taplin.pdf"
-   }
-  },
-  {
    "id": "taplin-cabernet-2018",
    "slug": "taplin-cabernet",
    "producer": "Taplin Cellars",
@@ -862,7 +802,7 @@
    "category": "Special Occasion",
    "onHand": 1,
    "locations": [
-    "A8"
+    "D3"
    ],
    "window": "2029-2038",
    "peak": "2031-2036",
@@ -900,7 +840,7 @@
    "category": "Special Occasion",
    "onHand": 1,
    "locations": [
-    "B1"
+    "D4"
    ],
    "window": "2028-2038",
    "peak": "2031-2036",
@@ -938,7 +878,7 @@
    "category": "Special Occasion",
    "onHand": 1,
    "locations": [
-    "B2"
+    "D5"
    ],
    "window": "2029-2040",
    "peak": "2032-2037",
@@ -976,10 +916,10 @@
    "category": "Steak Saturday",
    "onHand": 4,
    "locations": [
-    "E1",
-    "E2",
-    "E3",
-    "E4"
+    "H1",
+    "H2",
+    "H3",
+    "H4"
    ],
    "window": "2026-2031",
    "peak": "2027-2030",
@@ -1012,7 +952,7 @@
    "category": "Steak Saturday",
    "onHand": 1,
    "locations": [
-    "B3"
+    "F4"
    ],
    "window": "2027-2034",
    "peak": "2029-2032",
@@ -1054,9 +994,9 @@
    "category": "Steak Saturday",
    "onHand": 3,
    "locations": [
-    "C7",
-    "C8",
-    "C9"
+    "F5",
+    "F6",
+    "F7"
    ],
    "window": "2028-2036",
    "peak": "2030-2034",
@@ -1101,7 +1041,7 @@
    "category": null,
    "onHand": 1,
    "locations": [
-    "B4"
+    "D6"
    ],
    "window": "2027-2034",
    "peak": "2028-2032",
@@ -1167,7 +1107,7 @@
    "category": "Steak Saturday",
    "onHand": 1,
    "locations": [
-    "B5"
+    "D7"
    ],
    "window": "2029-2042",
    "peak": "2032-2038",
@@ -1209,7 +1149,7 @@
    "category": "Steak Saturday",
    "onHand": 1,
    "locations": [
-    "B6"
+    "D8"
    ],
    "window": "2029-2040",
    "peak": "2031-2037",
@@ -1251,7 +1191,7 @@
    "category": "Steak Saturday",
    "onHand": 1,
    "locations": [
-    "E9"
+    "F8"
    ],
    "window": "2026-2032",
    "peak": "2027-2030",
@@ -1293,7 +1233,7 @@
    "category": "Steak Saturday",
    "onHand": 1,
    "locations": [
-    "D9"
+    "F9"
    ],
    "window": "2027-2036",
    "peak": "2029-2034",
@@ -1335,7 +1275,7 @@
    "category": "Steak Saturday",
    "onHand": 1,
    "locations": [
-    "F5"
+    "G1"
    ],
    "window": "2027-2033",
    "peak": "2028-2031",
@@ -1648,8 +1588,7 @@
    "category": "Exploratory",
    "onHand": 2,
    "locations": [
-    "F1",
-    "F2"
+    "UP"
    ],
    "window": "2026-2036",
    "peak": "2028-2032",
@@ -1682,8 +1621,7 @@
    "category": "Exploratory",
    "onHand": 2,
    "locations": [
-    "B8",
-    "B9"
+    "UP"
    ],
    "window": "2027-2038",
    "peak": "2029-2034",
@@ -1737,39 +1675,6 @@
    }
   },
   {
-   "id": "spence-howell-mountain-cabernet-2016",
-   "slug": "spence-howell-mountain-cabernet",
-   "producer": "Spence Vineyards",
-   "name": "Howell Mountain Cabernet Sauvignon",
-   "short": "Spence Cab",
-   "vintage": "2016",
-   "region": "Howell Mountain, Napa",
-   "color": "red",
-   "tags": [],
-   "category": "Steak Saturday",
-   "onHand": 1,
-   "locations": [
-    "E7"
-   ],
-   "window": "2026-2034",
-   "peak": "2026-2031",
-   "jakeScore": "94-96",
-   "jakeNote": "Our featured Steak Saturday bottle in October 2026. Smooth and delicious, more mellow than typical Howell Mountain, with softer tannins. Ten years in bottle gave it real polish. Good enough that I have my eye on the 2018.",
-   "flag": null,
-   "otherScores": [],
-   "image": "images/web/spence-howell-mountain-cabernet.webp",
-   "imageSource": "https://www.spencevineyards.com/shop-estate-cabernet/",
-   "blend": "100% Cabernet Sauvignon, estate grown on Howell Mountain",
-   "about": "Spence is a small family estate at about 1,900 feet on Howell Mountain, bought at a charity auction in 1998, where red volcanic soil and canyon breezes shape its flagship Cabernet.",
-   "web": {
-    "note": "Dark and perfumed, with violets, cassis, black cherry, black tea and cedar over a stony, volcanic edge. The palate brings plum, blueberry and cocoa with a pinch of nutmeg, ripe fruit kept fresh by bright acidity, and a long, layered finish.",
-    "noteVintage": "2016",
-    "critic": null,
-    "sourceName": "Cherry Picked Wines (2016 tasting note)",
-    "sourceUrl": "https://cherrypickedwines.com/wp/2016-spence-cabernet-sauvignon-howell-mountain/"
-   }
-  },
-  {
    "id": "spence-studio-cabernet-franc-2023",
    "slug": "spence-studio-cabernet-franc",
    "producer": "Spence Vineyards",
@@ -1782,8 +1687,8 @@
    "category": null,
    "onHand": 2,
    "locations": [
-    "F3",
-    "F4"
+    "G2",
+    "G3"
    ],
    "window": "2026-2032",
    "peak": "2027-2030",
@@ -1843,7 +1748,7 @@
    "category": "Exploratory",
    "onHand": 2,
    "locations": [
-    "H7",
+    "H8",
     "H9"
    ],
    "window": "Now-2029",
@@ -1877,9 +1782,9 @@
    "category": "Steak Saturday",
    "onHand": 3,
    "locations": [
-    "G4",
-    "G5",
-    "G6"
+    "H5",
+    "H6",
+    "H7"
    ],
    "window": "2026-2031",
    "peak": "2026-2029",
@@ -1925,6 +1830,60 @@
     "sourceName": "O'Shaughnessy Estate Winery 2024 tech sheet",
     "sourceUrl": "https://oshaughnessywinery.com/wp-content/uploads/2026/06/2024-oshaughnessy-sauvignon-blanc.pdf"
    }
+  },
+  {
+   "id": "neal-family-vineyards-neal-family-howell-mountain-estate-cab-2021",
+   "slug": "neal-family-vineyards-neal-family-howell-mountain-estate-cab",
+   "producer": "Neal Family Vineyards",
+   "name": "Neal Family Howell Mountain Estate Cabernet Sauvignon",
+   "short": "Neal",
+   "vintage": "2021",
+   "region": "Howell Mountain",
+   "color": "red",
+   "tags": [],
+   "category": "Steak Saturday",
+   "onHand": 1,
+   "locations": [
+    "B9"
+   ],
+   "window": "2028-2040",
+   "peak": "2031-2037",
+   "jakeScore": null,
+   "jakeNote": null,
+   "flag": null,
+   "otherScores": [],
+   "image": null,
+   "imageSource": null,
+   "blend": null,
+   "about": null,
+   "web": null
+  },
+  {
+   "id": "aia-vecchia-lagone-toscana-2023",
+   "slug": "aia-vecchia-lagone-toscana",
+   "producer": "Aia Vecchia",
+   "name": "Lagone Toscana",
+   "short": "Aia",
+   "vintage": "2023",
+   "region": "Toscana IGT",
+   "color": "red",
+   "tags": [],
+   "category": "Tuesday Night",
+   "onHand": 1,
+   "locations": [
+    "UP"
+   ],
+   "window": "Now-2029",
+   "peak": null,
+   "jakeScore": null,
+   "jakeNote": null,
+   "flag": null,
+   "otherScores": [],
+   "image": null,
+   "imageSource": null,
+   "blend": null,
+   "about": null,
+   "web": null
   }
  ]
 }

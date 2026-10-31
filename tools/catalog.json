@@ -258,6 +258,22 @@
    "short": "OS Garden SB",
    "region": "Oakville, Napa Valley",
    "color": "white"
+  },
+  "neal-family-vineyards-neal-family-howell-mountain-estate-cab": {
+   "producer": "Neal Family Vineyards",
+   "name": "Neal Family Howell Mountain Estate Cabernet Sauvignon",
+   "short": "Neal",
+   "region": "Howell Mountain",
+   "color": "red",
+   "provisional": true
+  },
+  "aia-vecchia-lagone-toscana": {
+   "producer": "Aia Vecchia",
+   "name": "Lagone Toscana",
+   "short": "Aia",
+   "region": "Toscana IGT",
+   "color": "red",
+   "provisional": true
   }
  },
  "rows": {
@@ -428,6 +444,12 @@
   },
   "4073eda98b2781d68056cd77e1d6f8f2": {
    "slug": "oshaughnessy-howell-mountain"
+  },
+  "40a3eda98b278129a7a0fb09aa76bd27": {
+   "slug": "neal-family-vineyards-neal-family-howell-mountain-estate-cab"
+  },
+  "40a3eda98b27817c99fdc75aad932a21": {
+   "slug": "aia-vecchia-lagone-toscana"
   }
  },
  "palate": {
