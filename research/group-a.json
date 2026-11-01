@@ -16,6 +16,14 @@
         "sourceName": "O'Shaughnessy Estate Winery tech sheet",
         "sourceUrl": "https://oshaughnessywinery.com/wp-content/uploads/2026/06/2017-oshaughnessy-howell-mountain-cabernet-sauvignon.pdf"
       },
+      "2018": {
+        "note": "Deep purple, opening with violets, raspberry and blueberry compote, plus touches of black tea and vanilla. Wild cherry jam, cassis, plum and mocha follow on the palate, finishing long with lively acidity and tannins that fill out the mouth.",
+        "noteVintage": "2018",
+        "blend": "82% Cabernet Sauvignon, 5% Malbec, 4% Merlot, 3% Petit Verdot, 2% St. Macaire, 2% Carmenere, 2% Cabernet Franc",
+        "critic": null,
+        "sourceName": "O'Shaughnessy Estate Winery tech sheet",
+        "sourceUrl": "https://oshaughnessywinery.com/wp-content/uploads/2026/06/2018-oshaughnessy-howell-mountain-cabernet-sauvignon.pdf"
+      },
       "2022": {
         "note": "A riper, more flamboyant O'Shaughnessy, bursting with inky dark fruit, chocolate, licorice and a floral hint of lavender. The warm 2022 season shows in its generous, up-front richness, while the tannins sit on the softer side, making this an unusually approachable Howell Mountain Cabernet in its youth.",
         "noteVintage": "2022",
@@ -26,6 +34,17 @@
         },
         "sourceName": "O'Shaughnessy Estate Winery tech sheet",
         "sourceUrl": "https://oshaughnessywinery.com/wp-content/uploads/2026/06/2022-oshaughnessy-howell-mountain-cabernet-sauvignon.pdf"
+      },
+      "2023": {
+        "note": "A layered, energetic young Howell Mountain, with blue and purple fruit threaded by mocha, dark chocolate, dried herbs and lavender. Deep and firmly structured, it leans a little less opulent than some past vintages, which works in its favor.",
+        "noteVintage": "2023",
+        "blend": "86% Cabernet Sauvignon, 5% Merlot, 3% Malbec, 2% St. Macaire, 2% Carmenere, 2% Petit Verdot",
+        "critic": {
+          "critic": "Vinous",
+          "score": "96"
+        },
+        "sourceName": "Vinous review via Skurnik Wines; blend from O'Shaughnessy Estate Winery tech sheet",
+        "sourceUrl": "https://www.skurnik.com/sku/cabernet-sauvignon-howell-mountain-oshaughnessy-3-2-3-2-2-3-2-2-2-2-2/"
       }
     }
   },
@@ -89,6 +108,17 @@
         },
         "sourceName": "O'Shaughnessy Estate Winery tech sheet",
         "sourceUrl": "https://oshaughnessywinery.com/wp-content/uploads/2026/06/2022-oshaughnessy-mount-veeder-cabernet-sauvignon.pdf"
+      },
+      "2023": {
+        "note": "A fresh, savory Mount Veeder with ripe blackberry, black cherry and blackcurrant lifted by violets, bay laurel, sagebrush and white pepper. Firm, fine-grained mountain tannins frame a rich middle, and the long finish turns mineral and taut. Still a baby, it wants a few years in bottle.",
+        "noteVintage": "2023",
+        "blend": "100% Cabernet Sauvignon",
+        "critic": {
+          "critic": "Decanter (Jonathan Cristaldi)",
+          "score": "99"
+        },
+        "sourceName": "O'Shaughnessy Estate Winery tech sheet (critic reviews quoted there)",
+        "sourceUrl": "https://oshaughnessywinery.com/wp-content/uploads/2026/08/2023-OShaughnessy-Mt.-Veeder-Cabernet-Sauvignon-.pdf"
       }
     }
   },
