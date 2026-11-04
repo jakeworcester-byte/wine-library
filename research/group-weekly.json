@@ -358,5 +358,68 @@
     "sourceUrl": "https://www.winedispensary.com/products/aia-vecchia-lagone-toscana-igt-tuscany-italy"
    }
   }
+ },
+ "amizetta-complexity": {
+  "image": null,
+  "imageSource": null,
+  "blend": "Cabernet Sauvignon led Bordeaux blend with Merlot, Cabernet Franc and Petit Verdot (2020: 62/23/12/3)",
+  "about": "Complexity is Amizetta's estate Bordeaux blend, which the family calls \"dad's wine.\" Amizetta is a family estate on a steep, terraced hillside in Conn Valley, Napa, at the base of Howell Mountain, farmed at low yields.",
+  "vintages": {
+   "2022": {
+    "note": "The 2020 shows red and black fruit with a touch of blackberry jam on the nose, then a brighter, less ripe palate with fine grained tannins and lively acidity. It spends 18 months in mostly new French oak.",
+    "noteVintage": "2020",
+    "critic": null,
+    "sourceName": "Napa Wine Project",
+    "sourceUrl": "https://napawineproject.com/"
+   }
+  }
+ },
+ "amizetta-reserve-cabernet-sauvignon": {
+  "image": null,
+  "imageSource": null,
+  "blend": "100% Cabernet Sauvignon, 22 months in 100% new French oak",
+  "about": "The Reserve comes from the highest part of the estate, around 1,100 feet. Amizetta is a family estate on a steep, terraced hillside in Conn Valley, Napa, at the base of Howell Mountain, farmed at low yields.",
+  "vintages": {
+   "2023": {
+    "note": "Made from the top block, the Reserve is dense and full bodied, with cherry, chocolate and licorice, chewy gravelly tannins and a creamy texture. It is built for long cellaring more than early drinking.",
+    "noteVintage": "2020",
+    "critic": null,
+    "sourceName": "Napa Wine Project",
+    "sourceUrl": "https://napawineproject.com/"
+   }
+  }
+ },
+ "amizetta-cabernet-franc": {
+  "image": null,
+  "imageSource": null,
+  "blend": "Cabernet Franc, Napa Valley",
+  "about": "Cabernet Franc is a small production bottling from the Conn Valley estate. Amizetta is a family estate on a steep, terraced hillside in Conn Valley, Napa, at the base of Howell Mountain, farmed at low yields.",
+  "vintages": {
+   "2023": {
+    "note": "The 2021 offers milk chocolate, baked and black cherry, florals, leather and green herbs. Tannins are well integrated and the oak moderate, making it a Cabernet Franc to drink in its youth.",
+    "noteVintage": "2021",
+    "critic": null,
+    "sourceName": "Tastings.com",
+    "sourceUrl": "https://tastings.com/Wine-Review/Amizetta-Vineyards-2021-Merlot-Napa-Valley-USA-03-03-2024.aspx"
+   }
+  }
+ },
+ "amizetta-cabernet-sauvignon": {
+  "image": null,
+  "imageSource": null,
+  "blend": "Cabernet Sauvignon, about 20 months in 80% new French oak",
+  "about": "The estate Cabernet is the heart of Amizetta's lineup. Amizetta is a family estate on a steep, terraced hillside in Conn Valley, Napa, at the base of Howell Mountain, farmed at low yields.",
+  "vintages": {
+   "2022": {
+    "note": "The 2021 leans ripe and polished, with vanilla mocha, blackberry and chocolate over firm, coating tannins and moderate oak. Earlier vintages add dried tobacco and clove on the finish.",
+    "noteVintage": "2021",
+    "critic": {
+     "critic": "Tastings.com",
+     "score": "91"
+    },
+    "sourceName": "Tastings.com",
+    "sourceUrl": "https://tastings.com/Wine-Review/Amizetta-Vineyards-2021-Cabernet-Sauvignon-Napa-Valley-USA-03-03-2024.aspx"
+   }
+  }
  }
 }

@@ -279,34 +279,30 @@
   "amizetta-complexity": {
    "producer": "Amizetta",
    "name": "Complexity",
-   "short": "Amizetta",
+   "short": "Complexity",
    "region": "Napa Valley (Conn Valley hillside, base of Howell Mountain)",
-   "color": "red",
-   "provisional": true
+   "color": "red"
   },
   "amizetta-reserve-cabernet-sauvignon": {
    "producer": "Amizetta",
    "name": "Reserve Cabernet Sauvignon",
-   "short": "Amizetta",
+   "short": "Amz Reserve",
    "region": "Napa Valley (Conn Valley hillside, base of Howell Mountain)",
-   "color": "red",
-   "provisional": true
+   "color": "red"
   },
   "amizetta-cabernet-franc": {
    "producer": "Amizetta",
    "name": "Cabernet Franc",
-   "short": "Amizetta",
+   "short": "Amz Franc",
    "region": "Napa Valley (Conn Valley hillside, base of Howell Mountain)",
-   "color": "red",
-   "provisional": true
+   "color": "red"
   },
   "amizetta-cabernet-sauvignon": {
    "producer": "Amizetta",
    "name": "Cabernet Sauvignon",
-   "short": "Amizetta",
+   "short": "Amz Cab",
    "region": "Napa Valley (Conn Valley hillside, base of Howell Mountain)",
-   "color": "red",
-   "provisional": true
+   "color": "red"
   }
  },
  "rows": {
