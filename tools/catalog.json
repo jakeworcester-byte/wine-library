@@ -275,6 +275,38 @@
    "short": "Lagone",
    "region": "Toscana IGT",
    "color": "red"
+  },
+  "amizetta-complexity": {
+   "producer": "Amizetta",
+   "name": "Complexity",
+   "short": "Amizetta",
+   "region": "Napa Valley (Conn Valley hillside, base of Howell Mountain)",
+   "color": "red",
+   "provisional": true
+  },
+  "amizetta-reserve-cabernet-sauvignon": {
+   "producer": "Amizetta",
+   "name": "Reserve Cabernet Sauvignon",
+   "short": "Amizetta",
+   "region": "Napa Valley (Conn Valley hillside, base of Howell Mountain)",
+   "color": "red",
+   "provisional": true
+  },
+  "amizetta-cabernet-franc": {
+   "producer": "Amizetta",
+   "name": "Cabernet Franc",
+   "short": "Amizetta",
+   "region": "Napa Valley (Conn Valley hillside, base of Howell Mountain)",
+   "color": "red",
+   "provisional": true
+  },
+  "amizetta-cabernet-sauvignon": {
+   "producer": "Amizetta",
+   "name": "Cabernet Sauvignon",
+   "short": "Amizetta",
+   "region": "Napa Valley (Conn Valley hillside, base of Howell Mountain)",
+   "color": "red",
+   "provisional": true
   }
  },
  "rows": {
@@ -451,6 +483,18 @@
   },
   "40a3eda98b27817c99fdc75aad932a21": {
    "slug": "aia-vecchia-lagone-toscana"
+  },
+  "40e3eda98b278114b20ac121b1f1f090": {
+   "slug": "amizetta-complexity"
+  },
+  "40e3eda98b27817db344d402bb4283be": {
+   "slug": "amizetta-reserve-cabernet-sauvignon"
+  },
+  "40e3eda98b278189a29fce0004af5300": {
+   "slug": "amizetta-cabernet-franc"
+  },
+  "40e3eda98b2781ceb32ecc7ecca14529": {
+   "slug": "amizetta-cabernet-sauvignon"
   }
  },
  "palate": {

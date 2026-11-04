@@ -1,6 +1,6 @@
 {
  "_about": "Guest-safe snapshot of the Notion Wine Library (On Hand > 0). No prices, sources, or working notes. Refresh by re-querying Notion and editing this file, then run tools/build.py.",
- "snapshotDate": "2026-11-01",
+ "snapshotDate": "2026-11-04",
  "wines": {
   "chappellet-napa-cabernet": {
    "producer": "Chappellet",
@@ -710,6 +710,70 @@
      "category": "Tuesday Night",
      "window": "Now-2029",
      "peak": null
+    }
+   }
+  },
+  "amizetta-complexity": {
+   "producer": "Amizetta",
+   "name": "Complexity",
+   "short": "Amizetta",
+   "region": "Napa Valley (Conn Valley hillside, base of Howell Mountain)",
+   "color": "red",
+   "vintages": {
+    "2022": {
+     "location": "G6, G7",
+     "onHand": 2,
+     "category": "Steak Saturday",
+     "window": "2026-2032",
+     "peak": "2027-2030"
+    }
+   }
+  },
+  "amizetta-reserve-cabernet-sauvignon": {
+   "producer": "Amizetta",
+   "name": "Reserve Cabernet Sauvignon",
+   "short": "Amizetta",
+   "region": "Napa Valley (Conn Valley hillside, base of Howell Mountain)",
+   "color": "red",
+   "vintages": {
+    "2023": {
+     "location": "G9",
+     "onHand": 1,
+     "category": "Steak Saturday",
+     "window": "2028-2040",
+     "peak": "2030-2036"
+    }
+   }
+  },
+  "amizetta-cabernet-franc": {
+   "producer": "Amizetta",
+   "name": "Cabernet Franc",
+   "short": "Amizetta",
+   "region": "Napa Valley (Conn Valley hillside, base of Howell Mountain)",
+   "color": "red",
+   "vintages": {
+    "2023": {
+     "location": "G8",
+     "onHand": 1,
+     "category": "Exploratory",
+     "window": "2026-2031",
+     "peak": "2027-2030"
+    }
+   }
+  },
+  "amizetta-cabernet-sauvignon": {
+   "producer": "Amizetta",
+   "name": "Cabernet Sauvignon",
+   "short": "Amizetta",
+   "region": "Napa Valley (Conn Valley hillside, base of Howell Mountain)",
+   "color": "red",
+   "vintages": {
+    "2022": {
+     "location": "G4, G5",
+     "onHand": 2,
+     "category": "Steak Saturday",
+     "window": "2026-2032",
+     "peak": "2027-2030"
     }
    }
   }
