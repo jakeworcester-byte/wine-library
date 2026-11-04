@@ -1,37 +1,4 @@
 {
- "newWines": [
-  {
-   "slug": "amizetta-complexity",
-   "notionIds": [
-    "40e3eda98b278114b20ac121b1f1f090"
-   ],
-   "producer": "Amizetta",
-   "name": "Complexity"
-  },
-  {
-   "slug": "amizetta-reserve-cabernet-sauvignon",
-   "notionIds": [
-    "40e3eda98b27817db344d402bb4283be"
-   ],
-   "producer": "Amizetta",
-   "name": "Reserve Cabernet Sauvignon"
-  },
-  {
-   "slug": "amizetta-cabernet-franc",
-   "notionIds": [
-    "40e3eda98b278189a29fce0004af5300"
-   ],
-   "producer": "Amizetta",
-   "name": "Cabernet Franc"
-  },
-  {
-   "slug": "amizetta-cabernet-sauvignon",
-   "notionIds": [
-    "40e3eda98b2781ceb32ecc7ecca14529"
-   ],
-   "producer": "Amizetta",
-   "name": "Cabernet Sauvignon"
-  }
- ],
+ "newWines": [],
  "needsGuestNote": []
 }

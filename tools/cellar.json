@@ -716,7 +716,7 @@
   "amizetta-complexity": {
    "producer": "Amizetta",
    "name": "Complexity",
-   "short": "Amizetta",
+   "short": "Complexity",
    "region": "Napa Valley (Conn Valley hillside, base of Howell Mountain)",
    "color": "red",
    "vintages": {
@@ -732,7 +732,7 @@
   "amizetta-reserve-cabernet-sauvignon": {
    "producer": "Amizetta",
    "name": "Reserve Cabernet Sauvignon",
-   "short": "Amizetta",
+   "short": "Amz Reserve",
    "region": "Napa Valley (Conn Valley hillside, base of Howell Mountain)",
    "color": "red",
    "vintages": {
@@ -741,14 +741,15 @@
      "onHand": 1,
      "category": "Steak Saturday",
      "window": "2028-2040",
-     "peak": "2030-2036"
+     "peak": "2030-2036",
+     "flag": "Cellaring for a few more years."
     }
    }
   },
   "amizetta-cabernet-franc": {
    "producer": "Amizetta",
    "name": "Cabernet Franc",
-   "short": "Amizetta",
+   "short": "Amz Franc",
    "region": "Napa Valley (Conn Valley hillside, base of Howell Mountain)",
    "color": "red",
    "vintages": {
@@ -764,7 +765,7 @@
   "amizetta-cabernet-sauvignon": {
    "producer": "Amizetta",
    "name": "Cabernet Sauvignon",
-   "short": "Amizetta",
+   "short": "Amz Cab",
    "region": "Napa Valley (Conn Valley hillside, base of Howell Mountain)",
    "color": "red",
    "vintages": {
