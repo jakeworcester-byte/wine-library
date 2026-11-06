@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-04",
+ "updated": "2026-11-06",
  "rack": {
   "rows": 8,
   "cols": 9,
@@ -85,10 +85,6 @@
    },
    {
     "id": "hall-ranch-reserve-cabernet-2021",
-    "n": 1
-   },
-   {
-    "id": "olema-cabernet-2022",
     "n": 1
    },
    {
@@ -1432,39 +1428,6 @@
     "critic": null,
     "sourceName": "Total Wine product description and Wine Enthusiast review (Matt Kettmann, 2021 Cellar Reserve)",
     "sourceUrl": "https://www.wineenthusiast.com/buying-guide/hall-ranch-2021-cellar-reserve-cabernet-sauvignon-paso-robles/"
-   }
-  },
-  {
-   "id": "olema-cabernet-2022",
-   "slug": "olema-cabernet",
-   "producer": "Olema",
-   "name": "Cabernet Sauvignon",
-   "short": "Olema",
-   "vintage": "2022",
-   "region": "Sonoma County",
-   "color": "red",
-   "tags": [],
-   "category": "Tuesday Night",
-   "onHand": 1,
-   "locations": [
-    "UP"
-   ],
-   "window": "Now-2028",
-   "peak": "2026-2027",
-   "jakeScore": null,
-   "jakeNote": null,
-   "flag": null,
-   "otherScores": [],
-   "image": "images/web/olema-cabernet.webp",
-   "imageSource": "https://olemawines.com/wine/cabernet-sauvignon",
-   "blend": "85% Cabernet Sauvignon, 6% Malbec, 5% Petite Sirah, 4% Merlot from Alexander Valley and Dry Creek Valley; 12 to 14 months in 50% new French oak",
-   "about": "Olema is the value-focused label from Amici Cellars, built around fruit from top Sonoma County vineyards.",
-   "web": {
-    "note": "Ripe blackberry, cherry cordial and a streak of strawberry lead the nose, with dark chocolate in the background. The palate adds roasted almond, tart lingonberry and cedar, while small portions of Malbec, Petite Sirah and Merlot add spice and depth before a velvety, silky finish.",
-    "noteVintage": "2022",
-    "critic": null,
-    "sourceName": "Olema 2022 Cabernet Sauvignon tech sheet",
-    "sourceUrl": "https://olemawines.com/wp-content/uploads/2024/02/2022-Olema-Cab-Tech-Sheet.pdf"
    }
   },
   {
