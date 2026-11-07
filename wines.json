@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-06",
+ "updated": "2026-11-07",
  "rack": {
   "rows": 8,
   "cols": 9,
@@ -77,10 +77,6 @@
    },
    {
     "id": "marias-legacy-cabernet-2023",
-    "n": 1
-   },
-   {
-    "id": "renieri-chianti-classico-2023",
     "n": 1
    },
    {
@@ -1359,42 +1355,6 @@
     "critic": null,
     "sourceName": "The Tasting Panel (2023 review), with winery notes via ZYN The Wine Market",
     "sourceUrl": "https://www.tastingpanelmag.com/review/vina-carmen-2023-marias-legacy-single-vineyard-cabernet-sauvignon-d-o-maipo-chile-25/"
-   }
-  },
-  {
-   "id": "renieri-chianti-classico-2023",
-   "slug": "renieri-chianti-classico",
-   "producer": "Tenuta di Renieri",
-   "name": "Chianti Classico",
-   "short": "Renieri",
-   "vintage": "2023",
-   "region": "Chianti Classico, Tuscany",
-   "color": "red",
-   "tags": [],
-   "category": "Tuesday Night",
-   "onHand": 1,
-   "locations": [
-    "UP"
-   ],
-   "window": "2026-2029",
-   "peak": "2026-2028",
-   "jakeScore": null,
-   "jakeNote": null,
-   "flag": null,
-   "otherScores": [],
-   "image": "images/web/renieri-chianti-classico.webp",
-   "imageSource": "https://www.vivino.com/en/it-renieri-chianti-classico/w/1638100",
-   "blend": "100% Sangiovese, organically farmed in Castelnuovo Berardenga, aged about 12 months in barrique",
-   "about": "Tenuta di Renieri is Marco Bacci's organic Chianti Classico estate in the southern Castelnuovo Berardenga zone, part of the family's Bacci Wines group of Tuscan properties.",
-   "web": {
-    "note": "Juicy and crunchy, this Chianti Classico shows black and sour cherry layered with dark earth, sweet tobacco and a touch of clove. It is medium to full bodied with lively acidity and chalky, slightly grippy tannins, finishing fresh and savory. A natural match for tomato sauces and grilled meats.",
-    "noteVintage": "2022",
-    "critic": {
-     "critic": "James Suckling",
-     "score": "92"
-    },
-    "sourceName": "LCBO product page citing JamesSuckling.com (July 2024), plus Vintage Wine Picks review",
-    "sourceUrl": "https://www.lcbo.com/en/tenuta-di-renieri-chianti-classico-2013-540849"
    }
   },
   {

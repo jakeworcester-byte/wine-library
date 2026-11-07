@@ -1,6 +1,6 @@
 {
  "_about": "Guest-safe snapshot of the Notion Wine Library (On Hand > 0). No prices, sources, or working notes. Refresh by re-querying Notion and editing this file, then run tools/build.py.",
- "snapshotDate": "2026-11-06",
+ "snapshotDate": "2026-11-07",
  "wines": {
   "chappellet-napa-cabernet": {
    "producer": "Chappellet",
@@ -433,22 +433,6 @@
      "category": "Tuesday Night",
      "window": "2026-2030",
      "peak": "2027-2029"
-    }
-   }
-  },
-  "renieri-chianti-classico": {
-   "producer": "Tenuta di Renieri",
-   "name": "Chianti Classico",
-   "short": "Renieri",
-   "region": "Chianti Classico, Tuscany",
-   "color": "red",
-   "vintages": {
-    "2023": {
-     "location": "UP",
-     "onHand": 1,
-     "category": "Tuesday Night",
-     "window": "2026-2029",
-     "peak": "2026-2028"
     }
    }
   },
