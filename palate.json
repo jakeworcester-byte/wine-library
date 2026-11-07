@@ -553,7 +553,7 @@
    "score": null,
    "tried": true,
    "onList": false,
-   "verdict": "not for me",
+   "verdict": "depends",
    "take": "Visited on the August 2026 trip as the first stop the morning after a big night. Too much sweet oak for my taste that day, but I brought a few bottles home to give it a fairer second look."
   },
   {
@@ -690,6 +690,19 @@
    "onList": true,
    "verdict": "depends",
    "take": "Still haven't tasted it. On my list."
+  },
+  {
+   "producer": "Aia Vecchia",
+   "name": "Lagone Toscana",
+   "vintage": "2023",
+   "region": "Toscana IGT",
+   "role": "Tuesday Night",
+   "score": "90-92",
+   "tried": true,
+   "onList": false,
+   "verdict": "buy again",
+   "take": "Excellent with spaghetti. I'd open it again with pasta and want to try it with other dishes too.",
+   "pairing": "Pasta"
   },
   {
    "producer": "Aonair",

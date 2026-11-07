@@ -665,22 +665,6 @@
     }
    }
   },
-  "aia-vecchia-lagone-toscana": {
-   "producer": "Aia Vecchia",
-   "name": "Lagone Toscana",
-   "short": "Lagone",
-   "region": "Toscana IGT",
-   "color": "red",
-   "vintages": {
-    "2023": {
-     "location": "UP",
-     "onHand": 1,
-     "category": "Tuesday Night",
-     "window": "Now-2029",
-     "peak": null
-    }
-   }
-  },
   "amizetta-complexity": {
    "producer": "Amizetta",
    "name": "Complexity",

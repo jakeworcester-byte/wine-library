@@ -106,10 +106,6 @@
    {
     "id": "phifer-pavitt-reserve-cabernet-2022",
     "n": 2
-   },
-   {
-    "id": "aia-vecchia-lagone-toscana-2023",
-    "n": 1
    }
   ],
   "fridge": [
@@ -1820,39 +1816,6 @@
     "critic": null,
     "sourceName": "James Suckling and Delectable listings (partial notes)",
     "sourceUrl": "https://www.jamessuckling.com/tasting-notes/276668/neal-family-vineyards-cabernet-sauvignon-napa-valley-howell-mountain-estate-2021"
-   }
-  },
-  {
-   "id": "aia-vecchia-lagone-toscana-2023",
-   "slug": "aia-vecchia-lagone-toscana",
-   "producer": "Aia Vecchia",
-   "name": "Lagone Toscana",
-   "short": "Lagone",
-   "vintage": "2023",
-   "region": "Toscana IGT",
-   "color": "red",
-   "tags": [],
-   "category": "Tuesday Night",
-   "onHand": 1,
-   "locations": [
-    "UP"
-   ],
-   "window": "Now-2029",
-   "peak": null,
-   "jakeScore": null,
-   "jakeNote": null,
-   "flag": null,
-   "otherScores": [],
-   "image": "images/web/aia-vecchia-lagone-toscana.webp",
-   "imageSource": "https://www.winedispensary.com/products/aia-vecchia-lagone-toscana-igt-tuscany-italy",
-   "blend": "Bordeaux style blend (retailers list Merlot, Cabernet Sauvignon and Cabernet Franc)",
-   "about": "Aia Vecchia is a Bolgheri area estate in coastal Tuscany, and Lagone is its approachable Bordeaux inspired red.",
-   "web": {
-    "note": "Ripe black cherry, blackberry and plum come wrapped in warm earth, tobacco and dried herbs. The palate is velvety with a mineral edge and noticeable but friendly tannins, an easy, savory Tuscan red for everyday dinners.",
-    "noteVintage": "2023",
-    "critic": null,
-    "sourceName": "Wine Dispensary and Wine.com winemaker notes",
-    "sourceUrl": "https://www.winedispensary.com/products/aia-vecchia-lagone-toscana-igt-tuscany-italy"
    }
   },
   {
