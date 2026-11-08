@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07",
+ "updated": "2026-11-08",
  "rack": {
   "rows": 8,
   "cols": 9,
@@ -62,7 +62,6 @@
    "H4": "taplin-terra-9-2019",
    "H5": "joseph-cellars-247-cabernet-2019",
    "H6": "joseph-cellars-247-cabernet-2019",
-   "H7": "joseph-cellars-247-cabernet-2019",
    "H8": "joseph-cellars-voyage-2021",
    "H9": "joseph-cellars-voyage-2021"
   },
@@ -1731,17 +1730,16 @@
    "region": "Calistoga, Napa",
    "color": "red",
    "tags": [],
-   "category": "Steak Saturday",
-   "onHand": 3,
+   "category": "Bridge / Pre-Dinner",
+   "onHand": 2,
    "locations": [
     "H5",
-    "H6",
-    "H7"
+    "H6"
    ],
    "window": "2026-2031",
    "peak": "2026-2029",
-   "jakeScore": null,
-   "jakeNote": null,
+   "jakeScore": "89-91",
+   "jakeNote": "A really enjoyable bottle, a bit softer and less firm than the mountain Cabs I usually reach for. It held its own with steak, but I'd rather pour it with something a little lighter.",
    "flag": null,
    "otherScores": [],
    "image": "images/web/joseph-cellars-247-cabernet.webp",

@@ -1,6 +1,6 @@
 {
  "_about": "Guest-safe snapshot of the Notion Wine Library (On Hand > 0). No prices, sources, or working notes. Refresh by re-querying Notion and editing this file, then run tools/build.py.",
- "snapshotDate": "2026-11-07",
+ "snapshotDate": "2026-11-08",
  "wines": {
   "chappellet-napa-cabernet": {
    "producer": "Chappellet",
@@ -622,11 +622,13 @@
    "color": "red",
    "vintages": {
     "2019": {
-     "location": "H5, H6, H7",
-     "onHand": 3,
-     "category": "Steak Saturday",
+     "location": "H5, H6",
+     "onHand": 2,
+     "category": "Bridge / Pre-Dinner",
      "window": "2026-2031",
-     "peak": "2026-2029"
+     "peak": "2026-2029",
+     "jakeScore": "89-91",
+     "jakeNote": "A really enjoyable bottle, a bit softer and less firm than the mountain Cabs I usually reach for. It held its own with steak, but I'd rather pour it with something a little lighter."
     }
    }
   },
