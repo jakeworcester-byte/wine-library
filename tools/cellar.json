@@ -1,6 +1,6 @@
 {
  "_about": "Guest-safe snapshot of the Notion Wine Library (On Hand > 0). No prices, sources, or working notes. Refresh by re-querying Notion and editing this file, then run tools/build.py.",
- "snapshotDate": "2026-11-08",
+ "snapshotDate": "2026-11-13",
  "wines": {
   "chappellet-napa-cabernet": {
    "producer": "Chappellet",
@@ -481,22 +481,6 @@
      "category": "Tuesday Night",
      "window": "2026-2031",
      "peak": "2027-2029"
-    }
-   }
-  },
-  "adegamae-touriga-franca": {
-   "producer": "Adegamãe",
-   "name": "Touriga Franca",
-   "short": "Adegamãe",
-   "region": "Lisboa, Portugal",
-   "color": "red",
-   "vintages": {
-    "2020": {
-     "location": "UP",
-     "onHand": 1,
-     "category": "Tuesday Night",
-     "window": "2026-2030",
-     "peak": "2026-2028"
     }
    }
   },

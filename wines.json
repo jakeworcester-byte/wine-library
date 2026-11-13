@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08",
+ "updated": "2026-11-13",
  "rack": {
   "rows": 8,
   "cols": 9,
@@ -88,10 +88,6 @@
    },
    {
     "id": "rose-de-vitrac-2022",
-    "n": 1
-   },
-   {
-    "id": "adegamae-touriga-franca-2020",
     "n": 1
    },
    {
@@ -1455,39 +1451,6 @@
     },
     "sourceName": "Decanter World Wine Awards 2024 judges' note (also cited by LCBO Vintages)",
     "sourceUrl": "https://awards.decanter.com/DWWA/2024/wines/754420"
-   }
-  },
-  {
-   "id": "adegamae-touriga-franca-2020",
-   "slug": "adegamae-touriga-franca",
-   "producer": "Adegamãe",
-   "name": "Touriga Franca",
-   "short": "Adegamãe",
-   "vintage": "2020",
-   "region": "Lisboa, Portugal",
-   "color": "red",
-   "tags": [],
-   "category": "Tuesday Night",
-   "onHand": 1,
-   "locations": [
-    "UP"
-   ],
-   "window": "2026-2030",
-   "peak": "2026-2028",
-   "jakeScore": null,
-   "jakeNote": null,
-   "flag": null,
-   "otherScores": [],
-   "image": "images/web/adegamae-touriga-franca.webp",
-   "imageSource": "https://adegamae.pt/vinho/touriga-franca/?lang=en",
-   "blend": "100% Touriga Franca, IG Lisboa, aged about 12 months in French oak",
-   "about": "AdegaMãe is a modern winery near Torres Vedras in Portugal's Lisboa region, founded by the Alves family, that focuses on fresh, Atlantic-influenced wines and first bottled this varietal Touriga Franca after discovering an overlooked plot in 2016.",
-   "web": {
-    "note": "Deeply colored, with an expressive nose of floral notes, ripe black plum and cassis plus a light balsamic lift. Bright acidity and silky, well-framed tannins support a generous, full palate, and the finish is intense and packed with fruit.",
-    "noteVintage": "2022",
-    "critic": null,
-    "sourceName": "AdegaMãe winery technical sheet (2022 release; no 2020-specific note found)",
-    "sourceUrl": "https://adegamae.pt/wp-content/uploads/2019/12/FT_ADM_TOURIGA-FRANCA_2022_EN.pdf"
    }
   },
   {
