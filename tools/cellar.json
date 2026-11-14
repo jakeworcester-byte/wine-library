@@ -1,6 +1,6 @@
 {
  "_about": "Guest-safe snapshot of the Notion Wine Library (On Hand > 0). No prices, sources, or working notes. Refresh by re-querying Notion and editing this file, then run tools/build.py.",
- "snapshotDate": "2026-11-13",
+ "snapshotDate": "2026-11-14",
  "wines": {
   "chappellet-napa-cabernet": {
    "producer": "Chappellet",
@@ -185,24 +185,6 @@
     }
    ]
   },
-  "pride-merlot": {
-   "producer": "Pride Mountain Vineyards",
-   "name": "Merlot",
-   "short": "Pride",
-   "region": "Spring Mountain, Napa Valley",
-   "color": "red",
-   "vintages": {
-    "2020": {
-     "location": "UP",
-     "onHand": 1,
-     "category": "Bridge / Pre-Dinner",
-     "window": "Now-2028",
-     "peak": null,
-     "jakeScore": "88-90",
-     "jakeNote": "Mountain fruit that reaches about as high as Merlot goes for me. Soft and polished, and a great pour before dinner."
-    }
-   }
-  },
   "sherwin-estate-cabernet": {
    "producer": "Sherwin Family Vineyards",
    "name": "Estate Cabernet Sauvignon",
@@ -322,7 +304,7 @@
     "2021": {
      "location": "D6",
      "onHand": 1,
-     "category": null,
+     "category": "Exploratory",
      "window": "2027-2034",
      "peak": "2028-2032"
     }
@@ -558,7 +540,7 @@
     "2023": {
      "location": "G2, G3",
      "onHand": 2,
-     "category": null,
+     "category": "Exploratory",
      "window": "2026-2032",
      "peak": "2027-2030"
     }
@@ -708,8 +690,8 @@
    "color": "red",
    "vintages": {
     "2022": {
-     "location": "G4, G5",
-     "onHand": 2,
+     "location": "G5",
+     "onHand": 1,
      "category": "Steak Saturday",
      "window": "2026-2032",
      "peak": "2027-2030"

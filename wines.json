@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-13",
+ "updated": "2026-11-14",
  "rack": {
   "rows": 8,
   "cols": 9,
@@ -50,7 +50,6 @@
    "G1": "viader-v-2020",
    "G2": "spence-studio-cabernet-franc-2023",
    "G3": "spence-studio-cabernet-franc-2023",
-   "G4": "amizetta-cabernet-sauvignon-2022",
    "G5": "amizetta-cabernet-sauvignon-2022",
    "G6": "amizetta-complexity-2022",
    "G7": "amizetta-complexity-2022",
@@ -68,10 +67,6 @@
   "upstairs": [
    {
     "id": "decoy-cabernet-2022",
-    "n": 1
-   },
-   {
-    "id": "pride-merlot-2020",
     "n": 1
    },
    {
@@ -692,42 +687,6 @@
    }
   },
   {
-   "id": "pride-merlot-2020",
-   "slug": "pride-merlot",
-   "producer": "Pride Mountain Vineyards",
-   "name": "Merlot",
-   "short": "Pride",
-   "vintage": "2020",
-   "region": "Spring Mountain, Napa Valley",
-   "color": "red",
-   "tags": [],
-   "category": "Bridge / Pre-Dinner",
-   "onHand": 1,
-   "locations": [
-    "UP"
-   ],
-   "window": "Now-2028",
-   "peak": null,
-   "jakeScore": "88-90",
-   "jakeNote": "Mountain fruit that reaches about as high as Merlot goes for me. Soft and polished, and a great pour before dinner.",
-   "flag": null,
-   "otherScores": [],
-   "image": "images/web/pride-merlot.webp",
-   "imageSource": "https://www.pridewines.com/wine/our-wines/pride-merlot/2020-merlot/",
-   "blend": "90% Merlot, 5% Cabernet Sauvignon, 5% Petit Verdot",
-   "about": "Pride Mountain Vineyards sits atop Spring Mountain right on the Napa and Sonoma county line, which is why its labels name both counties.",
-   "web": {
-    "note": "Ripe mulberry and kirsch take the lead, lifted by elderberry, a hint of lemongrass and savory black pepper. It is plush and generous in texture, with polished mountain tannins and bright freshness keeping it lively, and the finish rises with spice and floral notes. A beautifully balanced Merlot.",
-    "noteVintage": "2020",
-    "critic": {
-     "critic": "Wine Enthusiast",
-     "score": "93"
-    },
-    "sourceName": "Pride Mountain Vineyards 2020 Merlot tech sheet",
-    "sourceUrl": "https://www.pridewines.com/assets/images/PDF/PMV_MR_20.pdf"
-   }
-  },
-  {
    "id": "sherwin-estate-cabernet-2021",
    "slug": "sherwin-estate-cabernet",
    "producer": "Sherwin Family Vineyards",
@@ -1054,7 +1013,7 @@
    "region": "St. Helena, Napa Valley",
    "color": "red",
    "tags": [],
-   "category": null,
+   "category": "Exploratory",
    "onHand": 1,
    "locations": [
     "D6"
@@ -1598,7 +1557,7 @@
    "region": "Napa Valley",
    "color": "red",
    "tags": [],
-   "category": null,
+   "category": "Exploratory",
    "onHand": 2,
    "locations": [
     "G2",
@@ -1890,9 +1849,8 @@
    "color": "red",
    "tags": [],
    "category": "Steak Saturday",
-   "onHand": 2,
+   "onHand": 1,
    "locations": [
-    "G4",
     "G5"
    ],
    "window": "2026-2032",
