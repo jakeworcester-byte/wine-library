@@ -26,6 +26,8 @@
    "C2": "sherwin-estate-cabernet-2023",
    "C3": "sherwin-estate-cabernet-2023",
    "C4": "sherwin-estate-cabernet-2023",
+   "C8": "dakota-shy-atlas-cabernet-sauvignon-2021",
+   "C9": "dakota-shy-atlas-cabernet-sauvignon-2021",
    "D1": "gruaud-larose-2019",
    "D2": "pedesclaux-2019",
    "D3": "taplin-cabernet-2018",
@@ -38,6 +40,12 @@
    "E1": "oshaughnessy-howell-mountain-2017",
    "E2": "oshaughnessy-howell-mountain-2018",
    "E3": "oshaughnessy-howell-mountain-2018",
+   "E4": "dakota-shy-switchback-ridge-cabernet-sauvignon-2023",
+   "E5": "dakota-shy-switchback-ridge-cabernet-sauvignon-2023",
+   "E6": "dakota-shy-switchback-ridge-cabernet-sauvignon-2023",
+   "E7": "dakota-shy-oakville-ranch-cabernet-franc-2023",
+   "E8": "dakota-shy-oakville-ranch-cabernet-franc-2023",
+   "E9": "dakota-shy-oakville-ranch-cabernet-franc-2023",
    "F1": "oshaughnessy-mount-veeder-2022",
    "F2": "oshaughnessy-mount-veeder-2022",
    "F3": "oshaughnessy-mount-veeder-2022",
@@ -47,9 +55,8 @@
    "F7": "taplin-terra-9-2023",
    "F8": "viader-proprietary-red-2017",
    "F9": "viader-proprietary-red-2019",
-   "G1": "viader-v-2020",
+   "G1": "spence-studio-cabernet-franc-2023",
    "G2": "spence-studio-cabernet-franc-2023",
-   "G3": "spence-studio-cabernet-franc-2023",
    "G5": "amizetta-cabernet-sauvignon-2022",
    "G6": "amizetta-complexity-2022",
    "G7": "amizetta-complexity-2022",
@@ -59,10 +66,9 @@
    "H2": "taplin-terra-9-2019",
    "H3": "taplin-terra-9-2019",
    "H4": "taplin-terra-9-2019",
-   "H5": "joseph-cellars-247-cabernet-2019",
-   "H6": "joseph-cellars-247-cabernet-2019",
-   "H8": "joseph-cellars-voyage-2021",
-   "H9": "joseph-cellars-voyage-2021"
+   "H5": "viader-v-2020",
+   "H8": "joseph-cellars-247-cabernet-2019",
+   "H9": "joseph-cellars-247-cabernet-2019"
   },
   "upstairs": [
    {
@@ -95,6 +101,10 @@
    },
    {
     "id": "phifer-pavitt-reserve-cabernet-2022",
+    "n": 2
+   },
+   {
+    "id": "joseph-cellars-voyage-2021",
     "n": 2
    }
   ],
@@ -1250,7 +1260,7 @@
    "category": "Steak Saturday",
    "onHand": 1,
    "locations": [
-    "G1"
+    "H5"
    ],
    "window": "2027-2033",
    "peak": "2028-2031",
@@ -1560,8 +1570,8 @@
    "category": "Exploratory",
    "onHand": 2,
    "locations": [
-    "G2",
-    "G3"
+    "G1",
+    "G2"
    ],
    "window": "2026-2032",
    "peak": "2027-2030",
@@ -1621,8 +1631,7 @@
    "category": "Exploratory",
    "onHand": 2,
    "locations": [
-    "H8",
-    "H9"
+    "UP"
    ],
    "window": "Now-2029",
    "peak": null,
@@ -1655,8 +1664,8 @@
    "category": "Bridge / Pre-Dinner",
    "onHand": 2,
    "locations": [
-    "H5",
-    "H6"
+    "H8",
+    "H9"
    ],
    "window": "2026-2031",
    "peak": "2026-2029",
@@ -1873,6 +1882,92 @@
     "sourceName": "Tastings.com",
     "sourceUrl": "https://tastings.com/Wine-Review/Amizetta-Vineyards-2021-Cabernet-Sauvignon-Napa-Valley-USA-03-03-2024.aspx"
    }
+  },
+  {
+   "id": "dakota-shy-atlas-cabernet-sauvignon-2021",
+   "slug": "dakota-shy-atlas-cabernet-sauvignon",
+   "producer": "Dakota Shy",
+   "name": "Atlas Cabernet Sauvignon",
+   "short": "Dakota",
+   "vintage": "2021",
+   "region": "Calistoga, Napa Valley",
+   "color": "red",
+   "tags": [],
+   "category": "Steak Saturday",
+   "onHand": 2,
+   "locations": [
+    "C8",
+    "C9"
+   ],
+   "window": "2029-2042",
+   "peak": "2032-2039",
+   "jakeScore": null,
+   "jakeNote": "A brooding hillside Cab from the great 2021 vintage, bought to age.",
+   "flag": "Cellaring for a few more years.",
+   "otherScores": [],
+   "image": null,
+   "imageSource": null,
+   "blend": null,
+   "about": null,
+   "web": null
+  },
+  {
+   "id": "dakota-shy-switchback-ridge-cabernet-sauvignon-2023",
+   "slug": "dakota-shy-switchback-ridge-cabernet-sauvignon",
+   "producer": "Dakota Shy",
+   "name": "Switchback Ridge Cabernet Sauvignon",
+   "short": "Dakota",
+   "vintage": "2023",
+   "region": "Calistoga, Napa Valley",
+   "color": "red",
+   "tags": [],
+   "category": "Steak Saturday",
+   "onHand": 3,
+   "locations": [
+    "E4",
+    "E5",
+    "E6"
+   ],
+   "window": "2029-2040",
+   "peak": "2031-2037",
+   "jakeScore": null,
+   "jakeNote": "Single-vineyard Calistoga Cab from Dakota Shy, the producer whose Cab Franc won me over on our August 2026 Napa trip.",
+   "flag": null,
+   "otherScores": [],
+   "image": null,
+   "imageSource": null,
+   "blend": null,
+   "about": null,
+   "web": null
+  },
+  {
+   "id": "dakota-shy-oakville-ranch-cabernet-franc-2023",
+   "slug": "dakota-shy-oakville-ranch-cabernet-franc",
+   "producer": "Dakota Shy",
+   "name": "Oakville Ranch Cabernet Franc",
+   "short": "Dakota",
+   "vintage": "2023",
+   "region": "Oakville, Napa",
+   "color": "red",
+   "tags": [],
+   "category": "Steak Saturday",
+   "onHand": 3,
+   "locations": [
+    "E7",
+    "E8",
+    "E9"
+   ],
+   "window": "2027-2035",
+   "peak": "2028-2033",
+   "jakeScore": "93-95",
+   "jakeNote": "Tasted at the winery in August 2026. One of the two Cab Francs that won me over on that trip.",
+   "flag": null,
+   "otherScores": [],
+   "image": null,
+   "imageSource": null,
+   "blend": null,
+   "about": null,
+   "web": null
   }
  ]
 }

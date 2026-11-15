@@ -394,7 +394,7 @@
    "color": "red",
    "vintages": {
     "2020": {
-     "location": "G1",
+     "location": "H5",
      "onHand": 1,
      "category": "Steak Saturday",
      "window": "2027-2033",
@@ -538,7 +538,7 @@
    "color": "red",
    "vintages": {
     "2023": {
-     "location": "G2, G3",
+     "location": "G1, G2",
      "onHand": 2,
      "category": "Exploratory",
      "window": "2026-2032",
@@ -570,7 +570,7 @@
    "color": "red",
    "vintages": {
     "2021": {
-     "location": "H8, H9",
+     "location": "UP",
      "onHand": 2,
      "category": "Exploratory",
      "window": "Now-2029",
@@ -588,7 +588,7 @@
    "color": "red",
    "vintages": {
     "2019": {
-     "location": "H5, H6",
+     "location": "H8, H9",
      "onHand": 2,
      "category": "Bridge / Pre-Dinner",
      "window": "2026-2031",
@@ -697,6 +697,59 @@
      "peak": "2027-2030",
      "jakeScore": "94-96",
      "jakeNote": "Smooth and velvety, with real complexity and nice tannins. Not quite the earthy power of an O'Shaughnessy, but I'm a fan. Kept building in the glass."
+    }
+   }
+  },
+  "dakota-shy-atlas-cabernet-sauvignon": {
+   "producer": "Dakota Shy",
+   "name": "Atlas Cabernet Sauvignon",
+   "short": "Dakota",
+   "region": "Calistoga, Napa Valley",
+   "color": "red",
+   "vintages": {
+    "2021": {
+     "location": "C8, C9",
+     "onHand": 2,
+     "category": "Steak Saturday",
+     "window": "2029-2042",
+     "peak": "2032-2039",
+     "jakeNote": "A brooding hillside Cab from the great 2021 vintage, bought to age.",
+     "flag": "Cellaring for a few more years."
+    }
+   }
+  },
+  "dakota-shy-switchback-ridge-cabernet-sauvignon": {
+   "producer": "Dakota Shy",
+   "name": "Switchback Ridge Cabernet Sauvignon",
+   "short": "Dakota",
+   "region": "Calistoga, Napa Valley",
+   "color": "red",
+   "vintages": {
+    "2023": {
+     "location": "E4, E5, E6",
+     "onHand": 3,
+     "category": "Steak Saturday",
+     "window": "2029-2040",
+     "peak": "2031-2037",
+     "jakeNote": "Single-vineyard Calistoga Cab from Dakota Shy, the producer whose Cab Franc won me over on our August 2026 Napa trip."
+    }
+   }
+  },
+  "dakota-shy-oakville-ranch-cabernet-franc": {
+   "producer": "Dakota Shy",
+   "name": "Oakville Ranch Cabernet Franc",
+   "short": "Dakota",
+   "region": "Oakville, Napa",
+   "color": "red",
+   "vintages": {
+    "2023": {
+     "location": "E7, E8, E9",
+     "onHand": 3,
+     "category": "Steak Saturday",
+     "window": "2027-2035",
+     "peak": "2028-2033",
+     "jakeScore": "93-95",
+     "jakeNote": "Tasted at the winery in August 2026. One of the two Cab Francs that won me over on that trip."
     }
    }
   }

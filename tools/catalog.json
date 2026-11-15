@@ -303,6 +303,30 @@
    "short": "Amz Cab",
    "region": "Napa Valley (Conn Valley hillside, base of Howell Mountain)",
    "color": "red"
+  },
+  "dakota-shy-atlas-cabernet-sauvignon": {
+   "producer": "Dakota Shy",
+   "name": "Atlas Cabernet Sauvignon",
+   "short": "Dakota",
+   "region": "Calistoga, Napa Valley",
+   "color": "red",
+   "provisional": true
+  },
+  "dakota-shy-switchback-ridge-cabernet-sauvignon": {
+   "producer": "Dakota Shy",
+   "name": "Switchback Ridge Cabernet Sauvignon",
+   "short": "Dakota",
+   "region": "Calistoga, Napa Valley",
+   "color": "red",
+   "provisional": true
+  },
+  "dakota-shy-oakville-ranch-cabernet-franc": {
+   "producer": "Dakota Shy",
+   "name": "Oakville Ranch Cabernet Franc",
+   "short": "Dakota",
+   "region": "Oakville, Napa",
+   "color": "red",
+   "provisional": true
   }
  },
  "rows": {
@@ -491,6 +515,15 @@
   },
   "40e3eda98b2781ceb32ecc7ecca14529": {
    "slug": "amizetta-cabernet-sauvignon"
+  },
+  "4193eda98b27811f8bf7e783d7a8a24e": {
+   "slug": "dakota-shy-atlas-cabernet-sauvignon"
+  },
+  "4193eda98b2781ecaf7ac87c3ca1dca8": {
+   "slug": "dakota-shy-switchback-ridge-cabernet-sauvignon"
+  },
+  "3c83eda98b2781babb4fc5fbe7362711": {
+   "slug": "dakota-shy-oakville-ranch-cabernet-franc"
   }
  },
  "palate": {
