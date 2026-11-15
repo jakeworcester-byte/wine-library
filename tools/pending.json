@@ -1,29 +1,4 @@
 {
- "newWines": [
-  {
-   "slug": "dakota-shy-atlas-cabernet-sauvignon",
-   "notionIds": [
-    "4193eda98b27811f8bf7e783d7a8a24e"
-   ],
-   "producer": "Dakota Shy",
-   "name": "Atlas Cabernet Sauvignon"
-  },
-  {
-   "slug": "dakota-shy-switchback-ridge-cabernet-sauvignon",
-   "notionIds": [
-    "4193eda98b2781ecaf7ac87c3ca1dca8"
-   ],
-   "producer": "Dakota Shy",
-   "name": "Switchback Ridge Cabernet Sauvignon"
-  },
-  {
-   "slug": "dakota-shy-oakville-ranch-cabernet-franc",
-   "notionIds": [
-    "3c83eda98b2781babb4fc5fbe7362711"
-   ],
-   "producer": "Dakota Shy",
-   "name": "Oakville Ranch Cabernet Franc"
-  }
- ],
+ "newWines": [],
  "needsGuestNote": []
 }
