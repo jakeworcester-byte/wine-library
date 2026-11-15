@@ -1,6 +1,6 @@
 {
  "_about": "Guest-safe snapshot of the Notion Wine Library (On Hand > 0). No prices, sources, or working notes. Refresh by re-querying Notion and editing this file, then run tools/build.py.",
- "snapshotDate": "2026-11-14",
+ "snapshotDate": "2026-11-15",
  "wines": {
   "chappellet-napa-cabernet": {
    "producer": "Chappellet",
@@ -694,7 +694,9 @@
      "onHand": 1,
      "category": "Steak Saturday",
      "window": "2026-2032",
-     "peak": "2027-2030"
+     "peak": "2027-2030",
+     "jakeScore": "94-96",
+     "jakeNote": "Smooth and velvety, with real complexity and nice tannins. Not quite the earthy power of an O'Shaughnessy, but I'm a fan. Kept building in the glass."
     }
    }
   }
