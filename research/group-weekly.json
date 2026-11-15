@@ -421,5 +421,56 @@
     "sourceUrl": "https://tastings.com/Wine-Review/Amizetta-Vineyards-2021-Cabernet-Sauvignon-Napa-Valley-USA-03-03-2024.aspx"
    }
   }
+ },
+ "dakota-shy-atlas-cabernet-sauvignon": {
+  "image": null,
+  "imageSource": null,
+  "blend": "Cabernet Sauvignon from a hillside site in Calistoga, Napa Valley",
+  "about": "Atlas is Dakota Shy's hillside Cabernet from Calistoga, made by a producer whose home base sits at the foot of Pritchard Hill.",
+  "vintages": {
+   "2021": {
+    "note": "A potent, brooding hillside Cabernet built on dark plum, leather and grilled herbs, with graphite, menthol and scorched earth underneath. The palate adds boysenberry and blackberry compote, a hint of anise and dark earth, and a whiff of alder smoke on the finish.",
+    "noteVintage": "2021",
+    "critic": {
+     "critic": "Vinous",
+     "score": "96"
+    },
+    "sourceName": "Vinous, via K&L Wines",
+    "sourceUrl": "https://shop.klwines.com/products/details/2002572"
+   }
+  }
+ },
+ "dakota-shy-switchback-ridge-cabernet-sauvignon": {
+  "image": null,
+  "imageSource": null,
+  "blend": "100% Cabernet Sauvignon, Peterson Family Vineyard, Calistoga",
+  "about": "Dakota Shy's single-vineyard Cabernet from the Peterson Family Vineyard in Calistoga, the same site behind the Switchback Ridge label.",
+  "vintages": {
+   "2023": {
+    "note": "Made entirely from Cabernet Sauvignon and raised about 18 to 20 months in mostly new French oak, this is a dense, black and blue fruited Calistoga Cabernet. Critics have praised the neighboring 2022 for its power and structure, and the cooler 2023 season points to a long life.",
+    "noteVintage": "2022",
+    "critic": {
+     "critic": "Jeb Dunnuck (2022)",
+     "score": "94"
+    },
+    "sourceName": "Jeb Dunnuck, via K&L Wines",
+    "sourceUrl": "https://shop.klwines.com/products/details/2000474"
+   }
+  }
+ },
+ "dakota-shy-oakville-ranch-cabernet-franc": {
+  "image": null,
+  "imageSource": null,
+  "blend": "90% Cabernet Franc, 10% Cabernet Sauvignon, Oakville Ranch, Napa",
+  "about": "Dakota Shy's Cabernet Franc from the hillside Oakville Ranch site, a small-production bottling that sells out quickly.",
+  "vintages": {
+   "2023": {
+    "note": "A mostly Cabernet Franc blend from the hillside Oakville Ranch site, with a touch of Cabernet Sauvignon for backbone. No critic has published on the 2023 yet, so this reflects the producer's house style and a cool vintage rather than a formal review.",
+    "noteVintage": "2023",
+    "critic": null,
+    "sourceName": "Retailer listing (Into Wine)",
+    "sourceUrl": "https://www.intowine.com/reviews/2023-dakota-shy-cabernet-franc-oakville-ranch-vineyards-usa-california-napa-oakville-wine"
+   }
+  }
  }
 }

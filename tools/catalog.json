@@ -307,26 +307,23 @@
   "dakota-shy-atlas-cabernet-sauvignon": {
    "producer": "Dakota Shy",
    "name": "Atlas Cabernet Sauvignon",
-   "short": "Dakota",
+   "short": "Dakota Atlas",
    "region": "Calistoga, Napa Valley",
-   "color": "red",
-   "provisional": true
+   "color": "red"
   },
   "dakota-shy-switchback-ridge-cabernet-sauvignon": {
    "producer": "Dakota Shy",
-   "name": "Switchback Ridge Cabernet Sauvignon",
-   "short": "Dakota",
+   "name": "Switchback Ridge Cabernet",
+   "short": "Switchback",
    "region": "Calistoga, Napa Valley",
-   "color": "red",
-   "provisional": true
+   "color": "red"
   },
   "dakota-shy-oakville-ranch-cabernet-franc": {
    "producer": "Dakota Shy",
-   "name": "Oakville Ranch Cabernet Franc",
-   "short": "Dakota",
+   "name": "Oakville Ranch Cab Franc",
+   "short": "Dakota CF",
    "region": "Oakville, Napa",
-   "color": "red",
-   "provisional": true
+   "color": "red"
   }
  },
  "rows": {
