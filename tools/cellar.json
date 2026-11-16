@@ -1,6 +1,6 @@
 {
  "_about": "Guest-safe snapshot of the Notion Wine Library (On Hand > 0). No prices, sources, or working notes. Refresh by re-querying Notion and editing this file, then run tools/build.py.",
- "snapshotDate": "2026-11-15",
+ "snapshotDate": "2026-11-16",
  "wines": {
   "chappellet-napa-cabernet": {
    "producer": "Chappellet",
@@ -430,22 +430,6 @@
      "onHand": 1,
      "category": "Tuesday Night",
      "window": "2026-2030",
-     "peak": "2026-2028"
-    }
-   }
-  },
-  "halos-de-jupiter-cotes-du-rhone": {
-   "producer": "Halos de Jupiter",
-   "name": "Côtes du Rhône",
-   "short": "Halos",
-   "region": "Côtes du Rhône",
-   "color": "red",
-   "vintages": {
-    "2024": {
-     "location": "UP",
-     "onHand": 1,
-     "category": "Tuesday Night",
-     "window": "2026-2029",
      "peak": "2026-2028"
     }
    }

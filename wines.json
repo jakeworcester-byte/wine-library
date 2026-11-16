@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15",
+ "updated": "2026-11-16",
  "rack": {
   "rows": 8,
   "cols": 9,
@@ -81,10 +81,6 @@
    },
    {
     "id": "hall-ranch-reserve-cabernet-2021",
-    "n": 1
-   },
-   {
-    "id": "halos-de-jupiter-cotes-du-rhone-2024",
     "n": 1
    },
    {
@@ -1348,42 +1344,6 @@
     "critic": null,
     "sourceName": "Total Wine product description and Wine Enthusiast review (Matt Kettmann, 2021 Cellar Reserve)",
     "sourceUrl": "https://www.wineenthusiast.com/buying-guide/hall-ranch-2021-cellar-reserve-cabernet-sauvignon-paso-robles/"
-   }
-  },
-  {
-   "id": "halos-de-jupiter-cotes-du-rhone-2024",
-   "slug": "halos-de-jupiter-cotes-du-rhone",
-   "producer": "Halos de Jupiter",
-   "name": "Côtes du Rhône",
-   "short": "Halos",
-   "vintage": "2024",
-   "region": "Côtes du Rhône",
-   "color": "red",
-   "tags": [],
-   "category": "Tuesday Night",
-   "onHand": 1,
-   "locations": [
-    "UP"
-   ],
-   "window": "2026-2029",
-   "peak": "2026-2028",
-   "jakeScore": null,
-   "jakeNote": null,
-   "flag": null,
-   "otherScores": [],
-   "image": "images/web/halos-de-jupiter-cotes-du-rhone.webp",
-   "imageSource": "https://www.halosdejupiter.com/en/wine/cotes-du-rhone/",
-   "blend": "70% Grenache, 20% Mourvedre, 10% Syrah (2024), destemmed and raised in concrete",
-   "about": "Halos de Jupiter was created by the late consulting winemaker Philippe Cambie with the Gassier family, bottling Grenache-driven Southern Rhone wines from sites on both banks of the river.",
-   "web": {
-    "note": "Red and black fruits mingle with violets, cracked pepper and a stony mineral note. Medium-bodied and well balanced, it has a lively, vibrant feel on the palate and good length, making it an easy Cotes du Rhone to enjoy now or over the next several years.",
-    "noteVintage": "2024",
-    "critic": {
-     "critic": "Jeb Dunnuck",
-     "score": "90-92"
-    },
-    "sourceName": "Jeb Dunnuck (via LCBO)",
-    "sourceUrl": "https://www.lcbo.com/en/halos-de-jupiter-c-tes-du-rh-ne-2019-276956"
    }
   },
   {
