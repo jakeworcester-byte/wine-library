@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16",
+ "updated": "2026-11-18",
  "rack": {
   "rows": 8,
   "cols": 9,
@@ -81,10 +81,6 @@
    },
    {
     "id": "hall-ranch-reserve-cabernet-2021",
-    "n": 1
-   },
-   {
-    "id": "rose-de-vitrac-2022",
     "n": 1
    },
    {
@@ -1344,42 +1340,6 @@
     "critic": null,
     "sourceName": "Total Wine product description and Wine Enthusiast review (Matt Kettmann, 2021 Cellar Reserve)",
     "sourceUrl": "https://www.wineenthusiast.com/buying-guide/hall-ranch-2021-cellar-reserve-cabernet-sauvignon-paso-robles/"
-   }
-  },
-  {
-   "id": "rose-de-vitrac-2022",
-   "slug": "rose-de-vitrac",
-   "producer": "Château La Rose de Vitrac",
-   "name": "Bordeaux Rouge",
-   "short": "Vitrac",
-   "vintage": "2022",
-   "region": "Bordeaux",
-   "color": "red",
-   "tags": [],
-   "category": "Tuesday Night",
-   "onHand": 1,
-   "locations": [
-    "UP"
-   ],
-   "window": "2026-2031",
-   "peak": "2027-2029",
-   "jakeScore": null,
-   "jakeNote": null,
-   "flag": null,
-   "otherScores": [],
-   "image": "images/web/rose-de-vitrac.webp",
-   "imageSource": "https://www.banquist.com/products/chateau-la-rose-de-vitrac-bordeaux-rouge-2022",
-   "blend": "80% Merlot, 20% Cabernet Sauvignon (2022, per the Decanter World Wine Awards entry)",
-   "about": "Château La Rose de Vitrac is a small, family-run property in Soussac in the Entre-Deux-Mers that bottles its Bordeaux AOC red at the château, and its 2022 surprised many by earning a Gold medal at the Decanter World Wine Awards.",
-   "web": {
-    "note": "An energetic, fruit-packed Bordeaux loaded with cassis, black cherry and blueberry. Plush tannins carry a graphite edge and give the wine real muscle, yet it stays fresh and balanced, finishing smooth with a touch of mocha.",
-    "noteVintage": "2022",
-    "critic": {
-     "critic": "Decanter World Wine Awards 2024 (Gold)",
-     "score": "95"
-    },
-    "sourceName": "Decanter World Wine Awards 2024 judges' note (also cited by LCBO Vintages)",
-    "sourceUrl": "https://awards.decanter.com/DWWA/2024/wines/754420"
    }
   },
   {

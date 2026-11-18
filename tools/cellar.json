@@ -1,6 +1,6 @@
 {
  "_about": "Guest-safe snapshot of the Notion Wine Library (On Hand > 0). No prices, sources, or working notes. Refresh by re-querying Notion and editing this file, then run tools/build.py.",
- "snapshotDate": "2026-11-16",
+ "snapshotDate": "2026-11-18",
  "wines": {
   "chappellet-napa-cabernet": {
    "producer": "Chappellet",
@@ -431,22 +431,6 @@
      "category": "Tuesday Night",
      "window": "2026-2030",
      "peak": "2026-2028"
-    }
-   }
-  },
-  "rose-de-vitrac": {
-   "producer": "Château La Rose de Vitrac",
-   "name": "Bordeaux Rouge",
-   "short": "Vitrac",
-   "region": "Bordeaux",
-   "color": "red",
-   "vintages": {
-    "2022": {
-     "location": "UP",
-     "onHand": 1,
-     "category": "Tuesday Night",
-     "window": "2026-2031",
-     "peak": "2027-2029"
     }
    }
   },
