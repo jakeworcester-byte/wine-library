@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18",
+ "updated": "2026-11-19",
  "rack": {
   "rows": 8,
   "cols": 9,
@@ -76,12 +76,12 @@
     "n": 1
    },
    {
-    "id": "marias-legacy-cabernet-2023",
+    "id": "hall-ranch-reserve-cabernet-2021",
     "n": 1
    },
    {
-    "id": "hall-ranch-reserve-cabernet-2021",
-    "n": 1
+    "id": "rose-de-vitrac-2022",
+    "n": 2
    },
    {
     "id": "carmen-gran-reserva-cabernet-2022",
@@ -98,6 +98,26 @@
    {
     "id": "joseph-cellars-voyage-2021",
     "n": 2
+   },
+   {
+    "id": "m-c-lapierre-marcel-lapierre-morgon-2025",
+    "n": 1
+   },
+   {
+    "id": "jean-foillard-morgon-cote-du-py-2024",
+    "n": 1
+   },
+   {
+    "id": "la-rioja-alta-vina-alberdi-reserva-2020-2020",
+    "n": 2
+   },
+   {
+    "id": "domaine-eden-cabernet-sauvignon-2019",
+    "n": 1
+   },
+   {
+    "id": "bonanza-wagner-family-bonanza-the-vinekeeper-cabernet-sauvig-nv-lot-1",
+    "n": 1
    }
   ],
   "fridge": [
@@ -1277,39 +1297,6 @@
    }
   },
   {
-   "id": "marias-legacy-cabernet-2023",
-   "slug": "marias-legacy-cabernet",
-   "producer": "Maria's Legacy",
-   "name": "Cabernet Sauvignon",
-   "short": "Maria's",
-   "vintage": "2023",
-   "region": "Chile",
-   "color": "red",
-   "tags": [],
-   "category": "Tuesday Night",
-   "onHand": 1,
-   "locations": [
-    "UP"
-   ],
-   "window": "2026-2030",
-   "peak": "2027-2029",
-   "jakeScore": null,
-   "jakeNote": null,
-   "flag": null,
-   "otherScores": [],
-   "image": "images/web/marias-legacy-cabernet.webp",
-   "imageSource": "https://lifford.com/products/marias-legacy-cabernet-sauvignon",
-   "blend": "100% Cabernet Sauvignon, single vineyard, Alto Jahuel, Maipo Alto, Chile",
-   "about": "Maria's Legacy is a single vineyard Cabernet from Viña Carmen, one of Chile's oldest wineries (founded 1850), grown in the Andes foothills of Alto Jahuel on the south bank of the Maipo River.",
-   "web": {
-    "note": "Riper and plusher than the Gran Reserva, this single vineyard Cabernet opens with roasted coffee, black currant and graphite, lifted by jasmine and lavender. The silky, medium bodied palate brings Luxardo cherry, dark chocolate and sweet cedar, framed by dry, chalky tannins and bright, balanced acidity.",
-    "noteVintage": "2023",
-    "critic": null,
-    "sourceName": "The Tasting Panel (2023 review), with winery notes via ZYN The Wine Market",
-    "sourceUrl": "https://www.tastingpanelmag.com/review/vina-carmen-2023-marias-legacy-single-vineyard-cabernet-sauvignon-d-o-maipo-chile-25/"
-   }
-  },
-  {
    "id": "hall-ranch-reserve-cabernet-2021",
    "slug": "hall-ranch-reserve-cabernet",
    "producer": "Hall Ranch",
@@ -1340,6 +1327,42 @@
     "critic": null,
     "sourceName": "Total Wine product description and Wine Enthusiast review (Matt Kettmann, 2021 Cellar Reserve)",
     "sourceUrl": "https://www.wineenthusiast.com/buying-guide/hall-ranch-2021-cellar-reserve-cabernet-sauvignon-paso-robles/"
+   }
+  },
+  {
+   "id": "rose-de-vitrac-2022",
+   "slug": "rose-de-vitrac",
+   "producer": "Château La Rose de Vitrac",
+   "name": "Bordeaux Rouge",
+   "short": "Vitrac",
+   "vintage": "2022",
+   "region": "Bordeaux",
+   "color": "red",
+   "tags": [],
+   "category": "Tuesday Night",
+   "onHand": 2,
+   "locations": [
+    "UP"
+   ],
+   "window": "2026-2031",
+   "peak": "2027-2029",
+   "jakeScore": "89-91",
+   "jakeNote": "A really pleasing weeknight Bordeaux that was great with spaghetti. Easy to sip on its own too, and it would make a nice opener before a bigger red.",
+   "flag": null,
+   "otherScores": [],
+   "image": "images/web/rose-de-vitrac.webp",
+   "imageSource": "https://www.banquist.com/products/chateau-la-rose-de-vitrac-bordeaux-rouge-2022",
+   "blend": "80% Merlot, 20% Cabernet Sauvignon (2022, per the Decanter World Wine Awards entry)",
+   "about": "Château La Rose de Vitrac is a small, family-run property in Soussac in the Entre-Deux-Mers that bottles its Bordeaux AOC red at the château, and its 2022 surprised many by earning a Gold medal at the Decanter World Wine Awards.",
+   "web": {
+    "note": "An energetic, fruit-packed Bordeaux loaded with cassis, black cherry and blueberry. Plush tannins carry a graphite edge and give the wine real muscle, yet it stays fresh and balanced, finishing smooth with a touch of mocha.",
+    "noteVintage": "2022",
+    "critic": {
+     "critic": "Decanter World Wine Awards 2024 (Gold)",
+     "score": "95"
+    },
+    "sourceName": "Decanter World Wine Awards 2024 judges' note (also cited by LCBO Vintages)",
+    "sourceUrl": "https://awards.decanter.com/DWWA/2024/wines/754420"
    }
   },
   {
@@ -1912,6 +1935,141 @@
     "sourceName": "Retailer listing (Into Wine)",
     "sourceUrl": "https://www.intowine.com/reviews/2023-dakota-shy-cabernet-franc-oakville-ranch-vineyards-usa-california-napa-oakville-wine"
    }
+  },
+  {
+   "id": "m-c-lapierre-marcel-lapierre-morgon-2025",
+   "slug": "m-c-lapierre-marcel-lapierre-morgon",
+   "producer": "M. & C. Lapierre",
+   "name": "Marcel Lapierre Morgon",
+   "short": "M.",
+   "vintage": "2025",
+   "region": "Morgon, Beaujolais",
+   "color": "red",
+   "tags": [],
+   "category": "Exploratory",
+   "onHand": 1,
+   "locations": [
+    "UP"
+   ],
+   "window": "Now-2029",
+   "peak": null,
+   "jakeScore": null,
+   "jakeNote": "Bought alongside a Foillard Morgon to compare two classic Morgon producers at Thanksgiving dinner.",
+   "flag": null,
+   "otherScores": [],
+   "image": null,
+   "imageSource": null,
+   "blend": null,
+   "about": null,
+   "web": null
+  },
+  {
+   "id": "jean-foillard-morgon-cote-du-py-2024",
+   "slug": "jean-foillard-morgon-cote-du-py",
+   "producer": "Jean Foillard",
+   "name": "Morgon Côte du Py",
+   "short": "Jean",
+   "vintage": "2024",
+   "region": "Morgon, Beaujolais",
+   "color": "red",
+   "tags": [],
+   "category": "Exploratory",
+   "onHand": 1,
+   "locations": [
+    "UP"
+   ],
+   "window": "Now-2030",
+   "peak": "2026-2028",
+   "jakeScore": null,
+   "jakeNote": "My first serious test of Cru Beaujolais, bought to open with Thanksgiving dinner.",
+   "flag": null,
+   "otherScores": [],
+   "image": null,
+   "imageSource": null,
+   "blend": null,
+   "about": null,
+   "web": null
+  },
+  {
+   "id": "la-rioja-alta-vina-alberdi-reserva-2020-2020",
+   "slug": "la-rioja-alta-vina-alberdi-reserva-2020",
+   "producer": "La Rioja Alta",
+   "name": "Viña Alberdi Reserva 2020",
+   "short": "La",
+   "vintage": "2020",
+   "region": "Rioja, Spain",
+   "color": "red",
+   "tags": [],
+   "category": "Tuesday Night",
+   "onHand": 2,
+   "locations": [
+    "UP"
+   ],
+   "window": "Now-2028",
+   "peak": null,
+   "jakeScore": "91-93",
+   "jakeNote": "Earthy and leathery with more body than I expected from a Rioja at this level. Had it as a pre-dinner glass and it was the best red on the list.",
+   "flag": null,
+   "otherScores": [],
+   "image": null,
+   "imageSource": null,
+   "blend": null,
+   "about": null,
+   "web": null
+  },
+  {
+   "id": "domaine-eden-cabernet-sauvignon-2019",
+   "slug": "domaine-eden-cabernet-sauvignon",
+   "producer": "Domaine Eden",
+   "name": "Cabernet Sauvignon",
+   "short": "Domaine",
+   "vintage": "2019",
+   "region": "Santa Cruz Mountains",
+   "color": "red",
+   "tags": [],
+   "category": "Tuesday Night",
+   "onHand": 1,
+   "locations": [
+    "UP"
+   ],
+   "window": "2026-2031",
+   "peak": "2027-2030",
+   "jakeScore": "90-92",
+   "jakeNote": "Great with red-sauce pizza. The cooler-climate acidity meets the tomato where a big mountain Cab would fight it.",
+   "flag": null,
+   "otherScores": [],
+   "image": null,
+   "imageSource": null,
+   "blend": null,
+   "about": null,
+   "web": null
+  },
+  {
+   "id": "bonanza-wagner-family-bonanza-the-vinekeeper-cabernet-sauvig-nv-lot-1",
+   "slug": "bonanza-wagner-family-bonanza-the-vinekeeper-cabernet-sauvig",
+   "producer": "Bonanza (Wagner Family)",
+   "name": "Bonanza The Vinekeeper Cabernet Sauvignon",
+   "short": "Bonanza",
+   "vintage": "NV (Lot 1)",
+   "region": "Napa Valley",
+   "color": "red",
+   "tags": [],
+   "category": "Tuesday Night",
+   "onHand": 1,
+   "locations": [
+    "UP"
+   ],
+   "window": "Now-2027",
+   "peak": null,
+   "jakeScore": "90-92",
+   "jakeNote": "Held steady over a couple of hours and had enough structure that it could have stood up to beef. A weeknight bottle I'll keep restocking.",
+   "flag": null,
+   "otherScores": [],
+   "image": null,
+   "imageSource": null,
+   "blend": null,
+   "about": null,
+   "web": null
   }
  ]
 }

@@ -248,19 +248,6 @@
    "take": "Overdelivers for a weeknight bottle. I'd stock up."
   },
   {
-   "producer": "Domaine Eden",
-   "name": "Cabernet Sauvignon",
-   "vintage": "2019",
-   "region": "Santa Cruz Mountains, California",
-   "role": "Tuesday Night",
-   "score": "90-92",
-   "tried": true,
-   "onList": false,
-   "verdict": "buy again",
-   "take": "Great with red-sauce pizza. The cooler-climate acidity meets the tomato where a big mountain Cab would fight it.",
-   "pairing": "Tomato-sauce pizza"
-  },
-  {
    "producer": "Sequoia Grove",
    "name": "Napa Valley Cabernet",
    "vintage": "2019",
@@ -271,19 +258,6 @@
    "onList": false,
    "verdict": "buy again",
    "take": "Solid Napa structure. A good everyday Cab, not a big-night wine."
-  },
-  {
-   "producer": "Bonanza",
-   "name": "The Vinekeeper Cabernet Sauvignon",
-   "vintage": null,
-   "region": "Napa Valley",
-   "role": "Tuesday Night",
-   "score": "90-92",
-   "tried": true,
-   "onList": true,
-   "verdict": "buy again",
-   "take": "Held steady over a couple of hours and had enough structure that it could have stood up to beef. A weeknight bottle I'll keep restocking.",
-   "pairing": "Pork chops"
   },
   {
    "producer": "Olarra",
@@ -718,19 +692,6 @@
    "take": "Opened beautifully over an hour. A touch more fruit-forward and softer than most mountain Cabs, which made it a great way to start the night. Kept building in the glass."
   },
   {
-   "producer": "Château La Rose de Vitrac",
-   "name": "Bordeaux Rouge",
-   "vintage": "2022",
-   "region": "Bordeaux",
-   "role": "Tuesday Night",
-   "score": "89-91",
-   "tried": true,
-   "onList": false,
-   "verdict": "buy again",
-   "take": "A really pleasing weeknight Bordeaux that was great with spaghetti. Easy to sip on its own too, and it would make a nice opener before a bigger red.",
-   "pairing": "Spaghetti"
-  },
-  {
    "producer": "Château Rauzan Despagne",
    "name": "Bordeaux Rouge",
    "vintage": "2022",
@@ -756,16 +717,16 @@
    "take": "Flat for me from the first sip, with no bite and not much to hold my interest."
   },
   {
-   "producer": "La Rioja Alta",
-   "name": "Viña Alberdi Reserva 2020",
-   "vintage": null,
-   "region": "Rioja, Spain",
+   "producer": "Maria's Legacy",
+   "name": "Cabernet Sauvignon",
+   "vintage": "2023",
+   "region": "Chile",
    "role": "Tuesday Night",
-   "score": "91-93",
-   "tried": true,
-   "onList": false,
+   "score": null,
+   "tried": false,
+   "onList": true,
    "verdict": "buy again",
-   "take": "Earthy and leathery with more body than I expected from a Rioja at this level. Had it as a pre-dinner glass and it was the best red on the list."
+   "take": "I enjoyed this Chilean Cabernet and want a second bottle before saying more about it."
   },
   {
    "producer": "Neal Family Vineyards",

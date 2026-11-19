@@ -324,6 +324,46 @@
    "short": "Dakota CF",
    "region": "Oakville, Napa",
    "color": "red"
+  },
+  "m-c-lapierre-marcel-lapierre-morgon": {
+   "producer": "M. & C. Lapierre",
+   "name": "Marcel Lapierre Morgon",
+   "short": "M.",
+   "region": "Morgon, Beaujolais",
+   "color": "red",
+   "provisional": true
+  },
+  "jean-foillard-morgon-cote-du-py": {
+   "producer": "Jean Foillard",
+   "name": "Morgon Côte du Py",
+   "short": "Jean",
+   "region": "Morgon, Beaujolais",
+   "color": "red",
+   "provisional": true
+  },
+  "la-rioja-alta-vina-alberdi-reserva-2020": {
+   "producer": "La Rioja Alta",
+   "name": "Viña Alberdi Reserva 2020",
+   "short": "La",
+   "region": "Rioja, Spain",
+   "color": "red",
+   "provisional": true
+  },
+  "domaine-eden-cabernet-sauvignon": {
+   "producer": "Domaine Eden",
+   "name": "Cabernet Sauvignon",
+   "short": "Domaine",
+   "region": "Santa Cruz Mountains",
+   "color": "red",
+   "provisional": true
+  },
+  "bonanza-wagner-family-bonanza-the-vinekeeper-cabernet-sauvig": {
+   "producer": "Bonanza (Wagner Family)",
+   "name": "Bonanza The Vinekeeper Cabernet Sauvignon",
+   "short": "Bonanza",
+   "region": "Napa Valley",
+   "color": "red",
+   "provisional": true
   }
  },
  "rows": {
@@ -521,6 +561,21 @@
   },
   "3c83eda98b2781babb4fc5fbe7362711": {
    "slug": "dakota-shy-oakville-ranch-cabernet-franc"
+  },
+  "41d3eda98b2781229521d997e2d43a53": {
+   "slug": "m-c-lapierre-marcel-lapierre-morgon"
+  },
+  "41d3eda98b278127afb2fab7a39a7e3a": {
+   "slug": "jean-foillard-morgon-cote-du-py"
+  },
+  "3fa3eda98b278142a795cd40d80a8124": {
+   "slug": "la-rioja-alta-vina-alberdi-reserva-2020"
+  },
+  "3cc3eda98b27817fa945cf6cdb29a177": {
+   "slug": "domaine-eden-cabernet-sauvignon"
+  },
+  "3cc3eda98b2781c4aafdeff63bc998d4": {
+   "slug": "bonanza-wagner-family-bonanza-the-vinekeeper-cabernet-sauvig"
   }
  },
  "palate": {

@@ -1,6 +1,6 @@
 {
  "_about": "Guest-safe snapshot of the Notion Wine Library (On Hand > 0). No prices, sources, or working notes. Refresh by re-querying Notion and editing this file, then run tools/build.py.",
- "snapshotDate": "2026-11-18",
+ "snapshotDate": "2026-11-19",
  "wines": {
   "chappellet-napa-cabernet": {
    "producer": "Chappellet",
@@ -402,22 +402,6 @@
     }
    }
   },
-  "marias-legacy-cabernet": {
-   "producer": "Maria's Legacy",
-   "name": "Cabernet Sauvignon",
-   "short": "Maria's",
-   "region": "Chile",
-   "color": "red",
-   "vintages": {
-    "2023": {
-     "location": "UP",
-     "onHand": 1,
-     "category": "Tuesday Night",
-     "window": "2026-2030",
-     "peak": "2027-2029"
-    }
-   }
-  },
   "hall-ranch-reserve-cabernet": {
    "producer": "Hall Ranch",
    "name": "Reserve Cabernet Sauvignon",
@@ -431,6 +415,24 @@
      "category": "Tuesday Night",
      "window": "2026-2030",
      "peak": "2026-2028"
+    }
+   }
+  },
+  "rose-de-vitrac": {
+   "producer": "Château La Rose de Vitrac",
+   "name": "Bordeaux Rouge",
+   "short": "Vitrac",
+   "region": "Bordeaux",
+   "color": "red",
+   "vintages": {
+    "2022": {
+     "location": "UP",
+     "onHand": 2,
+     "category": "Tuesday Night",
+     "window": "2026-2031",
+     "peak": "2027-2029",
+     "jakeScore": "89-91",
+     "jakeNote": "A really pleasing weeknight Bordeaux that was great with spaghetti. Easy to sip on its own too, and it would make a nice opener before a bigger red."
     }
    }
   },
@@ -718,6 +720,94 @@
      "peak": "2028-2033",
      "jakeScore": "93-95",
      "jakeNote": "Tasted at the winery in August 2026. One of the two Cab Francs that won me over on that trip."
+    }
+   }
+  },
+  "m-c-lapierre-marcel-lapierre-morgon": {
+   "producer": "M. & C. Lapierre",
+   "name": "Marcel Lapierre Morgon",
+   "short": "M.",
+   "region": "Morgon, Beaujolais",
+   "color": "red",
+   "vintages": {
+    "2025": {
+     "location": "UP",
+     "onHand": 1,
+     "category": "Exploratory",
+     "window": "Now-2029",
+     "peak": null,
+     "jakeNote": "Bought alongside a Foillard Morgon to compare two classic Morgon producers at Thanksgiving dinner."
+    }
+   }
+  },
+  "jean-foillard-morgon-cote-du-py": {
+   "producer": "Jean Foillard",
+   "name": "Morgon Côte du Py",
+   "short": "Jean",
+   "region": "Morgon, Beaujolais",
+   "color": "red",
+   "vintages": {
+    "2024": {
+     "location": "UP",
+     "onHand": 1,
+     "category": "Exploratory",
+     "window": "Now-2030",
+     "peak": "2026-2028",
+     "jakeNote": "My first serious test of Cru Beaujolais, bought to open with Thanksgiving dinner."
+    }
+   }
+  },
+  "la-rioja-alta-vina-alberdi-reserva-2020": {
+   "producer": "La Rioja Alta",
+   "name": "Viña Alberdi Reserva 2020",
+   "short": "La",
+   "region": "Rioja, Spain",
+   "color": "red",
+   "vintages": {
+    "2020": {
+     "location": "UP",
+     "onHand": 2,
+     "category": "Tuesday Night",
+     "window": "Now-2028",
+     "peak": null,
+     "jakeScore": "91-93",
+     "jakeNote": "Earthy and leathery with more body than I expected from a Rioja at this level. Had it as a pre-dinner glass and it was the best red on the list."
+    }
+   }
+  },
+  "domaine-eden-cabernet-sauvignon": {
+   "producer": "Domaine Eden",
+   "name": "Cabernet Sauvignon",
+   "short": "Domaine",
+   "region": "Santa Cruz Mountains",
+   "color": "red",
+   "vintages": {
+    "2019": {
+     "location": "UP",
+     "onHand": 1,
+     "category": "Tuesday Night",
+     "window": "2026-2031",
+     "peak": "2027-2030",
+     "jakeScore": "90-92",
+     "jakeNote": "Great with red-sauce pizza. The cooler-climate acidity meets the tomato where a big mountain Cab would fight it."
+    }
+   }
+  },
+  "bonanza-wagner-family-bonanza-the-vinekeeper-cabernet-sauvig": {
+   "producer": "Bonanza (Wagner Family)",
+   "name": "Bonanza The Vinekeeper Cabernet Sauvignon",
+   "short": "Bonanza",
+   "region": "Napa Valley",
+   "color": "red",
+   "vintages": {
+    "NV (Lot 1)": {
+     "location": "UP",
+     "onHand": 1,
+     "category": "Tuesday Night",
+     "window": "Now-2027",
+     "peak": null,
+     "jakeScore": "90-92",
+     "jakeNote": "Held steady over a couple of hours and had enough structure that it could have stood up to beef. A weeknight bottle I'll keep restocking."
     }
    }
   }
