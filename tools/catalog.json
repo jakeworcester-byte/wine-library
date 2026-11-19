@@ -326,44 +326,39 @@
    "color": "red"
   },
   "m-c-lapierre-marcel-lapierre-morgon": {
-   "producer": "M. & C. Lapierre",
-   "name": "Marcel Lapierre Morgon",
-   "short": "M.",
+   "producer": "Domaine Marcel Lapierre",
+   "name": "Morgon",
+   "short": "Lapierre",
    "region": "Morgon, Beaujolais",
-   "color": "red",
-   "provisional": true
+   "color": "red"
   },
   "jean-foillard-morgon-cote-du-py": {
    "producer": "Jean Foillard",
    "name": "Morgon Côte du Py",
-   "short": "Jean",
+   "short": "Foillard",
    "region": "Morgon, Beaujolais",
-   "color": "red",
-   "provisional": true
+   "color": "red"
   },
   "la-rioja-alta-vina-alberdi-reserva-2020": {
    "producer": "La Rioja Alta",
-   "name": "Viña Alberdi Reserva 2020",
-   "short": "La",
-   "region": "Rioja, Spain",
-   "color": "red",
-   "provisional": true
+   "name": "Viña Alberdi Reserva",
+   "short": "Alberdi",
+   "region": "Rioja Alta, Spain",
+   "color": "red"
   },
   "domaine-eden-cabernet-sauvignon": {
    "producer": "Domaine Eden",
    "name": "Cabernet Sauvignon",
-   "short": "Domaine",
+   "short": "Eden Cab",
    "region": "Santa Cruz Mountains",
-   "color": "red",
-   "provisional": true
+   "color": "red"
   },
   "bonanza-wagner-family-bonanza-the-vinekeeper-cabernet-sauvig": {
-   "producer": "Bonanza (Wagner Family)",
-   "name": "Bonanza The Vinekeeper Cabernet Sauvignon",
-   "short": "Bonanza",
+   "producer": "Bonanza",
+   "name": "The Vinekeeper Cabernet Sauvignon",
+   "short": "Vinekeeper",
    "region": "Napa Valley",
-   "color": "red",
-   "provisional": true
+   "color": "red"
   }
  },
  "rows": {
