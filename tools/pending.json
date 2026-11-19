@@ -1,45 +1,4 @@
 {
- "newWines": [
-  {
-   "slug": "m-c-lapierre-marcel-lapierre-morgon",
-   "notionIds": [
-    "41d3eda98b2781229521d997e2d43a53"
-   ],
-   "producer": "M. & C. Lapierre",
-   "name": "Marcel Lapierre Morgon"
-  },
-  {
-   "slug": "jean-foillard-morgon-cote-du-py",
-   "notionIds": [
-    "41d3eda98b278127afb2fab7a39a7e3a"
-   ],
-   "producer": "Jean Foillard",
-   "name": "Morgon Côte du Py"
-  },
-  {
-   "slug": "la-rioja-alta-vina-alberdi-reserva-2020",
-   "notionIds": [
-    "3fa3eda98b278142a795cd40d80a8124"
-   ],
-   "producer": "La Rioja Alta",
-   "name": "Viña Alberdi Reserva 2020"
-  },
-  {
-   "slug": "domaine-eden-cabernet-sauvignon",
-   "notionIds": [
-    "3cc3eda98b27817fa945cf6cdb29a177"
-   ],
-   "producer": "Domaine Eden",
-   "name": "Cabernet Sauvignon"
-  },
-  {
-   "slug": "bonanza-wagner-family-bonanza-the-vinekeeper-cabernet-sauvig",
-   "notionIds": [
-    "3cc3eda98b2781c4aafdeff63bc998d4"
-   ],
-   "producer": "Bonanza (Wagner Family)",
-   "name": "Bonanza The Vinekeeper Cabernet Sauvignon"
-  }
- ],
+ "newWines": [],
  "needsGuestNote": []
 }
