@@ -185,6 +185,29 @@
     }
    ]
   },
+  "sherwin-cellar-scraps": {
+   "producer": "Sherwin Family Vineyards",
+   "name": "Cellar Scraps",
+   "short": "Scraps",
+   "region": "Spring Mountain District, Napa Valley",
+   "color": "red",
+   "vintages": {
+    "NV (Lot 20)": {
+     "location": "UP",
+     "onHand": 5,
+     "category": "Steak Saturday",
+     "window": "Now-2029",
+     "peak": null,
+     "jakeNote": "The next lot of a repeat favorite. Lot 19 never let me down, so I stocked up on this one."
+    }
+   },
+   "otherScores": [
+    {
+     "vintage": "NV (Lot 19)",
+     "score": "92-94"
+    }
+   ]
+  },
   "sherwin-estate-cabernet": {
    "producer": "Sherwin Family Vineyards",
    "name": "Estate Cabernet Sauvignon",
@@ -207,6 +230,14 @@
      "peak": "2032-2038",
      "jakeScore": "95-97",
      "jakeNote": "Tasted at the winery on Spring Mountain in August 2026. All estate fruit, and the bottle that put Spring Mountain on my short list alongside Howell Mountain and Mount Veeder."
+    },
+    "2024": {
+     "location": "C5, C6, C7",
+     "onHand": 3,
+     "category": "Steak Saturday",
+     "window": "2030-2043",
+     "peak": "2033-2039",
+     "jakeNote": "The newest release of the Spring Mountain Cab that put Sherwin on my short list. Not opened yet, and it will line up nicely next to the 2021 and 2023 someday."
     }
    },
    "otherScores": [
@@ -808,6 +839,40 @@
      "peak": null,
      "jakeScore": "90-92",
      "jakeNote": "Held steady over a couple of hours and had enough structure that it could have stood up to beef. A weeknight bottle I'll keep restocking."
+    }
+   }
+  },
+  "sherwin-family-sherwin-rose": {
+   "producer": "Sherwin Family",
+   "name": "Sherwin Rosé",
+   "short": "Sherwin",
+   "region": "Spring Mountain, Napa",
+   "color": "white",
+   "vintages": {
+    "2025": {
+     "location": "FR",
+     "onHand": 2,
+     "category": "White",
+     "window": "Now-2027",
+     "peak": null,
+     "jakeNote": "A Spring Mountain rosé from my longest-running wine club. Not opened yet."
+    }
+   }
+  },
+  "sherwin-family-sherwin-estate-cabernet-franc-spring-mountain": {
+   "producer": "Sherwin Family",
+   "name": "Sherwin Estate Cabernet Franc (Spring Mountain)",
+   "short": "Sherwin",
+   "region": "Spring Mountain, Napa",
+   "color": "red",
+   "vintages": {
+    "2022": {
+     "location": "G3, G4",
+     "onHand": 2,
+     "category": "Exploratory",
+     "window": "2026-2034",
+     "peak": "2028-2032",
+     "jakeNote": "Cab Franc is where I am branching out, and Spring Mountain fruit should give this one real structure. Not opened yet."
     }
    }
   }

@@ -359,6 +359,22 @@
    "short": "Vinekeeper",
    "region": "Napa Valley",
    "color": "red"
+  },
+  "sherwin-family-sherwin-rose": {
+   "producer": "Sherwin Family",
+   "name": "Sherwin Rosé",
+   "short": "Sherwin",
+   "region": "Spring Mountain, Napa",
+   "color": "white",
+   "provisional": true
+  },
+  "sherwin-family-sherwin-estate-cabernet-franc-spring-mountain": {
+   "producer": "Sherwin Family",
+   "name": "Sherwin Estate Cabernet Franc (Spring Mountain)",
+   "short": "Sherwin",
+   "region": "Spring Mountain, Napa",
+   "color": "red",
+   "provisional": true
   }
  },
  "rows": {
@@ -571,6 +587,18 @@
   },
   "3cc3eda98b2781c4aafdeff63bc998d4": {
    "slug": "bonanza-wagner-family-bonanza-the-vinekeeper-cabernet-sauvig"
+  },
+  "41e3eda98b27812d8fb6d3ca37ac0c05": {
+   "slug": "sherwin-estate-cabernet"
+  },
+  "41e3eda98b27813c88c9d5ea392d716c": {
+   "slug": "sherwin-family-sherwin-rose"
+  },
+  "41e3eda98b278163883ac1a4edb88819": {
+   "slug": "sherwin-family-sherwin-estate-cabernet-franc-spring-mountain"
+  },
+  "41e3eda98b278175ad18fb2850fe189a": {
+   "slug": "sherwin-cellar-scraps"
   }
  },
  "palate": {

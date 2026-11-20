@@ -26,6 +26,9 @@
    "C2": "sherwin-estate-cabernet-2023",
    "C3": "sherwin-estate-cabernet-2023",
    "C4": "sherwin-estate-cabernet-2023",
+   "C5": "sherwin-estate-cabernet-2024",
+   "C6": "sherwin-estate-cabernet-2024",
+   "C7": "sherwin-estate-cabernet-2024",
    "C8": "dakota-shy-atlas-cabernet-sauvignon-2021",
    "C9": "dakota-shy-atlas-cabernet-sauvignon-2021",
    "D1": "gruaud-larose-2019",
@@ -57,6 +60,8 @@
    "F9": "viader-proprietary-red-2019",
    "G1": "spence-studio-cabernet-franc-2023",
    "G2": "spence-studio-cabernet-franc-2023",
+   "G3": "sherwin-family-sherwin-estate-cabernet-franc-spring-mountain-2022",
+   "G4": "sherwin-family-sherwin-estate-cabernet-franc-spring-mountain-2022",
    "G5": "amizetta-cabernet-sauvignon-2022",
    "G6": "amizetta-complexity-2022",
    "G7": "amizetta-complexity-2022",
@@ -74,6 +79,10 @@
    {
     "id": "decoy-cabernet-2022",
     "n": 1
+   },
+   {
+    "id": "sherwin-cellar-scraps-nv-lot-20",
+    "n": 5
    },
    {
     "id": "hall-ranch-reserve-cabernet-2021",
@@ -136,6 +145,10 @@
    {
     "id": "o-shaughnessy-children-s-garden-sauvignon-blanc-2024",
     "n": 1
+   },
+   {
+    "id": "sherwin-family-sherwin-rose-2025",
+    "n": 2
    }
   ]
  },
@@ -709,6 +722,38 @@
    }
   },
   {
+   "id": "sherwin-cellar-scraps-nv-lot-20",
+   "slug": "sherwin-cellar-scraps",
+   "producer": "Sherwin Family Vineyards",
+   "name": "Cellar Scraps",
+   "short": "Scraps",
+   "vintage": "NV (Lot 20)",
+   "region": "Spring Mountain District, Napa Valley",
+   "color": "red",
+   "tags": [],
+   "category": "Steak Saturday",
+   "onHand": 5,
+   "locations": [
+    "UP"
+   ],
+   "window": "Now-2029",
+   "peak": null,
+   "jakeScore": null,
+   "jakeNote": "The next lot of a repeat favorite. Lot 19 never let me down, so I stocked up on this one.",
+   "flag": null,
+   "otherScores": [
+    {
+     "vintage": "NV (Lot 19)",
+     "score": "92-94"
+    }
+   ],
+   "image": "images/web/sherwin-cellar-scraps.webp",
+   "imageSource": "https://www.vivino.com/en/sherwin-family-vineyards-cellar-scraps-platinum-reserve/w/5937987",
+   "blend": "Cabernet Sauvignon, Petite Sirah, Cabernet Franc and Merlot from Spring Mountain and Calistoga; mostly 2023 with some 2022",
+   "about": "Cellar Scraps began as a home for small lots left over from Sherwin's estate wines and has grown into their most popular bottling, a numbered multi-vintage blend with a loyal following of self-described Cellar Scrappers.",
+   "web": null
+  },
+  {
    "id": "sherwin-estate-cabernet-2021",
    "slug": "sherwin-estate-cabernet",
    "producer": "Sherwin Family Vineyards",
@@ -785,6 +830,40 @@
     "sourceUrl": "https://www.sherwinfamilyvineyards.com/product/detail/2021-estate-cabernet-sauvignon/",
     "blend": "Estate Cabernet Sauvignon (the 2022 was 100% Cabernet Sauvignon)"
    }
+  },
+  {
+   "id": "sherwin-estate-cabernet-2024",
+   "slug": "sherwin-estate-cabernet",
+   "producer": "Sherwin Family Vineyards",
+   "name": "Estate Cabernet Sauvignon",
+   "short": "Sherwin",
+   "vintage": "2024",
+   "region": "Spring Mountain District, Napa Valley",
+   "color": "red",
+   "tags": [],
+   "category": "Steak Saturday",
+   "onHand": 3,
+   "locations": [
+    "C5",
+    "C6",
+    "C7"
+   ],
+   "window": "2030-2043",
+   "peak": "2033-2039",
+   "jakeScore": null,
+   "jakeNote": "The newest release of the Spring Mountain Cab that put Sherwin on my short list. Not opened yet, and it will line up nicely next to the 2021 and 2023 someday.",
+   "flag": null,
+   "otherScores": [
+    {
+     "vintage": "2023",
+     "score": "95-97"
+    }
+   ],
+   "image": "images/web/sherwin-estate-cabernet.webp",
+   "imageSource": "https://www.vivino.com/US/en/sherwin-family-vineyards-estate-cabernet-sauvignon/w/2073887",
+   "blend": "Cabernet Sauvignon led (2021: 82% Cabernet Sauvignon, 9% Merlot, 9% Cabernet Franc; 2022: 100% Cabernet Sauvignon), 22 months in new French oak",
+   "about": "The Sherwin family farms about 16 acres of vines on volcanic soils near the top of Spring Mountain above St. Helena, and the 2021 marked their return after the 2020 Glass Fire cost them two vintages.",
+   "web": null
   },
   {
    "id": "taplin-cabernet-2018",
@@ -2101,6 +2180,61 @@
     "sourceName": "The Liquor Store and Wooden Cork retailer notes",
     "sourceUrl": "https://theliquorstore.com/products/bonanza-the-vinekeeper-napa-cabernet-sauvignon-lot-1"
    }
+  },
+  {
+   "id": "sherwin-family-sherwin-rose-2025",
+   "slug": "sherwin-family-sherwin-rose",
+   "producer": "Sherwin Family",
+   "name": "Sherwin Rosé",
+   "short": "Sherwin",
+   "vintage": "2025",
+   "region": "Spring Mountain, Napa",
+   "color": "white",
+   "tags": [],
+   "category": "White",
+   "onHand": 2,
+   "locations": [
+    "FR"
+   ],
+   "window": "Now-2027",
+   "peak": null,
+   "jakeScore": null,
+   "jakeNote": "A Spring Mountain rosé from my longest-running wine club. Not opened yet.",
+   "flag": null,
+   "otherScores": [],
+   "image": null,
+   "imageSource": null,
+   "blend": null,
+   "about": null,
+   "web": null
+  },
+  {
+   "id": "sherwin-family-sherwin-estate-cabernet-franc-spring-mountain-2022",
+   "slug": "sherwin-family-sherwin-estate-cabernet-franc-spring-mountain",
+   "producer": "Sherwin Family",
+   "name": "Sherwin Estate Cabernet Franc (Spring Mountain)",
+   "short": "Sherwin",
+   "vintage": "2022",
+   "region": "Spring Mountain, Napa",
+   "color": "red",
+   "tags": [],
+   "category": "Exploratory",
+   "onHand": 2,
+   "locations": [
+    "G3",
+    "G4"
+   ],
+   "window": "2026-2034",
+   "peak": "2028-2032",
+   "jakeScore": null,
+   "jakeNote": "Cab Franc is where I am branching out, and Spring Mountain fruit should give this one real structure. Not opened yet.",
+   "flag": null,
+   "otherScores": [],
+   "image": null,
+   "imageSource": null,
+   "blend": null,
+   "about": null,
+   "web": null
   }
  ]
 }
