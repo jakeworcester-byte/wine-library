@@ -361,20 +361,18 @@
    "color": "red"
   },
   "sherwin-family-sherwin-rose": {
-   "producer": "Sherwin Family",
-   "name": "Sherwin Rosé",
-   "short": "Sherwin",
-   "region": "Spring Mountain, Napa",
-   "color": "white",
-   "provisional": true
+   "producer": "Sherwin Family Vineyards",
+   "name": "Rosé",
+   "short": "Sherwin Rosé",
+   "region": "Spring Mountain District, Napa Valley",
+   "color": "white"
   },
   "sherwin-family-sherwin-estate-cabernet-franc-spring-mountain": {
-   "producer": "Sherwin Family",
-   "name": "Sherwin Estate Cabernet Franc (Spring Mountain)",
-   "short": "Sherwin",
-   "region": "Spring Mountain, Napa",
-   "color": "red",
-   "provisional": true
+   "producer": "Sherwin Family Vineyards",
+   "name": "Estate Cabernet Franc",
+   "short": "Sherwin CF",
+   "region": "Spring Mountain District, Napa Valley",
+   "color": "red"
   }
  },
  "rows": {
