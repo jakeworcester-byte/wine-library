@@ -1,21 +1,4 @@
 {
- "newWines": [
-  {
-   "slug": "sherwin-family-sherwin-rose",
-   "notionIds": [
-    "41e3eda98b27813c88c9d5ea392d716c"
-   ],
-   "producer": "Sherwin Family",
-   "name": "Sherwin Rosé"
-  },
-  {
-   "slug": "sherwin-family-sherwin-estate-cabernet-franc-spring-mountain",
-   "notionIds": [
-    "41e3eda98b278163883ac1a4edb88819"
-   ],
-   "producer": "Sherwin Family",
-   "name": "Sherwin Estate Cabernet Franc (Spring Mountain)"
-  }
- ],
+ "newWines": [],
  "needsGuestNote": []
 }
