@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19",
+ "updated": "2026-11-20",
  "rack": {
   "rows": 8,
   "cols": 9,
@@ -109,7 +109,7 @@
    },
    {
     "id": "la-rioja-alta-vina-alberdi-reserva-2020-2020",
-    "n": 2
+    "n": 1
    },
    {
     "id": "domaine-eden-cabernet-sauvignon-2019",
@@ -2013,14 +2013,14 @@
    "color": "red",
    "tags": [],
    "category": "Tuesday Night",
-   "onHand": 2,
+   "onHand": 1,
    "locations": [
     "UP"
    ],
    "window": "Now-2028",
    "peak": null,
    "jakeScore": "91-93",
-   "jakeNote": "Earthy and leathery with more body than I expected from a Rioja at this level. Had it as a pre-dinner glass and it was the best red on the list.",
+   "jakeNote": "Earthy and leathery with more body than I expected from a Rioja at this level. Great on its own as a sipper, and it held up nicely with red-sauce pizza.",
    "flag": null,
    "otherScores": [],
    "image": null,

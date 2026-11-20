@@ -1,6 +1,6 @@
 {
  "_about": "Guest-safe snapshot of the Notion Wine Library (On Hand > 0). No prices, sources, or working notes. Refresh by re-querying Notion and editing this file, then run tools/build.py.",
- "snapshotDate": "2026-11-19",
+ "snapshotDate": "2026-11-20",
  "wines": {
   "chappellet-napa-cabernet": {
    "producer": "Chappellet",
@@ -766,12 +766,12 @@
    "vintages": {
     "2020": {
      "location": "UP",
-     "onHand": 2,
+     "onHand": 1,
      "category": "Tuesday Night",
      "window": "Now-2028",
      "peak": null,
      "jakeScore": "91-93",
-     "jakeNote": "Earthy and leathery with more body than I expected from a Rioja at this level. Had it as a pre-dinner glass and it was the best red on the list."
+     "jakeNote": "Earthy and leathery with more body than I expected from a Rioja at this level. Great on its own as a sipper, and it held up nicely with red-sauce pizza."
     }
    }
   },
