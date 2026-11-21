@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20",
+ "updated": "2026-11-21",
  "rack": {
   "rows": 8,
   "cols": 9,
@@ -65,7 +65,6 @@
    "G5": "amizetta-cabernet-sauvignon-2022",
    "G6": "amizetta-complexity-2022",
    "G7": "amizetta-complexity-2022",
-   "G8": "amizetta-cabernet-franc-2023",
    "G9": "amizetta-reserve-cabernet-sauvignon-2023",
    "H1": "taplin-terra-9-2019",
    "H2": "taplin-terra-9-2019",
@@ -1834,39 +1833,6 @@
     "critic": null,
     "sourceName": "Napa Wine Project",
     "sourceUrl": "https://napawineproject.com/"
-   }
-  },
-  {
-   "id": "amizetta-cabernet-franc-2023",
-   "slug": "amizetta-cabernet-franc",
-   "producer": "Amizetta",
-   "name": "Cabernet Franc",
-   "short": "Amz Franc",
-   "vintage": "2023",
-   "region": "Napa Valley (Conn Valley hillside, base of Howell Mountain)",
-   "color": "red",
-   "tags": [],
-   "category": "Exploratory",
-   "onHand": 1,
-   "locations": [
-    "G8"
-   ],
-   "window": "2026-2031",
-   "peak": "2027-2030",
-   "jakeScore": null,
-   "jakeNote": null,
-   "flag": null,
-   "otherScores": [],
-   "image": "images/web/amizetta-cabernet-franc.webp",
-   "imageSource": "https://www.tastings.com/Wine-Review/Amizetta-Vineyards-2021-Cabernet-Franc-Napa-Valley-USA-03-03-2024.aspx",
-   "blend": "Cabernet Franc, Napa Valley",
-   "about": "Cabernet Franc is a small production bottling from the Conn Valley estate. Amizetta is a family estate on a steep, terraced hillside in Conn Valley, Napa, at the base of Howell Mountain, farmed at low yields.",
-   "web": {
-    "note": "The 2021 offers milk chocolate, baked and black cherry, florals, leather and green herbs. Tannins are well integrated and the oak moderate, making it a Cabernet Franc to drink in its youth.",
-    "noteVintage": "2021",
-    "critic": null,
-    "sourceName": "Tastings.com",
-    "sourceUrl": "https://tastings.com/Wine-Review/Amizetta-Vineyards-2021-Merlot-Napa-Valley-USA-03-03-2024.aspx"
    }
   },
   {
