@@ -543,5 +543,19 @@
     "sourceUrl": "https://theliquorstore.com/products/bonanza-the-vinekeeper-napa-cabernet-sauvignon-lot-1"
    }
   }
+ },
+ "sherwin-family-sherwin-rose": {
+  "image": null,
+  "blend": "100% Cabernet Sauvignon, Napa Valley",
+  "about": "A Cabernet-based rosé from Sherwin Family Vineyards, the small family estate on Spring Mountain, made by Matt Sherwin.",
+  "vintages": {
+   "2025": {
+    "note": "A pink, spring-style rosé built on Cabernet Sauvignon, with ripe strawberry and a hint of passion fruit. Fermented in stainless steel, it stays crisp and refreshing, with a bit of structure from the red grape underneath.",
+    "noteVintage": "2025",
+    "critic": null,
+    "sourceName": "Sherwin Family Vineyards",
+    "sourceUrl": "https://sherwinfamilyvineyards.com/product/detail/2025-rose/"
+   }
+  }
  }
 }
