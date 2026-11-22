@@ -300,14 +300,14 @@
      "jakeNote": "A clear step up from the 2021 (92-94), with a noticeably different profile."
     },
     "2022": {
-     "location": "F4",
+     "location": "H5",
      "onHand": 1,
      "category": "Steak Saturday",
      "window": "2027-2034",
      "peak": "2029-2032"
     },
     "2023": {
-     "location": "F5, F6, F7",
+     "location": "F4, F5, F6",
      "onHand": 3,
      "category": "Steak Saturday",
      "window": "2028-2036",
@@ -396,14 +396,14 @@
    "color": "red",
    "vintages": {
     "2017": {
-     "location": "F8",
+     "location": "H6",
      "onHand": 1,
      "category": "Steak Saturday",
      "window": "2026-2032",
      "peak": "2027-2030"
     },
     "2019": {
-     "location": "F9",
+     "location": "H7",
      "onHand": 1,
      "category": "Steak Saturday",
      "window": "2027-2036",
@@ -425,7 +425,7 @@
    "color": "red",
    "vintages": {
     "2020": {
-     "location": "H5",
+     "location": "G8",
      "onHand": 1,
      "category": "Steak Saturday",
      "window": "2027-2033",
@@ -857,6 +857,23 @@
      "window": "2026-2034",
      "peak": "2028-2032",
      "jakeNote": "Cab Franc is where I am branching out, and Spring Mountain fruit should give this one real structure. Not opened yet."
+    }
+   }
+  },
+  "taplin-cellars-taplin-ghost-creek-vineyard-cabernet-sauvigno": {
+   "producer": "Taplin Cellars",
+   "name": "Taplin Ghost Creek Vineyard Cabernet Sauvignon",
+   "short": "Taplin",
+   "region": "Napa Valley",
+   "color": "red",
+   "vintages": {
+    "2023": {
+     "location": "F7, F8, F9",
+     "onHand": 3,
+     "category": "Steak Saturday",
+     "window": "2029-2041",
+     "peak": "2032-2038",
+     "jakeNote": "A single-vineyard Cab from Taplin, one of the few valley-floor producers that keeps winning me over. Bought to see how it stacks up against their flagship."
     }
    }
   }

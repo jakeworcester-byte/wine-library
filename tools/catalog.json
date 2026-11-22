@@ -373,6 +373,14 @@
    "short": "Sherwin CF",
    "region": "Spring Mountain District, Napa Valley",
    "color": "red"
+  },
+  "taplin-cellars-taplin-ghost-creek-vineyard-cabernet-sauvigno": {
+   "producer": "Taplin Cellars",
+   "name": "Taplin Ghost Creek Vineyard Cabernet Sauvignon",
+   "short": "Taplin",
+   "region": "Napa Valley",
+   "color": "red",
+   "provisional": true
   }
  },
  "rows": {
@@ -597,6 +605,9 @@
   },
   "41e3eda98b278175ad18fb2850fe189a": {
    "slug": "sherwin-cellar-scraps"
+  },
+  "4203eda98b2781bb9c6dd5a785034845": {
+   "slug": "taplin-cellars-taplin-ghost-creek-vineyard-cabernet-sauvigno"
   }
  },
  "palate": {

@@ -1,4 +1,13 @@
 {
- "newWines": [],
+ "newWines": [
+  {
+   "slug": "taplin-cellars-taplin-ghost-creek-vineyard-cabernet-sauvigno",
+   "notionIds": [
+    "4203eda98b2781bb9c6dd5a785034845"
+   ],
+   "producer": "Taplin Cellars",
+   "name": "Taplin Ghost Creek Vineyard Cabernet Sauvignon"
+  }
+ ],
  "needsGuestNote": []
 }
