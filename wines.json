@@ -2215,10 +2215,10 @@
    "id": "taplin-cellars-taplin-ghost-creek-vineyard-cabernet-sauvigno-2023",
    "slug": "taplin-cellars-taplin-ghost-creek-vineyard-cabernet-sauvigno",
    "producer": "Taplin Cellars",
-   "name": "Taplin Ghost Creek Vineyard Cabernet Sauvignon",
-   "short": "Taplin",
+   "name": "Ghost Creek Vineyard Cabernet Sauvignon",
+   "short": "Taplin Ghost",
    "vintage": "2023",
-   "region": "Napa Valley",
+   "region": "St. Helena, Napa Valley",
    "color": "red",
    "tags": [],
    "category": "Steak Saturday",
@@ -2236,9 +2236,15 @@
    "otherScores": [],
    "image": null,
    "imageSource": null,
-   "blend": null,
-   "about": null,
-   "web": null
+   "blend": "100% Cabernet Sauvignon, single block, St. Helena, Napa Valley",
+   "about": "Ghost Creek is Taplin Cellars' single-vineyard Cabernet from a St. Helena block, made as a separate bottling from the estate flagship.",
+   "web": {
+    "note": "Dark and inky in the glass, the 2023 leans on ripe black fruit, chocolate and baking spice from a fully new oak regimen. Winemaker Julien Fayard picks a single St. Helena block each year, and this cooler season reads slightly less ripe than 2022.",
+    "noteVintage": "2023",
+    "critic": null,
+    "sourceName": "ACME Fine Wines and The Napa Wine Project",
+    "sourceUrl": "https://acmefinewines.com/product/detail/A012382"
+   }
   }
  ]
 }

@@ -862,9 +862,9 @@
   },
   "taplin-cellars-taplin-ghost-creek-vineyard-cabernet-sauvigno": {
    "producer": "Taplin Cellars",
-   "name": "Taplin Ghost Creek Vineyard Cabernet Sauvignon",
-   "short": "Taplin",
-   "region": "Napa Valley",
+   "name": "Ghost Creek Vineyard Cabernet Sauvignon",
+   "short": "Taplin Ghost",
+   "region": "St. Helena, Napa Valley",
    "color": "red",
    "vintages": {
     "2023": {
