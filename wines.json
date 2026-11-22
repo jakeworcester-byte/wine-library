@@ -55,9 +55,9 @@
    "F4": "taplin-terra-9-2023",
    "F5": "taplin-terra-9-2023",
    "F6": "taplin-terra-9-2023",
-   "F7": "taplin-cellars-taplin-ghost-creek-vineyard-cabernet-sauvigno-2023",
-   "F8": "taplin-cellars-taplin-ghost-creek-vineyard-cabernet-sauvigno-2023",
-   "F9": "taplin-cellars-taplin-ghost-creek-vineyard-cabernet-sauvigno-2023",
+   "F7": "taplin-cabernet-2023",
+   "F8": "taplin-cabernet-2023",
+   "F9": "taplin-cabernet-2023",
    "G1": "spence-studio-cabernet-franc-2023",
    "G2": "spence-studio-cabernet-franc-2023",
    "G3": "sherwin-family-sherwin-estate-cabernet-franc-spring-mountain-2022",
@@ -979,6 +979,46 @@
     "critic": null,
     "sourceName": "Taplin Cellars winemaker's notes (online shop)",
     "sourceUrl": "https://taplincellars.com/product/2022-taplin-cabernet-sauvignon/"
+   }
+  },
+  {
+   "id": "taplin-cabernet-2023",
+   "slug": "taplin-cabernet",
+   "producer": "Taplin Cellars",
+   "name": "Estate Cabernet Sauvignon",
+   "short": "Taplin Cab",
+   "vintage": "2023",
+   "region": "St. Helena, Napa Valley",
+   "color": "red",
+   "tags": [],
+   "category": "Steak Saturday",
+   "onHand": 3,
+   "locations": [
+    "F7",
+    "F8",
+    "F9"
+   ],
+   "window": "2029-2041",
+   "peak": "2032-2038",
+   "jakeScore": null,
+   "jakeNote": "A single-vineyard Cab from Taplin, one of the few valley-floor producers that keeps winning me over. Bought to see how it stacks up against their flagship.",
+   "flag": null,
+   "otherScores": [
+    {
+     "vintage": "2016",
+     "score": "97-98"
+    }
+   ],
+   "image": "images/web/taplin-cabernet.webp",
+   "imageSource": "https://taplincellars.com/product/2022-taplin-cabernet-sauvignon/",
+   "blend": "100% Cabernet Sauvignon, estate grown (now bottled as the Ghost Creek Vineyard), aged 22 to 24 months in new French oak",
+   "about": "The Taplin family has farmed this land on St. Helena's west bench, at the foot of the Mayacamas Mountains, since 1871, and their flagship Cabernet comes from the estate's rockiest, gravel-rich vineyard block.",
+   "web": {
+    "note": "Dark and inky in the glass, the 2023 leans on ripe black fruit, chocolate and baking spice from a fully new oak regimen. Winemaker Julien Fayard picks a single St. Helena block each year, and this cooler season reads slightly less ripe than 2022.",
+    "noteVintage": "2023",
+    "critic": null,
+    "sourceName": "ACME Fine Wines and The Napa Wine Project",
+    "sourceUrl": "https://acmefinewines.com/product/detail/A012382"
    }
   },
   {
@@ -2210,41 +2250,6 @@
    "blend": null,
    "about": null,
    "web": null
-  },
-  {
-   "id": "taplin-cellars-taplin-ghost-creek-vineyard-cabernet-sauvigno-2023",
-   "slug": "taplin-cellars-taplin-ghost-creek-vineyard-cabernet-sauvigno",
-   "producer": "Taplin Cellars",
-   "name": "Ghost Creek Vineyard Cabernet Sauvignon",
-   "short": "Taplin Ghost",
-   "vintage": "2023",
-   "region": "St. Helena, Napa Valley",
-   "color": "red",
-   "tags": [],
-   "category": "Steak Saturday",
-   "onHand": 3,
-   "locations": [
-    "F7",
-    "F8",
-    "F9"
-   ],
-   "window": "2029-2041",
-   "peak": "2032-2038",
-   "jakeScore": null,
-   "jakeNote": "A single-vineyard Cab from Taplin, one of the few valley-floor producers that keeps winning me over. Bought to see how it stacks up against their flagship.",
-   "flag": null,
-   "otherScores": [],
-   "image": null,
-   "imageSource": null,
-   "blend": "100% Cabernet Sauvignon, single block, St. Helena, Napa Valley",
-   "about": "Ghost Creek is Taplin Cellars' single-vineyard Cabernet from a St. Helena block, made as a separate bottling from the estate flagship.",
-   "web": {
-    "note": "Dark and inky in the glass, the 2023 leans on ripe black fruit, chocolate and baking spice from a fully new oak regimen. Winemaker Julien Fayard picks a single St. Helena block each year, and this cooler season reads slightly less ripe than 2022.",
-    "noteVintage": "2023",
-    "critic": null,
-    "sourceName": "ACME Fine Wines and The Napa Wine Project",
-    "sourceUrl": "https://acmefinewines.com/product/detail/A012382"
-   }
   }
  ]
 }
