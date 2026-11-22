@@ -124,6 +124,7 @@ def main():
     for path in sorted(glob.glob(os.path.join(ROOT, "research", "group-*.json"))):
         research.update(load(path))
 
+    catalog = load(os.path.join(ROOT, "tools", "catalog.json"))
     entries = []
     rack_warnings = []
     for slug, wine in cellar["wines"].items():
@@ -131,21 +132,26 @@ def main():
         if not r:
             print(f"  ! no research for {slug}")
         image = web_image(r.get("image"))
+        # catalog "renameFrom": {"vintage": 2023, "name": "..."} renames that vintage and later
+        rn = (catalog.get("wines", {}).get(slug) or {}).get("renameFrom")
         for vintage, v in wine["vintages"].items():
+            vname = wine["name"]
+            if rn and vintage.isdigit() and int(vintage) >= rn["vintage"]:
+                vname = rn["name"]
             web = (r.get("vintages") or {}).get(vintage)
             if web:
                 web = {k: clean(val) if isinstance(val, str) else val for k, val in web.items()}
             else:
                 print(f"  ! no web note for {slug} {vintage}")
             others = [o for o in wine.get("otherScores", []) if o["vintage"] != vintage]
-            label = f"{wine['producer']} {wine['name']} {vintage}"
+            label = f"{wine['producer']} {vname} {vintage}"
             # A stale Location on an empty row never reaches the map.
             locations = parse_location(v.get("location"), label, rack_warnings) if v["onHand"] > 0 else []
             entries.append({
                 "id": f"{slug}-{vintage}".lower().replace(" ", "-").replace("(", "").replace(")", ""),
                 "slug": slug,
                 "producer": wine["producer"],
-                "name": wine["name"],
+                "name": vname,
                 "short": wine.get("short") or wine["producer"].replace("Château ", "").split()[0],
                 "vintage": vintage,
                 "region": wine["region"],

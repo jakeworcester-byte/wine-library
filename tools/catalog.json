@@ -82,7 +82,11 @@
    "name": "Estate Cabernet Sauvignon",
    "short": "Taplin Cab",
    "region": "St. Helena, Napa Valley",
-   "color": "red"
+   "color": "red",
+   "renameFrom": {
+    "vintage": 2023,
+    "name": "Ghost Creek Vineyard Cabernet Sauvignon"
+   }
   },
   "taplin-terra-9": {
    "producer": "Taplin Cellars",
