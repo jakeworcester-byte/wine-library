@@ -2170,9 +2170,15 @@
    "otherScores": [],
    "image": null,
    "imageSource": null,
-   "blend": null,
-   "about": null,
-   "web": null
+   "blend": "100% Cabernet Sauvignon, Napa Valley",
+   "about": "A Cabernet-based rosé from Sherwin Family Vineyards, the small family estate on Spring Mountain, made by Matt Sherwin.",
+   "web": {
+    "note": "A pink, spring-style rosé built on Cabernet Sauvignon, with ripe strawberry and a hint of passion fruit. Fermented in stainless steel, it stays crisp and refreshing, with a bit of structure from the red grape underneath.",
+    "noteVintage": "2025",
+    "critic": null,
+    "sourceName": "Sherwin Family Vineyards",
+    "sourceUrl": "https://sherwinfamilyvineyards.com/product/detail/2025-rose/"
+   }
   },
   {
    "id": "sherwin-family-sherwin-estate-cabernet-franc-spring-mountain-2022",
