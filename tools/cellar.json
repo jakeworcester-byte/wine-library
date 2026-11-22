@@ -253,6 +253,10 @@
    "short": "Taplin Cab",
    "region": "St. Helena, Napa Valley",
    "color": "red",
+   "renameFrom": {
+    "vintage": 2023,
+    "name": "Ghost Creek Vineyard Cabernet Sauvignon"
+   },
    "vintages": {
     "2018": {
      "location": "D3",
