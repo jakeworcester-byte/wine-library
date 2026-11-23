@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22",
+ "updated": "2026-11-23",
  "rack": {
   "rows": 8,
   "cols": 9,
@@ -36,7 +36,7 @@
    "D3": "taplin-cabernet-2018",
    "D4": "taplin-cabernet-2021",
    "D5": "taplin-cabernet-2022",
-   "D6": "taplin-cabernet-franc-2021",
+   "D6": "taplin-cabernet-franc-2022",
    "D7": "viader-black-label-2021",
    "D8": "viader-black-label-2022",
    "D9": "chappellet-napa-cabernet-2022",
@@ -1147,12 +1147,12 @@
    }
   },
   {
-   "id": "taplin-cabernet-franc-2021",
+   "id": "taplin-cabernet-franc-2022",
    "slug": "taplin-cabernet-franc",
    "producer": "Taplin Cellars",
    "name": "Estate Cabernet Franc",
    "short": "Taplin CF",
-   "vintage": "2021",
+   "vintage": "2022",
    "region": "St. Helena, Napa Valley",
    "color": "red",
    "tags": [],
@@ -1171,13 +1171,7 @@
    "imageSource": "https://taplincellars.com/product/2023-taplin-cabernet-franc/",
    "blend": "100% estate-grown Cabernet Franc, made in very small lots",
    "about": "Taplin planted a small block of Cabernet Franc on its St. Helena estate about a decade ago and first bottled it in 2019; the 2021 was a tiny, club-only release from those first vines.",
-   "web": {
-    "note": "A savory, herb-driven Cabernet Franc with aromas of roasted pepper, tobacco, cedar and dried herbs over dark plum and blackberry, touched with mocha. The palate is rounder and fruitier, with blackberry, black cherry and mulberry alongside dark chocolate and coffee, framed by ripe, softened tannins that make it easy to enjoy.",
-    "noteVintage": "2022",
-    "critic": null,
-    "sourceName": "The Napa Wine Project (review of the 2022 Taplin Cabernet Franc)",
-    "sourceUrl": "https://www.napawineproject.com/taplin-cellars/"
-   }
+   "web": null
   },
   {
    "id": "taplin-sauvignon-blanc-2025",

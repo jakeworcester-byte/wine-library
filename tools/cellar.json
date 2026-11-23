@@ -1,6 +1,6 @@
 {
  "_about": "Guest-safe snapshot of the Notion Wine Library (On Hand > 0). No prices, sources, or working notes. Refresh by re-querying Notion and editing this file, then run tools/build.py.",
- "snapshotDate": "2026-11-22",
+ "snapshotDate": "2026-11-23",
  "wines": {
   "chappellet-napa-cabernet": {
    "producer": "Chappellet",
@@ -344,7 +344,7 @@
    "region": "St. Helena, Napa Valley",
    "color": "red",
    "vintages": {
-    "2021": {
+    "2022": {
      "location": "D6",
      "onHand": 1,
      "category": "Exploratory",
