@@ -706,6 +706,18 @@
   {
    "producer": "Cain Vineyard & Winery",
    "name": "Cain Five",
+   "vintage": "2013",
+   "region": "Spring Mountain District, Napa Valley",
+   "role": "Steak Saturday",
+   "score": null,
+   "tried": true,
+   "onList": false,
+   "verdict": "depends",
+   "take": "Picked this up right after the 2017 won me over at dinner. Cain calls 2013 its most structured Five in decades, and I want to see what 13 years has done to it."
+  },
+  {
+   "producer": "Cain Vineyard & Winery",
+   "name": "Cain Five",
    "vintage": "2017",
    "region": "Spring Mountain District, Napa Valley",
    "role": "Steak Saturday",
@@ -842,5 +854,5 @@
    "pairing": "Spaghetti"
   }
  ],
- "updated": "2026-11-23"
+ "updated": "2026-11-24"
 }
