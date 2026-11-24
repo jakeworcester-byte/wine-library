@@ -76,17 +76,16 @@ jobs:
             -d '{"text": "Started by the Notion sync: tools/pending.json has new work."}' \
             || echo "Could not start the routine; the Sunday run will pick this up."
 
-  publish:
+  # Upload and deploy run as separate jobs (the layout GitHub's own Pages
+  # templates use). When deploy-pages runs in the same job, a split second
+  # after the upload, GitHub sometimes can't see the artifact yet and fails
+  # with 'No artifacts named "github-pages" were found' (actions/deploy-pages#451).
+  build-site:
     needs: sync
     if: needs.sync.outputs.changed == 'true' || github.event_name != 'schedule'
     runs-on: ubuntu-latest
     permissions:
       contents: read
-      pages: write
-      id-token: write
-    environment:
-      name: github-pages
-      url: ${{ steps.deploy.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
         with:
@@ -96,5 +95,26 @@ jobs:
         with:
           path: .
 
+  publish:
+    needs: build-site
+    runs-on: ubuntu-latest
+    permissions:
+      actions: read
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url || steps.deploy-retry.outputs.page_url }}
+    steps:
       - id: deploy
+        uses: actions/deploy-pages@v4
+        continue-on-error: true
+
+      # One retry for the same artifact race, after giving GitHub time to catch up.
+      - name: Wait before retrying
+        if: steps.deploy.outcome == 'failure'
+        run: sleep 45
+
+      - id: deploy-retry
+        if: steps.deploy.outcome == 'failure'
         uses: actions/deploy-pages@v4
