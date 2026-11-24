@@ -421,5 +421,141 @@
     "sourceUrl": "https://tastings.com/Wine-Review/Amizetta-Vineyards-2021-Cabernet-Sauvignon-Napa-Valley-USA-03-03-2024.aspx"
    }
   }
+ },
+ "dakota-shy-atlas-cabernet-sauvignon": {
+  "image": null,
+  "imageSource": null,
+  "blend": "Cabernet Sauvignon from a hillside site in Calistoga, Napa Valley",
+  "about": "Atlas is Dakota Shy's hillside Cabernet from Calistoga, made by a producer whose home base sits at the foot of Pritchard Hill.",
+  "vintages": {
+   "2021": {
+    "note": "A potent, brooding hillside Cabernet built on dark plum, leather and grilled herbs, with graphite, menthol and scorched earth underneath. The palate adds boysenberry and blackberry compote, a hint of anise and dark earth, and a whiff of alder smoke on the finish.",
+    "noteVintage": "2021",
+    "critic": {
+     "critic": "Vinous",
+     "score": "96"
+    },
+    "sourceName": "Vinous, via K&L Wines",
+    "sourceUrl": "https://shop.klwines.com/products/details/2002572"
+   }
+  }
+ },
+ "dakota-shy-switchback-ridge-cabernet-sauvignon": {
+  "image": null,
+  "imageSource": null,
+  "blend": "100% Cabernet Sauvignon, Peterson Family Vineyard, Calistoga",
+  "about": "Dakota Shy's single-vineyard Cabernet from the Peterson Family Vineyard in Calistoga, the same site behind the Switchback Ridge label.",
+  "vintages": {
+   "2023": {
+    "note": "Made entirely from Cabernet Sauvignon and raised about 18 to 20 months in mostly new French oak, this is a dense, black and blue fruited Calistoga Cabernet. Critics have praised the neighboring 2022 for its power and structure, and the cooler 2023 season points to a long life.",
+    "noteVintage": "2022",
+    "critic": {
+     "critic": "Jeb Dunnuck (2022)",
+     "score": "94"
+    },
+    "sourceName": "Jeb Dunnuck, via K&L Wines",
+    "sourceUrl": "https://shop.klwines.com/products/details/2000474"
+   }
+  }
+ },
+ "dakota-shy-oakville-ranch-cabernet-franc": {
+  "image": "images/dakota-shy-oakville-ranch-cabernet-franc.png",
+  "imageSource": "https://www.wineandcheeseplace.com/products/dakota-shy-oakville-ranch-cabernet-franc-2023",
+  "blend": "90% Cabernet Franc, 10% Cabernet Sauvignon, Oakville Ranch, Napa",
+  "about": "Dakota Shy's Cabernet Franc from the hillside Oakville Ranch site, a small-production bottling that sells out quickly.",
+  "vintages": {
+   "2023": {
+    "note": "A mostly Cabernet Franc blend from the hillside Oakville Ranch site, with a touch of Cabernet Sauvignon for backbone. No critic has published on the 2023 yet, so this reflects the producer's house style and a cool vintage rather than a formal review.",
+    "noteVintage": "2023",
+    "critic": null,
+    "sourceName": "Retailer listing (Into Wine)",
+    "sourceUrl": "https://www.intowine.com/reviews/2023-dakota-shy-cabernet-franc-oakville-ranch-vineyards-usa-california-napa-oakville-wine"
+   }
+  }
+ },
+ "m-c-lapierre-marcel-lapierre-morgon": {
+  "image": null,
+  "blend": "100% Gamay, Morgon, Beaujolais",
+  "about": "Domaine Marcel Lapierre is a benchmark natural-wine producer in Morgon, Beaujolais, and this is its flagship village Morgon from organically farmed Gamay.",
+  "vintages": {
+   "2025": {
+    "note": "Semi-carbonic maceration without added sulfur gives this Morgon bright, juicy red fruit and a lifted, savory edge. It spends about nine months in older barrels before bottling, which keeps it fresh and supple with a clean, mineral finish.",
+    "noteVintage": "2025",
+    "critic": null,
+    "sourceName": "Leon & Son Wine (2025 producer notes)",
+    "sourceUrl": "https://leonandsonwine.com/collections/testing/products/2025-domaine-marcel-lapierre-morgon-beaujolais-france"
+   }
+  }
+ },
+ "jean-foillard-morgon-cote-du-py": {
+  "image": null,
+  "blend": "100% Gamay, Côte du Py, Morgon, Beaujolais",
+  "about": "Jean Foillard is one of the original Beaujolais 'Gang of Four' natural-wine pioneers, and Côte du Py is his benchmark Morgon from the slate-rich hillside of the same name.",
+  "vintages": {
+   "2024": {
+    "note": "Bright ruby in color, this Côte du Py is fresh and lively, with cherry, raspberry and red and black fruit alongside black tea, crushed stone and a little lavender. A sprinkle of white pepper carries through a harmonious, energetic finish.",
+    "noteVintage": "2024",
+    "critic": null,
+    "sourceName": "Flatiron Wines (quoting Neal Martin), with Decantalo",
+    "sourceUrl": "https://sf.flatiron-wines.com/products/jean-foillard-morgon-cote-du-py-2024-750ml"
+   }
+  }
+ },
+ "la-rioja-alta-vina-alberdi-reserva-2020": {
+  "image": null,
+  "blend": "100% Tempranillo, Rioja Alta (labeled Crianza in Spain)",
+  "about": "Viña Alberdi is La Rioja Alta's entry to its classic Haro house style, a Tempranillo aged in American oak and often seen as the introduction to the estate.",
+  "vintages": {
+   "2020": {
+    "note": "Classic Rioja Alta character, with strawberry, pomegranate and smoky spice over vanilla and coconut from American oak. Tobacco leaf and a savory hint of dill add interest, and fine tannins lead to a long, creamy finish.",
+    "noteVintage": "2020",
+    "critic": "James Suckling",
+    "score": "93",
+    "sourceName": "La Rioja Alta winery notes, with Natalie MacLean",
+    "sourceUrl": "https://www.nataliemaclean.com/wine-reviews/la-rioja-alta-vina-alberdi-reserva-2020/357745"
+   }
+  }
+ },
+ "domaine-eden-cabernet-sauvignon": {
+  "image": null,
+  "blend": "Predominantly Cabernet Sauvignon, Santa Cruz Mountains",
+  "about": "Domaine Eden is the second label of Mount Eden Vineyards in the Santa Cruz Mountains, made mostly from estate and neighboring mountain-grown Cabernet.",
+  "vintages": {
+   "2019": {
+    "note": "Cool mountain Cabernet with red and black currant, black olive and warm earth, plus a touch of chaparral and iron. Light cedar and toasty oak frame a medium-plus body, with enough acidity to age well over the mid-term.",
+    "noteVintage": "2019",
+    "critic": null,
+    "sourceName": "Wine.com and critic notes",
+    "sourceUrl": "https://www.wine.com/product/domaine-eden-cabernet-sauvignon-2019/2000897"
+   }
+  }
+ },
+ "bonanza-wagner-family-bonanza-the-vinekeeper-cabernet-sauvig": {
+  "image": null,
+  "blend": "Cabernet Sauvignon, Napa Valley",
+  "about": "The Vinekeeper is a Napa Valley Cabernet series from Chuck Wagner of Caymus Vineyards, named for the generations of Wagners who farmed and made wine.",
+  "vintages": {
+   "NV (Lot 1)": {
+    "note": "A polished, fruit-forward Napa Cabernet showing ripe blackberry, plum and cherry with cocoa, vanilla and toasted oak. Fine tannins and firm acidity give it balance, and the finish is long.",
+    "noteVintage": "Lot 1",
+    "critic": null,
+    "sourceName": "The Liquor Store and Wooden Cork retailer notes",
+    "sourceUrl": "https://theliquorstore.com/products/bonanza-the-vinekeeper-napa-cabernet-sauvignon-lot-1"
+   }
+  }
+ },
+ "sherwin-family-sherwin-rose": {
+  "image": null,
+  "blend": "100% Cabernet Sauvignon, Napa Valley",
+  "about": "A Cabernet-based rosé from Sherwin Family Vineyards, the small family estate on Spring Mountain, made by Matt Sherwin.",
+  "vintages": {
+   "2025": {
+    "note": "A pink, spring-style rosé built on Cabernet Sauvignon, with ripe strawberry and a hint of passion fruit. Fermented in stainless steel, it stays crisp and refreshing, with a bit of structure from the red grape underneath.",
+    "noteVintage": "2025",
+    "critic": null,
+    "sourceName": "Sherwin Family Vineyards",
+    "sourceUrl": "https://sherwinfamilyvineyards.com/product/detail/2025-rose/"
+   }
+  }
  }
 }

@@ -82,7 +82,11 @@
    "name": "Estate Cabernet Sauvignon",
    "short": "Taplin Cab",
    "region": "St. Helena, Napa Valley",
-   "color": "red"
+   "color": "red",
+   "renameFrom": {
+    "vintage": 2023,
+    "name": "Ghost Creek Vineyard Cabernet Sauvignon"
+   }
   },
   "taplin-terra-9": {
    "producer": "Taplin Cellars",
@@ -303,6 +307,76 @@
    "short": "Amz Cab",
    "region": "Napa Valley (Conn Valley hillside, base of Howell Mountain)",
    "color": "red"
+  },
+  "dakota-shy-atlas-cabernet-sauvignon": {
+   "producer": "Dakota Shy",
+   "name": "Atlas Cabernet Sauvignon",
+   "short": "Dakota Atlas",
+   "region": "Calistoga, Napa Valley",
+   "color": "red"
+  },
+  "dakota-shy-switchback-ridge-cabernet-sauvignon": {
+   "producer": "Dakota Shy",
+   "name": "Switchback Ridge Cabernet",
+   "short": "Switchback",
+   "region": "Calistoga, Napa Valley",
+   "color": "red"
+  },
+  "dakota-shy-oakville-ranch-cabernet-franc": {
+   "producer": "Dakota Shy",
+   "name": "Oakville Ranch Cab Franc",
+   "short": "Dakota CF",
+   "region": "Oakville, Napa",
+   "color": "red"
+  },
+  "m-c-lapierre-marcel-lapierre-morgon": {
+   "producer": "Domaine Marcel Lapierre",
+   "name": "Morgon",
+   "short": "Lapierre",
+   "region": "Morgon, Beaujolais",
+   "color": "red"
+  },
+  "jean-foillard-morgon-cote-du-py": {
+   "producer": "Jean Foillard",
+   "name": "Morgon Côte du Py",
+   "short": "Foillard",
+   "region": "Morgon, Beaujolais",
+   "color": "red"
+  },
+  "la-rioja-alta-vina-alberdi-reserva-2020": {
+   "producer": "La Rioja Alta",
+   "name": "Viña Alberdi Reserva",
+   "short": "Alberdi",
+   "region": "Rioja Alta, Spain",
+   "color": "red"
+  },
+  "domaine-eden-cabernet-sauvignon": {
+   "producer": "Domaine Eden",
+   "name": "Cabernet Sauvignon",
+   "short": "Eden Cab",
+   "region": "Santa Cruz Mountains",
+   "color": "red"
+  },
+  "bonanza-wagner-family-bonanza-the-vinekeeper-cabernet-sauvig": {
+   "producer": "Bonanza",
+   "name": "The Vinekeeper Cabernet Sauvignon",
+   "short": "Vinekeeper",
+   "region": "Napa Valley",
+   "color": "red"
+  },
+  "sherwin-family-sherwin-rose": {
+   "producer": "Sherwin Family Vineyards",
+   "name": "Rosé",
+   "short": "Sherwin Rosé",
+   "region": "Spring Mountain District, Napa Valley",
+   "color": "white"
+  },
+  "sherwin-family-sherwin-estate-cabernet-franc-spring-mountain": {
+   "producer": "Sherwin Family Vineyards",
+   "name": "Estate Cabernet Franc",
+   "short": "Sherwin CF",
+   "region": "Spring Mountain District, Napa Valley",
+   "color": "red"
   }
  },
  "rows": {
@@ -491,6 +565,45 @@
   },
   "40e3eda98b2781ceb32ecc7ecca14529": {
    "slug": "amizetta-cabernet-sauvignon"
+  },
+  "4193eda98b27811f8bf7e783d7a8a24e": {
+   "slug": "dakota-shy-atlas-cabernet-sauvignon"
+  },
+  "4193eda98b2781ecaf7ac87c3ca1dca8": {
+   "slug": "dakota-shy-switchback-ridge-cabernet-sauvignon"
+  },
+  "3c83eda98b2781babb4fc5fbe7362711": {
+   "slug": "dakota-shy-oakville-ranch-cabernet-franc"
+  },
+  "41d3eda98b2781229521d997e2d43a53": {
+   "slug": "m-c-lapierre-marcel-lapierre-morgon"
+  },
+  "41d3eda98b278127afb2fab7a39a7e3a": {
+   "slug": "jean-foillard-morgon-cote-du-py"
+  },
+  "3fa3eda98b278142a795cd40d80a8124": {
+   "slug": "la-rioja-alta-vina-alberdi-reserva-2020"
+  },
+  "3cc3eda98b27817fa945cf6cdb29a177": {
+   "slug": "domaine-eden-cabernet-sauvignon"
+  },
+  "3cc3eda98b2781c4aafdeff63bc998d4": {
+   "slug": "bonanza-wagner-family-bonanza-the-vinekeeper-cabernet-sauvig"
+  },
+  "41e3eda98b27812d8fb6d3ca37ac0c05": {
+   "slug": "sherwin-estate-cabernet"
+  },
+  "41e3eda98b27813c88c9d5ea392d716c": {
+   "slug": "sherwin-family-sherwin-rose"
+  },
+  "41e3eda98b278163883ac1a4edb88819": {
+   "slug": "sherwin-family-sherwin-estate-cabernet-franc-spring-mountain"
+  },
+  "41e3eda98b278175ad18fb2850fe189a": {
+   "slug": "sherwin-cellar-scraps"
+  },
+  "4203eda98b2781bb9c6dd5a785034845": {
+   "slug": "taplin-cabernet"
   }
  },
  "palate": {

@@ -1,6 +1,6 @@
 {
  "_about": "Guest-safe snapshot of the Notion Wine Library (On Hand > 0). No prices, sources, or working notes. Refresh by re-querying Notion and editing this file, then run tools/build.py.",
- "snapshotDate": "2026-11-06",
+ "snapshotDate": "2026-11-24",
  "wines": {
   "chappellet-napa-cabernet": {
    "producer": "Chappellet",
@@ -185,23 +185,28 @@
     }
    ]
   },
-  "pride-merlot": {
-   "producer": "Pride Mountain Vineyards",
-   "name": "Merlot",
-   "short": "Pride",
-   "region": "Spring Mountain, Napa Valley",
+  "sherwin-cellar-scraps": {
+   "producer": "Sherwin Family Vineyards",
+   "name": "Cellar Scraps",
+   "short": "Scraps",
+   "region": "Spring Mountain District, Napa Valley",
    "color": "red",
    "vintages": {
-    "2020": {
+    "NV (Lot 20)": {
      "location": "UP",
-     "onHand": 1,
-     "category": "Bridge / Pre-Dinner",
-     "window": "Now-2028",
+     "onHand": 5,
+     "category": "Steak Saturday",
+     "window": "Now-2029",
      "peak": null,
-     "jakeScore": "88-90",
-     "jakeNote": "Mountain fruit that reaches about as high as Merlot goes for me. Soft and polished, and a great pour before dinner."
+     "jakeNote": "The next lot of a repeat favorite. Lot 19 never let me down, so I stocked up on this one."
     }
-   }
+   },
+   "otherScores": [
+    {
+     "vintage": "NV (Lot 19)",
+     "score": "92-94"
+    }
+   ]
   },
   "sherwin-estate-cabernet": {
    "producer": "Sherwin Family Vineyards",
@@ -225,6 +230,14 @@
      "peak": "2032-2038",
      "jakeScore": "95-97",
      "jakeNote": "Tasted at the winery on Spring Mountain in August 2026. All estate fruit, and the bottle that put Spring Mountain on my short list alongside Howell Mountain and Mount Veeder."
+    },
+    "2024": {
+     "location": "C5, C6, C7",
+     "onHand": 3,
+     "category": "Steak Saturday",
+     "window": "2030-2043",
+     "peak": "2033-2039",
+     "jakeNote": "The newest release of the Spring Mountain Cab that put Sherwin on my short list. Not opened yet, and it will line up nicely next to the 2021 and 2023 someday."
     }
    },
    "otherScores": [
@@ -240,6 +253,10 @@
    "short": "Taplin Cab",
    "region": "St. Helena, Napa Valley",
    "color": "red",
+   "renameFrom": {
+    "vintage": 2023,
+    "name": "Ghost Creek Vineyard Cabernet Sauvignon"
+   },
    "vintages": {
     "2018": {
      "location": "D3",
@@ -261,6 +278,14 @@
      "category": "Special Occasion",
      "window": "2029-2040",
      "peak": "2032-2037"
+    },
+    "2023": {
+     "location": "F7, F8, F9",
+     "onHand": 3,
+     "category": "Steak Saturday",
+     "window": "2029-2041",
+     "peak": "2032-2038",
+     "jakeNote": "A single-vineyard Cab from Taplin, one of the few valley-floor producers that keeps winning me over. Bought to see how it stacks up against their flagship."
     }
    },
    "otherScores": [
@@ -287,14 +312,14 @@
      "jakeNote": "A clear step up from the 2021 (92-94), with a noticeably different profile."
     },
     "2022": {
-     "location": "F4",
+     "location": "H5",
      "onHand": 1,
      "category": "Steak Saturday",
      "window": "2027-2034",
      "peak": "2029-2032"
     },
     "2023": {
-     "location": "F5, F6, F7",
+     "location": "F4, F5, F6",
      "onHand": 3,
      "category": "Steak Saturday",
      "window": "2028-2036",
@@ -319,10 +344,10 @@
    "region": "St. Helena, Napa Valley",
    "color": "red",
    "vintages": {
-    "2021": {
+    "2022": {
      "location": "D6",
      "onHand": 1,
-     "category": null,
+     "category": "Exploratory",
      "window": "2027-2034",
      "peak": "2028-2032"
     }
@@ -383,14 +408,14 @@
    "color": "red",
    "vintages": {
     "2017": {
-     "location": "F8",
+     "location": "H6",
      "onHand": 1,
      "category": "Steak Saturday",
      "window": "2026-2032",
      "peak": "2027-2030"
     },
     "2019": {
-     "location": "F9",
+     "location": "H7",
      "onHand": 1,
      "category": "Steak Saturday",
      "window": "2027-2036",
@@ -412,43 +437,11 @@
    "color": "red",
    "vintages": {
     "2020": {
-     "location": "G1",
+     "location": "G8",
      "onHand": 1,
      "category": "Steak Saturday",
      "window": "2027-2033",
      "peak": "2028-2031"
-    }
-   }
-  },
-  "marias-legacy-cabernet": {
-   "producer": "Maria's Legacy",
-   "name": "Cabernet Sauvignon",
-   "short": "Maria's",
-   "region": "Chile",
-   "color": "red",
-   "vintages": {
-    "2023": {
-     "location": "UP",
-     "onHand": 1,
-     "category": "Tuesday Night",
-     "window": "2026-2030",
-     "peak": "2027-2029"
-    }
-   }
-  },
-  "renieri-chianti-classico": {
-   "producer": "Tenuta di Renieri",
-   "name": "Chianti Classico",
-   "short": "Renieri",
-   "region": "Chianti Classico, Tuscany",
-   "color": "red",
-   "vintages": {
-    "2023": {
-     "location": "UP",
-     "onHand": 1,
-     "category": "Tuesday Night",
-     "window": "2026-2029",
-     "peak": "2026-2028"
     }
    }
   },
@@ -468,22 +461,6 @@
     }
    }
   },
-  "halos-de-jupiter-cotes-du-rhone": {
-   "producer": "Halos de Jupiter",
-   "name": "Côtes du Rhône",
-   "short": "Halos",
-   "region": "Côtes du Rhône",
-   "color": "red",
-   "vintages": {
-    "2024": {
-     "location": "UP",
-     "onHand": 1,
-     "category": "Tuesday Night",
-     "window": "2026-2029",
-     "peak": "2026-2028"
-    }
-   }
-  },
   "rose-de-vitrac": {
    "producer": "Château La Rose de Vitrac",
    "name": "Bordeaux Rouge",
@@ -493,26 +470,12 @@
    "vintages": {
     "2022": {
      "location": "UP",
-     "onHand": 1,
+     "onHand": 2,
      "category": "Tuesday Night",
      "window": "2026-2031",
-     "peak": "2027-2029"
-    }
-   }
-  },
-  "adegamae-touriga-franca": {
-   "producer": "Adegamãe",
-   "name": "Touriga Franca",
-   "short": "Adegamãe",
-   "region": "Lisboa, Portugal",
-   "color": "red",
-   "vintages": {
-    "2020": {
-     "location": "UP",
-     "onHand": 1,
-     "category": "Tuesday Night",
-     "window": "2026-2030",
-     "peak": "2026-2028"
+     "peak": "2027-2029",
+     "jakeScore": "89-91",
+     "jakeNote": "A really pleasing weeknight Bordeaux that was great with spaghetti. Easy to sip on its own too, and it would make a nice opener before a bigger red."
     }
    }
   },
@@ -588,9 +551,9 @@
    "color": "red",
    "vintages": {
     "2023": {
-     "location": "G2, G3",
+     "location": "G1, G2",
      "onHand": 2,
-     "category": null,
+     "category": "Exploratory",
      "window": "2026-2032",
      "peak": "2027-2030"
     }
@@ -620,7 +583,7 @@
    "color": "red",
    "vintages": {
     "2021": {
-     "location": "H8, H9",
+     "location": "UP",
      "onHand": 2,
      "category": "Exploratory",
      "window": "Now-2029",
@@ -638,11 +601,13 @@
    "color": "red",
    "vintages": {
     "2019": {
-     "location": "H5, H6, H7",
-     "onHand": 3,
-     "category": "Steak Saturday",
+     "location": "H8, H9",
+     "onHand": 2,
+     "category": "Bridge / Pre-Dinner",
      "window": "2026-2031",
-     "peak": "2026-2029"
+     "peak": "2026-2029",
+     "jakeScore": "89-91",
+     "jakeNote": "A really enjoyable bottle, a bit softer and less firm than the mountain Cabs I usually reach for. It held its own with steak, but I'd rather pour it with something a little lighter."
     }
    }
   },
@@ -681,22 +646,6 @@
     }
    }
   },
-  "aia-vecchia-lagone-toscana": {
-   "producer": "Aia Vecchia",
-   "name": "Lagone Toscana",
-   "short": "Lagone",
-   "region": "Toscana IGT",
-   "color": "red",
-   "vintages": {
-    "2023": {
-     "location": "UP",
-     "onHand": 1,
-     "category": "Tuesday Night",
-     "window": "Now-2029",
-     "peak": null
-    }
-   }
-  },
   "amizetta-complexity": {
    "producer": "Amizetta",
    "name": "Complexity",
@@ -730,22 +679,6 @@
     }
    }
   },
-  "amizetta-cabernet-franc": {
-   "producer": "Amizetta",
-   "name": "Cabernet Franc",
-   "short": "Amz Franc",
-   "region": "Napa Valley (Conn Valley hillside, base of Howell Mountain)",
-   "color": "red",
-   "vintages": {
-    "2023": {
-     "location": "G8",
-     "onHand": 1,
-     "category": "Exploratory",
-     "window": "2026-2031",
-     "peak": "2027-2030"
-    }
-   }
-  },
   "amizetta-cabernet-sauvignon": {
    "producer": "Amizetta",
    "name": "Cabernet Sauvignon",
@@ -754,11 +687,188 @@
    "color": "red",
    "vintages": {
     "2022": {
-     "location": "G4, G5",
-     "onHand": 2,
+     "location": "G5",
+     "onHand": 1,
      "category": "Steak Saturday",
      "window": "2026-2032",
-     "peak": "2027-2030"
+     "peak": "2027-2030",
+     "jakeScore": "94-96",
+     "jakeNote": "Smooth and velvety, with real complexity and nice tannins. Not quite the earthy power of an O'Shaughnessy, but I'm a fan. Kept building in the glass."
+    }
+   }
+  },
+  "dakota-shy-atlas-cabernet-sauvignon": {
+   "producer": "Dakota Shy",
+   "name": "Atlas Cabernet Sauvignon",
+   "short": "Dakota Atlas",
+   "region": "Calistoga, Napa Valley",
+   "color": "red",
+   "vintages": {
+    "2021": {
+     "location": "C8, C9",
+     "onHand": 2,
+     "category": "Steak Saturday",
+     "window": "2029-2042",
+     "peak": "2032-2039",
+     "jakeNote": "A brooding hillside Cab from the great 2021 vintage, bought to age.",
+     "flag": "Cellaring for a few more years."
+    }
+   }
+  },
+  "dakota-shy-switchback-ridge-cabernet-sauvignon": {
+   "producer": "Dakota Shy",
+   "name": "Switchback Ridge Cabernet",
+   "short": "Switchback",
+   "region": "Calistoga, Napa Valley",
+   "color": "red",
+   "vintages": {
+    "2023": {
+     "location": "E4, E5, E6",
+     "onHand": 3,
+     "category": "Steak Saturday",
+     "window": "2029-2040",
+     "peak": "2031-2037",
+     "jakeNote": "Single-vineyard Calistoga Cab from Dakota Shy, the producer whose Cab Franc won me over on our August 2026 Napa trip."
+    }
+   }
+  },
+  "dakota-shy-oakville-ranch-cabernet-franc": {
+   "producer": "Dakota Shy",
+   "name": "Oakville Ranch Cab Franc",
+   "short": "Dakota CF",
+   "region": "Oakville, Napa",
+   "color": "red",
+   "vintages": {
+    "2023": {
+     "location": "E7, E8, E9",
+     "onHand": 3,
+     "category": "Steak Saturday",
+     "window": "2027-2035",
+     "peak": "2028-2033",
+     "jakeScore": "93-95",
+     "jakeNote": "Tasted at the winery in August 2026. One of the two Cab Francs that won me over on that trip."
+    }
+   }
+  },
+  "m-c-lapierre-marcel-lapierre-morgon": {
+   "producer": "Domaine Marcel Lapierre",
+   "name": "Morgon",
+   "short": "Lapierre",
+   "region": "Morgon, Beaujolais",
+   "color": "red",
+   "vintages": {
+    "2025": {
+     "location": "UP",
+     "onHand": 1,
+     "category": "Exploratory",
+     "window": "Now-2029",
+     "peak": null,
+     "jakeNote": "Bought alongside a Foillard Morgon to compare two classic Morgon producers at Thanksgiving dinner."
+    }
+   }
+  },
+  "jean-foillard-morgon-cote-du-py": {
+   "producer": "Jean Foillard",
+   "name": "Morgon Côte du Py",
+   "short": "Foillard",
+   "region": "Morgon, Beaujolais",
+   "color": "red",
+   "vintages": {
+    "2024": {
+     "location": "UP",
+     "onHand": 1,
+     "category": "Exploratory",
+     "window": "Now-2030",
+     "peak": "2026-2028",
+     "jakeNote": "My first serious test of Cru Beaujolais, bought to open with Thanksgiving dinner."
+    }
+   }
+  },
+  "la-rioja-alta-vina-alberdi-reserva-2020": {
+   "producer": "La Rioja Alta",
+   "name": "Viña Alberdi Reserva",
+   "short": "Alberdi",
+   "region": "Rioja Alta, Spain",
+   "color": "red",
+   "vintages": {
+    "2020": {
+     "location": "UP",
+     "onHand": 1,
+     "category": "Tuesday Night",
+     "window": "Now-2028",
+     "peak": null,
+     "jakeScore": "91-93",
+     "jakeNote": "Earthy and leathery with more body than I expected from a Rioja at this level. Great on its own as a sipper, and it held up nicely with red-sauce pizza."
+    }
+   }
+  },
+  "domaine-eden-cabernet-sauvignon": {
+   "producer": "Domaine Eden",
+   "name": "Cabernet Sauvignon",
+   "short": "Eden Cab",
+   "region": "Santa Cruz Mountains",
+   "color": "red",
+   "vintages": {
+    "2019": {
+     "location": "UP",
+     "onHand": 1,
+     "category": "Tuesday Night",
+     "window": "2026-2031",
+     "peak": "2027-2030",
+     "jakeScore": "90-92",
+     "jakeNote": "Great with red-sauce pizza. The cooler-climate acidity meets the tomato where a big mountain Cab would fight it."
+    }
+   }
+  },
+  "bonanza-wagner-family-bonanza-the-vinekeeper-cabernet-sauvig": {
+   "producer": "Bonanza",
+   "name": "The Vinekeeper Cabernet Sauvignon",
+   "short": "Vinekeeper",
+   "region": "Napa Valley",
+   "color": "red",
+   "vintages": {
+    "NV (Lot 1)": {
+     "location": "UP",
+     "onHand": 1,
+     "category": "Tuesday Night",
+     "window": "Now-2027",
+     "peak": null,
+     "jakeScore": "90-92",
+     "jakeNote": "Held steady over a couple of hours and had enough structure that it could have stood up to beef. A weeknight bottle I'll keep restocking."
+    }
+   }
+  },
+  "sherwin-family-sherwin-rose": {
+   "producer": "Sherwin Family Vineyards",
+   "name": "Rosé",
+   "short": "Sherwin Rosé",
+   "region": "Spring Mountain District, Napa Valley",
+   "color": "white",
+   "vintages": {
+    "2025": {
+     "location": "FR",
+     "onHand": 2,
+     "category": "White",
+     "window": "Now-2027",
+     "peak": null,
+     "jakeNote": "A Spring Mountain rosé from my longest-running wine club. Not opened yet."
+    }
+   }
+  },
+  "sherwin-family-sherwin-estate-cabernet-franc-spring-mountain": {
+   "producer": "Sherwin Family Vineyards",
+   "name": "Estate Cabernet Franc",
+   "short": "Sherwin CF",
+   "region": "Spring Mountain District, Napa Valley",
+   "color": "red",
+   "vintages": {
+    "2022": {
+     "location": "G3, G4",
+     "onHand": 2,
+     "category": "Exploratory",
+     "window": "2026-2034",
+     "peak": "2028-2032",
+     "jakeNote": "Cab Franc is where I am branching out, and Spring Mountain fruit should give this one real structure. Not opened yet."
     }
    }
   }

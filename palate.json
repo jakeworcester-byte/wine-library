@@ -90,18 +90,6 @@
    "pairing": "Prime ribeye after a three-hour decant"
   },
   {
-   "producer": "Dakota Shy",
-   "name": "Oakville Ranch Cabernet Franc",
-   "vintage": null,
-   "region": "Oakville, Napa",
-   "role": "Steak Saturday",
-   "score": "93-95",
-   "tried": true,
-   "onList": false,
-   "verdict": "buy again",
-   "take": "Tasted at the winery in August 2026. One of the two Cab Francs that won me over on that trip."
-  },
-  {
    "producer": "Davies",
    "name": "Cabernet Sauvignon",
    "vintage": null,
@@ -259,19 +247,6 @@
    "take": "Overdelivers for a weeknight bottle. I'd stock up."
   },
   {
-   "producer": "Domaine Eden",
-   "name": "Cabernet Sauvignon",
-   "vintage": "2019",
-   "region": "Santa Cruz Mountains, California",
-   "role": "Tuesday Night",
-   "score": "90-92",
-   "tried": true,
-   "onList": false,
-   "verdict": "buy again",
-   "take": "Great with red-sauce pizza. The cooler-climate acidity meets the tomato where a big mountain Cab would fight it.",
-   "pairing": "Tomato-sauce pizza"
-  },
-  {
    "producer": "Sequoia Grove",
    "name": "Napa Valley Cabernet",
    "vintage": "2019",
@@ -282,19 +257,6 @@
    "onList": false,
    "verdict": "buy again",
    "take": "Solid Napa structure. A good everyday Cab, not a big-night wine."
-  },
-  {
-   "producer": "Bonanza",
-   "name": "The Vinekeeper Cabernet Sauvignon",
-   "vintage": null,
-   "region": "Napa Valley",
-   "role": "Tuesday Night",
-   "score": "90-92",
-   "tried": true,
-   "onList": true,
-   "verdict": "buy again",
-   "take": "Held steady over a couple of hours and had enough structure that it could have stood up to beef. A weeknight bottle I'll keep restocking.",
-   "pairing": "Pork chops"
   },
   {
    "producer": "Olarra",
@@ -553,7 +515,7 @@
    "score": null,
    "tried": true,
    "onList": false,
-   "verdict": "not for me",
+   "verdict": "depends",
    "take": "Visited on the August 2026 trip as the first stop the morning after a big night. Too much sweet oak for my taste that day, but I brought a few bottles home to give it a fairer second look."
   },
   {
@@ -692,6 +654,44 @@
    "take": "Still haven't tasted it. On my list."
   },
   {
+   "producer": "Adegamãe",
+   "name": "Touriga Franca",
+   "vintage": "2020",
+   "region": "Lisboa, Portugal",
+   "role": "Tuesday Night",
+   "score": "86-88",
+   "tried": true,
+   "onList": false,
+   "verdict": "depends",
+   "take": "Softer and a touch jammier than I usually go for, but there was enough earthiness underneath that I'd happily open another."
+  },
+  {
+   "producer": "Aia Vecchia",
+   "name": "Lagone Toscana",
+   "vintage": "2023",
+   "region": "Toscana IGT",
+   "role": "Tuesday Night",
+   "score": "90-92",
+   "tried": true,
+   "onList": false,
+   "verdict": "buy again",
+   "take": "Excellent with spaghetti. I'd open it again with pasta and want to try it with other dishes too.",
+   "pairing": "Pasta"
+  },
+  {
+   "producer": "Amizetta",
+   "name": "Cabernet Franc",
+   "vintage": "2023",
+   "region": "Napa Valley (Conn Valley hillside, base of Howell Mountain)",
+   "role": "Steak Saturday",
+   "score": "93-95",
+   "tried": true,
+   "onList": false,
+   "verdict": "buy again",
+   "take": "Smooth but earthy, with enough grip to stand up to a ribeye. Drank beautifully all night.",
+   "pairing": "Prime ribeye"
+  },
+  {
    "producer": "Aonair",
    "name": "Mountain Reserve Cabernet Sauvignon",
    "vintage": "2020",
@@ -702,6 +702,31 @@
    "onList": false,
    "verdict": "buy again",
    "take": "Opened beautifully over an hour. A touch more fruit-forward and softer than most mountain Cabs, which made it a great way to start the night. Kept building in the glass."
+  },
+  {
+   "producer": "Cain Vineyard & Winery",
+   "name": "Cain Five",
+   "vintage": "2013",
+   "region": "Spring Mountain District, Napa Valley",
+   "role": "Steak Saturday",
+   "score": null,
+   "tried": true,
+   "onList": false,
+   "verdict": "depends",
+   "take": "Picked this up right after the 2017 won me over at dinner. Cain calls 2013 its most structured Five in decades, and I want to see what 13 years has done to it."
+  },
+  {
+   "producer": "Cain Vineyard & Winery",
+   "name": "Cain Five",
+   "vintage": "2017",
+   "region": "Spring Mountain District, Napa Valley",
+   "role": "Steak Saturday",
+   "score": "94-96",
+   "tried": true,
+   "onList": false,
+   "verdict": "buy again",
+   "take": "Had this with steak at Pierpont's. Firm and earthy with leather and real age showing, old-school Spring Mountain at its best. Kept building in the glass.",
+   "pairing": "Steak"
   },
   {
    "producer": "Château Rauzan Despagne",
@@ -729,16 +754,16 @@
    "take": "Flat for me from the first sip, with no bite and not much to hold my interest."
   },
   {
-   "producer": "La Rioja Alta",
-   "name": "Viña Alberdi Reserva 2020",
-   "vintage": null,
-   "region": "Rioja, Spain",
+   "producer": "Maria's Legacy",
+   "name": "Cabernet Sauvignon",
+   "vintage": "2023",
+   "region": "Chile",
    "role": "Tuesday Night",
-   "score": "91-93",
-   "tried": true,
-   "onList": false,
+   "score": null,
+   "tried": false,
+   "onList": true,
    "verdict": "buy again",
-   "take": "Earthy and leathery with more body than I expected from a Rioja at this level. Had it as a pre-dinner glass and it was the best red on the list."
+   "take": "I enjoyed this Chilean Cabernet and want a second bottle before saying more about it."
   },
   {
    "producer": "Neal Family Vineyards",
@@ -764,6 +789,18 @@
    "onList": false,
    "verdict": "not for me",
    "take": "Easy to drink, but lighter and thinner than I like in a Cab."
+  },
+  {
+   "producer": "Pride Mountain Vineyards",
+   "name": "Merlot",
+   "vintage": "2020",
+   "region": "Spring Mountain, Napa Valley",
+   "role": "Pre-Dinner",
+   "score": "91-93",
+   "tried": true,
+   "onList": false,
+   "verdict": "depends",
+   "take": "Soft, polished mountain Merlot that made a great opener before a steak dinner. About as high as Merlot goes for me, and it was perfect in that role."
   },
   {
    "producer": "Sherwin Family Vineyards",
@@ -817,5 +854,5 @@
    "pairing": "Spaghetti"
   }
  ],
- "updated": "2026-11-06"
+ "updated": "2026-11-24"
 }
