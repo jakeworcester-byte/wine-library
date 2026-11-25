@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24",
+ "updated": "2026-11-25",
  "rack": {
   "rows": 8,
   "cols": 9,
@@ -92,7 +92,7 @@
    },
    {
     "id": "rose-de-vitrac-2022",
-    "n": 2
+    "n": 1
    },
    {
     "id": "carmen-gran-reserva-cabernet-2022",
@@ -1455,7 +1455,7 @@
    "color": "red",
    "tags": [],
    "category": "Tuesday Night",
-   "onHand": 2,
+   "onHand": 1,
    "locations": [
     "UP"
    ],

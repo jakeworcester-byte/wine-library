@@ -1,6 +1,6 @@
 {
  "_about": "Guest-safe snapshot of the Notion Wine Library (On Hand > 0). No prices, sources, or working notes. Refresh by re-querying Notion and editing this file, then run tools/build.py.",
- "snapshotDate": "2026-11-24",
+ "snapshotDate": "2026-11-25",
  "wines": {
   "chappellet-napa-cabernet": {
    "producer": "Chappellet",
@@ -470,7 +470,7 @@
    "vintages": {
     "2022": {
      "location": "UP",
-     "onHand": 2,
+     "onHand": 1,
      "category": "Tuesday Night",
      "window": "2026-2031",
      "peak": "2027-2029",
