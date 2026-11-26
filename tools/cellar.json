@@ -1,6 +1,6 @@
 {
  "_about": "Guest-safe snapshot of the Notion Wine Library (On Hand > 0). No prices, sources, or working notes. Refresh by re-querying Notion and editing this file, then run tools/build.py.",
- "snapshotDate": "2026-11-25",
+ "snapshotDate": "2026-11-26",
  "wines": {
   "chappellet-napa-cabernet": {
    "producer": "Chappellet",
@@ -817,24 +817,6 @@
      "peak": "2027-2030",
      "jakeScore": "90-92",
      "jakeNote": "Great with red-sauce pizza. The cooler-climate acidity meets the tomato where a big mountain Cab would fight it."
-    }
-   }
-  },
-  "bonanza-wagner-family-bonanza-the-vinekeeper-cabernet-sauvig": {
-   "producer": "Bonanza",
-   "name": "The Vinekeeper Cabernet Sauvignon",
-   "short": "Vinekeeper",
-   "region": "Napa Valley",
-   "color": "red",
-   "vintages": {
-    "NV (Lot 1)": {
-     "location": "UP",
-     "onHand": 1,
-     "category": "Tuesday Night",
-     "window": "Now-2027",
-     "peak": null,
-     "jakeScore": "90-92",
-     "jakeNote": "Held steady over a couple of hours and had enough structure that it could have stood up to beef. A weeknight bottle I'll keep restocking."
     }
    }
   },

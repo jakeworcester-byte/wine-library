@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25",
+ "updated": "2026-11-26",
  "rack": {
   "rows": 8,
   "cols": 9,
@@ -124,10 +124,6 @@
    },
    {
     "id": "domaine-eden-cabernet-sauvignon-2019",
-    "n": 1
-   },
-   {
-    "id": "bonanza-wagner-family-bonanza-the-vinekeeper-cabernet-sauvig-nv-lot-1",
     "n": 1
    }
   ],
@@ -2149,39 +2145,6 @@
     "critic": null,
     "sourceName": "Wine.com and critic notes",
     "sourceUrl": "https://www.wine.com/product/domaine-eden-cabernet-sauvignon-2019/2000897"
-   }
-  },
-  {
-   "id": "bonanza-wagner-family-bonanza-the-vinekeeper-cabernet-sauvig-nv-lot-1",
-   "slug": "bonanza-wagner-family-bonanza-the-vinekeeper-cabernet-sauvig",
-   "producer": "Bonanza",
-   "name": "The Vinekeeper Cabernet Sauvignon",
-   "short": "Vinekeeper",
-   "vintage": "NV (Lot 1)",
-   "region": "Napa Valley",
-   "color": "red",
-   "tags": [],
-   "category": "Tuesday Night",
-   "onHand": 1,
-   "locations": [
-    "UP"
-   ],
-   "window": "Now-2027",
-   "peak": null,
-   "jakeScore": "90-92",
-   "jakeNote": "Held steady over a couple of hours and had enough structure that it could have stood up to beef. A weeknight bottle I'll keep restocking.",
-   "flag": null,
-   "otherScores": [],
-   "image": null,
-   "imageSource": null,
-   "blend": "Cabernet Sauvignon, Napa Valley",
-   "about": "The Vinekeeper is a Napa Valley Cabernet series from Chuck Wagner of Caymus Vineyards, named for the generations of Wagners who farmed and made wine.",
-   "web": {
-    "note": "A polished, fruit-forward Napa Cabernet showing ripe blackberry, plum and cherry with cocoa, vanilla and toasted oak. Fine tannins and firm acidity give it balance, and the finish is long.",
-    "noteVintage": "Lot 1",
-    "critic": null,
-    "sourceName": "The Liquor Store and Wooden Cork retailer notes",
-    "sourceUrl": "https://theliquorstore.com/products/bonanza-the-vinekeeper-napa-cabernet-sauvignon-lot-1"
    }
   },
   {
