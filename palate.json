@@ -717,6 +717,54 @@
    "take": "Opened beautifully over an hour. A touch more fruit-forward and softer than most mountain Cabs, which made it a great way to start the night. Kept building in the glass."
   },
   {
+   "producer": "Patrick Bottex",
+   "name": "Bottex Bugey-Cerdon La Cueille",
+   "vintage": null,
+   "region": "Bugey-Cerdon, France",
+   "role": "White",
+   "score": "91-93",
+   "tried": true,
+   "onList": false,
+   "verdict": "buy again",
+   "take": "We opened this before Thanksgiving dinner with family. A fun, refreshing start to the holiday, and it's earned a spot on the table for Christmas."
+  },
+  {
+   "producer": "Cain Vineyard & Winery",
+   "name": "Cain Five",
+   "vintage": "2009",
+   "region": "Spring Mountain District, Napa Valley",
+   "role": "Steak Saturday",
+   "score": null,
+   "tried": true,
+   "onList": false,
+   "verdict": "depends",
+   "take": "Part of a 2009 to 2011 Cain Five vertical I picked up after the 2017 won me over. The 2009 is the dark, brooding one of the three."
+  },
+  {
+   "producer": "Cain Vineyard & Winery",
+   "name": "Cain Five",
+   "vintage": "2011",
+   "region": "Spring Mountain District, Napa Valley",
+   "role": "Pre-Dinner",
+   "score": null,
+   "tried": true,
+   "onList": false,
+   "verdict": "depends",
+   "take": "Part of a 2009 to 2011 Cain Five vertical I picked up after the 2017 won me over. 2011 was a cool year, so this is the lighter, brighter one of the set."
+  },
+  {
+   "producer": "Cain Vineyard & Winery",
+   "name": "Cain Five",
+   "vintage": "2010",
+   "region": "Spring Mountain District, Napa Valley",
+   "role": "Steak Saturday",
+   "score": null,
+   "tried": true,
+   "onList": false,
+   "verdict": "depends",
+   "take": "Part of a 2009 to 2011 Cain Five vertical I picked up after the 2017 won me over. The 2010 is supposed to be the savory, smoky one with firm tannin still in it."
+  },
+  {
    "producer": "Cain Vineyard & Winery",
    "name": "Cain Five",
    "vintage": "2013",
@@ -742,6 +790,19 @@
    "pairing": "Steak"
   },
   {
+   "producer": "Château La Rose de Vitrac",
+   "name": "Bordeaux Rouge",
+   "vintage": "2022",
+   "region": "Bordeaux",
+   "role": "Tuesday Night",
+   "score": "89-91",
+   "tried": true,
+   "onList": false,
+   "verdict": "buy again",
+   "take": "A really pleasing weeknight Bordeaux that was great with spaghetti. Easy to sip on its own too, and it would make a nice opener before a bigger red.",
+   "pairing": "Spaghetti"
+  },
+  {
    "producer": "Château Rauzan Despagne",
    "name": "Bordeaux Rouge",
    "vintage": "2022",
@@ -765,6 +826,31 @@
    "onList": false,
    "verdict": "not for me",
    "take": "Flat for me from the first sip, with no bite and not much to hold my interest."
+  },
+  {
+   "producer": "Jean Foillard",
+   "name": "Morgon Côte du Py",
+   "vintage": "2024",
+   "region": "Morgon, Beaujolais",
+   "role": "Exploratory",
+   "score": "90-92",
+   "tried": true,
+   "onList": false,
+   "verdict": "depends",
+   "take": "Opened at Thanksgiving next to a Lapierre Morgon, and this was the clear favorite of the two.",
+   "pairing": "Roast turkey or lighter meats"
+  },
+  {
+   "producer": "Domaine Marcel Lapierre",
+   "name": "Morgon",
+   "vintage": "2025",
+   "region": "Morgon, Beaujolais",
+   "role": "Exploratory",
+   "score": "82-84",
+   "tried": true,
+   "onList": false,
+   "verdict": "not for me",
+   "take": "Too thin and light for my taste, even next to Thanksgiving turkey. The Foillard won the night."
   },
   {
    "producer": "Maria's Legacy",
@@ -867,5 +953,5 @@
    "pairing": "Spaghetti"
   }
  ],
- "updated": "2026-11-26"
+ "updated": "2026-11-28"
 }

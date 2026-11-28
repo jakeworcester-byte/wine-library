@@ -1,6 +1,6 @@
 {
  "_about": "Guest-safe snapshot of the Notion Wine Library (On Hand > 0). No prices, sources, or working notes. Refresh by re-querying Notion and editing this file, then run tools/build.py.",
- "snapshotDate": "2026-11-26",
+ "snapshotDate": "2026-11-28",
  "wines": {
   "chappellet-napa-cabernet": {
    "producer": "Chappellet",
@@ -461,24 +461,6 @@
     }
    }
   },
-  "rose-de-vitrac": {
-   "producer": "Château La Rose de Vitrac",
-   "name": "Bordeaux Rouge",
-   "short": "Vitrac",
-   "region": "Bordeaux",
-   "color": "red",
-   "vintages": {
-    "2022": {
-     "location": "UP",
-     "onHand": 1,
-     "category": "Tuesday Night",
-     "window": "2026-2031",
-     "peak": "2027-2029",
-     "jakeScore": "89-91",
-     "jakeNote": "A really pleasing weeknight Bordeaux that was great with spaghetti. Easy to sip on its own too, and it would make a nice opener before a bigger red."
-    }
-   }
-  },
   "carmen-gran-reserva-cabernet": {
    "producer": "Carmen",
    "name": "Gran Reserva Cabernet Sauvignon",
@@ -747,40 +729,6 @@
      "peak": "2028-2033",
      "jakeScore": "93-95",
      "jakeNote": "Tasted at the winery in August 2026. One of the two Cab Francs that won me over on that trip."
-    }
-   }
-  },
-  "m-c-lapierre-marcel-lapierre-morgon": {
-   "producer": "Domaine Marcel Lapierre",
-   "name": "Morgon",
-   "short": "Lapierre",
-   "region": "Morgon, Beaujolais",
-   "color": "red",
-   "vintages": {
-    "2025": {
-     "location": "UP",
-     "onHand": 1,
-     "category": "Exploratory",
-     "window": "Now-2029",
-     "peak": null,
-     "jakeNote": "Bought alongside a Foillard Morgon to compare two classic Morgon producers at Thanksgiving dinner."
-    }
-   }
-  },
-  "jean-foillard-morgon-cote-du-py": {
-   "producer": "Jean Foillard",
-   "name": "Morgon Côte du Py",
-   "short": "Foillard",
-   "region": "Morgon, Beaujolais",
-   "color": "red",
-   "vintages": {
-    "2024": {
-     "location": "UP",
-     "onHand": 1,
-     "category": "Exploratory",
-     "window": "Now-2030",
-     "peak": "2026-2028",
-     "jakeNote": "My first serious test of Cru Beaujolais, bought to open with Thanksgiving dinner."
     }
    }
   },
